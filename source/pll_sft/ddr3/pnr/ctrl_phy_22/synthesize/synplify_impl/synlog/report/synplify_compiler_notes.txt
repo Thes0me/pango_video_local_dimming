@@ -1,0 +1,98 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CG347 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_64i_32o_128\rtl\ipml_sdpram_v1_3_afifo_64i_32o_128.v":656:40:656:52|Read a parallel_case directive.
+@N: CG347 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_32i_64o_256\rtl\ipml_sdpram_v1_3_afifo_32i_64o_256.v":656:40:656:52|Read a parallel_case directive.
+@N: CG364 :"C:\pango\PDS_2019.1-patch2\syn\lib\generic\logos.v":2251:7:2251:16|Synthesizing module GTP_PLL_E1 in library work.
+@N: CG364 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\video_pll\video_pll.v":4:7:4:15|Synthesizing module video_pll in library work.
+@N: CG364 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\ax_debounce.v":32:8:32:18|Synthesizing module ax_debounce in library work.
+@N: CG179 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\ax_debounce.v":97:22:97:31|Removing redundant assignment.
+@N: CG364 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\bmp_read.v":28:7:28:14|Synthesizing module bmp_read in library work.
+@N: CG364 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\sd_card\sd_card_sec_read_write.v":29:7:29:28|Synthesizing module sd_card_sec_read_write in library work.
+@N: CG364 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\sd_card\sd_card_cmd.v":32:7:32:17|Synthesizing module sd_card_cmd in library work.
+@N: CG364 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\sd_card\spi_master.v":29:7:29:16|Synthesizing module spi_master in library work.
+@N: CG364 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\sd_card\sd_card_top.v":29:7:29:17|Synthesizing module sd_card_top in library work.
+@N: CG364 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\sd_card_bmp.v":29:7:29:17|Synthesizing module sd_card_bmp in library work.
+@N: CG364 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\dvi_tx\encode.v":46:7:46:12|Synthesizing module encode in library work.
+@N: CG364 :"C:\pango\PDS_2019.1-patch2\syn\lib\generic\logos.v":2154:7:2154:17|Synthesizing module GTP_OSERDES in library work.
+@N: CG364 :"C:\pango\PDS_2019.1-patch2\syn\lib\generic\logos.v":2212:7:2212:17|Synthesizing module GTP_OUTBUFT in library work.
+@N: CG364 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\dvi_tx\serdes_4b_10to1.v":3:7:3:21|Synthesizing module serdes_4b_10to1 in library work.
+@N: CG364 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\dvi_tx\dvi_encoder.v":2:7:2:17|Synthesizing module dvi_encoder in library work.
+@N: CG364 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\color_bar.v":33:7:33:15|Synthesizing module color_bar in library work.
+@N: CG179 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\color_bar.v":222:14:222:21|Removing redundant assignment.
+@N: CG179 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\color_bar.v":235:11:235:15|Removing redundant assignment.
+@N: CG179 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\color_bar.v":247:12:247:17|Removing redundant assignment.
+@N: CG179 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\color_bar.v":259:14:259:21|Removing redundant assignment.
+@N: CG179 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\color_bar.v":271:12:271:17|Removing redundant assignment.
+@N: CG179 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\color_bar.v":283:14:283:21|Removing redundant assignment.
+@N: CG179 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\color_bar.v":345:17:345:25|Removing redundant assignment.
+@N: CG179 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\color_bar.v":346:17:346:25|Removing redundant assignment.
+@N: CG179 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\color_bar.v":347:17:347:25|Removing redundant assignment.
+@N: CG364 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\video_timing_data.v":30:7:30:23|Synthesizing module video_timing_data in library work.
+@N: CG364 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_32i_64o_256\rtl\ipml_sdpram_v1_3_afifo_32i_64o_256.v":20:7:20:40|Synthesizing module ipml_sdpram_v1_3_afifo_32i_64o_256 in library work.
+@N: CG364 :"C:\pango\PDS_2019.1-patch2\syn\lib\generic\logos.v":1409:7:1409:16|Synthesizing module GTP_DRM18K in library work.
+@N: CG364 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_64i_32o_128\rtl\ipml_fifo_ctrl_v1_3.v":21:7:21:25|Synthesizing module ipml_fifo_ctrl_v1_3 in library work.
+@N: CG364 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_32i_64o_256\rtl\ipml_fifo_v1_3_afifo_32i_64o_256.v":25:7:25:38|Synthesizing module ipml_fifo_v1_3_afifo_32i_64o_256 in library work.
+@N: CG364 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_32i_64o_256\afifo_32i_64o_256.v":18:7:18:23|Synthesizing module afifo_32i_64o_256 in library work.
+@N: CG364 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\frame_fifo_write.v":31:7:31:22|Synthesizing module frame_fifo_write in library work.
+@N: CG364 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_64i_32o_128\rtl\ipml_sdpram_v1_3_afifo_64i_32o_128.v":20:7:20:40|Synthesizing module ipml_sdpram_v1_3_afifo_64i_32o_128 in library work.
+@N: CG364 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_64i_32o_128\rtl\ipml_fifo_ctrl_v1_3.v":21:7:21:25|Synthesizing module ipml_fifo_ctrl_v1_3 in library work.
+@N: CG364 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_64i_32o_128\rtl\ipml_fifo_v1_3_afifo_64i_32o_128.v":25:7:25:38|Synthesizing module ipml_fifo_v1_3_afifo_64i_32o_128 in library work.
+@N: CG364 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_64i_32o_128\afifo_64i_32o_128.v":18:7:18:23|Synthesizing module afifo_64i_32o_128 in library work.
+@N: CG364 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\frame_fifo_read.v":31:7:31:21|Synthesizing module frame_fifo_read in library work.
+@N: CG364 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\frame_read_write.v":31:7:31:22|Synthesizing module frame_read_write in library work.
+@N: CG364 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\pll\pll_50_400.v":5:7:5:16|Synthesizing module pll_50_400 in library work.
+@N: CG364 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\ipsl_ddrphy_reset_ctrl.v":1:7:1:28|Synthesizing module ipsl_ddrphy_reset_ctrl in library work.
+@N: CG364 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\ipsl_ddrphy_training_ctrl.v":1:7:1:31|Synthesizing module ipsl_ddrphy_training_ctrl in library work.
+@N: CG179 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\ipsl_ddrphy_training_ctrl.v":34:37:34:61|Removing redundant assignment.
+@N: CG364 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\ipsl_ddrphy_dll_update_ctrl.v":1:7:1:33|Synthesizing module ipsl_ddrphy_dll_update_ctrl in library work.
+@N: CG364 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\ipsl_ddrphy_update_ctrl.v":1:7:1:29|Synthesizing module ipsl_ddrphy_update_ctrl in library work.
+@N: CG364 :"C:\pango\PDS_2019.1-patch2\syn\lib\generic\logos.v":1316:7:1316:13|Synthesizing module GTP_DLL in library work.
+@N: CG364 :"C:\pango\PDS_2019.1-patch2\syn\lib\generic\logos.v":696:7:696:16|Synthesizing module GTP_DDRPHY in library work.
+@N: CG364 :"C:\pango\PDS_2019.1-patch2\syn\lib\generic\logos.v":1737:7:1737:18|Synthesizing module GTP_IOCLKBUF in library work.
+@N: CG364 :"C:\pango\PDS_2019.1-patch2\syn\lib\generic\logos.v":1766:7:1766:18|Synthesizing module GTP_IOCLKDIV in library work.
+@N: CG364 :"C:\pango\PDS_2019.1-patch2\syn\lib\generic\logos.v":195:7:195:16|Synthesizing module GTP_DDC_E1 in library work.
+@N: CG364 :"C:\pango\PDS_2019.1-patch2\syn\lib\generic\logos.v":1779:7:1779:17|Synthesizing module GTP_IODELAY in library work.
+@N: CG364 :"C:\pango\PDS_2019.1-patch2\syn\lib\generic\logos.v":1819:7:1819:17|Synthesizing module GTP_ISERDES in library work.
+@N: CG364 :"C:\pango\PDS_2019.1-patch2\syn\lib\generic\logos.v":1612:7:1612:16|Synthesizing module GTP_INBUFG in library work.
+@N: CG364 :"C:\pango\PDS_2019.1-patch2\syn\lib\generic\logos.v":2175:7:2175:16|Synthesizing module GTP_OUTBUF in library work.
+@N: CG364 :"C:\pango\PDS_2019.1-patch2\syn\lib\generic\logos.v":1645:7:1645:15|Synthesizing module GTP_IOBUF in library work.
+@N: CG364 :"C:\pango\PDS_2019.1-patch2\syn\lib\generic\logos.v":2226:7:2226:19|Synthesizing module GTP_OUTBUFTCO in library work.
+@N: CG364 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\ipsl_phy_io.v":27:7:27:17|Synthesizing module ipsl_phy_io in library work.
+@N: CG364 :"C:\pango\PDS_2019.1-patch2\syn\lib\generic\logos.v":1636:7:1636:13|Synthesizing module GTP_INV in library work.
+@N: CG364 :"C:\pango\PDS_2019.1-patch2\syn\lib\generic\logos.v":1661:7:1661:17|Synthesizing module GTP_IOBUFCO in library work.
+@N: CG364 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\ipsl_hmemc_phy_top.v":1:7:1:24|Synthesizing module ipsl_hmemc_phy_top in library work.
+@N: CG364 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\ipsl_ddrc_apb_reset.v":1:7:1:25|Synthesizing module ipsl_ddrc_apb_reset in library work.
+@N: CG364 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\ipsl_ddrc_reset_ctrl.v":2:7:2:26|Synthesizing module ipsl_ddrc_reset_ctrl in library work.
+@N: CG179 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\ipsl_ddrc_reset_ctrl.v":93:15:93:21|Removing redundant assignment.
+@N: CG179 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\ipsl_ddrc_reset_ctrl.v":122:20:122:31|Removing redundant assignment.
+@N: CG364 :"C:\pango\PDS_2019.1-patch2\syn\lib\generic\logos.v":248:7:248:14|Synthesizing module GTP_DDRC in library work.
+@N: CG364 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\ipsl_hmemc_ddrc_top.v":1:7:1:25|Synthesizing module ipsl_hmemc_ddrc_top in library work.
+@N: CG364 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\ddr3.v":10:7:10:10|Synthesizing module ddr3 in library work.
+@N: CG364 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\aq_axi_master.v":39:7:39:19|Synthesizing module aq_axi_master in library work.
+@N: CG364 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\example_design\rtl\ipsl_hmemc_top_test.v":5:7:5:25|Synthesizing module ipsl_hmemc_top_test in library work.
+@N: CL201 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\aq_axi_master.v":342:2:342:7|Trying to extract state machine for register rd_state.
+@N: CL201 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\aq_axi_master.v":170:2:170:7|Trying to extract state machine for register wr_state.
+@N: CL159 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\aq_axi_master.v":67:16:67:24|Input M_AXI_BID is unused.
+@N: CL159 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\aq_axi_master.v":68:16:68:26|Input M_AXI_BRESP is unused.
+@N: CL159 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\aq_axi_master.v":69:16:69:26|Input M_AXI_BUSER is unused.
+@N: CL159 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\aq_axi_master.v":88:16:88:24|Input M_AXI_RID is unused.
+@N: CL159 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\aq_axi_master.v":90:16:90:26|Input M_AXI_RRESP is unused.
+@N: CL159 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\aq_axi_master.v":92:16:92:26|Input M_AXI_RUSER is unused.
+@N: CL159 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\ipsl_hmemc_ddrc_top.v":215:25:215:33|Input dfi_error is unused.
+@N: CL159 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\ipsl_hmemc_ddrc_top.v":216:25:216:38|Input dfi_error_info is unused.
+@N: CL159 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\ipsl_phy_io.v":90:41:90:52|Input SRB_CORE_CLK is unused.
+@N: CL201 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\ipsl_ddrphy_update_ctrl.v":293:0:293:5|Trying to extract state machine for register state.
+@N: CL201 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\ipsl_ddrphy_dll_update_ctrl.v":36:0:36:5|Trying to extract state machine for register state.
+@N: CL201 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\ipsl_ddrphy_reset_ctrl.v":52:0:52:5|Trying to extract state machine for register state.
+@N: CL201 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\frame_fifo_read.v":107:0:107:5|Trying to extract state machine for register state.
+@N: CL159 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_64i_32o_128\rtl\ipml_sdpram_v1_3_afifo_64i_32o_128.v":49:40:49:49|Input wr_byte_en is unused.
+@N: CL201 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\frame_fifo_write.v":106:0:106:5|Trying to extract state machine for register state.
+@N: CL159 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\frame_fifo_write.v":45:34:45:50|Input wr_burst_data_req is unused.
+@N: CL159 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_32i_64o_256\rtl\ipml_sdpram_v1_3_afifo_32i_64o_256.v":49:40:49:49|Input wr_byte_en is unused.
+@N: CL159 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\dvi_tx\serdes_4b_10to1.v":4:16:4:18|Input clk is unused.
+@N: CL201 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\sd_card\spi_master.v":64:0:64:5|Trying to extract state machine for register state.
+@N: CL201 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\sd_card\sd_card_cmd.v":90:0:90:5|Trying to extract state machine for register state.
+@N: CL201 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\sd_card\sd_card_sec_read_write.v":92:0:92:5|Trying to extract state machine for register state.
+@N: CL201 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\bmp_read.v":202:0:202:5|Trying to extract state machine for register state.
+@N|Running in 64-bit mode
+

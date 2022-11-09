@@ -1,0 +1,110 @@
+#--  Synopsys, Inc.
+#--  Version P-2019.03P-Beta2
+#--  Project file D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\synthesize\synplify_impl\scratchproject.prs
+
+#project files
+add_file -verilog "D:/example_ziguang/sd_picture_hdmi _ddrtest/ipcore/ddr3/rtl/pll/pll_50_400.v"
+add_file -verilog "D:/example_ziguang/sd_picture_hdmi _ddrtest/ipcore/ddr3/rtl/ipsl_ddrc_apb_reset.v"
+add_file -verilog "D:/example_ziguang/sd_picture_hdmi _ddrtest/ipcore/ddr3/rtl/ipsl_ddrc_reset_ctrl.v"
+add_file -verilog "D:/example_ziguang/sd_picture_hdmi _ddrtest/ipcore/ddr3/rtl/ipsl_ddrphy_dll_update_ctrl.v"
+add_file -verilog "D:/example_ziguang/sd_picture_hdmi _ddrtest/ipcore/ddr3/rtl/ipsl_ddrphy_reset_ctrl.v"
+add_file -verilog "D:/example_ziguang/sd_picture_hdmi _ddrtest/ipcore/ddr3/rtl/ipsl_ddrphy_training_ctrl.v"
+add_file -verilog "D:/example_ziguang/sd_picture_hdmi _ddrtest/ipcore/ddr3/rtl/ipsl_ddrphy_update_ctrl.v"
+add_file -verilog "D:/example_ziguang/sd_picture_hdmi _ddrtest/ipcore/ddr3/rtl/ipsl_hmemc_ddrc_top.v"
+add_file -verilog "D:/example_ziguang/sd_picture_hdmi _ddrtest/ipcore/ddr3/rtl/ipsl_hmemc_phy_top.v"
+add_file -verilog "D:/example_ziguang/sd_picture_hdmi _ddrtest/ipcore/ddr3/rtl/ipsl_phy_io.v"
+add_file -verilog "D:/example_ziguang/sd_picture_hdmi _ddrtest/ipcore/ddr3/ddr3.v"
+add_file -verilog "D:/example_ziguang/sd_picture_hdmi _ddrtest/ipcore/ddr3/example_design/rtl/ipsl_hmemc_top_test.v"
+add_file -verilog "D:/example_ziguang/sd_picture_hdmi _ddrtest/ipcore/ddr3/pnr/ctrl_phy_22/source/dvi_tx/dvi_encoder.v"
+add_file -verilog "D:/example_ziguang/sd_picture_hdmi _ddrtest/ipcore/ddr3/pnr/ctrl_phy_22/source/dvi_tx/encode.v"
+add_file -verilog "D:/example_ziguang/sd_picture_hdmi _ddrtest/ipcore/ddr3/pnr/ctrl_phy_22/source/dvi_tx/serdes_4b_10to1.v"
+add_file -verilog "D:/example_ziguang/sd_picture_hdmi _ddrtest/ipcore/ddr3/pnr/ctrl_phy_22/source/sd_card/sd_card_cmd.v"
+add_file -verilog "D:/example_ziguang/sd_picture_hdmi _ddrtest/ipcore/ddr3/pnr/ctrl_phy_22/source/sd_card/sd_card_sec_read_write.v"
+add_file -verilog "D:/example_ziguang/sd_picture_hdmi _ddrtest/ipcore/ddr3/pnr/ctrl_phy_22/source/sd_card/sd_card_top.v"
+add_file -verilog "D:/example_ziguang/sd_picture_hdmi _ddrtest/ipcore/ddr3/pnr/ctrl_phy_22/source/sd_card/spi_master.v"
+add_file -verilog "D:/example_ziguang/sd_picture_hdmi _ddrtest/ipcore/ddr3/pnr/ctrl_phy_22/source/src/aq_axi_master.v"
+add_file -verilog "D:/example_ziguang/sd_picture_hdmi _ddrtest/ipcore/ddr3/pnr/ctrl_phy_22/source/src/ax_debounce.v"
+add_file -verilog "D:/example_ziguang/sd_picture_hdmi _ddrtest/ipcore/ddr3/pnr/ctrl_phy_22/source/src/bmp_read.v"
+add_file -verilog "D:/example_ziguang/sd_picture_hdmi _ddrtest/ipcore/ddr3/pnr/ctrl_phy_22/source/src/color_bar.v"
+add_file -verilog "D:/example_ziguang/sd_picture_hdmi _ddrtest/ipcore/ddr3/pnr/ctrl_phy_22/source/src/frame_fifo_read.v"
+add_file -verilog "D:/example_ziguang/sd_picture_hdmi _ddrtest/ipcore/ddr3/pnr/ctrl_phy_22/source/src/frame_fifo_write.v"
+add_file -verilog "D:/example_ziguang/sd_picture_hdmi _ddrtest/ipcore/ddr3/pnr/ctrl_phy_22/source/src/frame_read_write.v"
+add_file -verilog "D:/example_ziguang/sd_picture_hdmi _ddrtest/ipcore/ddr3/pnr/ctrl_phy_22/source/src/sd_card_bmp.v"
+add_file -verilog "D:/example_ziguang/sd_picture_hdmi _ddrtest/ipcore/ddr3/pnr/ctrl_phy_22/source/src/video_timing_data.v"
+add_file -verilog "D:/example_ziguang/sd_picture_hdmi _ddrtest/ipcore/ddr3/pnr/ctrl_phy_22/source/src/video_define.v"
+add_file -verilog "D:/example_ziguang/sd_picture_hdmi _ddrtest/ipcore/ddr3/pnr/ctrl_phy_22/source/afifo_64i_32o_128/rtl/ipml_fifo_v1_3_afifo_64i_32o_128.v"
+add_file -verilog "D:/example_ziguang/sd_picture_hdmi _ddrtest/ipcore/ddr3/pnr/ctrl_phy_22/source/afifo_32i_64o_256/rtl/ipml_fifo_v1_3_afifo_32i_64o_256.v"
+add_file -verilog "D:/example_ziguang/sd_picture_hdmi _ddrtest/ipcore/ddr3/pnr/ctrl_phy_22/source/afifo_64i_32o_128/afifo_64i_32o_128.v"
+add_file -verilog "D:/example_ziguang/sd_picture_hdmi _ddrtest/ipcore/ddr3/pnr/ctrl_phy_22/source/afifo_32i_64o_256/afifo_32i_64o_256.v"
+add_file -verilog "D:/example_ziguang/sd_picture_hdmi _ddrtest/ipcore/ddr3/pnr/ctrl_phy_22/source/video_pll/video_pll.v"
+add_file -verilog "D:/example_ziguang/sd_picture_hdmi _ddrtest/ipcore/ddr3/pnr/ctrl_phy_22/source/afifo_64i_32o_128/rtl/ipml_fifo_ctrl_v1_3.v"
+add_file -verilog "D:/example_ziguang/sd_picture_hdmi _ddrtest/ipcore/ddr3/pnr/ctrl_phy_22/source/afifo_64i_32o_128/rtl/ipml_sdpram_v1_3_afifo_64i_32o_128.v"
+add_file -verilog "D:/example_ziguang/sd_picture_hdmi _ddrtest/ipcore/ddr3/pnr/ctrl_phy_22/source/afifo_32i_64o_256/rtl/ipml_sdpram_v1_3_afifo_32i_64o_256.v"
+add_file -fpga_constraint "D:/example_ziguang/sd_picture_hdmi _ddrtest/ipcore/ddr3/pnr/ctrl_phy_22/ddr_324_left.fdc"
+
+
+
+#implementation: "synplify_impl"
+impl -add "D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\synthesize\synplify_impl" -type fpga
+
+#
+#implementation attributes
+
+set_option -vlog_std v2001
+set_option -num_critical_paths 3
+set_option -project_relative_includes 1
+set_option -include_path {D:/example_ziguang/sd_picture_hdmi _ddrtest/ipcore/ddr3/pnr/ctrl_phy_22/synthesize/}
+set_option -include_path {D:/example_ziguang/sd_picture_hdmi _ddrtest/ipcore/ddr3/pnr/ctrl_phy_22}
+
+#device options
+set_option -technology Logos
+set_option -part PGL22G
+set_option -package BG324
+set_option -speed_grade -7
+set_option -part_companion ""
+
+#compilation/mapping options
+set_option -top_module "ipsl_hmemc_top_test"
+
+# hdl_compiler_options
+set_option -distributed_compile 0
+set_option -hdl_strict_syntax 0
+
+# mapper_without_write_options
+set_option -frequency auto
+set_option -srs_instrumentation 1
+
+# Pango Logos
+set_option -write_verilog 1
+set_option -maxfan 10000
+set_option -rw_check_on_ram 0
+set_option -disable_io_insertion 0
+set_option -pipe 1
+set_option -retiming 0
+set_option -update_models_cp 0
+set_option -run_prop_extract 1
+set_option -fix_gated_and_generated_clocks 1
+
+# NFilter
+set_option -no_sequential_opt 0
+
+# sequential_optimization_options
+set_option -symbolic_fsm_compiler 1
+
+# Compiler Options
+set_option -compiler_compatible 0
+set_option -resource_sharing 1
+set_option -multi_file_compilation_unit 1
+
+# Compiler Options
+set_option -auto_infer_blackbox 0
+
+#automatic place and route (vendor) options
+set_option -write_apr_constraint 1
+
+#set result format/file last
+project -result_file "D:/example_ziguang/sd_picture_hdmi _ddrtest/ipcore/ddr3/pnr/ctrl_phy_22/synthesize/synplify_impl/synplify.vm"
+
+#set log file 
+set_option log_file "D:/example_ziguang/sd_picture_hdmi _ddrtest/ipcore/ddr3/pnr/ctrl_phy_22/synthesize/synplify.log" 
+impl -active "synplify_impl"

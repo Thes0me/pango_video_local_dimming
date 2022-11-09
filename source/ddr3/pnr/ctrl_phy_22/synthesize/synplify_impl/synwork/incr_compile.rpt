@@ -1,0 +1,108 @@
+
+Copyright (C) 1994-2019 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: P-2019.03P-Beta2
+Install: C:\pango\PDS_2019.1-patch2\syn
+OS: Windows 6.1
+
+Hostname: ALINX000007-PC
+
+Implementation : synplify_impl
+Synopsys HDL compiler and linker, Version comp2019q1p1, Build 007R, Built Feb 26 2019 11:45:06
+
+Modified Files: 0
+FID:  path (prevtimestamp, timestamp)
+
+*******************************************************************
+Modules that may have changed as a result of file changes: 0
+MID:  lib.cell.view
+
+*******************************************************************
+Unmodified files: 42
+FID:  path (timestamp)
+0        C:\pango\PDS_2019.1-patch2\syn\lib\generic\logos.v (2019-04-08 12:43:04)
+1        C:\pango\PDS_2019.1-patch2\syn\lib\vlog\hypermods.v (2019-04-08 12:43:52)
+2        C:\pango\PDS_2019.1-patch2\syn\lib\vlog\scemi_objects.v (2019-04-08 12:43:52)
+3        C:\pango\PDS_2019.1-patch2\syn\lib\vlog\scemi_pipes.svh (2019-04-08 12:43:52)
+4        C:\pango\PDS_2019.1-patch2\syn\lib\vlog\umr_capim.v (2019-04-08 12:43:52)
+5        D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\ddr3.v (2019-05-06 10:21:09)
+6        D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\example_design\rtl\ipsl_hmemc_top_test.v (2019-05-07 16:28:17)
+21       D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_32i_64o_256\afifo_32i_64o_256.v (2019-05-06 16:29:16)
+22       D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_32i_64o_256\rtl\ipml_fifo_v1_3_afifo_32i_64o_256.v (2019-05-06 16:29:16)
+23       D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_32i_64o_256\rtl\ipml_sdpram_v1_3_afifo_32i_64o_256.v (2019-05-06 16:29:16)
+24       D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_64i_32o_128\afifo_64i_32o_128.v (2019-05-06 16:31:28)
+25       D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_64i_32o_128\rtl\ipml_fifo_ctrl_v1_3.v (2019-04-08 12:38:20)
+26       D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_64i_32o_128\rtl\ipml_fifo_v1_3_afifo_64i_32o_128.v (2019-05-06 16:31:28)
+27       D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_64i_32o_128\rtl\ipml_sdpram_v1_3_afifo_64i_32o_128.v (2019-05-06 16:31:28)
+28       D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\dvi_tx\dvi_encoder.v (2018-02-28 18:33:23)
+29       D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\dvi_tx\encode.v (2008-07-24 16:13:50)
+30       D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\dvi_tx\serdes_4b_10to1.v (2019-05-06 16:15:18)
+31       D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\sd_card\sd_card_cmd.v (2018-09-20 09:13:31)
+32       D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\sd_card\sd_card_sec_read_write.v (2017-08-25 09:53:57)
+33       D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\sd_card\sd_card_top.v (2017-08-14 20:43:27)
+34       D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\sd_card\spi_master.v (2017-08-14 20:43:11)
+35       D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\aq_axi_master.v (2016-11-29 14:52:46)
+36       D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\ax_debounce.v (2017-07-25 12:32:55)
+37       D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\bmp_read.v (2018-01-29 17:30:21)
+38       D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\color_bar.v (2017-07-25 12:32:55)
+39       D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\frame_fifo_read.v (2017-07-25 12:32:55)
+40       D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\frame_fifo_write.v (2017-07-25 12:32:55)
+41       D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\frame_read_write.v (2019-05-06 16:44:47)
+42       D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\sd_card_bmp.v (2017-09-13 15:55:26)
+43       D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\video_define.v (2017-07-25 12:32:55)
+44       D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\video_timing_data.v (2017-07-25 12:32:55)
+45       D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\video_pll\video_pll.v (2019-05-06 16:18:08)
+11       D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\ipsl_ddrc_apb_reset.v (2019-05-05 16:18:21)
+12       D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\ipsl_ddrc_reset_ctrl.v (2019-05-05 16:18:21)
+13       D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\ipsl_ddrphy_dll_update_ctrl.v (2019-05-05 16:18:21)
+14       D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\ipsl_ddrphy_reset_ctrl.v (2019-05-05 16:18:21)
+15       D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\ipsl_ddrphy_training_ctrl.v (2019-05-05 16:18:21)
+16       D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\ipsl_ddrphy_update_ctrl.v (2019-05-05 16:18:21)
+17       D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\ipsl_hmemc_ddrc_top.v (2019-05-05 16:18:21)
+18       D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\ipsl_hmemc_phy_top.v (2019-05-05 16:18:21)
+19       D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\ipsl_phy_io.v (2019-05-05 16:18:21)
+20       D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\pll\pll_50_400.v (2019-05-06 10:21:09)
+
+*******************************************************************
+Unchanged modules: 36
+MID:  lib.cell.view
+16       work.afifo_32i_64o_256.verilog
+17       work.afifo_64i_32o_128.verilog
+18       work.aq_axi_master.verilog
+19       work.ax_debounce.verilog
+20       work.bmp_read.verilog
+21       work.color_bar.verilog
+0        work.ddr3.verilog
+22       work.dvi_encoder.verilog
+23       work.encode.verilog
+24       work.frame_fifo_read.verilog
+25       work.frame_fifo_write.verilog
+26       work.frame_read_write.verilog
+27       work.ipml_fifo_ctrl_v1_3.verilog
+28       work.ipml_fifo_v1_3_afifo_32i_64o_256.verilog
+29       work.ipml_fifo_v1_3_afifo_64i_32o_128.verilog
+30       work.ipml_sdpram_v1_3_afifo_32i_64o_256.verilog
+31       work.ipml_sdpram_v1_3_afifo_64i_32o_128.verilog
+1        work.ipsl_ddrc_apb_reset.verilog
+2        work.ipsl_ddrc_reset_ctrl.verilog
+3        work.ipsl_ddrphy_dll_update_ctrl.verilog
+4        work.ipsl_ddrphy_reset_ctrl.verilog
+5        work.ipsl_ddrphy_training_ctrl.verilog
+6        work.ipsl_ddrphy_update_ctrl.verilog
+7        work.ipsl_hmemc_ddrc_top.verilog
+8        work.ipsl_hmemc_phy_top.verilog
+9        work.ipsl_hmemc_top_test.verilog
+10       work.ipsl_phy_io.verilog
+11       work.pll_50_400.verilog
+32       work.sd_card_bmp.verilog
+33       work.sd_card_cmd.verilog
+34       work.sd_card_sec_read_write.verilog
+35       work.sd_card_top.verilog
+36       work.serdes_4b_10to1.verilog
+37       work.spi_master.verilog
+38       work.video_pll.verilog
+39       work.video_timing_data.verilog

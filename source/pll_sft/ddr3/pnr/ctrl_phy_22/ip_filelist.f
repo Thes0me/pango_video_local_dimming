@@ -1,0 +1,11 @@
+rtl/pll/pll_50_400.v
+rtl/ipsl_ddrc_apb_reset.v
+rtl/ipsl_ddrc_reset_ctrl.v
+rtl/ipsl_ddrphy_dll_update_ctrl.v
+rtl/ipsl_ddrphy_reset_ctrl.v
+rtl/ipsl_ddrphy_training_ctrl.v
+rtl/ipsl_ddrphy_update_ctrl.v
+rtl/ipsl_hmemc_ddrc_top.v
+rtl/ipsl_hmemc_phy_top.v
+rtl/ipsl_phy_io.v
+ddr3.v

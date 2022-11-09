@@ -1,0 +1,198 @@
+# Written by Synplify Pro version map2019q1p1, Build 1238R. Synopsys Run ID: sid1557218454 
+# Top Level Design Parameters 
+
+# Clocks 
+create_clock -period 20.000 -waveform {0.000 10.000} -name {sys_clk} [get_ports {sys_clk}] 
+create_clock -period 1000.000 -waveform {0.000 500.000} -name {pll_50_400|clkout3_inferred_clock} [get_pins {u_ipsl_hmemc_top/u_pll_50_400/u_pll_e1:CLKOUT3}] 
+create_clock -period 1000.000 -waveform {0.000 500.000} -name {pll_50_400|clkout1_inferred_clock} [get_pins {u_ipsl_hmemc_top/u_pll_50_400/u_pll_e1:CLKOUT1}] 
+create_clock -period 1000.000 -waveform {0.000 500.000} -name {ipsl_phy_io_Z8|IOCLK_DIV_inferred_clock} [get_pins {u_ipsl_hmemc_top/u_ipsl_hmemc_phy_top/u_ipsl_phy_io/ioclkdiv_dut:CLKDIVOUT}] 
+create_clock -period 1000.000 -waveform {0.000 500.000} -name {ipsl_phy_io_Z8|buffer_dqs_clk_regional_inferred_clock[0]} [get_pins {u_ipsl_hmemc_top/u_ipsl_hmemc_phy_top/u_ipsl_phy_io/ddrphy_dut:DQS_CLK_REGIONAL[0]}] 
+create_clock -period 1000.000 -waveform {0.000 500.000} -name {ipsl_phy_io_Z8|ioclk_01_inferred_clock} [get_pins {u_ipsl_hmemc_top/u_ipsl_hmemc_phy_top/u_ipsl_phy_io/ioclkbuf01_dut:CLKOUT}] 
+create_clock -period 1000.000 -waveform {0.000 500.000} -name {ipsl_phy_io_Z8|buffer_dqs_clk_regional_inferred_clock[1]} [get_pins {u_ipsl_hmemc_top/u_ipsl_hmemc_phy_top/u_ipsl_phy_io/ddrphy_dut:DQS_CLK_REGIONAL[1]}] 
+create_clock -period 1000.000 -waveform {0.000 500.000} -name {ipsl_phy_io_Z8|buffer_dqs_clk_regional_inferred_clock[2]} [get_pins {u_ipsl_hmemc_top/u_ipsl_hmemc_phy_top/u_ipsl_phy_io/ddrphy_dut:DQS_CLK_REGIONAL[2]}] 
+create_clock -period 1000.000 -waveform {0.000 500.000} -name {ipsl_phy_io_Z8|buffer_dqs_clk_regional_inferred_clock[3]} [get_pins {u_ipsl_hmemc_top/u_ipsl_hmemc_phy_top/u_ipsl_phy_io/ddrphy_dut:DQS_CLK_REGIONAL[3]}] 
+create_clock -period 1000.000 -waveform {0.000 500.000} -name {ipsl_phy_io_Z8|ioclk_02_inferred_clock} [get_pins {u_ipsl_hmemc_top/u_ipsl_hmemc_phy_top/u_ipsl_phy_io/ioclkbuf02_dut:CLKOUT}] 
+create_clock -period 1000.000 -waveform {0.000 500.000} -name {ipsl_phy_io_Z8|buffer_dqs_clk_regional_inferred_clock[4]} [get_pins {u_ipsl_hmemc_top/u_ipsl_hmemc_phy_top/u_ipsl_phy_io/ddrphy_dut:DQS_CLK_REGIONAL[4]}] 
+create_clock -period 1000.000 -waveform {0.000 500.000} -name {ipsl_phy_io_Z8|dqs0_clk_r_inferred_clock} [get_pins {u_ipsl_hmemc_top/u_ipsl_hmemc_phy_top/u_ipsl_phy_io/dqs0_dut:RCLK}] 
+create_clock -period 1000.000 -waveform {0.000 500.000} -name {ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[2]} [get_pins {u_ipsl_hmemc_top/u_ipsl_hmemc_phy_top/u_ipsl_phy_io/ddrphy_dut:IOL_CLK_SYS[2]}] 
+create_clock -period 1000.000 -waveform {0.000 500.000} -name {ipsl_phy_io_Z8|dqs_clkw290_0_inferred_clock} [get_pins {u_ipsl_hmemc_top/u_ipsl_hmemc_phy_top/u_ipsl_phy_io/dqs0_dut:WCLK_DELAY}] 
+create_clock -period 1000.000 -waveform {0.000 500.000} -name {ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[3]} [get_pins {u_ipsl_hmemc_top/u_ipsl_hmemc_phy_top/u_ipsl_phy_io/ddrphy_dut:IOL_CLK_SYS[3]}] 
+create_clock -period 1000.000 -waveform {0.000 500.000} -name {ipsl_phy_io_Z8|dqs_90_0_inferred_clock} [get_pins {u_ipsl_hmemc_top/u_ipsl_hmemc_phy_top/u_ipsl_phy_io/dqs0_dut:DQSI_DELAY}] 
+create_clock -period 1000.000 -waveform {0.000 500.000} -name {ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[4]} [get_pins {u_ipsl_hmemc_top/u_ipsl_hmemc_phy_top/u_ipsl_phy_io/ddrphy_dut:IOL_CLK_SYS[4]}] 
+create_clock -period 1000.000 -waveform {0.000 500.000} -name {ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[5]} [get_pins {u_ipsl_hmemc_top/u_ipsl_hmemc_phy_top/u_ipsl_phy_io/ddrphy_dut:IOL_CLK_SYS[5]}] 
+create_clock -period 1000.000 -waveform {0.000 500.000} -name {ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[6]} [get_pins {u_ipsl_hmemc_top/u_ipsl_hmemc_phy_top/u_ipsl_phy_io/ddrphy_dut:IOL_CLK_SYS[6]}] 
+create_clock -period 1000.000 -waveform {0.000 500.000} -name {ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[7]} [get_pins {u_ipsl_hmemc_top/u_ipsl_hmemc_phy_top/u_ipsl_phy_io/ddrphy_dut:IOL_CLK_SYS[7]}] 
+create_clock -period 1000.000 -waveform {0.000 500.000} -name {ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[9]} [get_pins {u_ipsl_hmemc_top/u_ipsl_hmemc_phy_top/u_ipsl_phy_io/ddrphy_dut:IOL_CLK_SYS[9]}] 
+create_clock -period 1000.000 -waveform {0.000 500.000} -name {ipsl_phy_io_Z8|dqs_clkw_0_inferred_clock} [get_pins {u_ipsl_hmemc_top/u_ipsl_hmemc_phy_top/u_ipsl_phy_io/dqs0_dut:WCLK}] 
+create_clock -period 1000.000 -waveform {0.000 500.000} -name {ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[10]} [get_pins {u_ipsl_hmemc_top/u_ipsl_hmemc_phy_top/u_ipsl_phy_io/ddrphy_dut:IOL_CLK_SYS[10]}] 
+create_clock -period 1000.000 -waveform {0.000 500.000} -name {ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[11]} [get_pins {u_ipsl_hmemc_top/u_ipsl_hmemc_phy_top/u_ipsl_phy_io/ddrphy_dut:IOL_CLK_SYS[11]}] 
+create_clock -period 1000.000 -waveform {0.000 500.000} -name {ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[12]} [get_pins {u_ipsl_hmemc_top/u_ipsl_hmemc_phy_top/u_ipsl_phy_io/ddrphy_dut:IOL_CLK_SYS[12]}] 
+create_clock -period 1000.000 -waveform {0.000 500.000} -name {ipsl_phy_io_Z8|dqs_ca_clk_r_01_inferred_clock} [get_pins {u_ipsl_hmemc_top/u_ipsl_hmemc_phy_top/u_ipsl_phy_io/dqs1_dut:RCLK}] 
+create_clock -period 1000.000 -waveform {0.000 500.000} -name {ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[17]} [get_pins {u_ipsl_hmemc_top/u_ipsl_hmemc_phy_top/u_ipsl_phy_io/ddrphy_dut:IOL_CLK_SYS[17]}] 
+create_clock -period 1000.000 -waveform {0.000 500.000} -name {ipsl_phy_io_Z8|dqs_clkw_ca_01_inferred_clock} [get_pins {u_ipsl_hmemc_top/u_ipsl_hmemc_phy_top/u_ipsl_phy_io/dqs1_dut:WCLK}] 
+create_clock -period 1000.000 -waveform {0.000 500.000} -name {ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[18]} [get_pins {u_ipsl_hmemc_top/u_ipsl_hmemc_phy_top/u_ipsl_phy_io/ddrphy_dut:IOL_CLK_SYS[18]}] 
+create_clock -period 1000.000 -waveform {0.000 500.000} -name {ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[19]} [get_pins {u_ipsl_hmemc_top/u_ipsl_hmemc_phy_top/u_ipsl_phy_io/ddrphy_dut:IOL_CLK_SYS[19]}] 
+create_clock -period 1000.000 -waveform {0.000 500.000} -name {ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[20]} [get_pins {u_ipsl_hmemc_top/u_ipsl_hmemc_phy_top/u_ipsl_phy_io/ddrphy_dut:IOL_CLK_SYS[20]}] 
+create_clock -period 1000.000 -waveform {0.000 500.000} -name {ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[21]} [get_pins {u_ipsl_hmemc_top/u_ipsl_hmemc_phy_top/u_ipsl_phy_io/ddrphy_dut:IOL_CLK_SYS[21]}] 
+create_clock -period 1000.000 -waveform {0.000 500.000} -name {ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[22]} [get_pins {u_ipsl_hmemc_top/u_ipsl_hmemc_phy_top/u_ipsl_phy_io/ddrphy_dut:IOL_CLK_SYS[22]}] 
+create_clock -period 1000.000 -waveform {0.000 500.000} -name {ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[23]} [get_pins {u_ipsl_hmemc_top/u_ipsl_hmemc_phy_top/u_ipsl_phy_io/ddrphy_dut:IOL_CLK_SYS[23]}] 
+create_clock -period 1000.000 -waveform {0.000 500.000} -name {ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[24]} [get_pins {u_ipsl_hmemc_top/u_ipsl_hmemc_phy_top/u_ipsl_phy_io/ddrphy_dut:IOL_CLK_SYS[24]}] 
+create_clock -period 1000.000 -waveform {0.000 500.000} -name {ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[25]} [get_pins {u_ipsl_hmemc_top/u_ipsl_hmemc_phy_top/u_ipsl_phy_io/ddrphy_dut:IOL_CLK_SYS[25]}] 
+create_clock -period 1000.000 -waveform {0.000 500.000} -name {ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[27]} [get_pins {u_ipsl_hmemc_top/u_ipsl_hmemc_phy_top/u_ipsl_phy_io/ddrphy_dut:IOL_CLK_SYS[27]}] 
+create_clock -period 1000.000 -waveform {0.000 500.000} -name {ipsl_phy_io_Z8|dqs_90_1_inferred_clock} [get_pins {u_ipsl_hmemc_top/u_ipsl_hmemc_phy_top/u_ipsl_phy_io/dqs2_dut:DQSI_DELAY}] 
+create_clock -period 1000.000 -waveform {0.000 500.000} -name {ipsl_phy_io_Z8|dqs1_clk_r_inferred_clock} [get_pins {u_ipsl_hmemc_top/u_ipsl_hmemc_phy_top/u_ipsl_phy_io/dqs2_dut:RCLK}] 
+create_clock -period 1000.000 -waveform {0.000 500.000} -name {ipsl_phy_io_Z8|dqs_clkw290_1_inferred_clock} [get_pins {u_ipsl_hmemc_top/u_ipsl_hmemc_phy_top/u_ipsl_phy_io/dqs2_dut:WCLK_DELAY}] 
+create_clock -period 1000.000 -waveform {0.000 500.000} -name {ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[28]} [get_pins {u_ipsl_hmemc_top/u_ipsl_hmemc_phy_top/u_ipsl_phy_io/ddrphy_dut:IOL_CLK_SYS[28]}] 
+create_clock -period 1000.000 -waveform {0.000 500.000} -name {ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[29]} [get_pins {u_ipsl_hmemc_top/u_ipsl_hmemc_phy_top/u_ipsl_phy_io/ddrphy_dut:IOL_CLK_SYS[29]}] 
+create_clock -period 1000.000 -waveform {0.000 500.000} -name {ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[31]} [get_pins {u_ipsl_hmemc_top/u_ipsl_hmemc_phy_top/u_ipsl_phy_io/ddrphy_dut:IOL_CLK_SYS[31]}] 
+create_clock -period 1000.000 -waveform {0.000 500.000} -name {ipsl_phy_io_Z8|dqs_clkw_1_inferred_clock} [get_pins {u_ipsl_hmemc_top/u_ipsl_hmemc_phy_top/u_ipsl_phy_io/dqs2_dut:WCLK}] 
+create_clock -period 1000.000 -waveform {0.000 500.000} -name {ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[32]} [get_pins {u_ipsl_hmemc_top/u_ipsl_hmemc_phy_top/u_ipsl_phy_io/ddrphy_dut:IOL_CLK_SYS[32]}] 
+create_clock -period 1000.000 -waveform {0.000 500.000} -name {ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[33]} [get_pins {u_ipsl_hmemc_top/u_ipsl_hmemc_phy_top/u_ipsl_phy_io/ddrphy_dut:IOL_CLK_SYS[33]}] 
+create_clock -period 1000.000 -waveform {0.000 500.000} -name {ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[34]} [get_pins {u_ipsl_hmemc_top/u_ipsl_hmemc_phy_top/u_ipsl_phy_io/ddrphy_dut:IOL_CLK_SYS[34]}] 
+create_clock -period 1000.000 -waveform {0.000 500.000} -name {ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[35]} [get_pins {u_ipsl_hmemc_top/u_ipsl_hmemc_phy_top/u_ipsl_phy_io/ddrphy_dut:IOL_CLK_SYS[35]}] 
+create_clock -period 1000.000 -waveform {0.000 500.000} -name {ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[36]} [get_pins {u_ipsl_hmemc_top/u_ipsl_hmemc_phy_top/u_ipsl_phy_io/ddrphy_dut:IOL_CLK_SYS[36]}] 
+create_clock -period 1000.000 -waveform {0.000 500.000} -name {ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[37]} [get_pins {u_ipsl_hmemc_top/u_ipsl_hmemc_phy_top/u_ipsl_phy_io/ddrphy_dut:IOL_CLK_SYS[37]}] 
+create_clock -period 1000.000 -waveform {0.000 500.000} -name {ipsl_phy_io_Z8|dqs_ca_clk_r_03_inferred_clock} [get_pins {u_ipsl_hmemc_top/u_ipsl_hmemc_phy_top/u_ipsl_phy_io/dqs3_dut:RCLK}] 
+create_clock -period 1000.000 -waveform {0.000 500.000} -name {ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[40]} [get_pins {u_ipsl_hmemc_top/u_ipsl_hmemc_phy_top/u_ipsl_phy_io/ddrphy_dut:IOL_CLK_SYS[40]}] 
+create_clock -period 1000.000 -waveform {0.000 500.000} -name {ipsl_phy_io_Z8|dqs_clkw_ca_03_inferred_clock} [get_pins {u_ipsl_hmemc_top/u_ipsl_hmemc_phy_top/u_ipsl_phy_io/dqs3_dut:WCLK}] 
+create_clock -period 1000.000 -waveform {0.000 500.000} -name {ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[41]} [get_pins {u_ipsl_hmemc_top/u_ipsl_hmemc_phy_top/u_ipsl_phy_io/ddrphy_dut:IOL_CLK_SYS[41]}] 
+create_clock -period 1000.000 -waveform {0.000 500.000} -name {ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[42]} [get_pins {u_ipsl_hmemc_top/u_ipsl_hmemc_phy_top/u_ipsl_phy_io/ddrphy_dut:IOL_CLK_SYS[42]}] 
+create_clock -period 1000.000 -waveform {0.000 500.000} -name {ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[43]} [get_pins {u_ipsl_hmemc_top/u_ipsl_hmemc_phy_top/u_ipsl_phy_io/ddrphy_dut:IOL_CLK_SYS[43]}] 
+create_clock -period 1000.000 -waveform {0.000 500.000} -name {ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[44]} [get_pins {u_ipsl_hmemc_top/u_ipsl_hmemc_phy_top/u_ipsl_phy_io/ddrphy_dut:IOL_CLK_SYS[44]}] 
+create_clock -period 1000.000 -waveform {0.000 500.000} -name {ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[45]} [get_pins {u_ipsl_hmemc_top/u_ipsl_hmemc_phy_top/u_ipsl_phy_io/ddrphy_dut:IOL_CLK_SYS[45]}] 
+create_clock -period 1000.000 -waveform {0.000 500.000} -name {ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[46]} [get_pins {u_ipsl_hmemc_top/u_ipsl_hmemc_phy_top/u_ipsl_phy_io/ddrphy_dut:IOL_CLK_SYS[46]}] 
+create_clock -period 1000.000 -waveform {0.000 500.000} -name {ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[47]} [get_pins {u_ipsl_hmemc_top/u_ipsl_hmemc_phy_top/u_ipsl_phy_io/ddrphy_dut:IOL_CLK_SYS[47]}] 
+create_clock -period 1000.000 -waveform {0.000 500.000} -name {ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[48]} [get_pins {u_ipsl_hmemc_top/u_ipsl_hmemc_phy_top/u_ipsl_phy_io/ddrphy_dut:IOL_CLK_SYS[48]}] 
+create_clock -period 1000.000 -waveform {0.000 500.000} -name {ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[49]} [get_pins {u_ipsl_hmemc_top/u_ipsl_hmemc_phy_top/u_ipsl_phy_io/ddrphy_dut:IOL_CLK_SYS[49]}] 
+create_clock -period 1000.000 -waveform {0.000 500.000} -name {ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[51]} [get_pins {u_ipsl_hmemc_top/u_ipsl_hmemc_phy_top/u_ipsl_phy_io/ddrphy_dut:IOL_CLK_SYS[51]}] 
+create_clock -period 1000.000 -waveform {0.000 500.000} -name {ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[52]} [get_pins {u_ipsl_hmemc_top/u_ipsl_hmemc_phy_top/u_ipsl_phy_io/ddrphy_dut:IOL_CLK_SYS[52]}] 
+create_clock -period 1000.000 -waveform {0.000 500.000} -name {ipsl_phy_io_Z8|dqs_ca_clk_r_04_inferred_clock} [get_pins {u_ipsl_hmemc_top/u_ipsl_hmemc_phy_top/u_ipsl_phy_io/dqs4_dut:RCLK}] 
+create_clock -period 1000.000 -waveform {0.000 500.000} -name {ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[55]} [get_pins {u_ipsl_hmemc_top/u_ipsl_hmemc_phy_top/u_ipsl_phy_io/ddrphy_dut:IOL_CLK_SYS[55]}] 
+create_clock -period 1000.000 -waveform {0.000 500.000} -name {ipsl_phy_io_Z8|dqs_clkw_ca_04_inferred_clock} [get_pins {u_ipsl_hmemc_top/u_ipsl_hmemc_phy_top/u_ipsl_phy_io/dqs4_dut:WCLK}] 
+create_clock -period 1000.000 -waveform {0.000 500.000} -name {ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[56]} [get_pins {u_ipsl_hmemc_top/u_ipsl_hmemc_phy_top/u_ipsl_phy_io/ddrphy_dut:IOL_CLK_SYS[56]}] 
+create_clock -period 1000.000 -waveform {0.000 500.000} -name {ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[57]} [get_pins {u_ipsl_hmemc_top/u_ipsl_hmemc_phy_top/u_ipsl_phy_io/ddrphy_dut:IOL_CLK_SYS[57]}] 
+create_clock -period 1000.000 -waveform {0.000 500.000} -name {ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[58]} [get_pins {u_ipsl_hmemc_top/u_ipsl_hmemc_phy_top/u_ipsl_phy_io/ddrphy_dut:IOL_CLK_SYS[58]}] 
+create_clock -period 1000.000 -waveform {0.000 500.000} -name {ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[59]} [get_pins {u_ipsl_hmemc_top/u_ipsl_hmemc_phy_top/u_ipsl_phy_io/ddrphy_dut:IOL_CLK_SYS[59]}] 
+create_clock -period 1000.000 -waveform {0.000 500.000} -name {ipsl_ddrphy_dll_update_ctrl|dll_update_n_inferred_clock} [get_pins {u_ipsl_hmemc_top/u_ipsl_hmemc_phy_top/u_ddrphy_dll_update_ctrl/dll_update_n:Q}] 
+create_clock -period 1000.000 -waveform {0.000 500.000} -name {video_pll|clkout0_inferred_clock} [get_pins {video_pll_m0/u_pll_e1:CLKOUT0}] 
+create_clock -period 1000.000 -waveform {0.000 500.000} -name {video_pll|clkout1_inferred_clock} [get_pins {video_pll_m0/u_pll_e1:CLKOUT1}] 
+
+# Virtual Clocks 
+
+# Generated Clocks 
+
+# Paths Between Clocks 
+
+# Multicycle Constraints 
+
+# Point-to-point Delay Constraints 
+
+# False Path Constraints 
+
+# Output Load Constraints 
+
+# Driving Cell Constraints 
+
+# Input Delay Constraints 
+
+# Output Delay Constraints 
+
+# Wire Loads 
+
+# Other Constraints 
+
+# syn_hier Attributes 
+
+# set_case Attributes 
+
+# Clock Delay Constraints 
+set_clock_groups -name {Inferred_clkgroup_0} -asynchronous -group [get_clocks {pll_50_400|clkout3_inferred_clock}]
+set_clock_groups -name {Inferred_clkgroup_1} -asynchronous -group [get_clocks {pll_50_400|clkout1_inferred_clock}]
+set_clock_groups -name {Inferred_clkgroup_2} -asynchronous -group [get_clocks {ipsl_phy_io_Z8|IOCLK_DIV_inferred_clock}]
+set_clock_groups -name {Inferred_clkgroup_3} -asynchronous -group [get_clocks {ipsl_phy_io_Z8|buffer_dqs_clk_regional_inferred_clock[0]}]
+set_clock_groups -name {Inferred_clkgroup_4} -asynchronous -group [get_clocks {ipsl_phy_io_Z8|ioclk_01_inferred_clock}]
+set_clock_groups -name {Inferred_clkgroup_5} -asynchronous -group [get_clocks {ipsl_phy_io_Z8|buffer_dqs_clk_regional_inferred_clock[1]}]
+set_clock_groups -name {Inferred_clkgroup_6} -asynchronous -group [get_clocks {ipsl_phy_io_Z8|buffer_dqs_clk_regional_inferred_clock[2]}]
+set_clock_groups -name {Inferred_clkgroup_7} -asynchronous -group [get_clocks {ipsl_phy_io_Z8|buffer_dqs_clk_regional_inferred_clock[3]}]
+set_clock_groups -name {Inferred_clkgroup_8} -asynchronous -group [get_clocks {ipsl_phy_io_Z8|ioclk_02_inferred_clock}]
+set_clock_groups -name {Inferred_clkgroup_9} -asynchronous -group [get_clocks {ipsl_phy_io_Z8|buffer_dqs_clk_regional_inferred_clock[4]}]
+set_clock_groups -name {Inferred_clkgroup_10} -asynchronous -group [get_clocks {ipsl_phy_io_Z8|dqs0_clk_r_inferred_clock}]
+set_clock_groups -name {Inferred_clkgroup_11} -asynchronous -group [get_clocks {ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[2]}]
+set_clock_groups -name {Inferred_clkgroup_12} -asynchronous -group [get_clocks {ipsl_phy_io_Z8|dqs_clkw290_0_inferred_clock}]
+set_clock_groups -name {Inferred_clkgroup_13} -asynchronous -group [get_clocks {ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[3]}]
+set_clock_groups -name {Inferred_clkgroup_14} -asynchronous -group [get_clocks {ipsl_phy_io_Z8|dqs_90_0_inferred_clock}]
+set_clock_groups -name {Inferred_clkgroup_15} -asynchronous -group [get_clocks {ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[4]}]
+set_clock_groups -name {Inferred_clkgroup_16} -asynchronous -group [get_clocks {ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[5]}]
+set_clock_groups -name {Inferred_clkgroup_17} -asynchronous -group [get_clocks {ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[6]}]
+set_clock_groups -name {Inferred_clkgroup_18} -asynchronous -group [get_clocks {ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[7]}]
+set_clock_groups -name {Inferred_clkgroup_19} -asynchronous -group [get_clocks {ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[9]}]
+set_clock_groups -name {Inferred_clkgroup_20} -asynchronous -group [get_clocks {ipsl_phy_io_Z8|dqs_clkw_0_inferred_clock}]
+set_clock_groups -name {Inferred_clkgroup_21} -asynchronous -group [get_clocks {ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[10]}]
+set_clock_groups -name {Inferred_clkgroup_22} -asynchronous -group [get_clocks {ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[11]}]
+set_clock_groups -name {Inferred_clkgroup_23} -asynchronous -group [get_clocks {ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[12]}]
+set_clock_groups -name {Inferred_clkgroup_24} -asynchronous -group [get_clocks {ipsl_phy_io_Z8|dqs_ca_clk_r_01_inferred_clock}]
+set_clock_groups -name {Inferred_clkgroup_25} -asynchronous -group [get_clocks {ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[17]}]
+set_clock_groups -name {Inferred_clkgroup_26} -asynchronous -group [get_clocks {ipsl_phy_io_Z8|dqs_clkw_ca_01_inferred_clock}]
+set_clock_groups -name {Inferred_clkgroup_27} -asynchronous -group [get_clocks {ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[18]}]
+set_clock_groups -name {Inferred_clkgroup_28} -asynchronous -group [get_clocks {ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[19]}]
+set_clock_groups -name {Inferred_clkgroup_29} -asynchronous -group [get_clocks {ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[20]}]
+set_clock_groups -name {Inferred_clkgroup_30} -asynchronous -group [get_clocks {ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[21]}]
+set_clock_groups -name {Inferred_clkgroup_31} -asynchronous -group [get_clocks {ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[22]}]
+set_clock_groups -name {Inferred_clkgroup_32} -asynchronous -group [get_clocks {ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[23]}]
+set_clock_groups -name {Inferred_clkgroup_33} -asynchronous -group [get_clocks {ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[24]}]
+set_clock_groups -name {Inferred_clkgroup_34} -asynchronous -group [get_clocks {ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[25]}]
+set_clock_groups -name {Inferred_clkgroup_35} -asynchronous -group [get_clocks {ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[27]}]
+set_clock_groups -name {Inferred_clkgroup_36} -asynchronous -group [get_clocks {ipsl_phy_io_Z8|dqs_90_1_inferred_clock}]
+set_clock_groups -name {Inferred_clkgroup_37} -asynchronous -group [get_clocks {ipsl_phy_io_Z8|dqs1_clk_r_inferred_clock}]
+set_clock_groups -name {Inferred_clkgroup_38} -asynchronous -group [get_clocks {ipsl_phy_io_Z8|dqs_clkw290_1_inferred_clock}]
+set_clock_groups -name {Inferred_clkgroup_39} -asynchronous -group [get_clocks {ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[28]}]
+set_clock_groups -name {Inferred_clkgroup_40} -asynchronous -group [get_clocks {ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[29]}]
+set_clock_groups -name {Inferred_clkgroup_41} -asynchronous -group [get_clocks {ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[31]}]
+set_clock_groups -name {Inferred_clkgroup_42} -asynchronous -group [get_clocks {ipsl_phy_io_Z8|dqs_clkw_1_inferred_clock}]
+set_clock_groups -name {Inferred_clkgroup_43} -asynchronous -group [get_clocks {ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[32]}]
+set_clock_groups -name {Inferred_clkgroup_44} -asynchronous -group [get_clocks {ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[33]}]
+set_clock_groups -name {Inferred_clkgroup_45} -asynchronous -group [get_clocks {ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[34]}]
+set_clock_groups -name {Inferred_clkgroup_46} -asynchronous -group [get_clocks {ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[35]}]
+set_clock_groups -name {Inferred_clkgroup_47} -asynchronous -group [get_clocks {ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[36]}]
+set_clock_groups -name {Inferred_clkgroup_48} -asynchronous -group [get_clocks {ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[37]}]
+set_clock_groups -name {Inferred_clkgroup_49} -asynchronous -group [get_clocks {ipsl_phy_io_Z8|dqs_ca_clk_r_03_inferred_clock}]
+set_clock_groups -name {Inferred_clkgroup_50} -asynchronous -group [get_clocks {ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[40]}]
+set_clock_groups -name {Inferred_clkgroup_51} -asynchronous -group [get_clocks {ipsl_phy_io_Z8|dqs_clkw_ca_03_inferred_clock}]
+set_clock_groups -name {Inferred_clkgroup_52} -asynchronous -group [get_clocks {ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[41]}]
+set_clock_groups -name {Inferred_clkgroup_53} -asynchronous -group [get_clocks {ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[42]}]
+set_clock_groups -name {Inferred_clkgroup_54} -asynchronous -group [get_clocks {ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[43]}]
+set_clock_groups -name {Inferred_clkgroup_55} -asynchronous -group [get_clocks {ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[44]}]
+set_clock_groups -name {Inferred_clkgroup_56} -asynchronous -group [get_clocks {ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[45]}]
+set_clock_groups -name {Inferred_clkgroup_57} -asynchronous -group [get_clocks {ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[46]}]
+set_clock_groups -name {Inferred_clkgroup_58} -asynchronous -group [get_clocks {ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[47]}]
+set_clock_groups -name {Inferred_clkgroup_59} -asynchronous -group [get_clocks {ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[48]}]
+set_clock_groups -name {Inferred_clkgroup_60} -asynchronous -group [get_clocks {ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[49]}]
+set_clock_groups -name {Inferred_clkgroup_61} -asynchronous -group [get_clocks {ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[51]}]
+set_clock_groups -name {Inferred_clkgroup_62} -asynchronous -group [get_clocks {ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[52]}]
+set_clock_groups -name {Inferred_clkgroup_63} -asynchronous -group [get_clocks {ipsl_phy_io_Z8|dqs_ca_clk_r_04_inferred_clock}]
+set_clock_groups -name {Inferred_clkgroup_64} -asynchronous -group [get_clocks {ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[55]}]
+set_clock_groups -name {Inferred_clkgroup_65} -asynchronous -group [get_clocks {ipsl_phy_io_Z8|dqs_clkw_ca_04_inferred_clock}]
+set_clock_groups -name {Inferred_clkgroup_66} -asynchronous -group [get_clocks {ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[56]}]
+set_clock_groups -name {Inferred_clkgroup_67} -asynchronous -group [get_clocks {ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[57]}]
+set_clock_groups -name {Inferred_clkgroup_68} -asynchronous -group [get_clocks {ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[58]}]
+set_clock_groups -name {Inferred_clkgroup_69} -asynchronous -group [get_clocks {ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[59]}]
+set_clock_groups -name {Inferred_clkgroup_70} -asynchronous -group [get_clocks {ipsl_ddrphy_dll_update_ctrl|dll_update_n_inferred_clock}]
+set_clock_groups -name {Inferred_clkgroup_71} -asynchronous -group [get_clocks {video_pll|clkout0_inferred_clock}]
+set_clock_groups -name {Inferred_clkgroup_72} -asynchronous -group [get_clocks {video_pll|clkout1_inferred_clock}]
+
+# syn_mode Attributes 
+
+# Cells 
+
+# Port DRC Rules 
+
+# Input Transition Constraints 
+
+# Unused constraints (intentionally commented out) 
+
+# Unused constraints (not checked for applicability) 
+
+# Non-forward-annotatable constraints (intentionally commented out) 
+
+# Block Path constraints 
+

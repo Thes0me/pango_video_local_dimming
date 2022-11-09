@@ -1,0 +1,197 @@
+#OPTIONS:"|-layerid|0|-orig_srs|D:\\example_ziguang\\sd_picture_hdmi _ddrtest\\ipcore\\ddr3\\pnr\\ctrl_phy_22\\synthesize\\synplify_impl\\synwork\\synplify_comp.srs|-top|ipsl_hmemc_top_test|-prodtype|synplify_pro|-primux|-fixsmult|-sdff_counter|-dspmac|-nram|-divnmod|-nostructver|-I|D:\\example_ziguang\\sd_picture_hdmi _ddrtest\\ipcore\\ddr3\\pnr\\ctrl_phy_22|-I|D:\\example_ziguang\\sd_picture_hdmi _ddrtest\\ipcore\\ddr3\\pnr\\ctrl_phy_22\\synthesize\\|-I|C:\\pango\\PDS_2019.1-patch2\\syn\\lib|-v2001|-devicelib|C:\\pango\\PDS_2019.1-patch2\\syn\\lib\\generic\\logos.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-D_MULTIPLE_FILE_COMPILATION_UNIT_|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#CUR:"C:\\pango\\PDS_2019.1-patch2\\syn\\bin64\\c_ver.exe":1554698400
+#CUR:"C:\\pango\\PDS_2019.1-patch2\\syn\\lib\\generic\\logos.v":1554698584
+#CUR:"C:\\pango\\PDS_2019.1-patch2\\syn\\lib\\vlog\\hypermods.v":1554698632
+#CUR:"C:\\pango\\PDS_2019.1-patch2\\syn\\lib\\vlog\\umr_capim.v":1554698632
+#CUR:"C:\\pango\\PDS_2019.1-patch2\\syn\\lib\\vlog\\scemi_objects.v":1554698632
+#CUR:"C:\\pango\\PDS_2019.1-patch2\\syn\\lib\\vlog\\scemi_pipes.svh":1554698632
+#CUR:"D:\\example_ziguang\\sd_picture_hdmi _ddrtest\\ipcore\\ddr3\\rtl\\pll\\pll_50_400.v":1557109269
+#CUR:"D:\\example_ziguang\\sd_picture_hdmi _ddrtest\\ipcore\\ddr3\\rtl\\ipsl_ddrc_apb_reset.v":1557044301
+#CUR:"D:\\example_ziguang\\sd_picture_hdmi _ddrtest\\ipcore\\ddr3\\rtl\\ipsl_ddrc_reset_ctrl.v":1557044301
+#CUR:"D:\\example_ziguang\\sd_picture_hdmi _ddrtest\\ipcore\\ddr3\\rtl\\ipsl_ddrphy_dll_update_ctrl.v":1557044301
+#CUR:"D:\\example_ziguang\\sd_picture_hdmi _ddrtest\\ipcore\\ddr3\\rtl\\ipsl_ddrphy_reset_ctrl.v":1557044301
+#CUR:"D:\\example_ziguang\\sd_picture_hdmi _ddrtest\\ipcore\\ddr3\\rtl\\ipsl_ddrphy_training_ctrl.v":1557044301
+#CUR:"D:\\example_ziguang\\sd_picture_hdmi _ddrtest\\ipcore\\ddr3\\rtl\\ipsl_ddrphy_update_ctrl.v":1557044301
+#CUR:"D:\\example_ziguang\\sd_picture_hdmi _ddrtest\\ipcore\\ddr3\\rtl\\ipsl_hmemc_ddrc_top.v":1557044301
+#CUR:"D:\\example_ziguang\\sd_picture_hdmi _ddrtest\\ipcore\\ddr3\\rtl\\ipsl_hmemc_phy_top.v":1557044301
+#CUR:"D:\\example_ziguang\\sd_picture_hdmi _ddrtest\\ipcore\\ddr3\\rtl\\ipsl_phy_io.v":1557044301
+#CUR:"D:\\example_ziguang\\sd_picture_hdmi _ddrtest\\ipcore\\ddr3\\ddr3.v":1557109269
+#CUR:"D:\\example_ziguang\\sd_picture_hdmi _ddrtest\\ipcore\\ddr3\\example_design\\rtl\\ipsl_hmemc_top_test.v":1557217697
+#CUR:"D:\\example_ziguang\\sd_picture_hdmi _ddrtest\\ipcore\\ddr3\\pnr\\ctrl_phy_22\\source\\dvi_tx\\dvi_encoder.v":1519814003
+#CUR:"D:\\example_ziguang\\sd_picture_hdmi _ddrtest\\ipcore\\ddr3\\pnr\\ctrl_phy_22\\source\\dvi_tx\\encode.v":1216887230
+#CUR:"D:\\example_ziguang\\sd_picture_hdmi _ddrtest\\ipcore\\ddr3\\pnr\\ctrl_phy_22\\source\\dvi_tx\\serdes_4b_10to1.v":1557130518
+#CUR:"D:\\example_ziguang\\sd_picture_hdmi _ddrtest\\ipcore\\ddr3\\pnr\\ctrl_phy_22\\source\\sd_card\\sd_card_cmd.v":1537406011
+#CUR:"D:\\example_ziguang\\sd_picture_hdmi _ddrtest\\ipcore\\ddr3\\pnr\\ctrl_phy_22\\source\\sd_card\\sd_card_sec_read_write.v":1503626037
+#CUR:"D:\\example_ziguang\\sd_picture_hdmi _ddrtest\\ipcore\\ddr3\\pnr\\ctrl_phy_22\\source\\sd_card\\sd_card_top.v":1502714607
+#CUR:"D:\\example_ziguang\\sd_picture_hdmi _ddrtest\\ipcore\\ddr3\\pnr\\ctrl_phy_22\\source\\sd_card\\spi_master.v":1502714591
+#CUR:"D:\\example_ziguang\\sd_picture_hdmi _ddrtest\\ipcore\\ddr3\\pnr\\ctrl_phy_22\\source\\src\\aq_axi_master.v":1480402366
+#CUR:"D:\\example_ziguang\\sd_picture_hdmi _ddrtest\\ipcore\\ddr3\\pnr\\ctrl_phy_22\\source\\src\\ax_debounce.v":1500957175
+#CUR:"D:\\example_ziguang\\sd_picture_hdmi _ddrtest\\ipcore\\ddr3\\pnr\\ctrl_phy_22\\source\\src\\bmp_read.v":1517218221
+#CUR:"D:\\example_ziguang\\sd_picture_hdmi _ddrtest\\ipcore\\ddr3\\pnr\\ctrl_phy_22\\source\\src\\color_bar.v":1500957175
+#CUR:"D:\\example_ziguang\\sd_picture_hdmi _ddrtest\\ipcore\\ddr3\\pnr\\ctrl_phy_22\\source\\src\\video_define.v":1500957175
+#CUR:"D:\\example_ziguang\\sd_picture_hdmi _ddrtest\\ipcore\\ddr3\\pnr\\ctrl_phy_22\\source\\src\\frame_fifo_read.v":1500957175
+#CUR:"D:\\example_ziguang\\sd_picture_hdmi _ddrtest\\ipcore\\ddr3\\pnr\\ctrl_phy_22\\source\\src\\frame_fifo_write.v":1500957175
+#CUR:"D:\\example_ziguang\\sd_picture_hdmi _ddrtest\\ipcore\\ddr3\\pnr\\ctrl_phy_22\\source\\src\\frame_read_write.v":1557132287
+#CUR:"D:\\example_ziguang\\sd_picture_hdmi _ddrtest\\ipcore\\ddr3\\pnr\\ctrl_phy_22\\source\\src\\sd_card_bmp.v":1505289326
+#CUR:"D:\\example_ziguang\\sd_picture_hdmi _ddrtest\\ipcore\\ddr3\\pnr\\ctrl_phy_22\\source\\src\\video_timing_data.v":1500957175
+#CUR:"D:\\example_ziguang\\sd_picture_hdmi _ddrtest\\ipcore\\ddr3\\pnr\\ctrl_phy_22\\source\\src\\video_define.v":1500957175
+#CUR:"D:\\example_ziguang\\sd_picture_hdmi _ddrtest\\ipcore\\ddr3\\pnr\\ctrl_phy_22\\source\\afifo_64i_32o_128\\rtl\\ipml_fifo_v1_3_afifo_64i_32o_128.v":1557131488
+#CUR:"D:\\example_ziguang\\sd_picture_hdmi _ddrtest\\ipcore\\ddr3\\pnr\\ctrl_phy_22\\source\\afifo_32i_64o_256\\rtl\\ipml_fifo_v1_3_afifo_32i_64o_256.v":1557131356
+#CUR:"D:\\example_ziguang\\sd_picture_hdmi _ddrtest\\ipcore\\ddr3\\pnr\\ctrl_phy_22\\source\\afifo_64i_32o_128\\afifo_64i_32o_128.v":1557131488
+#CUR:"D:\\example_ziguang\\sd_picture_hdmi _ddrtest\\ipcore\\ddr3\\pnr\\ctrl_phy_22\\source\\afifo_32i_64o_256\\afifo_32i_64o_256.v":1557131356
+#CUR:"D:\\example_ziguang\\sd_picture_hdmi _ddrtest\\ipcore\\ddr3\\pnr\\ctrl_phy_22\\source\\video_pll\\video_pll.v":1557130688
+#CUR:"D:\\example_ziguang\\sd_picture_hdmi _ddrtest\\ipcore\\ddr3\\pnr\\ctrl_phy_22\\source\\afifo_64i_32o_128\\rtl\\ipml_fifo_ctrl_v1_3.v":1554698300
+#CUR:"D:\\example_ziguang\\sd_picture_hdmi _ddrtest\\ipcore\\ddr3\\pnr\\ctrl_phy_22\\source\\afifo_64i_32o_128\\rtl\\ipml_sdpram_v1_3_afifo_64i_32o_128.v":1557131488
+#CUR:"D:\\example_ziguang\\sd_picture_hdmi _ddrtest\\ipcore\\ddr3\\pnr\\ctrl_phy_22\\source\\afifo_32i_64o_256\\rtl\\ipml_sdpram_v1_3_afifo_32i_64o_256.v":1557131356
+#numinternalfiles:5
+#defaultlanguage:verilog
+0			"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\pll\pll_50_400.v" verilog
+1			"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\ipsl_ddrc_apb_reset.v" verilog
+2			"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\ipsl_ddrc_reset_ctrl.v" verilog
+3			"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\ipsl_ddrphy_dll_update_ctrl.v" verilog
+4			"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\ipsl_ddrphy_reset_ctrl.v" verilog
+5			"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\ipsl_ddrphy_training_ctrl.v" verilog
+6			"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\ipsl_ddrphy_update_ctrl.v" verilog
+7			"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\ipsl_hmemc_ddrc_top.v" verilog
+8			"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\ipsl_hmemc_phy_top.v" verilog
+9			"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\ipsl_phy_io.v" verilog
+10			"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\ddr3.v" verilog
+11			"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\example_design\rtl\ipsl_hmemc_top_test.v" verilog
+12			"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\dvi_tx\dvi_encoder.v" verilog
+13			"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\dvi_tx\encode.v" verilog
+14			"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\dvi_tx\serdes_4b_10to1.v" verilog
+15			"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\sd_card\sd_card_cmd.v" verilog
+16			"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\sd_card\sd_card_sec_read_write.v" verilog
+17			"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\sd_card\sd_card_top.v" verilog
+18			"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\sd_card\spi_master.v" verilog
+19			"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\aq_axi_master.v" verilog
+20			"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\ax_debounce.v" verilog
+21			"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\bmp_read.v" verilog
+22			"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\color_bar.v" verilog
+23		*	"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\video_define.v" verilog
+24			"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\frame_fifo_read.v" verilog
+25			"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\frame_fifo_write.v" verilog
+26			"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\frame_read_write.v" verilog
+27			"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\sd_card_bmp.v" verilog
+28			"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\video_timing_data.v" verilog
+29			"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_64i_32o_128\rtl\ipml_fifo_v1_3_afifo_64i_32o_128.v" verilog
+30			"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_32i_64o_256\rtl\ipml_fifo_v1_3_afifo_32i_64o_256.v" verilog
+31			"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_64i_32o_128\afifo_64i_32o_128.v" verilog
+32			"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_32i_64o_256\afifo_32i_64o_256.v" verilog
+33			"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\video_pll\video_pll.v" verilog
+34			"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_64i_32o_128\rtl\ipml_fifo_ctrl_v1_3.v" verilog
+35			"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_64i_32o_128\rtl\ipml_sdpram_v1_3_afifo_64i_32o_128.v" verilog
+36			"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_32i_64o_256\rtl\ipml_sdpram_v1_3_afifo_32i_64o_256.v" verilog
+#Dependency Lists(Uses List)
+0 -1
+1 -1
+2 1
+3 -1
+4 -1
+5 -1
+6 -1
+7 2
+8 4 5 3 6 9
+9 -1
+10 0 8 7
+11 33 27 12 28 26 10 19
+12 13 14
+13 -1
+14 -1
+15 -1
+16 -1
+17 16 15 18
+18 -1
+19 -1
+20 -1
+21 -1
+22 23
+23 -1
+24 -1
+25 -1
+26 32 25 31 24
+27 20 21 17
+28 22 23
+29 35 34
+30 36 34
+31 29
+32 30
+33 -1
+34 -1
+35 -1
+36 -1
+#Dependency Lists(Users Of)
+0 10
+1 2
+2 7
+3 8
+4 8
+5 8
+6 8
+7 10
+8 10
+9 8
+10 11
+11 -1
+12 11
+13 12
+14 12
+15 17
+16 17
+17 27
+18 17
+19 11
+20 27
+21 27
+22 28
+23 22 28
+24 26
+25 26
+26 11
+27 11
+28 11
+29 31
+30 32
+31 26
+32 26
+33 11
+34 29 30
+35 29
+36 30
+#Design Unit to File Association
+module work pll_50_400 0
+module work ipsl_ddrc_apb_reset 1
+module work ipsl_ddrc_reset_ctrl 2
+module work ipsl_ddrphy_dll_update_ctrl 3
+module work ipsl_ddrphy_reset_ctrl 4
+module work ipsl_ddrphy_training_ctrl 5
+module work ipsl_ddrphy_update_ctrl 6
+module work ipsl_hmemc_ddrc_top 7
+module work ipsl_phy_io 9
+module work ipsl_hmemc_phy_top 8
+module work ddr3 10
+module work video_pll 33
+module work sd_card_bmp 27
+module work dvi_encoder 12
+module work video_timing_data 28
+module work frame_read_write 26
+module work aq_axi_master 19
+module work ipsl_hmemc_top_test 11
+module work encode 13
+module work serdes_4b_10to1 14
+module work sd_card_cmd 15
+module work sd_card_sec_read_write 16
+module work spi_master 18
+module work sd_card_top 17
+module work ax_debounce 20
+module work bmp_read 21
+module work color_bar 22
+module work frame_fifo_read 24
+module work frame_fifo_write 25
+module work afifo_32i_64o_256 32
+module work afifo_64i_32o_128 31
+module work ipml_sdpram_v1_3_afifo_64i_32o_128 35
+module work ipml_fifo_ctrl_v1_3 34
+module work ipml_fifo_v1_3_afifo_64i_32o_128 29
+module work ipml_sdpram_v1_3_afifo_32i_64o_256 36
+module work ipml_fifo_v1_3_afifo_32i_64o_256 30

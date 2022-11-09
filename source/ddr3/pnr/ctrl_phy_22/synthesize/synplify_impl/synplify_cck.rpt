@@ -1,0 +1,188 @@
+
+Copyright (C) 1994-2019 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: P-2019.03P-Beta2
+Install: C:\pango\PDS_2019.1-patch2\syn
+OS: Windows 6.1
+
+Hostname: ALINX000007-PC
+
+Implementation : synplify_impl
+
+# Written on Tue May  7 16:40:53 2019
+
+##### DESIGN INFO #######################################################
+
+Top View:                "ipsl_hmemc_top_test"
+Constraint File(s):      "D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\ddr_324_left.fdc"
+
+
+
+
+##### SUMMARY ############################################################
+
+Found 0 issues in 0 out of 618 constraints
+
+
+##### DETAILS ############################################################
+
+
+
+Clock Relationships
+*******************
+
+Starting                                                    Ending                                                      |     rise to rise     |     fall to fall     |     rise to fall     |     fall to rise                     
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+System                                                      System                                                      |     1000.000         |     No paths         |     No paths         |     No paths                         
+System                                                      pll_50_400|clkout1_inferred_clock                           |     1000.000         |     No paths         |     No paths         |     No paths                         
+System                                                      ipsl_ddrphy_dll_update_ctrl|dll_update_n_inferred_clock     |     1000.000         |     No paths         |     No paths         |     No paths                         
+sys_clk                                                     sys_clk                                                     |     20.000           |     No paths         |     No paths         |     No paths                         
+sys_clk                                                     pll_50_400|clkout3_inferred_clock                           |     Diff grp         |     No paths         |     No paths         |     No paths                         
+pll_50_400|clkout3_inferred_clock                           sys_clk                                                     |     Diff grp         |     No paths         |     No paths         |     No paths                         
+pll_50_400|clkout3_inferred_clock                           pll_50_400|clkout3_inferred_clock                           |     1000.000         |     No paths         |     No paths         |     No paths                         
+pll_50_400|clkout3_inferred_clock                           video_pll|clkout0_inferred_clock                            |     Diff grp         |     No paths         |     No paths         |     No paths                         
+pll_50_400|clkout1_inferred_clock                           System                                                      |     1000.000         |     No paths         |     No paths         |     No paths                         
+pll_50_400|clkout1_inferred_clock                           pll_50_400|clkout1_inferred_clock                           |     1000.000         |     No paths         |     No paths         |     No paths                         
+pll_50_400|clkout1_inferred_clock                           ipsl_phy_io_Z8|IOCLK_DIV_inferred_clock                     |     Diff grp         |     No paths         |     No paths         |     No paths                         
+pll_50_400|clkout1_inferred_clock                           ipsl_ddrphy_dll_update_ctrl|dll_update_n_inferred_clock     |     Diff grp         |     No paths         |     No paths         |     No paths                         
+ipsl_phy_io_Z8|IOCLK_DIV_inferred_clock                     pll_50_400|clkout1_inferred_clock                           |     Diff grp         |     No paths         |     No paths         |     No paths                         
+ipsl_phy_io_Z8|ioclk_01_inferred_clock                      ipsl_phy_io_Z8|ioclk_01_inferred_clock                      |     1000.000         |     No paths         |     No paths         |     No paths                         
+ipsl_ddrphy_dll_update_ctrl|dll_update_n_inferred_clock     pll_50_400|clkout1_inferred_clock                           |     Diff grp         |     No paths         |     No paths         |     No paths                         
+video_pll|clkout0_inferred_clock                            pll_50_400|clkout3_inferred_clock                           |     Diff grp         |     No paths         |     No paths         |     No paths                         
+video_pll|clkout0_inferred_clock                            video_pll|clkout0_inferred_clock                            |     1000.000         |     No paths         |     No paths         |     No paths                         
+video_pll|clkout0_inferred_clock                            video_pll|clkout1_inferred_clock                            |     Diff grp         |     No paths         |     No paths         |     No paths                         
+video_pll|clkout1_inferred_clock                            video_pll|clkout1_inferred_clock                            |     1000.000         |     No paths         |     No paths         |     No paths                         
+===================================================================================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+Unconstrained Start/End Points
+******************************
+
+p:clk_led
+p:ddr_init_done
+p:ddrphy_rst_done
+p:err_flag
+p:key
+p:led[0]
+p:led[1]
+p:led[2]
+p:led[3]
+p:pad_addr_ch0[0]
+p:pad_addr_ch0[1]
+p:pad_addr_ch0[2]
+p:pad_addr_ch0[3]
+p:pad_addr_ch0[4]
+p:pad_addr_ch0[5]
+p:pad_addr_ch0[6]
+p:pad_addr_ch0[7]
+p:pad_addr_ch0[8]
+p:pad_addr_ch0[9]
+p:pad_addr_ch0[10]
+p:pad_addr_ch0[11]
+p:pad_addr_ch0[12]
+p:pad_addr_ch0[13]
+p:pad_addr_ch0[14]
+p:pad_addr_ch0[15]
+p:pad_ba_ch0[0]
+p:pad_ba_ch0[1]
+p:pad_ba_ch0[2]
+p:pad_casn_ch0
+p:pad_cke_ch0
+p:pad_csn_ch0
+p:pad_ddr_clk_w
+p:pad_ddr_clkn_w
+p:pad_dm_rdqs_ch0[0]
+p:pad_dm_rdqs_ch0[1]
+p:pad_dq_ch0[0] (bidir end point)
+p:pad_dq_ch0[0] (bidir start point)
+p:pad_dq_ch0[1] (bidir end point)
+p:pad_dq_ch0[1] (bidir start point)
+p:pad_dq_ch0[2] (bidir end point)
+p:pad_dq_ch0[2] (bidir start point)
+p:pad_dq_ch0[3] (bidir end point)
+p:pad_dq_ch0[3] (bidir start point)
+p:pad_dq_ch0[4] (bidir end point)
+p:pad_dq_ch0[4] (bidir start point)
+p:pad_dq_ch0[5] (bidir end point)
+p:pad_dq_ch0[5] (bidir start point)
+p:pad_dq_ch0[6] (bidir end point)
+p:pad_dq_ch0[6] (bidir start point)
+p:pad_dq_ch0[7] (bidir end point)
+p:pad_dq_ch0[7] (bidir start point)
+p:pad_dq_ch0[8] (bidir end point)
+p:pad_dq_ch0[8] (bidir start point)
+p:pad_dq_ch0[9] (bidir end point)
+p:pad_dq_ch0[9] (bidir start point)
+p:pad_dq_ch0[10] (bidir end point)
+p:pad_dq_ch0[10] (bidir start point)
+p:pad_dq_ch0[11] (bidir end point)
+p:pad_dq_ch0[11] (bidir start point)
+p:pad_dq_ch0[12] (bidir end point)
+p:pad_dq_ch0[12] (bidir start point)
+p:pad_dq_ch0[13] (bidir end point)
+p:pad_dq_ch0[13] (bidir start point)
+p:pad_dq_ch0[14] (bidir end point)
+p:pad_dq_ch0[14] (bidir start point)
+p:pad_dq_ch0[15] (bidir end point)
+p:pad_dq_ch0[15] (bidir start point)
+p:pad_dqs_ch0[0] (bidir end point)
+p:pad_dqs_ch0[0] (bidir start point)
+p:pad_dqs_ch0[1] (bidir end point)
+p:pad_dqs_ch0[1] (bidir start point)
+p:pad_dqsn_ch0[0] (bidir end point)
+p:pad_dqsn_ch0[0] (bidir start point)
+p:pad_dqsn_ch0[1] (bidir end point)
+p:pad_dqsn_ch0[1] (bidir start point)
+p:pad_loop_in
+p:pad_loop_in_h
+p:pad_loop_out
+p:pad_loop_out_h
+p:pad_odt_ch0
+p:pad_rasn_ch0
+p:pad_rstn_ch0
+p:pad_wen_ch0
+p:pll_lock
+p:rst_n
+p:sd_dclk
+p:sd_miso
+p:sd_mosi
+p:sd_ncs
+p:tmds_clk_n
+p:tmds_clk_p
+p:tmds_data_n[0]
+p:tmds_data_n[1]
+p:tmds_data_n[2]
+p:tmds_data_p[0]
+p:tmds_data_p[1]
+p:tmds_data_p[2]
+
+
+Inapplicable constraints
+************************
+
+(none)
+
+
+Applicable constraints with issues
+**********************************
+
+(none)
+
+
+Constraints with matching wildcard expressions
+**********************************************
+
+(none)
+
+
+Library Report
+**************
+
+
+# End of Constraint Checker Report

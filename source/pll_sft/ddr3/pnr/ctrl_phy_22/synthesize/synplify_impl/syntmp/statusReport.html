@@ -1,0 +1,182 @@
+<html> 
+ 			<head> 			<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+			<title>Project Status Summary Page</title>
+			<link rel="stylesheet" type="text/css" href="projectstatuspage.css" />
+			<script type = "text/javascript" src="projectstatuspage.js"></script>
+			</head>
+
+ 			<body style="background-color:#f0f0ff;">
+ 			
+<table style="border:none;" width="100%" ><tr> <td class="outline">
+<table width="100%" border="0" cellspacing="0" cellpadding="0"> 	     <thead class="tablehead"><tr><th colspan="4">Project Settings</th><tr> 
+ <tr> <td class="optionTitle" align="left"> Project Name</td> <td> synplify_pro</td> <td class="optionTitle" align="left"> Device Name</td> <td> synplify_impl: Pango Logos : PGL22G</td> </tr>
+<tr> <td class="optionTitle" align="left"> Implementation Name</td> <td> synplify_impl</td> <td class="optionTitle" align="left"> Top Module</td> <td> ipsl_hmemc_top_test</td> </tr>
+ 		 </thead> 
+		 <tbody> <tr> <td class="optionTitle" align="left"> Pipelining</td> <td> 1</td> <td class="optionTitle" align="left"> Retiming</td> <td> 0</td> </tr>
+<tr> <td class="optionTitle" align="left"> Resource Sharing</td> <td> 1</td> <td class="optionTitle" align="left"> Fanout Guide</td> <td> 10000</td> </tr>
+<tr> <td class="optionTitle" align="left"> Disable I/O Insertion</td> <td> 0</td> <td class="optionTitle" align="left"> Disable Sequential Optimizations</td> <td> 0</td> </tr>
+<tr> <td class="optionTitle" align="left"> Clock Conversion</td> <td> 1</td> <td class="optionTitle" align="left"> FSM Compiler</td> <td> 1</td> </tr>
+ 
+</tbody> 
+  </table><br>	 <table width="100%" border="1" cellspacing= "0" cellpadding= "0" >
+ 				   <thead class="tablehead"><tr><th   colspan="9">Run Status</th></tr></thead>
+         <tbody>
+ 		<tr>
+ 			<th align="left" width="17%">Job Name</th>
+			<th align="left">Status</th>
+ 			<td class="lnote" align="center" title="Notes"></td>
+ 			<td class="lwarn" align="center" title="Warnings"></td>
+ 			<td class="lerror" align="center" title="Errors"></td>
+ 			<th align="left">CPU Time</th>
+ 			<th align="left">Real Time</th>
+ 			<th align="left">Memory</th>
+ 			<th align="left">Date/Time</th>
+         </tr>
+  <tr>
+  <td class="optionTitle"> (compiler)</td><td>Complete</td>
+ <td>97</td>
+ <td>494</td>
+<td>0</td>
+<td>-</td>
+<td>00m:01s</td>
+<td>-</td>
+<td><font size="-1">2019/5/7</font><br/><font size="-2">16:40:49</font></td>
+</tr> 
+
+ <tr>
+  <td class="optionTitle"> (premap)</td><td>Complete</td>
+ <td>22</td>
+ <td>91</td>
+<td>0</td>
+<td>0m:03s</td>
+<td>0m:03s</td>
+<td>232MB</td>
+<td><font size="-1">2019/5/7</font><br/><font size="-2">16:40:53</font></td>
+</tr> 
+
+ <tr>
+  <td class="optionTitle"> (fpga_mapper)</td><td>Complete</td>
+ <td>429</td>
+ <td>452</td>
+<td>0</td>
+<td>0m:34s</td>
+<td>0m:44s</td>
+<td>460MB</td>
+<td><font size="-1">2019/5/7</font><br/><font size="-2">16:41:38</font></td>
+</tr> 
+
+ 		</tbody>
+     </table>
+ <br> 
+ <table width="100%" border="1" cellspacing= "0" cellpadding= "0" >
+ 				   <thead class="tablehead"><tr><th   colspan="4">Area Summary</th></tr></thead>
+<tfoot> <tr> <td class="optionTitle" colspan="2"></td><td class="optionTitle" colspan="2"></td></tr> 
+ </tfoot> 
+ <tbody> <tr> 
+<td title ="Total I/O ports used" class="optionTitle" align="left">I/O ports
+(io_port)</td> <td>78</td>
+<td title ="Total Dedicated Rams used" class="optionTitle" align="left">Dedicated Rams
+(v_ram)</td> <td>4 (48)</td>
+</tr>
+<tr> 
+<td title ="Total Distributed Rams used" class="optionTitle" align="left">Distributed Rams</td> <td>30.00 (1110)</td>
+<td title ="Total LUTs used" class="optionTitle" align="left">LUTs
+(total_luts)</td> <td>2079 (11%)</td>
+</tr>
+ 
+</tbody>
+    </table><br>
+ <table width="100%" border="1" cellspacing= "0" cellpadding= "0" >
+ 				   <thead class="tablehead"><tr><th   colspan="4">Timing Summary</th></tr></thead>
+<tfoot> <tr> <td class="optionTitle" colspan="4"></td></tr> 
+ </tfoot> 
+<tbody> 
+   <tr><th class="optionTitle" align= "left ">Clock Name</th><th class="optionTitle" align= "left ">Req Freq</th><th class="optionTitle" align= "left ">Est Freq</th><th class="optionTitle" align= "left ">Slack</th></tr> 
+<tr> <td  align="left">ipsl_ddrphy_dll_update_ctrl|dll_update_n_inferred_clock</td><td  align="left">1.0 MHz</td><td  align="left">NA</td><td  align="left">NA</td></tr> 
+<tr> <td  align="left">ipsl_phy_io_Z8|IOCLK_DIV_inferred_clock</td><td  align="left">1.0 MHz</td><td  align="left">NA</td><td  align="left">NA</td></tr> 
+<tr> <td  align="left">ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[2]</td><td  align="left">1.0 MHz</td><td  align="left">NA</td><td  align="left">NA</td></tr> 
+<tr> <td  align="left">ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[3]</td><td  align="left">1.0 MHz</td><td  align="left">NA</td><td  align="left">NA</td></tr> 
+<tr> <td  align="left">ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[4]</td><td  align="left">1.0 MHz</td><td  align="left">NA</td><td  align="left">NA</td></tr> 
+<tr> <td  align="left">ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[5]</td><td  align="left">1.0 MHz</td><td  align="left">NA</td><td  align="left">NA</td></tr> 
+<tr> <td  align="left">ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[6]</td><td  align="left">1.0 MHz</td><td  align="left">NA</td><td  align="left">NA</td></tr> 
+<tr> <td  align="left">ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[7]</td><td  align="left">1.0 MHz</td><td  align="left">NA</td><td  align="left">NA</td></tr> 
+<tr> <td  align="left">ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[9]</td><td  align="left">1.0 MHz</td><td  align="left">NA</td><td  align="left">NA</td></tr> 
+<tr> <td  align="left">ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[10]</td><td  align="left">1.0 MHz</td><td  align="left">NA</td><td  align="left">NA</td></tr> 
+<tr> <td  align="left">ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[11]</td><td  align="left">1.0 MHz</td><td  align="left">NA</td><td  align="left">NA</td></tr> 
+<tr> <td  align="left">ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[12]</td><td  align="left">1.0 MHz</td><td  align="left">NA</td><td  align="left">NA</td></tr> 
+<tr> <td  align="left">ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[17]</td><td  align="left">1.0 MHz</td><td  align="left">NA</td><td  align="left">NA</td></tr> 
+<tr> <td  align="left">ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[18]</td><td  align="left">1.0 MHz</td><td  align="left">NA</td><td  align="left">NA</td></tr> 
+<tr> <td  align="left">ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[19]</td><td  align="left">1.0 MHz</td><td  align="left">NA</td><td  align="left">NA</td></tr> 
+<tr> <td  align="left">ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[20]</td><td  align="left">1.0 MHz</td><td  align="left">NA</td><td  align="left">NA</td></tr> 
+<tr> <td  align="left">ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[21]</td><td  align="left">1.0 MHz</td><td  align="left">NA</td><td  align="left">NA</td></tr> 
+<tr> <td  align="left">ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[22]</td><td  align="left">1.0 MHz</td><td  align="left">NA</td><td  align="left">NA</td></tr> 
+<tr> <td  align="left">ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[23]</td><td  align="left">1.0 MHz</td><td  align="left">NA</td><td  align="left">NA</td></tr> 
+<tr> <td  align="left">ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[24]</td><td  align="left">1.0 MHz</td><td  align="left">NA</td><td  align="left">NA</td></tr> 
+<tr> <td  align="left">ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[25]</td><td  align="left">1.0 MHz</td><td  align="left">NA</td><td  align="left">NA</td></tr> 
+<tr> <td  align="left">ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[27]</td><td  align="left">1.0 MHz</td><td  align="left">NA</td><td  align="left">NA</td></tr> 
+<tr> <td  align="left">ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[28]</td><td  align="left">1.0 MHz</td><td  align="left">NA</td><td  align="left">NA</td></tr> 
+<tr> <td  align="left">ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[29]</td><td  align="left">1.0 MHz</td><td  align="left">NA</td><td  align="left">NA</td></tr> 
+<tr> <td  align="left">ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[31]</td><td  align="left">1.0 MHz</td><td  align="left">NA</td><td  align="left">NA</td></tr> 
+<tr> <td  align="left">ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[32]</td><td  align="left">1.0 MHz</td><td  align="left">NA</td><td  align="left">NA</td></tr> 
+<tr> <td  align="left">ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[33]</td><td  align="left">1.0 MHz</td><td  align="left">NA</td><td  align="left">NA</td></tr> 
+<tr> <td  align="left">ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[34]</td><td  align="left">1.0 MHz</td><td  align="left">NA</td><td  align="left">NA</td></tr> 
+<tr> <td  align="left">ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[35]</td><td  align="left">1.0 MHz</td><td  align="left">NA</td><td  align="left">NA</td></tr> 
+<tr> <td  align="left">ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[36]</td><td  align="left">1.0 MHz</td><td  align="left">NA</td><td  align="left">NA</td></tr> 
+<tr> <td  align="left">ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[37]</td><td  align="left">1.0 MHz</td><td  align="left">NA</td><td  align="left">NA</td></tr> 
+<tr> <td  align="left">ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[40]</td><td  align="left">1.0 MHz</td><td  align="left">NA</td><td  align="left">NA</td></tr> 
+<tr> <td  align="left">ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[41]</td><td  align="left">1.0 MHz</td><td  align="left">NA</td><td  align="left">NA</td></tr> 
+<tr> <td  align="left">ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[42]</td><td  align="left">1.0 MHz</td><td  align="left">NA</td><td  align="left">NA</td></tr> 
+<tr> <td  align="left">ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[43]</td><td  align="left">1.0 MHz</td><td  align="left">NA</td><td  align="left">NA</td></tr> 
+<tr> <td  align="left">ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[44]</td><td  align="left">1.0 MHz</td><td  align="left">NA</td><td  align="left">NA</td></tr> 
+<tr> <td  align="left">ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[45]</td><td  align="left">1.0 MHz</td><td  align="left">NA</td><td  align="left">NA</td></tr> 
+<tr> <td  align="left">ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[46]</td><td  align="left">1.0 MHz</td><td  align="left">NA</td><td  align="left">NA</td></tr> 
+<tr> <td  align="left">ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[47]</td><td  align="left">1.0 MHz</td><td  align="left">NA</td><td  align="left">NA</td></tr> 
+<tr> <td  align="left">ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[48]</td><td  align="left">1.0 MHz</td><td  align="left">NA</td><td  align="left">NA</td></tr> 
+<tr> <td  align="left">ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[49]</td><td  align="left">1.0 MHz</td><td  align="left">NA</td><td  align="left">NA</td></tr> 
+<tr> <td  align="left">ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[51]</td><td  align="left">1.0 MHz</td><td  align="left">NA</td><td  align="left">NA</td></tr> 
+<tr> <td  align="left">ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[52]</td><td  align="left">1.0 MHz</td><td  align="left">NA</td><td  align="left">NA</td></tr> 
+<tr> <td  align="left">ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[55]</td><td  align="left">1.0 MHz</td><td  align="left">NA</td><td  align="left">NA</td></tr> 
+<tr> <td  align="left">ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[56]</td><td  align="left">1.0 MHz</td><td  align="left">NA</td><td  align="left">NA</td></tr> 
+<tr> <td  align="left">ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[57]</td><td  align="left">1.0 MHz</td><td  align="left">NA</td><td  align="left">NA</td></tr> 
+<tr> <td  align="left">ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[58]</td><td  align="left">1.0 MHz</td><td  align="left">NA</td><td  align="left">NA</td></tr> 
+<tr> <td  align="left">ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[59]</td><td  align="left">1.0 MHz</td><td  align="left">NA</td><td  align="left">NA</td></tr> 
+<tr> <td  align="left">ipsl_phy_io_Z8|buffer_dqs_clk_regional_inferred_clock[0]</td><td  align="left">1.0 MHz</td><td  align="left">NA</td><td  align="left">NA</td></tr> 
+<tr> <td  align="left">ipsl_phy_io_Z8|buffer_dqs_clk_regional_inferred_clock[1]</td><td  align="left">1.0 MHz</td><td  align="left">NA</td><td  align="left">NA</td></tr> 
+<tr> <td  align="left">ipsl_phy_io_Z8|buffer_dqs_clk_regional_inferred_clock[2]</td><td  align="left">1.0 MHz</td><td  align="left">NA</td><td  align="left">NA</td></tr> 
+<tr> <td  align="left">ipsl_phy_io_Z8|buffer_dqs_clk_regional_inferred_clock[3]</td><td  align="left">1.0 MHz</td><td  align="left">NA</td><td  align="left">NA</td></tr> 
+<tr> <td  align="left">ipsl_phy_io_Z8|buffer_dqs_clk_regional_inferred_clock[4]</td><td  align="left">1.0 MHz</td><td  align="left">NA</td><td  align="left">NA</td></tr> 
+<tr> <td  align="left">ipsl_phy_io_Z8|dqs0_clk_r_inferred_clock</td><td  align="left">1.0 MHz</td><td  align="left">NA</td><td  align="left">NA</td></tr> 
+<tr> <td  align="left">ipsl_phy_io_Z8|dqs1_clk_r_inferred_clock</td><td  align="left">1.0 MHz</td><td  align="left">NA</td><td  align="left">NA</td></tr> 
+<tr> <td  align="left">ipsl_phy_io_Z8|dqs_90_0_inferred_clock</td><td  align="left">1.0 MHz</td><td  align="left">NA</td><td  align="left">NA</td></tr> 
+<tr> <td  align="left">ipsl_phy_io_Z8|dqs_90_1_inferred_clock</td><td  align="left">1.0 MHz</td><td  align="left">NA</td><td  align="left">NA</td></tr> 
+<tr> <td  align="left">ipsl_phy_io_Z8|dqs_ca_clk_r_01_inferred_clock</td><td  align="left">1.0 MHz</td><td  align="left">NA</td><td  align="left">NA</td></tr> 
+<tr> <td  align="left">ipsl_phy_io_Z8|dqs_ca_clk_r_03_inferred_clock</td><td  align="left">1.0 MHz</td><td  align="left">NA</td><td  align="left">NA</td></tr> 
+<tr> <td  align="left">ipsl_phy_io_Z8|dqs_ca_clk_r_04_inferred_clock</td><td  align="left">1.0 MHz</td><td  align="left">NA</td><td  align="left">NA</td></tr> 
+<tr> <td  align="left">ipsl_phy_io_Z8|dqs_clkw290_0_inferred_clock</td><td  align="left">1.0 MHz</td><td  align="left">NA</td><td  align="left">NA</td></tr> 
+<tr> <td  align="left">ipsl_phy_io_Z8|dqs_clkw290_1_inferred_clock</td><td  align="left">1.0 MHz</td><td  align="left">NA</td><td  align="left">NA</td></tr> 
+<tr> <td  align="left">ipsl_phy_io_Z8|dqs_clkw_0_inferred_clock</td><td  align="left">1.0 MHz</td><td  align="left">NA</td><td  align="left">NA</td></tr> 
+<tr> <td  align="left">ipsl_phy_io_Z8|dqs_clkw_1_inferred_clock</td><td  align="left">1.0 MHz</td><td  align="left">NA</td><td  align="left">NA</td></tr> 
+<tr> <td  align="left">ipsl_phy_io_Z8|dqs_clkw_ca_01_inferred_clock</td><td  align="left">1.0 MHz</td><td  align="left">NA</td><td  align="left">NA</td></tr> 
+<tr> <td  align="left">ipsl_phy_io_Z8|dqs_clkw_ca_03_inferred_clock</td><td  align="left">1.0 MHz</td><td  align="left">NA</td><td  align="left">NA</td></tr> 
+<tr> <td  align="left">ipsl_phy_io_Z8|dqs_clkw_ca_04_inferred_clock</td><td  align="left">1.0 MHz</td><td  align="left">NA</td><td  align="left">NA</td></tr> 
+<tr> <td  align="left">ipsl_phy_io_Z8|ioclk_01_inferred_clock</td><td  align="left">1.0 MHz</td><td  align="left">1008.1 MHz</td><td  align="left">999.008</td></tr> 
+<tr> <td  align="left">ipsl_phy_io_Z8|ioclk_02_inferred_clock</td><td  align="left">1.0 MHz</td><td  align="left">NA</td><td  align="left">NA</td></tr> 
+<tr> <td  align="left">pll_50_400|clkout1_inferred_clock</td><td  align="left">1.0 MHz</td><td  align="left">120.6 MHz</td><td  align="left">991.706</td></tr> 
+<tr> <td  align="left">pll_50_400|clkout3_inferred_clock</td><td  align="left">1.0 MHz</td><td  align="left">150.7 MHz</td><td  align="left">993.364</td></tr> 
+<tr> <td  align="left">sys_clk</td><td  align="left">50.0 MHz</td><td  align="left">197.4 MHz</td><td  align="left">14.934</td></tr> 
+<tr> <td  align="left">video_pll|clkout0_inferred_clock</td><td  align="left">1.0 MHz</td><td  align="left">179.2 MHz</td><td  align="left">994.419</td></tr> 
+<tr> <td  align="left">video_pll|clkout1_inferred_clock</td><td  align="left">1.0 MHz</td><td  align="left">734.4 MHz</td><td  align="left">998.638</td></tr> 
+<tr> <td  align="left">System</td><td  align="left">1.0 MHz</td><td  align="left">780.5 MHz</td><td  align="left">998.719</td></tr> 
+</tbody> 
+ </table>
+<br>
+ <table width="100%" border="1" cellspacing= "0" cellpadding= "0" >
+ 				   <thead class="tablehead"><tr><th   colspan="4">Optimizations Summary</th></tr></thead>
+ <tbody> <tr> 
+<td title ="Non-gated/non-generated clock trees / Gated/generated clock trees" class="optionTitle" align="left">Combined Clock Conversion</td> <td>1 / 75</td>
+<td class="optionTitle"></td><td></td></tr> 
+</tbody>
+    </table><br>
+<br> 
+</td></tr></table></body> 
+ </html>

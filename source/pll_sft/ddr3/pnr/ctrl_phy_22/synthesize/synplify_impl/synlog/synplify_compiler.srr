@@ -1,0 +1,1489 @@
+
+Copyright (C) 1994-2019 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: P-2019.03P-Beta2
+Install: C:\pango\PDS_2019.1-patch2\syn
+OS: Windows 6.1
+
+Hostname: ALINX000007-PC
+
+Implementation : synplify_impl
+Synopsys HDL Compiler, Version comp2019q1p1, Build 007R, Built Feb 26 2019 11:45:06
+
+@N|Running in 64-bit mode
+###########################################################[
+
+Copyright (C) 1994-2019 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: P-2019.03P-Beta2
+Install: C:\pango\PDS_2019.1-patch2\syn
+OS: Windows 6.1
+
+Hostname: ALINX000007-PC
+
+Implementation : synplify_impl
+Synopsys Verilog Compiler, Version comp2019q1p1, Build 007R, Built Feb 26 2019 11:45:06
+
+@N|Running in 64-bit mode
+@I::"C:\pango\PDS_2019.1-patch2\syn\lib\generic\logos.v" (library work)
+@I::"C:\pango\PDS_2019.1-patch2\syn\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"C:\pango\PDS_2019.1-patch2\syn\lib\vlog\umr_capim.v" (library snps_haps)
+@I::"C:\pango\PDS_2019.1-patch2\syn\lib\vlog\scemi_objects.v" (library snps_haps)
+@I::"C:\pango\PDS_2019.1-patch2\syn\lib\vlog\scemi_pipes.svh" (library snps_haps)
+@I::"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\pll\pll_50_400.v" (library work)
+@I::"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\ipsl_ddrc_apb_reset.v" (library work)
+@I::"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\ipsl_ddrc_reset_ctrl.v" (library work)
+@I::"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\ipsl_ddrphy_dll_update_ctrl.v" (library work)
+@I::"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\ipsl_ddrphy_reset_ctrl.v" (library work)
+@I::"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\ipsl_ddrphy_training_ctrl.v" (library work)
+@I::"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\ipsl_ddrphy_update_ctrl.v" (library work)
+@I::"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\ipsl_hmemc_ddrc_top.v" (library work)
+@I::"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\ipsl_hmemc_phy_top.v" (library work)
+@I::"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\ipsl_phy_io.v" (library work)
+@I::"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\ddr3.v" (library work)
+@I::"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\example_design\rtl\ipsl_hmemc_top_test.v" (library work)
+@I::"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\dvi_tx\dvi_encoder.v" (library work)
+@I::"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\dvi_tx\encode.v" (library work)
+@W: CS141 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\dvi_tx\encode.v":7:9:7:12|Unrecognized synthesis directive name. Verify the correct directive name.
+@I::"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\dvi_tx\serdes_4b_10to1.v" (library work)
+@I::"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\sd_card\sd_card_cmd.v" (library work)
+@I::"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\sd_card\sd_card_sec_read_write.v" (library work)
+@I::"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\sd_card\sd_card_top.v" (library work)
+@I::"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\sd_card\spi_master.v" (library work)
+@I::"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\aq_axi_master.v" (library work)
+@I::"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\ax_debounce.v" (library work)
+@I::"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\bmp_read.v" (library work)
+@W: CS141 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\bmp_read.v":111:9:111:14|Unrecognized synthesis directive header. Verify the correct directive name.
+@W: CS141 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\bmp_read.v":116:15:116:20|Unrecognized synthesis directive length. Verify the correct directive name.
+@I::"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\color_bar.v" (library work)
+@I:"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\color_bar.v":"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\video_define.v" (library work)
+@I::"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\frame_fifo_read.v" (library work)
+@I::"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\frame_fifo_write.v" (library work)
+@I::"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\frame_read_write.v" (library work)
+@I::"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\sd_card_bmp.v" (library work)
+@I::"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\video_timing_data.v" (library work)
+@I::"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_64i_32o_128\rtl\ipml_fifo_v1_3_afifo_64i_32o_128.v" (library work)
+@I::"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_32i_64o_256\rtl\ipml_fifo_v1_3_afifo_32i_64o_256.v" (library work)
+@I::"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_64i_32o_128\afifo_64i_32o_128.v" (library work)
+@I::"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_32i_64o_256\afifo_32i_64o_256.v" (library work)
+@I::"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\video_pll\video_pll.v" (library work)
+@I::"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_64i_32o_128\rtl\ipml_fifo_ctrl_v1_3.v" (library work)
+@I::"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_64i_32o_128\rtl\ipml_sdpram_v1_3_afifo_64i_32o_128.v" (library work)
+@W: CS141 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_64i_32o_128\rtl\ipml_sdpram_v1_3_afifo_64i_32o_128.v":289:249:289:257|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_64i_32o_128\rtl\ipml_sdpram_v1_3_afifo_64i_32o_128.v":295:162:295:170|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_64i_32o_128\rtl\ipml_sdpram_v1_3_afifo_64i_32o_128.v":301:162:301:170|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_64i_32o_128\rtl\ipml_sdpram_v1_3_afifo_64i_32o_128.v":307:132:307:140|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_64i_32o_128\rtl\ipml_sdpram_v1_3_afifo_64i_32o_128.v":311:134:311:142|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_64i_32o_128\rtl\ipml_sdpram_v1_3_afifo_64i_32o_128.v":315:132:315:140|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_64i_32o_128\rtl\ipml_sdpram_v1_3_afifo_64i_32o_128.v":319:134:319:142|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_64i_32o_128\rtl\ipml_sdpram_v1_3_afifo_64i_32o_128.v":323:134:323:142|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_64i_32o_128\rtl\ipml_sdpram_v1_3_afifo_64i_32o_128.v":327:126:327:134|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_64i_32o_128\rtl\ipml_sdpram_v1_3_afifo_64i_32o_128.v":331:133:331:141|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_64i_32o_128\rtl\ipml_sdpram_v1_3_afifo_64i_32o_128.v":335:125:335:133|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_64i_32o_128\rtl\ipml_sdpram_v1_3_afifo_64i_32o_128.v":339:143:339:151|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_64i_32o_128\rtl\ipml_sdpram_v1_3_afifo_64i_32o_128.v":343:151:343:159|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_64i_32o_128\rtl\ipml_sdpram_v1_3_afifo_64i_32o_128.v":347:140:347:148|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_64i_32o_128\rtl\ipml_sdpram_v1_3_afifo_64i_32o_128.v":351:156:351:164|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_64i_32o_128\rtl\ipml_sdpram_v1_3_afifo_64i_32o_128.v":355:154:355:162|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_64i_32o_128\rtl\ipml_sdpram_v1_3_afifo_64i_32o_128.v":359:155:359:163|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_64i_32o_128\rtl\ipml_sdpram_v1_3_afifo_64i_32o_128.v":363:125:363:133|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_64i_32o_128\rtl\ipml_sdpram_v1_3_afifo_64i_32o_128.v":367:126:367:134|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_64i_32o_128\rtl\ipml_sdpram_v1_3_afifo_64i_32o_128.v":372:132:372:140|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_64i_32o_128\rtl\ipml_sdpram_v1_3_afifo_64i_32o_128.v":376:136:376:144|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_64i_32o_128\rtl\ipml_sdpram_v1_3_afifo_64i_32o_128.v":381:132:381:140|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_64i_32o_128\rtl\ipml_sdpram_v1_3_afifo_64i_32o_128.v":385:148:385:156|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_64i_32o_128\rtl\ipml_sdpram_v1_3_afifo_64i_32o_128.v":389:146:389:154|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_64i_32o_128\rtl\ipml_sdpram_v1_3_afifo_64i_32o_128.v":393:150:393:158|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_64i_32o_128\rtl\ipml_sdpram_v1_3_afifo_64i_32o_128.v":397:138:397:146|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@N: CG347 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_64i_32o_128\rtl\ipml_sdpram_v1_3_afifo_64i_32o_128.v":656:40:656:52|Read a parallel_case directive.
+@I::"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_32i_64o_256\rtl\ipml_sdpram_v1_3_afifo_32i_64o_256.v" (library work)
+@W: CS141 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_32i_64o_256\rtl\ipml_sdpram_v1_3_afifo_32i_64o_256.v":289:249:289:257|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_32i_64o_256\rtl\ipml_sdpram_v1_3_afifo_32i_64o_256.v":295:162:295:170|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_32i_64o_256\rtl\ipml_sdpram_v1_3_afifo_32i_64o_256.v":301:162:301:170|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_32i_64o_256\rtl\ipml_sdpram_v1_3_afifo_32i_64o_256.v":307:132:307:140|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_32i_64o_256\rtl\ipml_sdpram_v1_3_afifo_32i_64o_256.v":311:134:311:142|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_32i_64o_256\rtl\ipml_sdpram_v1_3_afifo_32i_64o_256.v":315:132:315:140|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_32i_64o_256\rtl\ipml_sdpram_v1_3_afifo_32i_64o_256.v":319:134:319:142|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_32i_64o_256\rtl\ipml_sdpram_v1_3_afifo_32i_64o_256.v":323:134:323:142|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_32i_64o_256\rtl\ipml_sdpram_v1_3_afifo_32i_64o_256.v":327:126:327:134|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_32i_64o_256\rtl\ipml_sdpram_v1_3_afifo_32i_64o_256.v":331:133:331:141|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_32i_64o_256\rtl\ipml_sdpram_v1_3_afifo_32i_64o_256.v":335:125:335:133|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_32i_64o_256\rtl\ipml_sdpram_v1_3_afifo_32i_64o_256.v":339:143:339:151|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_32i_64o_256\rtl\ipml_sdpram_v1_3_afifo_32i_64o_256.v":343:151:343:159|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_32i_64o_256\rtl\ipml_sdpram_v1_3_afifo_32i_64o_256.v":347:140:347:148|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_32i_64o_256\rtl\ipml_sdpram_v1_3_afifo_32i_64o_256.v":351:156:351:164|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_32i_64o_256\rtl\ipml_sdpram_v1_3_afifo_32i_64o_256.v":355:154:355:162|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_32i_64o_256\rtl\ipml_sdpram_v1_3_afifo_32i_64o_256.v":359:155:359:163|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_32i_64o_256\rtl\ipml_sdpram_v1_3_afifo_32i_64o_256.v":363:125:363:133|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_32i_64o_256\rtl\ipml_sdpram_v1_3_afifo_32i_64o_256.v":367:126:367:134|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_32i_64o_256\rtl\ipml_sdpram_v1_3_afifo_32i_64o_256.v":372:132:372:140|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_32i_64o_256\rtl\ipml_sdpram_v1_3_afifo_32i_64o_256.v":376:136:376:144|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_32i_64o_256\rtl\ipml_sdpram_v1_3_afifo_32i_64o_256.v":381:132:381:140|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_32i_64o_256\rtl\ipml_sdpram_v1_3_afifo_32i_64o_256.v":385:148:385:156|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_32i_64o_256\rtl\ipml_sdpram_v1_3_afifo_32i_64o_256.v":389:146:389:154|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_32i_64o_256\rtl\ipml_sdpram_v1_3_afifo_32i_64o_256.v":393:150:393:158|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@W: CS141 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_32i_64o_256\rtl\ipml_sdpram_v1_3_afifo_32i_64o_256.v":397:138:397:146|Unrecognized synthesis directive pap_error. Verify the correct directive name.
+@N: CG347 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_32i_64o_256\rtl\ipml_sdpram_v1_3_afifo_32i_64o_256.v":656:40:656:52|Read a parallel_case directive.
+Verilog syntax check successful!
+
+Compiler output is up to date.  No re-compile necessary
+
+Selecting top level module ipsl_hmemc_top_test
+@N: CG364 :"C:\pango\PDS_2019.1-patch2\syn\lib\generic\logos.v":2251:7:2251:16|Synthesizing module GTP_PLL_E1 in library work.
+Running optimization stage 1 on GTP_PLL_E1 .......
+@N: CG364 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\video_pll\video_pll.v":4:7:4:15|Synthesizing module video_pll in library work.
+@W: CG781 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\video_pll\video_pll.v":255:14:255:14|Input DUTYF on instance u_pll_e1 is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\video_pll\video_pll.v":261:15:261:15|Input PHASEF on instance u_pll_e1 is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\video_pll\video_pll.v":267:16:267:16|Input CPHASEF on instance u_pll_e1 is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG360 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\video_pll\video_pll.v":104:9:104:13|Removing wire clkfb, as there is no assignment to it.
+@W: CG360 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\video_pll\video_pll.v":107:9:107:13|Removing wire pfden, as there is no assignment to it.
+@W: CG360 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\video_pll\video_pll.v":108:9:108:20|Removing wire clkout0_gate, as there is no assignment to it.
+@W: CG360 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\video_pll\video_pll.v":109:9:109:25|Removing wire clkout0_2pad_gate, as there is no assignment to it.
+@W: CG360 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\video_pll\video_pll.v":110:9:110:20|Removing wire clkout1_gate, as there is no assignment to it.
+@W: CG360 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\video_pll\video_pll.v":111:9:111:20|Removing wire clkout2_gate, as there is no assignment to it.
+@W: CG360 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\video_pll\video_pll.v":112:9:112:20|Removing wire clkout3_gate, as there is no assignment to it.
+@W: CG360 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\video_pll\video_pll.v":113:9:113:20|Removing wire clkout4_gate, as there is no assignment to it.
+@W: CG360 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\video_pll\video_pll.v":114:9:114:20|Removing wire clkout5_gate, as there is no assignment to it.
+@W: CG360 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\video_pll\video_pll.v":115:15:115:22|Removing wire dyn_idiv, as there is no assignment to it.
+@W: CG360 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\video_pll\video_pll.v":116:15:116:23|Removing wire dyn_odiv0, as there is no assignment to it.
+@W: CG360 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\video_pll\video_pll.v":117:15:117:23|Removing wire dyn_odiv1, as there is no assignment to it.
+@W: CG360 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\video_pll\video_pll.v":118:15:118:23|Removing wire dyn_odiv2, as there is no assignment to it.
+@W: CG360 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\video_pll\video_pll.v":119:15:119:23|Removing wire dyn_odiv3, as there is no assignment to it.
+@W: CG360 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\video_pll\video_pll.v":120:15:120:23|Removing wire dyn_odiv4, as there is no assignment to it.
+@W: CG360 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\video_pll\video_pll.v":121:15:121:22|Removing wire dyn_fdiv, as there is no assignment to it.
+@W: CG360 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\video_pll\video_pll.v":122:15:122:23|Removing wire dyn_duty0, as there is no assignment to it.
+@W: CG360 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\video_pll\video_pll.v":123:15:123:23|Removing wire dyn_duty1, as there is no assignment to it.
+@W: CG360 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\video_pll\video_pll.v":124:15:124:23|Removing wire dyn_duty2, as there is no assignment to it.
+@W: CG360 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\video_pll\video_pll.v":125:15:125:23|Removing wire dyn_duty3, as there is no assignment to it.
+@W: CG360 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\video_pll\video_pll.v":126:15:126:23|Removing wire dyn_duty4, as there is no assignment to it.
+@W: CG360 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\video_pll\video_pll.v":127:16:127:25|Removing wire dyn_phase0, as there is no assignment to it.
+@W: CG360 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\video_pll\video_pll.v":128:16:128:25|Removing wire dyn_phase1, as there is no assignment to it.
+@W: CG360 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\video_pll\video_pll.v":129:16:129:25|Removing wire dyn_phase2, as there is no assignment to it.
+@W: CG360 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\video_pll\video_pll.v":130:16:130:25|Removing wire dyn_phase3, as there is no assignment to it.
+@W: CG360 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\video_pll\video_pll.v":131:16:131:25|Removing wire dyn_phase4, as there is no assignment to it.
+@W: CG360 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\video_pll\video_pll.v":135:15:135:22|Removing wire icp_base, as there is no assignment to it.
+@W: CG360 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\video_pll\video_pll.v":136:15:136:21|Removing wire icp_sel, as there is no assignment to it.
+@W: CG360 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\video_pll\video_pll.v":137:15:137:24|Removing wire lpfres_sel, as there is no assignment to it.
+@W: CG360 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\video_pll\video_pll.v":138:15:138:25|Removing wire cripple_sel, as there is no assignment to it.
+@W: CG360 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\video_pll\video_pll.v":139:15:139:23|Removing wire phase_sel, as there is no assignment to it.
+@W: CG360 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\video_pll\video_pll.v":140:15:140:23|Removing wire phase_dir, as there is no assignment to it.
+@W: CG360 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\video_pll\video_pll.v":141:15:141:26|Removing wire phase_step_n, as there is no assignment to it.
+@W: CG360 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\video_pll\video_pll.v":142:15:142:24|Removing wire load_phase, as there is no assignment to it.
+@W: CG360 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\video_pll\video_pll.v":143:15:143:22|Removing wire dyn_mdiv, as there is no assignment to it.
+Running optimization stage 1 on video_pll .......
+@N: CG364 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\ax_debounce.v":32:8:32:18|Synthesizing module ax_debounce in library work.
+@N: CG179 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\ax_debounce.v":97:22:97:31|Removing redundant assignment.
+Running optimization stage 1 on ax_debounce .......
+@N: CG364 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\bmp_read.v":28:7:28:14|Synthesizing module bmp_read in library work.
+Running optimization stage 1 on bmp_read .......
+@W: CL271 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\bmp_read.v":100:0:100:5|Pruning unused bits 31 to 16 of width_16[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@A: CL282 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\bmp_read.v":100:0:100:5|Feedback mux created for signal width[15:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@W: CL190 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\bmp_read.v":202:0:202:5|Optimizing register bit state_code[2] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\bmp_read.v":202:0:202:5|Optimizing register bit state_code[3] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL279 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\bmp_read.v":202:0:202:5|Pruning register bits 3 to 2 of state_code[3:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@N: CG364 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\sd_card\sd_card_sec_read_write.v":29:7:29:28|Synthesizing module sd_card_sec_read_write in library work.
+
+	SPI_LOW_SPEED_DIV=32'b00000000000000000000000011111000
+	SPI_HIGH_SPEED_DIV=32'b00000000000000000000000000000000
+	S_IDLE=32'b00000000000000000000000000000000
+	S_CMD0=32'b00000000000000000000000000000001
+	S_CMD8=32'b00000000000000000000000000000010
+	S_CMD55=32'b00000000000000000000000000000011
+	S_CMD41=32'b00000000000000000000000000000100
+	S_CMD17=32'b00000000000000000000000000000101
+	S_READ=32'b00000000000000000000000000000110
+	S_CMD24=32'b00000000000000000000000000000111
+	S_WRITE=32'b00000000000000000000000000001000
+	S_ERR=32'b00000000000000000000000000001110
+	S_WRITE_END=32'b00000000000000000000000000001111
+	S_READ_END=32'b00000000000000000000000000010000
+	S_WAIT_READ_WRITE=32'b00000000000000000000000000010001
+	S_CMD16=32'b00000000000000000000000000010010
+   Generated name = sd_card_sec_read_write_Z1
+@W: CG133 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\sd_card\sd_card_sec_read_write.v":65:9:65:17|Object read_data is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\sd_card\sd_card_sec_read_write.v":66:10:66:14|Object timer is declared but not assigned. Either assign a value or remove the declaration.
+Running optimization stage 1 on sd_card_sec_read_write_Z1 .......
+@W: CL190 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\sd_card\sd_card_sec_read_write.v":92:0:92:5|Optimizing register bit cmd[46] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\sd_card\sd_card_sec_read_write.v":92:0:92:5|Optimizing register bit cmd[47] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\sd_card\sd_card_sec_read_write.v":92:0:92:5|Optimizing register bit cmd_data_len[0] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\sd_card\sd_card_sec_read_write.v":92:0:92:5|Optimizing register bit cmd_data_len[1] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\sd_card\sd_card_sec_read_write.v":92:0:92:5|Optimizing register bit cmd_data_len[3] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\sd_card\sd_card_sec_read_write.v":92:0:92:5|Optimizing register bit cmd_data_len[4] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\sd_card\sd_card_sec_read_write.v":92:0:92:5|Optimizing register bit cmd_data_len[5] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\sd_card\sd_card_sec_read_write.v":92:0:92:5|Optimizing register bit cmd_data_len[6] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\sd_card\sd_card_sec_read_write.v":92:0:92:5|Optimizing register bit cmd_data_len[7] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\sd_card\sd_card_sec_read_write.v":92:0:92:5|Optimizing register bit cmd_data_len[8] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\sd_card\sd_card_sec_read_write.v":92:0:92:5|Optimizing register bit cmd_data_len[9] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\sd_card\sd_card_sec_read_write.v":92:0:92:5|Optimizing register bit cmd_data_len[10] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\sd_card\sd_card_sec_read_write.v":92:0:92:5|Optimizing register bit cmd_data_len[11] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\sd_card\sd_card_sec_read_write.v":92:0:92:5|Optimizing register bit cmd_data_len[12] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\sd_card\sd_card_sec_read_write.v":92:0:92:5|Optimizing register bit cmd_data_len[13] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\sd_card\sd_card_sec_read_write.v":92:0:92:5|Optimizing register bit cmd_data_len[14] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\sd_card\sd_card_sec_read_write.v":92:0:92:5|Optimizing register bit cmd_data_len[15] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\sd_card\sd_card_sec_read_write.v":92:0:92:5|Optimizing register bit cmd_r1[1] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\sd_card\sd_card_sec_read_write.v":92:0:92:5|Optimizing register bit cmd_r1[2] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\sd_card\sd_card_sec_read_write.v":92:0:92:5|Optimizing register bit cmd_r1[3] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\sd_card\sd_card_sec_read_write.v":92:0:92:5|Optimizing register bit cmd_r1[4] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\sd_card\sd_card_sec_read_write.v":92:0:92:5|Optimizing register bit cmd_r1[5] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\sd_card\sd_card_sec_read_write.v":92:0:92:5|Optimizing register bit cmd_r1[6] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\sd_card\sd_card_sec_read_write.v":92:0:92:5|Optimizing register bit cmd_r1[7] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL279 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\sd_card\sd_card_sec_read_write.v":92:0:92:5|Pruning register bits 7 to 1 of cmd_r1[7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\sd_card\sd_card_sec_read_write.v":92:0:92:5|Pruning register bits 15 to 3 of cmd_data_len[15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\sd_card\sd_card_sec_read_write.v":92:0:92:5|Pruning register bits 1 to 0 of cmd_data_len[15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\sd_card\sd_card_sec_read_write.v":92:0:92:5|Pruning register bits 47 to 46 of cmd[47:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@N: CG364 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\sd_card\sd_card_cmd.v":32:7:32:17|Synthesizing module sd_card_cmd in library work.
+Running optimization stage 1 on sd_card_cmd .......
+@N: CG364 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\sd_card\spi_master.v":29:7:29:16|Synthesizing module spi_master in library work.
+Running optimization stage 1 on spi_master .......
+@N: CG364 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\sd_card\sd_card_top.v":29:7:29:17|Synthesizing module sd_card_top in library work.
+Running optimization stage 1 on sd_card_top .......
+@N: CG364 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\sd_card_bmp.v":29:7:29:17|Synthesizing module sd_card_bmp in library work.
+@W: CG781 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\sd_card_bmp.v":103:28:103:28|Input sd_sec_write_data on instance sd_card_top_m0 is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+Running optimization stage 1 on sd_card_bmp .......
+@N: CG364 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\dvi_tx\encode.v":46:7:46:12|Synthesizing module encode in library work.
+Running optimization stage 1 on encode .......
+@N: CG364 :"C:\pango\PDS_2019.1-patch2\syn\lib\generic\logos.v":2154:7:2154:17|Synthesizing module GTP_OSERDES in library work.
+Running optimization stage 1 on GTP_OSERDES .......
+@N: CG364 :"C:\pango\PDS_2019.1-patch2\syn\lib\generic\logos.v":2212:7:2212:17|Synthesizing module GTP_OUTBUFT in library work.
+Running optimization stage 1 on GTP_OUTBUFT .......
+@N: CG364 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\dvi_tx\serdes_4b_10to1.v":3:7:3:21|Synthesizing module serdes_4b_10to1 in library work.
+Running optimization stage 1 on serdes_4b_10to1 .......
+@N: CG364 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\dvi_tx\dvi_encoder.v":2:7:2:17|Synthesizing module dvi_encoder in library work.
+Running optimization stage 1 on dvi_encoder .......
+@N: CG364 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\color_bar.v":33:7:33:15|Synthesizing module color_bar in library work.
+@N: CG179 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\color_bar.v":222:14:222:21|Removing redundant assignment.
+@N: CG179 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\color_bar.v":235:11:235:15|Removing redundant assignment.
+@N: CG179 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\color_bar.v":247:12:247:17|Removing redundant assignment.
+@N: CG179 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\color_bar.v":259:14:259:21|Removing redundant assignment.
+@N: CG179 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\color_bar.v":271:12:271:17|Removing redundant assignment.
+@N: CG179 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\color_bar.v":283:14:283:21|Removing redundant assignment.
+@N: CG179 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\color_bar.v":345:17:345:25|Removing redundant assignment.
+@N: CG179 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\color_bar.v":346:17:346:25|Removing redundant assignment.
+@N: CG179 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\color_bar.v":347:17:347:25|Removing redundant assignment.
+@W: CG133 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\color_bar.v":174:10:174:17|Object active_y is declared but not assigned. Either assign a value or remove the declaration.
+Running optimization stage 1 on color_bar .......
+@N: CG364 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\video_timing_data.v":30:7:30:23|Synthesizing module video_timing_data in library work.
+
+	DATA_WIDTH=32'b00000000000000000000000000100000
+   Generated name = video_timing_data_32s
+Running optimization stage 1 on video_timing_data_32s .......
+@A: CL282 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\video_timing_data.v":63:0:63:5|Feedback mux created for signal video_vs_d1. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\video_timing_data.v":63:0:63:5|Feedback mux created for signal video_hs_d1. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\video_timing_data.v":63:0:63:5|Feedback mux created for signal video_de_d1. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@N: CG364 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_32i_64o_256\rtl\ipml_sdpram_v1_3_afifo_32i_64o_256.v":20:7:20:40|Synthesizing module ipml_sdpram_v1_3_afifo_32i_64o_256 in library work.
+
+	c_SIM_DEVICE=48'b010100000100011101001100001100100011001001000111
+	c_WR_ADDR_WIDTH=32'b00000000000000000000000000001001
+	c_WR_DATA_WIDTH=32'b00000000000000000000000000100000
+	c_RD_ADDR_WIDTH=32'b00000000000000000000000000001000
+	c_RD_DATA_WIDTH=32'b00000000000000000000000001000000
+	c_OUTPUT_REG=32'b00000000000000000000000000000000
+	c_RD_OCE_EN=32'b00000000000000000000000000000000
+	c_WR_ADDR_STROBE_EN=32'b00000000000000000000000000000000
+	c_RD_ADDR_STROBE_EN=32'b00000000000000000000000000000000
+	c_WR_CLK_EN=32'b00000000000000000000000000000001
+	c_RD_CLK_EN=32'b00000000000000000000000000000001
+	c_RD_CLK_OR_POL_INV=32'b00000000000000000000000000000000
+	c_RESET_TYPE=192'b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001010011010110010100111001000011010111110101001001000101010100110100010101010100
+	c_POWER_OPT=32'b00000000000000000000000000000000
+	c_INIT_FILE=32'b01001110010011110100111001000101
+	c_INIT_FORMAT=24'b010000100100100101001110
+	c_WR_BYTE_EN=32'b00000000000000000000000000000000
+	c_BE_WIDTH=32'b00000000000000000000000000000100
+	MODE_9K=32'b00000000000000000000000000000000
+	MODE_18K=32'b00000000000000000000000000000001
+	c_WR_BYTE_WIDTH=32'b00000000000000000000000000001000
+	DATA_WIDTH_WIDE=32'b00000000000000000000000001000000
+	ADDR_WIDTH_WIDE=32'b00000000000000000000000000001000
+	DATA_WIDTH_NARROW=32'b00000000000000000000000000100000
+	ADDR_WIDTH_NARROW=32'b00000000000000000000000000001001
+	DATA_WIDTH_W2N=32'b00000000000000000000000000000000
+	N_DATA_1_WIDTH=32'b00000000000000000000000000100000
+	L_DATA_1_WIDTH=32'b00000000000000000000000000100000
+	N_DATA_WIDTH_2_WIDE=32'b00000000000000000000000000100000
+	L_DATA_WIDTH_2_WIDE=32'b00000000000000000000000000100000
+	N_DATA_WIDTH_4_WIDE=32'b00000000000000000000000000100000
+	L_DATA_WIDTH_4_WIDE=32'b00000000000000000000000000100000
+	N_DATA_WIDTH_8_WIDE=32'b00000000000000000000000000100000
+	L_DATA_WIDTH_8_WIDE=32'b00000000000000000000000000100000
+	N_DATA_WIDTH_16_WIDE=32'b00000000000000000000000000100000
+	L_DATA_WIDTH_16_WIDE=32'b00000000000000000000000000100000
+	N_DATA_WIDTH_32_WIDE=32'b00000000000000000000000000100000
+	L_DATA_WIDTH_32_WIDE=32'b00000000000000000000000000100000
+	N_BYTE_DATA_1_WIDTH=32'b00000000000000000000000000100000
+	L_BYTE_DATA_1_WIDTH=32'b00000000000000000000000000100000
+	N_BYTE_DATA_WIDTH_2_WIDE=32'b00000000000000000000000000100000
+	L_BYTE_DATA_WIDTH_2_WIDE=32'b00000000000000000000000000100000
+	N_BYTE_DATA_WIDTH_4_WIDE=32'b00000000000000000000000000100000
+	L_BYTE_DATA_WIDTH_4_WIDE=32'b00000000000000000000000000100000
+	WIDTH_RATIO=32'b00000000000000000000000000000010
+	N_DRM_DATA_WIDTH_A=32'b00000000000000000000000000010000
+	L_DRM_DATA_WIDTH_A=32'b00000000000000000000000000010000
+	N_DRM_DATA_WIDTH_B=32'b00000000000000000000000000100000
+	L_DRM_DATA_WIDTH_B=32'b00000000000000000000000000100000
+	N_BYTE_DATA_WIDTH_A=32'b00000000000000000000000000010000
+	L_BYTE_DATA_WIDTH_A=32'b00000000000000000000000000010000
+	N_BYTE_DATA_WIDTH_B=32'b00000000000000000000000000100000
+	L_BYTE_DATA_WIDTH_B=32'b00000000000000000000000000100000
+	DRM_DATA_WIDTH_A=32'b00000000000000000000000000010000
+	DRM_DATA_WIDTH_B=32'b00000000000000000000000000100000
+	DATA_LOOP_NUM=32'b00000000000000000000000000000010
+	Q_DRM_DATA_WIDTH_B=32'b00000000000000000000000000010000
+	Q_DRM_DATA_WIDTH_A=32'b00000000000000000000000000010000
+	D_DRM_DATA_WIDTH_A=32'b00000000000000000000000000010000
+	D_DRM_DATA_WIDTH_B=32'b00000000000000000000000000010000
+	DRM_ADDR_WIDTH_A=32'b00000000000000000000000000001010
+	DRM_ADDR_WIDTH_B=32'b00000000000000000000000000001001
+	ADDR_WIDTH_A=32'b00000000000000000000000000001010
+	CS_ADDR_WIDTH_A=32'b00000000000000000000000000000000
+	ADDR_WIDTH_B=32'b00000000000000000000000000001001
+	CS_ADDR_WIDTH_B=32'b00000000000000000000000000000000
+	ADDR_LOOP_NUM_A=32'b00000000000000000000000000000001
+	ADDR_LOOP_NUM_B=32'b00000000000000000000000000000001
+	CAS_DATA_WIDTH_A=32'b00000000000000000000000000100000
+	CAS_DATA_WIDTH_B=32'b00000000000000000000000001000000
+	Q_CAS_DATA_WIDTH_A=32'b00000000000000000000000000100000
+	Q_CAS_DATA_WIDTH_B=32'b00000000000000000000000000100000
+	D_CAS_DATA_WIDTH_A=32'b00000000000000000000000000100000
+	D_CAS_DATA_WIDTH_B=32'b00000000000000000000000000100000
+	WR_BYTE_WIDTH_A=32'b00000000000000000000000000001000
+	WR_BYTE_WIDTH_B=32'b00000000000000000000000000001000
+	MASK_NUM_A=32'b00000000000000000000000000000100
+	MASK_NUM_B=32'b00000000000000000000000000000100
+	c_RST_TYPE=144'b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001010011010110010100111001000011
+	CS_ADDR_A_3_LSB=32'b00000000000000000000000000001000
+	CS_ADDR_A_4_LSB=32'b00000000000000000000000000001000
+	MODE_RATIO=32'b00000000000000000000000000000100
+	CS_ADDR_B_3_LSB=32'b00000000000000000000000000000111
+	CS_ADDR_B_4_LSB=32'b00000000000000000000000000000111
+	RD_ADDR_SEL_LSB=32'b00000000000000000000000000001000
+   Generated name = ipml_sdpram_v1_3_afifo_32i_64o_256_Z2
+@W: CG390 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_32i_64o_256\rtl\ipml_sdpram_v1_3_afifo_32i_64o_256.v":450:47:450:81|Repeat multiplier in concatenation evaluates to 0
+@W: CG390 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_32i_64o_256\rtl\ipml_sdpram_v1_3_afifo_32i_64o_256.v":454:55:454:121|Repeat multiplier in concatenation evaluates to 0
+@W: CG390 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_32i_64o_256\rtl\ipml_sdpram_v1_3_afifo_32i_64o_256.v":454:55:454:121|Repeat multiplier in concatenation evaluates to 0
+@W: CG532 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_32i_64o_256\rtl\ipml_sdpram_v1_3_afifo_32i_64o_256.v":287:0:287:6|Within an initial block, only Verilog force statements and memory $readmemh/$readmemb initialization statements are recognized, and all other content is ignored.
+@N: CG364 :"C:\pango\PDS_2019.1-patch2\syn\lib\generic\logos.v":1409:7:1409:16|Synthesizing module GTP_DRM18K in library work.
+Running optimization stage 1 on GTP_DRM18K .......
+@W: CG133 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_32i_64o_256\rtl\ipml_sdpram_v1_3_afifo_32i_64o_256.v":552:18:552:25|Object gen_j_wd is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_32i_64o_256\rtl\ipml_sdpram_v1_3_afifo_32i_64o_256.v":1064:8:1064:12|Object cs_rd is declared but not assigned. Either assign a value or remove the declaration.
+Running optimization stage 1 on ipml_sdpram_v1_3_afifo_32i_64o_256_Z2 .......
+@W: CL169 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_32i_64o_256\rtl\ipml_sdpram_v1_3_afifo_32i_64o_256.v":1053:0:1053:5|Pruning unused register addr_bus_rd_invt[0:1]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_32i_64o_256\rtl\ipml_sdpram_v1_3_afifo_32i_64o_256.v":1044:0:1044:5|Pruning unused register addr_bus_rd_oce[0:1]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_32i_64o_256\rtl\ipml_sdpram_v1_3_afifo_32i_64o_256.v":1035:0:1035:5|Pruning unused register addr_bus_rd_ce[0:1]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_32i_64o_256\rtl\ipml_sdpram_v1_3_afifo_32i_64o_256.v":639:0:639:5|Pruning unused register rd_addr_bsel_rd_invt[3:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_32i_64o_256\rtl\ipml_sdpram_v1_3_afifo_32i_64o_256.v":625:0:625:5|Pruning unused register rd_addr_bsel_rd_oce[3:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_32i_64o_256\rtl\ipml_sdpram_v1_3_afifo_32i_64o_256.v":604:0:604:5|Pruning unused register rd_addr_bsel_rd_ce[3:0]. Make sure that there are no unused intermediate registers.
+@N: CG364 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_64i_32o_128\rtl\ipml_fifo_ctrl_v1_3.v":21:7:21:25|Synthesizing module ipml_fifo_ctrl_v1_3 in library work.
+
+	c_WR_DEPTH_WIDTH=32'b00000000000000000000000000001001
+	c_RD_DEPTH_WIDTH=32'b00000000000000000000000000001000
+	c_FIFO_TYPE=32'b01000001010100110101100101001110
+	c_ALMOST_FULL_NUM=32'b00000000000000000000000111111100
+	c_ALMOST_EMPTY_NUM=32'b00000000000000000000000000000100
+   Generated name = ipml_fifo_ctrl_v1_3_9s_8s_ASYN_508s_4s
+@W: CG133 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_64i_32o_128\rtl\ipml_fifo_ctrl_v1_3.v":73:28:73:43|Object asyn_almost_full is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_64i_32o_128\rtl\ipml_fifo_ctrl_v1_3.v":75:28:75:44|Object asyn_almost_empty is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_64i_32o_128\rtl\ipml_fifo_ctrl_v1_3.v":76:28:76:36|Object syn_wfull is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_64i_32o_128\rtl\ipml_fifo_ctrl_v1_3.v":77:28:77:42|Object syn_almost_full is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_64i_32o_128\rtl\ipml_fifo_ctrl_v1_3.v":78:28:78:37|Object syn_rempty is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_64i_32o_128\rtl\ipml_fifo_ctrl_v1_3.v":79:28:79:43|Object syn_almost_empty is declared but not assigned. Either assign a value or remove the declaration.
+Running optimization stage 1 on ipml_fifo_ctrl_v1_3_9s_8s_ASYN_508s_4s .......
+@W: CL169 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_64i_32o_128\rtl\ipml_fifo_ctrl_v1_3.v":154:8:154:13|Pruning unused register ASYN_CTRL.raddr_msb. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_64i_32o_128\rtl\ipml_fifo_ctrl_v1_3.v":106:8:106:13|Pruning unused register ASYN_CTRL.waddr_msb. Make sure that there are no unused intermediate registers.
+@W: CL265 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_64i_32o_128\rtl\ipml_fifo_ctrl_v1_3.v":171:8:171:13|Removing unused bit 0 of ASYN_CTRL.rwptr1[9:0]. Either assign all bits or reduce the width of the signal.
+@W: CL265 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_64i_32o_128\rtl\ipml_fifo_ctrl_v1_3.v":171:8:171:13|Removing unused bit 0 of ASYN_CTRL.rwptr2[9:0]. Either assign all bits or reduce the width of the signal.
+@W: CL265 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_64i_32o_128\rtl\ipml_fifo_ctrl_v1_3.v":106:8:106:13|Removing unused bit 0 of ASYN_CTRL.wptr[9:0]. Either assign all bits or reduce the width of the signal.
+@N: CG364 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_32i_64o_256\rtl\ipml_fifo_v1_3_afifo_32i_64o_256.v":25:7:25:38|Synthesizing module ipml_fifo_v1_3_afifo_32i_64o_256 in library work.
+
+	c_SIM_DEVICE=48'b010100000100011101001100001100100011001001000111
+	c_WR_DEPTH_WIDTH=32'b00000000000000000000000000001001
+	c_WR_DATA_WIDTH=32'b00000000000000000000000000100000
+	c_RD_DEPTH_WIDTH=32'b00000000000000000000000000001000
+	c_RD_DATA_WIDTH=32'b00000000000000000000000001000000
+	c_OUTPUT_REG=32'b00000000000000000000000000000000
+	c_RD_OCE_EN=32'b00000000000000000000000000000000
+	c_RESET_TYPE=192'b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001010011010110010100111001000011010111110101001001000101010100110100010101010100
+	c_POWER_OPT=32'b00000000000000000000000000000000
+	c_RD_CLK_OR_POL_INV=32'b00000000000000000000000000000000
+	c_WR_BYTE_EN=32'b00000000000000000000000000000000
+	c_BE_WIDTH=32'b00000000000000000000000000000100
+	c_FIFO_TYPE=32'b01000001010100110101100101001110
+	c_ALMOST_FULL_NUM=32'b00000000000000000000000111111100
+	c_ALMOST_EMPTY_NUM=32'b00000000000000000000000000000100
+   Generated name = ipml_fifo_v1_3_afifo_32i_64o_256_Z3
+Running optimization stage 1 on ipml_fifo_v1_3_afifo_32i_64o_256_Z3 .......
+@N: CG364 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_32i_64o_256\afifo_32i_64o_256.v":18:7:18:23|Synthesizing module afifo_32i_64o_256 in library work.
+@W: CG390 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_32i_64o_256\afifo_32i_64o_256.v":142:81:142:115|Repeat multiplier in concatenation evaluates to 0
+@W: CG360 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_32i_64o_256\afifo_32i_64o_256.v":120:46:120:55|Removing wire wr_byte_en, as there is no assignment to it.
+@W: CG360 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_32i_64o_256\afifo_32i_64o_256.v":128:46:128:51|Removing wire rd_oce, as there is no assignment to it.
+Running optimization stage 1 on afifo_32i_64o_256 .......
+@N: CG364 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\frame_fifo_write.v":31:7:31:22|Synthesizing module frame_fifo_write in library work.
+
+	MEM_DATA_BITS=32'b00000000000000000000000001000000
+	ADDR_BITS=32'b00000000000000000000000000011001
+	BUSRT_BITS=32'b00000000000000000000000000001010
+	BURST_SIZE=32'b00000000000000000000000001000000
+	ONE=256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001
+	ZERO=256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+	S_IDLE=32'b00000000000000000000000000000000
+	S_ACK=32'b00000000000000000000000000000001
+	S_CHECK_FIFO=32'b00000000000000000000000000000010
+	S_WRITE_BURST=32'b00000000000000000000000000000011
+	S_WRITE_BURST_END=32'b00000000000000000000000000000100
+	S_END=32'b00000000000000000000000000000101
+   Generated name = frame_fifo_write_Z4
+Running optimization stage 1 on frame_fifo_write_Z4 .......
+@W: CL190 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\frame_fifo_write.v":106:0:106:5|Optimizing register bit wr_burst_len[0] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\frame_fifo_write.v":106:0:106:5|Optimizing register bit wr_burst_len[1] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\frame_fifo_write.v":106:0:106:5|Optimizing register bit wr_burst_len[2] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\frame_fifo_write.v":106:0:106:5|Optimizing register bit wr_burst_len[3] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\frame_fifo_write.v":106:0:106:5|Optimizing register bit wr_burst_len[4] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\frame_fifo_write.v":106:0:106:5|Optimizing register bit wr_burst_len[5] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\frame_fifo_write.v":106:0:106:5|Optimizing register bit wr_burst_len[7] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\frame_fifo_write.v":106:0:106:5|Optimizing register bit wr_burst_len[8] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\frame_fifo_write.v":106:0:106:5|Optimizing register bit wr_burst_len[9] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL279 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\frame_fifo_write.v":106:0:106:5|Pruning register bits 9 to 7 of wr_burst_len[9:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\frame_fifo_write.v":106:0:106:5|Pruning register bits 5 to 0 of wr_burst_len[9:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@N: CG364 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_64i_32o_128\rtl\ipml_sdpram_v1_3_afifo_64i_32o_128.v":20:7:20:40|Synthesizing module ipml_sdpram_v1_3_afifo_64i_32o_128 in library work.
+
+	c_SIM_DEVICE=48'b010100000100011101001100001100100011001001000111
+	c_WR_ADDR_WIDTH=32'b00000000000000000000000000001000
+	c_WR_DATA_WIDTH=32'b00000000000000000000000001000000
+	c_RD_ADDR_WIDTH=32'b00000000000000000000000000001001
+	c_RD_DATA_WIDTH=32'b00000000000000000000000000100000
+	c_OUTPUT_REG=32'b00000000000000000000000000000000
+	c_RD_OCE_EN=32'b00000000000000000000000000000000
+	c_WR_ADDR_STROBE_EN=32'b00000000000000000000000000000000
+	c_RD_ADDR_STROBE_EN=32'b00000000000000000000000000000000
+	c_WR_CLK_EN=32'b00000000000000000000000000000001
+	c_RD_CLK_EN=32'b00000000000000000000000000000001
+	c_RD_CLK_OR_POL_INV=32'b00000000000000000000000000000000
+	c_RESET_TYPE=192'b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001010011010110010100111001000011010111110101001001000101010100110100010101010100
+	c_POWER_OPT=32'b00000000000000000000000000000000
+	c_INIT_FILE=32'b01001110010011110100111001000101
+	c_INIT_FORMAT=24'b010000100100100101001110
+	c_WR_BYTE_EN=32'b00000000000000000000000000000000
+	c_BE_WIDTH=32'b00000000000000000000000000000100
+	MODE_9K=32'b00000000000000000000000000000000
+	MODE_18K=32'b00000000000000000000000000000001
+	c_WR_BYTE_WIDTH=32'b00000000000000000000000000001000
+	DATA_WIDTH_WIDE=32'b00000000000000000000000001000000
+	ADDR_WIDTH_WIDE=32'b00000000000000000000000000001000
+	DATA_WIDTH_NARROW=32'b00000000000000000000000000100000
+	ADDR_WIDTH_NARROW=32'b00000000000000000000000000001001
+	DATA_WIDTH_W2N=32'b00000000000000000000000000000001
+	N_DATA_1_WIDTH=32'b00000000000000000000000000100000
+	L_DATA_1_WIDTH=32'b00000000000000000000000000100000
+	N_DATA_WIDTH_2_WIDE=32'b00000000000000000000000000100000
+	L_DATA_WIDTH_2_WIDE=32'b00000000000000000000000000100000
+	N_DATA_WIDTH_4_WIDE=32'b00000000000000000000000000100000
+	L_DATA_WIDTH_4_WIDE=32'b00000000000000000000000000100000
+	N_DATA_WIDTH_8_WIDE=32'b00000000000000000000000000100000
+	L_DATA_WIDTH_8_WIDE=32'b00000000000000000000000000100000
+	N_DATA_WIDTH_16_WIDE=32'b00000000000000000000000000100000
+	L_DATA_WIDTH_16_WIDE=32'b00000000000000000000000000100000
+	N_DATA_WIDTH_32_WIDE=32'b00000000000000000000000000100000
+	L_DATA_WIDTH_32_WIDE=32'b00000000000000000000000000100000
+	N_BYTE_DATA_1_WIDTH=32'b00000000000000000000000000100000
+	L_BYTE_DATA_1_WIDTH=32'b00000000000000000000000000100000
+	N_BYTE_DATA_WIDTH_2_WIDE=32'b00000000000000000000000000100000
+	L_BYTE_DATA_WIDTH_2_WIDE=32'b00000000000000000000000000100000
+	N_BYTE_DATA_WIDTH_4_WIDE=32'b00000000000000000000000000100000
+	L_BYTE_DATA_WIDTH_4_WIDE=32'b00000000000000000000000000100000
+	WIDTH_RATIO=32'b00000000000000000000000000000010
+	N_DRM_DATA_WIDTH_A=32'b00000000000000000000000000100000
+	L_DRM_DATA_WIDTH_A=32'b00000000000000000000000000100000
+	N_DRM_DATA_WIDTH_B=32'b00000000000000000000000000010000
+	L_DRM_DATA_WIDTH_B=32'b00000000000000000000000000010000
+	N_BYTE_DATA_WIDTH_A=32'b00000000000000000000000000100000
+	L_BYTE_DATA_WIDTH_A=32'b00000000000000000000000000100000
+	N_BYTE_DATA_WIDTH_B=32'b00000000000000000000000000010000
+	L_BYTE_DATA_WIDTH_B=32'b00000000000000000000000000010000
+	DRM_DATA_WIDTH_A=32'b00000000000000000000000000100000
+	DRM_DATA_WIDTH_B=32'b00000000000000000000000000010000
+	DATA_LOOP_NUM=32'b00000000000000000000000000000010
+	Q_DRM_DATA_WIDTH_B=32'b00000000000000000000000000010000
+	Q_DRM_DATA_WIDTH_A=32'b00000000000000000000000000010000
+	D_DRM_DATA_WIDTH_A=32'b00000000000000000000000000010000
+	D_DRM_DATA_WIDTH_B=32'b00000000000000000000000000010000
+	DRM_ADDR_WIDTH_A=32'b00000000000000000000000000001001
+	DRM_ADDR_WIDTH_B=32'b00000000000000000000000000001010
+	ADDR_WIDTH_A=32'b00000000000000000000000000001001
+	CS_ADDR_WIDTH_A=32'b00000000000000000000000000000000
+	ADDR_WIDTH_B=32'b00000000000000000000000000001010
+	CS_ADDR_WIDTH_B=32'b00000000000000000000000000000000
+	ADDR_LOOP_NUM_A=32'b00000000000000000000000000000001
+	ADDR_LOOP_NUM_B=32'b00000000000000000000000000000001
+	CAS_DATA_WIDTH_A=32'b00000000000000000000000001000000
+	CAS_DATA_WIDTH_B=32'b00000000000000000000000000100000
+	Q_CAS_DATA_WIDTH_A=32'b00000000000000000000000000100000
+	Q_CAS_DATA_WIDTH_B=32'b00000000000000000000000000100000
+	D_CAS_DATA_WIDTH_A=32'b00000000000000000000000000100000
+	D_CAS_DATA_WIDTH_B=32'b00000000000000000000000000100000
+	WR_BYTE_WIDTH_A=32'b00000000000000000000000000001000
+	WR_BYTE_WIDTH_B=32'b00000000000000000000000000001000
+	MASK_NUM_A=32'b00000000000000000000000000000100
+	MASK_NUM_B=32'b00000000000000000000000000001000
+	c_RST_TYPE=144'b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001010011010110010100111001000011
+	CS_ADDR_A_3_LSB=32'b00000000000000000000000000000111
+	CS_ADDR_A_4_LSB=32'b00000000000000000000000000000111
+	MODE_RATIO=32'b00000000000000000000000000000010
+	CS_ADDR_B_3_LSB=32'b00000000000000000000000000001000
+	CS_ADDR_B_4_LSB=32'b00000000000000000000000000001000
+	RD_ADDR_SEL_LSB=32'b00000000000000000000000000001001
+   Generated name = ipml_sdpram_v1_3_afifo_64i_32o_128_Z5
+@W: CG390 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_64i_32o_128\rtl\ipml_sdpram_v1_3_afifo_64i_32o_128.v":450:47:450:81|Repeat multiplier in concatenation evaluates to 0
+@W: CG390 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_64i_32o_128\rtl\ipml_sdpram_v1_3_afifo_64i_32o_128.v":454:55:454:121|Repeat multiplier in concatenation evaluates to 0
+@W: CG390 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_64i_32o_128\rtl\ipml_sdpram_v1_3_afifo_64i_32o_128.v":454:55:454:121|Repeat multiplier in concatenation evaluates to 0
+@W: CG532 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_64i_32o_128\rtl\ipml_sdpram_v1_3_afifo_64i_32o_128.v":287:0:287:6|Within an initial block, only Verilog force statements and memory $readmemh/$readmemb initialization statements are recognized, and all other content is ignored.
+@W: CG133 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_64i_32o_128\rtl\ipml_sdpram_v1_3_afifo_64i_32o_128.v":1064:8:1064:12|Object cs_rd is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_64i_32o_128\rtl\ipml_sdpram_v1_3_afifo_64i_32o_128.v":1078:9:1078:16|Object gen_i_rd is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_64i_32o_128\rtl\ipml_sdpram_v1_3_afifo_64i_32o_128.v":1078:18:1078:25|Object gen_j_rd is declared but not assigned. Either assign a value or remove the declaration.
+Running optimization stage 1 on ipml_sdpram_v1_3_afifo_64i_32o_128_Z5 .......
+@W: CL169 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_64i_32o_128\rtl\ipml_sdpram_v1_3_afifo_64i_32o_128.v":1053:0:1053:5|Pruning unused register addr_bus_rd_invt[0:1]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_64i_32o_128\rtl\ipml_sdpram_v1_3_afifo_64i_32o_128.v":1044:0:1044:5|Pruning unused register addr_bus_rd_oce[0:1]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_64i_32o_128\rtl\ipml_sdpram_v1_3_afifo_64i_32o_128.v":1035:0:1035:5|Pruning unused register addr_bus_rd_ce[0:1]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_64i_32o_128\rtl\ipml_sdpram_v1_3_afifo_64i_32o_128.v":639:0:639:5|Pruning unused register rd_addr_bsel_rd_invt[3:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_64i_32o_128\rtl\ipml_sdpram_v1_3_afifo_64i_32o_128.v":625:0:625:5|Pruning unused register rd_addr_bsel_rd_oce[3:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_64i_32o_128\rtl\ipml_sdpram_v1_3_afifo_64i_32o_128.v":604:0:604:5|Pruning unused register rd_addr_bsel_rd_ce[3:0]. Make sure that there are no unused intermediate registers.
+@N: CG364 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_64i_32o_128\rtl\ipml_fifo_ctrl_v1_3.v":21:7:21:25|Synthesizing module ipml_fifo_ctrl_v1_3 in library work.
+
+	c_WR_DEPTH_WIDTH=32'b00000000000000000000000000001000
+	c_RD_DEPTH_WIDTH=32'b00000000000000000000000000001001
+	c_FIFO_TYPE=32'b01000001010100110101100101001110
+	c_ALMOST_FULL_NUM=32'b00000000000000000000000011111100
+	c_ALMOST_EMPTY_NUM=32'b00000000000000000000000000000100
+   Generated name = ipml_fifo_ctrl_v1_3_8s_9s_ASYN_252s_4s
+@W: CG133 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_64i_32o_128\rtl\ipml_fifo_ctrl_v1_3.v":73:28:73:43|Object asyn_almost_full is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_64i_32o_128\rtl\ipml_fifo_ctrl_v1_3.v":75:28:75:44|Object asyn_almost_empty is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_64i_32o_128\rtl\ipml_fifo_ctrl_v1_3.v":76:28:76:36|Object syn_wfull is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_64i_32o_128\rtl\ipml_fifo_ctrl_v1_3.v":77:28:77:42|Object syn_almost_full is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_64i_32o_128\rtl\ipml_fifo_ctrl_v1_3.v":78:28:78:37|Object syn_rempty is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_64i_32o_128\rtl\ipml_fifo_ctrl_v1_3.v":79:28:79:43|Object syn_almost_empty is declared but not assigned. Either assign a value or remove the declaration.
+Running optimization stage 1 on ipml_fifo_ctrl_v1_3_8s_9s_ASYN_252s_4s .......
+@W: CL169 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_64i_32o_128\rtl\ipml_fifo_ctrl_v1_3.v":154:8:154:13|Pruning unused register ASYN_CTRL.raddr_msb. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_64i_32o_128\rtl\ipml_fifo_ctrl_v1_3.v":106:8:106:13|Pruning unused register ASYN_CTRL.waddr_msb. Make sure that there are no unused intermediate registers.
+@W: CL265 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_64i_32o_128\rtl\ipml_fifo_ctrl_v1_3.v":154:8:154:13|Removing unused bit 0 of ASYN_CTRL.rptr[9:0]. Either assign all bits or reduce the width of the signal.
+@W: CL265 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_64i_32o_128\rtl\ipml_fifo_ctrl_v1_3.v":123:8:123:13|Removing unused bit 0 of ASYN_CTRL.wrptr1[9:0]. Either assign all bits or reduce the width of the signal.
+@W: CL265 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_64i_32o_128\rtl\ipml_fifo_ctrl_v1_3.v":123:8:123:13|Removing unused bit 0 of ASYN_CTRL.wrptr2[9:0]. Either assign all bits or reduce the width of the signal.
+@N: CG364 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_64i_32o_128\rtl\ipml_fifo_v1_3_afifo_64i_32o_128.v":25:7:25:38|Synthesizing module ipml_fifo_v1_3_afifo_64i_32o_128 in library work.
+
+	c_SIM_DEVICE=48'b010100000100011101001100001100100011001001000111
+	c_WR_DEPTH_WIDTH=32'b00000000000000000000000000001000
+	c_WR_DATA_WIDTH=32'b00000000000000000000000001000000
+	c_RD_DEPTH_WIDTH=32'b00000000000000000000000000001001
+	c_RD_DATA_WIDTH=32'b00000000000000000000000000100000
+	c_OUTPUT_REG=32'b00000000000000000000000000000000
+	c_RD_OCE_EN=32'b00000000000000000000000000000000
+	c_RESET_TYPE=192'b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001010011010110010100111001000011010111110101001001000101010100110100010101010100
+	c_POWER_OPT=32'b00000000000000000000000000000000
+	c_RD_CLK_OR_POL_INV=32'b00000000000000000000000000000000
+	c_WR_BYTE_EN=32'b00000000000000000000000000000000
+	c_BE_WIDTH=32'b00000000000000000000000000000100
+	c_FIFO_TYPE=32'b01000001010100110101100101001110
+	c_ALMOST_FULL_NUM=32'b00000000000000000000000011111100
+	c_ALMOST_EMPTY_NUM=32'b00000000000000000000000000000100
+   Generated name = ipml_fifo_v1_3_afifo_64i_32o_128_Z6
+Running optimization stage 1 on ipml_fifo_v1_3_afifo_64i_32o_128_Z6 .......
+@N: CG364 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_64i_32o_128\afifo_64i_32o_128.v":18:7:18:23|Synthesizing module afifo_64i_32o_128 in library work.
+@W: CG390 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_64i_32o_128\afifo_64i_32o_128.v":142:81:142:115|Repeat multiplier in concatenation evaluates to 0
+@W: CG360 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_64i_32o_128\afifo_64i_32o_128.v":120:46:120:55|Removing wire wr_byte_en, as there is no assignment to it.
+@W: CG360 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_64i_32o_128\afifo_64i_32o_128.v":128:46:128:51|Removing wire rd_oce, as there is no assignment to it.
+Running optimization stage 1 on afifo_64i_32o_128 .......
+@N: CG364 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\frame_fifo_read.v":31:7:31:21|Synthesizing module frame_fifo_read in library work.
+
+	MEM_DATA_BITS=32'b00000000000000000000000001000000
+	ADDR_BITS=32'b00000000000000000000000000011001
+	BUSRT_BITS=32'b00000000000000000000000000001010
+	FIFO_DEPTH=32'b00000000000000000000000010000000
+	BURST_SIZE=32'b00000000000000000000000001000000
+	ONE=256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001
+	ZERO=256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+	S_IDLE=32'b00000000000000000000000000000000
+	S_ACK=32'b00000000000000000000000000000001
+	S_CHECK_FIFO=32'b00000000000000000000000000000010
+	S_READ_BURST=32'b00000000000000000000000000000011
+	S_READ_BURST_END=32'b00000000000000000000000000000100
+	S_END=32'b00000000000000000000000000000101
+   Generated name = frame_fifo_read_Z7
+Running optimization stage 1 on frame_fifo_read_Z7 .......
+@W: CL190 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\frame_fifo_read.v":107:0:107:5|Optimizing register bit rd_burst_len[0] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\frame_fifo_read.v":107:0:107:5|Optimizing register bit rd_burst_len[1] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\frame_fifo_read.v":107:0:107:5|Optimizing register bit rd_burst_len[2] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\frame_fifo_read.v":107:0:107:5|Optimizing register bit rd_burst_len[3] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\frame_fifo_read.v":107:0:107:5|Optimizing register bit rd_burst_len[4] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\frame_fifo_read.v":107:0:107:5|Optimizing register bit rd_burst_len[5] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\frame_fifo_read.v":107:0:107:5|Optimizing register bit rd_burst_len[7] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\frame_fifo_read.v":107:0:107:5|Optimizing register bit rd_burst_len[8] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\frame_fifo_read.v":107:0:107:5|Optimizing register bit rd_burst_len[9] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL279 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\frame_fifo_read.v":107:0:107:5|Pruning register bits 9 to 7 of rd_burst_len[9:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\frame_fifo_read.v":107:0:107:5|Pruning register bits 5 to 0 of rd_burst_len[9:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@N: CG364 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\frame_read_write.v":31:7:31:22|Synthesizing module frame_read_write in library work.
+
+	MEM_DATA_BITS=32'b00000000000000000000000001000000
+	READ_DATA_BITS=32'b00000000000000000000000000100000
+	WRITE_DATA_BITS=32'b00000000000000000000000000100000
+	ADDR_BITS=32'b00000000000000000000000000011001
+	BUSRT_BITS=32'b00000000000000000000000000001010
+	BURST_SIZE=32'b00000000000000000000000001000000
+   Generated name = frame_read_write_64s_32s_32s_25s_10s_64s
+Running optimization stage 1 on frame_read_write_64s_32s_32s_25s_10s_64s .......
+@N: CG364 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\pll\pll_50_400.v":5:7:5:16|Synthesizing module pll_50_400 in library work.
+@W: CG781 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\pll\pll_50_400.v":259:14:259:14|Input DUTYF on instance u_pll_e1 is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\pll\pll_50_400.v":265:15:265:15|Input PHASEF on instance u_pll_e1 is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\pll\pll_50_400.v":271:16:271:16|Input CPHASEF on instance u_pll_e1 is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG360 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\pll\pll_50_400.v":120:9:120:13|Removing wire clkfb, as there is no assignment to it.
+@W: CG360 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\pll\pll_50_400.v":123:9:123:13|Removing wire pfden, as there is no assignment to it.
+@W: CG360 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\pll\pll_50_400.v":125:9:125:25|Removing wire clkout0_2pad_gate, as there is no assignment to it.
+@W: CG360 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\pll\pll_50_400.v":126:9:126:20|Removing wire clkout1_gate, as there is no assignment to it.
+@W: CG360 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\pll\pll_50_400.v":127:9:127:20|Removing wire clkout2_gate, as there is no assignment to it.
+@W: CG360 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\pll\pll_50_400.v":128:9:128:20|Removing wire clkout3_gate, as there is no assignment to it.
+@W: CG360 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\pll\pll_50_400.v":129:9:129:20|Removing wire clkout4_gate, as there is no assignment to it.
+@W: CG360 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\pll\pll_50_400.v":130:9:130:20|Removing wire clkout5_gate, as there is no assignment to it.
+@W: CG360 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\pll\pll_50_400.v":131:15:131:22|Removing wire dyn_idiv, as there is no assignment to it.
+@W: CG360 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\pll\pll_50_400.v":132:15:132:23|Removing wire dyn_odiv0, as there is no assignment to it.
+@W: CG360 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\pll\pll_50_400.v":133:15:133:23|Removing wire dyn_odiv1, as there is no assignment to it.
+@W: CG360 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\pll\pll_50_400.v":134:15:134:23|Removing wire dyn_odiv2, as there is no assignment to it.
+@W: CG360 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\pll\pll_50_400.v":135:15:135:23|Removing wire dyn_odiv3, as there is no assignment to it.
+@W: CG360 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\pll\pll_50_400.v":136:15:136:23|Removing wire dyn_odiv4, as there is no assignment to it.
+@W: CG360 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\pll\pll_50_400.v":137:15:137:22|Removing wire dyn_fdiv, as there is no assignment to it.
+@W: CG360 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\pll\pll_50_400.v":138:15:138:23|Removing wire dyn_duty0, as there is no assignment to it.
+@W: CG360 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\pll\pll_50_400.v":139:15:139:23|Removing wire dyn_duty1, as there is no assignment to it.
+@W: CG360 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\pll\pll_50_400.v":140:15:140:23|Removing wire dyn_duty2, as there is no assignment to it.
+@W: CG360 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\pll\pll_50_400.v":141:15:141:23|Removing wire dyn_duty3, as there is no assignment to it.
+@W: CG360 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\pll\pll_50_400.v":142:15:142:23|Removing wire dyn_duty4, as there is no assignment to it.
+@W: CG360 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\pll\pll_50_400.v":143:16:143:25|Removing wire dyn_phase0, as there is no assignment to it.
+@W: CG360 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\pll\pll_50_400.v":144:16:144:25|Removing wire dyn_phase1, as there is no assignment to it.
+@W: CG360 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\pll\pll_50_400.v":145:16:145:25|Removing wire dyn_phase2, as there is no assignment to it.
+@W: CG360 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\pll\pll_50_400.v":146:16:146:25|Removing wire dyn_phase3, as there is no assignment to it.
+@W: CG360 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\pll\pll_50_400.v":147:16:147:25|Removing wire dyn_phase4, as there is no assignment to it.
+Running optimization stage 1 on pll_50_400 .......
+@N: CG364 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\ipsl_ddrphy_reset_ctrl.v":1:7:1:28|Synthesizing module ipsl_ddrphy_reset_ctrl in library work.
+Running optimization stage 1 on ipsl_ddrphy_reset_ctrl .......
+@N: CG364 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\ipsl_ddrphy_training_ctrl.v":1:7:1:31|Synthesizing module ipsl_ddrphy_training_ctrl in library work.
+@N: CG179 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\ipsl_ddrphy_training_ctrl.v":34:37:34:61|Removing redundant assignment.
+Running optimization stage 1 on ipsl_ddrphy_training_ctrl .......
+@N: CG364 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\ipsl_ddrphy_dll_update_ctrl.v":1:7:1:33|Synthesizing module ipsl_ddrphy_dll_update_ctrl in library work.
+Running optimization stage 1 on ipsl_ddrphy_dll_update_ctrl .......
+@N: CG364 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\ipsl_ddrphy_update_ctrl.v":1:7:1:29|Synthesizing module ipsl_ddrphy_update_ctrl in library work.
+
+	DATA_WIDTH=40'b0011000100110110010000100100100101010100
+	DLL_OFFSET=32'b00000000000000000000000000000010
+	IDLE=32'b00000000000000000000000000000000
+	REQ=32'b00000000000000000000000000000001
+	UPDATE=32'b00000000000000000000000000000010
+	WAIT_END=32'b00000000000000000000000000000011
+	DQSH_REQ_EN=1'b1
+   Generated name = ipsl_ddrphy_update_ctrl_16BIT_2s_0s_1s_2s_3s_1
+@W: CG133 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\ipsl_ddrphy_update_ctrl.v":44:4:44:19|Object dqsi_dpi_mon_req is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\ipsl_ddrphy_update_ctrl.v":45:4:45:19|Object dly_loop_mon_req is declared but not assigned. Either assign a value or remove the declaration.
+Running optimization stage 1 on ipsl_ddrphy_update_ctrl_16BIT_2s_0s_1s_2s_3s_1 .......
+@N: CG364 :"C:\pango\PDS_2019.1-patch2\syn\lib\generic\logos.v":1316:7:1316:13|Synthesizing module GTP_DLL in library work.
+Running optimization stage 1 on GTP_DLL .......
+@N: CG364 :"C:\pango\PDS_2019.1-patch2\syn\lib\generic\logos.v":696:7:696:16|Synthesizing module GTP_DDRPHY in library work.
+Running optimization stage 1 on GTP_DDRPHY .......
+@N: CG364 :"C:\pango\PDS_2019.1-patch2\syn\lib\generic\logos.v":1737:7:1737:18|Synthesizing module GTP_IOCLKBUF in library work.
+Running optimization stage 1 on GTP_IOCLKBUF .......
+@N: CG364 :"C:\pango\PDS_2019.1-patch2\syn\lib\generic\logos.v":1766:7:1766:18|Synthesizing module GTP_IOCLKDIV in library work.
+Running optimization stage 1 on GTP_IOCLKDIV .......
+@N: CG364 :"C:\pango\PDS_2019.1-patch2\syn\lib\generic\logos.v":195:7:195:16|Synthesizing module GTP_DDC_E1 in library work.
+Running optimization stage 1 on GTP_DDC_E1 .......
+@N: CG364 :"C:\pango\PDS_2019.1-patch2\syn\lib\generic\logos.v":1779:7:1779:17|Synthesizing module GTP_IODELAY in library work.
+Running optimization stage 1 on GTP_IODELAY .......
+@N: CG364 :"C:\pango\PDS_2019.1-patch2\syn\lib\generic\logos.v":1819:7:1819:17|Synthesizing module GTP_ISERDES in library work.
+Running optimization stage 1 on GTP_ISERDES .......
+@N: CG364 :"C:\pango\PDS_2019.1-patch2\syn\lib\generic\logos.v":1612:7:1612:16|Synthesizing module GTP_INBUFG in library work.
+Running optimization stage 1 on GTP_INBUFG .......
+@N: CG364 :"C:\pango\PDS_2019.1-patch2\syn\lib\generic\logos.v":2175:7:2175:16|Synthesizing module GTP_OUTBUF in library work.
+Running optimization stage 1 on GTP_OUTBUF .......
+@N: CG364 :"C:\pango\PDS_2019.1-patch2\syn\lib\generic\logos.v":1645:7:1645:15|Synthesizing module GTP_IOBUF in library work.
+Running optimization stage 1 on GTP_IOBUF .......
+@N: CG364 :"C:\pango\PDS_2019.1-patch2\syn\lib\generic\logos.v":2226:7:2226:19|Synthesizing module GTP_OUTBUFTCO in library work.
+Running optimization stage 1 on GTP_OUTBUFTCO .......
+@N: CG364 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\ipsl_phy_io.v":27:7:27:17|Synthesizing module ipsl_phy_io in library work.
+
+	DQS_GATE_LOOP=32'b01010100010100100101010101000101
+	R_EXTEND=40'b0100011001000001010011000101001101000101
+	CORE_CLK_SEL=1'b0
+	TEST_PATTERN2=32'b01111111011111110111111101111111
+	TEST_PATTERN3=32'b01010000101111000101000010111100
+	T200US=32'b00000000000000001001110001000000
+	MR0_DDR3=16'b0001010100100000
+	MR1_DDR3=16'b0000000000010100
+	MR2_DDR3=16'b0000000000000000
+	MR3_DDR3=16'b0000000000000000
+	MR_DDR2=16'b0000101101010011
+	EMR1_DDR2=16'b0000000000011100
+	EMR2_DDR2=16'b0000000000000000
+	EMR3_DDR2=16'b0000000000000000
+	MR_LPDDR=16'b0000000000110011
+	EMR_LPDDR=16'b0000000000000000
+	TMRD=32'b00000000000000000000000000000010
+	TMOD=32'b00000000000000000000000000000110
+	TZQINIT=32'b00000000000000000000000100000000
+	TXPR=32'b00000000000000000000000000111110
+	TRP=32'b00000000000000000000000000000011
+	TRFC=32'b00000000000000000000000000111100
+	WL_EN=32'b01010100010100100101010101000101
+	DDR_TYPE=32'b01000100010001000101001000110011
+	DATA_WIDTH=40'b0011000100110110010000100100100101010100
+	DQS_GATE_MODE=2'b01
+	WRDATA_PATH_ADJ=40'b0100011001000001010011000101001101000101
+	CTRL_PATH_ADJ=40'b0100011001000001010011000101001101000101
+	WL_MAX_STEP=8'b11111111
+	WL_MAX_CHECK=5'b11111
+	MAN_WRLVL_DQS_L=40'b0100011001000001010011000101001101000101
+	MAN_WRLVL_DQS_H=40'b0100011001000001010011000101001101000101
+	WL_CTRL_L=3'b001
+	WL_CTRL_H=3'b001
+	INIT_READ_CLK_CTRL=2'b11
+	INIT_READ_CLK_CTRL_H=2'b11
+	INIT_SLIP_STEP=4'b0111
+	INIT_SLIP_STEP_H=4'b0111
+	FORCE_READ_CLK_CTRL_L=40'b0100011001000001010011000101001101000101
+	FORCE_READ_CLK_CTRL_H=40'b0100011001000001010011000101001101000101
+	STOP_WITH_ERROR=40'b0100011001000001010011000101001101000101
+	DQGT_DEBUG=1'b0
+	WRITE_DEBUG=1'b0
+	RDEL_ADJ_MAX_RANG=5'b11111
+	MIN_DQSI_WIN=4'b0110
+	INIT_SAMP_POSITION=8'b00000000
+	INIT_SAMP_POSITION_H=8'b00000000
+	FORCE_SAMP_POSITION_L=40'b0100011001000001010011000101001101000101
+	FORCE_SAMP_POSITION_H=40'b0100011001000001010011000101001101000101
+	RDEL_RD_CNT=19'b0000000000001000000
+	T400NS=32'b00000000000000000000000001010000
+	T_LPDDR=9'b000000000
+	REF_CNT=8'b00110100
+	APB_VLD=40'b0100011001000001010011000101001101000101
+	TEST_PATTERN1=128'b00000000000000001111111111111111000000000000000011111111111111110000000000000000111111111111111100000000000000001111111111111111
+	TRAIN_RST_TYPE=32'b01010100010100100101010101000101
+	TXS=8'b00111110
+	WL_SETTING=1'b0
+	WCLK_DEL_SEL=1'b0
+	INIT_WRLVL_STEP_L=8'b00000000
+	INIT_WRLVL_STEP_H=8'b00000000
+   Generated name = ipsl_phy_io_Z8
+@N: CG364 :"C:\pango\PDS_2019.1-patch2\syn\lib\generic\logos.v":1636:7:1636:13|Synthesizing module GTP_INV in library work.
+Running optimization stage 1 on GTP_INV .......
+@N: CG364 :"C:\pango\PDS_2019.1-patch2\syn\lib\generic\logos.v":1661:7:1661:17|Synthesizing module GTP_IOBUFCO in library work.
+Running optimization stage 1 on GTP_IOBUFCO .......
+@W: CS263 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\ipsl_phy_io.v":1147:42:1147:52|Port-width mismatch for port DQS_DRIFT. The port definition is 2 bits, but the actual port connection bit width is 1. Adjust either the definition or the instantiation of this port.
+@W: CG781 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\ipsl_phy_io.v":1199:41:1199:41|Input DQSI on instance dqs1_dut is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\ipsl_phy_io.v":1200:41:1200:41|Input GATE_IN on instance dqs1_dut is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CS263 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\ipsl_phy_io.v":1224:42:1224:52|Port-width mismatch for port DQS_DRIFT. The port definition is 2 bits, but the actual port connection bit width is 1. Adjust either the definition or the instantiation of this port.
+@W: CG781 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\ipsl_phy_io.v":1276:41:1276:41|Input DQSI on instance dqs3_dut is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\ipsl_phy_io.v":1277:41:1277:41|Input GATE_IN on instance dqs3_dut is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\ipsl_phy_io.v":1313:41:1313:41|Input DQSI on instance dqs4_dut is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\ipsl_phy_io.v":1314:41:1314:41|Input GATE_IN on instance dqs4_dut is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG360 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\ipsl_phy_io.v":100:41:100:47|Removing wire PSLVERR, as there is no assignment to it.
+@W: CG360 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\ipsl_phy_io.v":174:41:174:51|Removing wire DQS_DRIFT_L, as there is no assignment to it.
+@W: CG360 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\ipsl_phy_io.v":175:41:175:51|Removing wire DQS_DRIFT_H, as there is no assignment to it.
+@W: CG360 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\ipsl_phy_io.v":330:28:330:37|Removing wire loop_in_di, as there is no assignment to it.
+@W: CG360 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\ipsl_phy_io.v":331:28:331:37|Removing wire loop_in_do, as there is no assignment to it.
+@W: CG360 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\ipsl_phy_io.v":332:28:332:37|Removing wire loop_in_to, as there is no assignment to it.
+@W: CG360 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\ipsl_phy_io.v":333:28:333:38|Removing wire loop_out_di, as there is no assignment to it.
+@W: CG360 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\ipsl_phy_io.v":334:28:334:38|Removing wire loop_out_do, as there is no assignment to it.
+@W: CG360 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\ipsl_phy_io.v":335:28:335:38|Removing wire loop_out_to, as there is no assignment to it.
+@W: CG360 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\ipsl_phy_io.v":371:28:371:39|Removing wire loop_in_di_h, as there is no assignment to it.
+@W: CG360 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\ipsl_phy_io.v":372:28:372:39|Removing wire loop_in_do_h, as there is no assignment to it.
+@W: CG360 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\ipsl_phy_io.v":373:28:373:39|Removing wire loop_in_to_h, as there is no assignment to it.
+@W: CG360 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\ipsl_phy_io.v":374:28:374:40|Removing wire loop_out_di_h, as there is no assignment to it.
+@W: CG360 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\ipsl_phy_io.v":375:28:375:40|Removing wire loop_out_do_h, as there is no assignment to it.
+@W: CG360 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\ipsl_phy_io.v":376:28:376:40|Removing wire loop_out_to_h, as there is no assignment to it.
+@W: CG360 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\ipsl_phy_io.v":384:28:384:36|Removing wire resetn_do, as there is no assignment to it.
+@W: CG360 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\ipsl_phy_io.v":385:28:385:36|Removing wire resetn_to, as there is no assignment to it.
+Running optimization stage 1 on ipsl_phy_io_Z8 .......
+@W: CL318 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\ipsl_phy_io.v":100:41:100:47|*Output PSLVERR has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\ipsl_phy_io.v":174:41:174:51|*Output DQS_DRIFT_L has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\ipsl_phy_io.v":175:41:175:51|*Output DQS_DRIFT_H has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL168 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\ipsl_phy_io.v":1324:18:1324:24|Removing instance gtp_int_dut[54].inv_dut because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\ipsl_phy_io.v":1324:18:1324:24|Removing instance gtp_int_dut[53].inv_dut because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\ipsl_phy_io.v":1324:18:1324:24|Removing instance gtp_int_dut[50].inv_dut because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\ipsl_phy_io.v":1324:18:1324:24|Removing instance gtp_int_dut[39].inv_dut because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\ipsl_phy_io.v":1324:18:1324:24|Removing instance gtp_int_dut[38].inv_dut because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\ipsl_phy_io.v":1324:18:1324:24|Removing instance gtp_int_dut[30].inv_dut because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\ipsl_phy_io.v":1324:18:1324:24|Removing instance gtp_int_dut[26].inv_dut because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\ipsl_phy_io.v":1324:18:1324:24|Removing instance gtp_int_dut[16].inv_dut because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\ipsl_phy_io.v":1324:18:1324:24|Removing instance gtp_int_dut[15].inv_dut because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\ipsl_phy_io.v":1324:18:1324:24|Removing instance gtp_int_dut[14].inv_dut because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\ipsl_phy_io.v":1324:18:1324:24|Removing instance gtp_int_dut[13].inv_dut because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\ipsl_phy_io.v":1324:18:1324:24|Removing instance gtp_int_dut[8].inv_dut because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\ipsl_phy_io.v":1324:18:1324:24|Removing instance gtp_int_dut[1].inv_dut because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\ipsl_phy_io.v":1324:18:1324:24|Removing instance gtp_int_dut[0].inv_dut because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@N: CG364 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\ipsl_hmemc_phy_top.v":1:7:1:24|Synthesizing module ipsl_hmemc_phy_top in library work.
+
+	DQS_GATE_LOOP=32'b01010100010100100101010101000101
+	R_EXTEND=40'b0100011001000001010011000101001101000101
+	CORE_CLK_SEL=1'b0
+	TEST_PATTERN2=32'b01111111011111110111111101111111
+	TEST_PATTERN3=32'b01010000101111000101000010111100
+	T200US=32'b00000000000000001001110001000000
+	MR0_DDR3=16'b0001010100100000
+	MR1_DDR3=16'b0000000000010100
+	MR2_DDR3=16'b0000000000000000
+	MR3_DDR3=16'b0000000000000000
+	MR_DDR2=16'b0000101101010011
+	EMR1_DDR2=16'b0000000000011100
+	EMR2_DDR2=16'b0000000000000000
+	EMR3_DDR2=16'b0000000000000000
+	MR_LPDDR=16'b0000000000110011
+	EMR_LPDDR=16'b0000000000000000
+	PHY_TMRD=32'b00000000000000000000000000000010
+	PHY_TMOD=32'b00000000000000000000000000000110
+	PHY_TZQINIT=32'b00000000000000000000000100000000
+	PHY_TXPR=32'b00000000000000000000000000111110
+	PHY_TRP=32'b00000000000000000000000000000011
+	PHY_TRFC=32'b00000000000000000000000000111100
+	WL_EN=32'b01010100010100100101010101000101
+	DDR_TYPE=32'b01000100010001000101001000110011
+	DATA_WIDTH=40'b0011000100110110010000100100100101010100
+	DQS_GATE_MODE=2'b01
+	WRDATA_PATH_ADJ=40'b0100011001000001010011000101001101000101
+	CTRL_PATH_ADJ=40'b0100011001000001010011000101001101000101
+	WL_MAX_STEP=8'b11111111
+	WL_MAX_CHECK=5'b11111
+	MAN_WRLVL_DQS_L=40'b0100011001000001010011000101001101000101
+	MAN_WRLVL_DQS_H=40'b0100011001000001010011000101001101000101
+	WL_CTRL_L=3'b001
+	WL_CTRL_H=3'b001
+	INIT_READ_CLK_CTRL=2'b11
+	INIT_READ_CLK_CTRL_H=2'b11
+	INIT_SLIP_STEP=4'b0111
+	INIT_SLIP_STEP_H=4'b0111
+	FORCE_READ_CLK_CTRL_L=40'b0100011001000001010011000101001101000101
+	FORCE_READ_CLK_CTRL_H=40'b0100011001000001010011000101001101000101
+	STOP_WITH_ERROR=40'b0100011001000001010011000101001101000101
+	DQGT_DEBUG=1'b0
+	WRITE_DEBUG=1'b0
+	RDEL_ADJ_MAX_RANG=5'b11111
+	MIN_DQSI_WIN=4'b0110
+	INIT_SAMP_POSITION=8'b00000000
+	INIT_SAMP_POSITION_H=8'b00000000
+	FORCE_SAMP_POSITION_L=40'b0100011001000001010011000101001101000101
+	FORCE_SAMP_POSITION_H=40'b0100011001000001010011000101001101000101
+	RDEL_RD_CNT=19'b0000000000001000000
+	T400NS=32'b00000000000000000000000001010000
+	T_LPDDR=9'b000000000
+	REF_CNT=8'b00110100
+	APB_VLD=40'b0100011001000001010011000101001101000101
+	TEST_PATTERN1=128'b00000000000000001111111111111111000000000000000011111111111111110000000000000000111111111111111100000000000000001111111111111111
+	TRAIN_RST_TYPE=32'b01010100010100100101010101000101
+	PHY_TXS=8'b00111110
+	WL_SETTING=1'b0
+	WCLK_DEL_SEL=1'b0
+	INIT_WRLVL_STEP_L=8'b00000000
+	INIT_WRLVL_STEP_H=8'b00000000
+	UPDATE_MASK=3'b000
+   Generated name = ipsl_hmemc_phy_top_Z9
+@W: CG781 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\ipsl_hmemc_phy_top.v":294:46:294:46|Input SRB_CORE_CLK on instance u_ipsl_phy_io is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG360 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\ipsl_hmemc_phy_top.v":155:15:155:26|Removing wire update_start, as there is no assignment to it.
+Running optimization stage 1 on ipsl_hmemc_phy_top_Z9 .......
+@N: CG364 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\ipsl_ddrc_apb_reset.v":1:7:1:25|Synthesizing module ipsl_ddrc_apb_reset in library work.
+
+	TRFC_MIN=10'b0000111100
+	TREFI=12'b000000110000
+	T_MRD=6'b000010
+	T_MOD=10'b0000000110
+	DDR_TYPE=32'b01000100010001000101001000110011
+	MR=16'b0001010100100000
+	EMR=16'b0000000000010100
+	EMR2=16'b0000000000000000
+	EMR3=16'b0000000000000000
+	WR2PRE=7'b0001010
+	T_FAW=6'b001001
+	T_RAS_MAX=7'b1111111
+	T_RAS_MIN=6'b001000
+	T_XP=5'b00010
+	RD2PRE=6'b000100
+	T_RC=7'b0001010
+	WL=6'b000101
+	RL=6'b000101
+	RD2WR=6'b000100
+	WR2RD=6'b000110
+	T_RCD=5'b00001
+	T_CCD=4'b0010
+	T_RRD=4'b0010
+	T_RP=5'b00011
+	T_CKSRX=4'b0100
+	T_CKSRE=4'b0110
+	T_CKESR=6'b000011
+	T_CKE=5'b00010
+	DFI_T_RDDATA_EN=7'b0000100
+	DFI_TPHY_WRLAT=6'b001001
+	DATA_BUS_WIDTH=2'b00
+	ADDRESS_MAPPING_SEL=32'b00000000000000000000000000000000
+	MEM_ROW_ADDRESS=32'b00000000000000000000000000001111
+	MEM_COLUMN_ADDRESS=32'b00000000000000000000000000001010
+	MEM_BANK_ADDRESS=32'b00000000000000000000000000000011
+	addrmap_bank_b0=8'b00001000
+	addrmap_bank_b1=8'b00001000
+	addrmap_bank_b2=8'b00001000
+	addrmap_col_b2=8'b00000000
+	addrmap_col_b3=8'b00000000
+	addrmap_col_b4=8'b00000000
+	addrmap_col_b5=8'b00000000
+	addrmap_col_b6=8'b00000000
+	addrmap_col_b7=8'b00000000
+	addrmap_col_b8=8'b00000000
+	addrmap_col_b9=8'b00000000
+	addrmap_col_b10=8'b00011111
+	addrmap_col_b11=8'b00011111
+	addrmap_row_b0=8'b00000111
+	addrmap_row_b1=8'b00000111
+	addrmap_row_b2=8'b00000111
+	addrmap_row_b3=8'b00000111
+	addrmap_row_b4=8'b00000111
+	addrmap_row_b5=8'b00000111
+	addrmap_row_b6=8'b00000111
+	addrmap_row_b7=8'b00000111
+	addrmap_row_b8=8'b00000111
+	addrmap_row_b9=8'b00000111
+	addrmap_row_b10=8'b00000111
+	addrmap_row_b11=8'b00000111
+	addrmap_row_b12=8'b00000111
+	addrmap_row_b13=8'b00000111
+	addrmap_row_b14=8'b00000111
+	addrmap_row_b15=8'b00011111
+   Generated name = ipsl_ddrc_apb_reset_Z10
+Running optimization stage 1 on ipsl_ddrc_apb_reset_Z10 .......
+@N: CG364 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\ipsl_ddrc_reset_ctrl.v":2:7:2:26|Synthesizing module ipsl_ddrc_reset_ctrl in library work.
+
+	TRFC_MIN=10'b0000111100
+	TREFI=12'b000000110000
+	T_MRD=6'b000010
+	T_MOD=10'b0000000110
+	DDR_TYPE=32'b01000100010001000101001000110011
+	MR=16'b0001010100100000
+	EMR=16'b0000000000010100
+	EMR2=16'b0000000000000000
+	EMR3=16'b0000000000000000
+	WR2PRE=7'b0001010
+	T_FAW=6'b001001
+	T_RAS_MAX=7'b1111111
+	T_RAS_MIN=6'b001000
+	T_XP=5'b00010
+	RD2PRE=6'b000100
+	T_RC=7'b0001010
+	WL=6'b000101
+	RL=6'b000101
+	RD2WR=6'b000100
+	WR2RD=6'b000110
+	T_RCD=5'b00001
+	T_CCD=4'b0010
+	T_RRD=4'b0010
+	T_RP=5'b00011
+	T_CKSRX=4'b0100
+	T_CKSRE=4'b0110
+	T_CKESR=6'b000011
+	T_CKE=5'b00010
+	DFI_T_RDDATA_EN=7'b0000100
+	DFI_TPHY_WRLAT=6'b001001
+	DATA_BUS_WIDTH=2'b00
+	ADDRESS_MAPPING_SEL=32'b00000000000000000000000000000000
+	MEM_ROW_ADDRESS=32'b00000000000000000000000000001111
+	MEM_COLUMN_ADDRESS=32'b00000000000000000000000000001010
+	MEM_BANK_ADDRESS=32'b00000000000000000000000000000011
+   Generated name = ipsl_ddrc_reset_ctrl_Z11
+@N: CG179 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\ipsl_ddrc_reset_ctrl.v":93:15:93:21|Removing redundant assignment.
+@N: CG179 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\ipsl_ddrc_reset_ctrl.v":122:20:122:31|Removing redundant assignment.
+Running optimization stage 1 on ipsl_ddrc_reset_ctrl_Z11 .......
+@N: CG364 :"C:\pango\PDS_2019.1-patch2\syn\lib\generic\logos.v":248:7:248:14|Synthesizing module GTP_DDRC in library work.
+Running optimization stage 1 on GTP_DDRC .......
+@N: CG364 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\ipsl_hmemc_ddrc_top.v":1:7:1:25|Synthesizing module ipsl_hmemc_ddrc_top in library work.
+
+	TRFC_MIN=10'b0000111100
+	TREFI=12'b000000110000
+	T_MRD=6'b000010
+	T_MOD=10'b0000000110
+	DDR_TYPE=32'b01000100010001000101001000110011
+	MR=16'b0001010100100000
+	EMR=16'b0000000000010100
+	EMR2=16'b0000000000000000
+	EMR3=16'b0000000000000000
+	WR2PRE=7'b0001010
+	T_FAW=6'b001001
+	T_RAS_MAX=7'b1111111
+	T_RAS_MIN=6'b001000
+	T_XP=5'b00010
+	RD2PRE=6'b000100
+	T_RC=7'b0001010
+	WL=6'b000101
+	RL=6'b000101
+	RD2WR=6'b000100
+	WR2RD=6'b000110
+	T_RCD=5'b00001
+	T_CCD=4'b0010
+	T_RRD=4'b0010
+	T_RP=5'b00011
+	T_CKSRX=4'b0100
+	T_CKSRE=4'b0110
+	T_CKESR=6'b000011
+	T_CKE=5'b00010
+	DFI_T_RDDATA_EN=7'b0000100
+	DFI_TPHY_WRLAT=6'b001001
+	DATA_BUS_WIDTH=2'b00
+	ADDRESS_MAPPING_SEL=32'b00000000000000000000000000000000
+	MEM_ROW_ADDRESS=32'b00000000000000000000000000001111
+	MEM_COLUMN_ADDRESS=32'b00000000000000000000000000001010
+	MEM_BANK_ADDRESS=32'b00000000000000000000000000000011
+   Generated name = ipsl_hmemc_ddrc_top_Z12
+Running optimization stage 1 on ipsl_hmemc_ddrc_top_Z12 .......
+@N: CG364 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\ddr3.v":10:7:10:10|Synthesizing module ddr3 in library work.
+@W: CG781 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\ddr3.v":596:38:596:38|Input aclk_0 on instance u_ipsl_hmemc_ddrc_top is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\ddr3.v":597:38:597:38|Input awid_0 on instance u_ipsl_hmemc_ddrc_top is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\ddr3.v":598:38:598:38|Input awaddr_0 on instance u_ipsl_hmemc_ddrc_top is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\ddr3.v":599:38:599:38|Input awlen_0 on instance u_ipsl_hmemc_ddrc_top is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\ddr3.v":600:38:600:38|Input awsize_0 on instance u_ipsl_hmemc_ddrc_top is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\ddr3.v":601:38:601:38|Input awburst_0 on instance u_ipsl_hmemc_ddrc_top is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\ddr3.v":602:38:602:38|Input awlock_0 on instance u_ipsl_hmemc_ddrc_top is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\ddr3.v":603:38:603:38|Input awvalid_0 on instance u_ipsl_hmemc_ddrc_top is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\ddr3.v":605:38:605:38|Input awurgent_0 on instance u_ipsl_hmemc_ddrc_top is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\ddr3.v":606:38:606:38|Input awpoison_0 on instance u_ipsl_hmemc_ddrc_top is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\ddr3.v":607:38:607:38|Input wdata_0 on instance u_ipsl_hmemc_ddrc_top is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\ddr3.v":608:38:608:38|Input wstrb_0 on instance u_ipsl_hmemc_ddrc_top is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\ddr3.v":609:38:609:38|Input wlast_0 on instance u_ipsl_hmemc_ddrc_top is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\ddr3.v":610:38:610:38|Input wvalid_0 on instance u_ipsl_hmemc_ddrc_top is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\ddr3.v":615:38:615:38|Input bready_0 on instance u_ipsl_hmemc_ddrc_top is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\ddr3.v":616:38:616:38|Input arid_0 on instance u_ipsl_hmemc_ddrc_top is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\ddr3.v":617:38:617:38|Input araddr_0 on instance u_ipsl_hmemc_ddrc_top is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\ddr3.v":618:38:618:38|Input arlen_0 on instance u_ipsl_hmemc_ddrc_top is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\ddr3.v":619:38:619:38|Input arsize_0 on instance u_ipsl_hmemc_ddrc_top is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\ddr3.v":620:38:620:38|Input arburst_0 on instance u_ipsl_hmemc_ddrc_top is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\ddr3.v":621:38:621:38|Input arlock_0 on instance u_ipsl_hmemc_ddrc_top is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\ddr3.v":622:38:622:38|Input arvalid_0 on instance u_ipsl_hmemc_ddrc_top is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\ddr3.v":624:38:624:38|Input arurgent_0 on instance u_ipsl_hmemc_ddrc_top is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\ddr3.v":625:38:625:38|Input arpoison_0 on instance u_ipsl_hmemc_ddrc_top is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\ddr3.v":631:38:631:38|Input rready_0 on instance u_ipsl_hmemc_ddrc_top is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\ddr3.v":638:38:638:38|Input csysreq_0 on instance u_ipsl_hmemc_ddrc_top is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\ddr3.v":690:38:690:38|Input aclk_2 on instance u_ipsl_hmemc_ddrc_top is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\ddr3.v":691:38:691:38|Input awid_2 on instance u_ipsl_hmemc_ddrc_top is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\ddr3.v":692:38:692:38|Input awaddr_2 on instance u_ipsl_hmemc_ddrc_top is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\ddr3.v":693:38:693:38|Input awlen_2 on instance u_ipsl_hmemc_ddrc_top is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\ddr3.v":694:38:694:38|Input awsize_2 on instance u_ipsl_hmemc_ddrc_top is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\ddr3.v":695:38:695:38|Input awburst_2 on instance u_ipsl_hmemc_ddrc_top is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\ddr3.v":696:38:696:38|Input awlock_2 on instance u_ipsl_hmemc_ddrc_top is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\ddr3.v":697:38:697:38|Input awvalid_2 on instance u_ipsl_hmemc_ddrc_top is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\ddr3.v":699:38:699:38|Input awurgent_2 on instance u_ipsl_hmemc_ddrc_top is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\ddr3.v":700:38:700:38|Input awpoison_2 on instance u_ipsl_hmemc_ddrc_top is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\ddr3.v":701:38:701:38|Input wdata_2 on instance u_ipsl_hmemc_ddrc_top is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\ddr3.v":702:38:702:38|Input wstrb_2 on instance u_ipsl_hmemc_ddrc_top is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\ddr3.v":703:38:703:38|Input wlast_2 on instance u_ipsl_hmemc_ddrc_top is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\ddr3.v":704:38:704:38|Input wvalid_2 on instance u_ipsl_hmemc_ddrc_top is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\ddr3.v":709:38:709:38|Input bready_2 on instance u_ipsl_hmemc_ddrc_top is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\ddr3.v":710:38:710:38|Input arid_2 on instance u_ipsl_hmemc_ddrc_top is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\ddr3.v":711:38:711:38|Input araddr_2 on instance u_ipsl_hmemc_ddrc_top is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\ddr3.v":712:38:712:38|Input arlen_2 on instance u_ipsl_hmemc_ddrc_top is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\ddr3.v":713:38:713:38|Input arsize_2 on instance u_ipsl_hmemc_ddrc_top is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\ddr3.v":714:38:714:38|Input arburst_2 on instance u_ipsl_hmemc_ddrc_top is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\ddr3.v":715:38:715:38|Input arlock_2 on instance u_ipsl_hmemc_ddrc_top is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\ddr3.v":716:38:716:38|Input arvalid_2 on instance u_ipsl_hmemc_ddrc_top is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\ddr3.v":718:38:718:38|Input arurgent_2 on instance u_ipsl_hmemc_ddrc_top is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\ddr3.v":719:38:719:38|Input arpoison_2 on instance u_ipsl_hmemc_ddrc_top is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\ddr3.v":725:38:725:38|Input rready_2 on instance u_ipsl_hmemc_ddrc_top is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\ddr3.v":733:38:733:38|Input csysreq_2 on instance u_ipsl_hmemc_ddrc_top is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\ddr3.v":783:38:783:38|Input paddr on instance u_ipsl_hmemc_ddrc_top is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\ddr3.v":784:38:784:38|Input pwdata on instance u_ipsl_hmemc_ddrc_top is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\ddr3.v":785:38:785:38|Input pwrite on instance u_ipsl_hmemc_ddrc_top is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\ddr3.v":786:38:786:38|Input penable on instance u_ipsl_hmemc_ddrc_top is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\ddr3.v":788:38:788:38|Input psel on instance u_ipsl_hmemc_ddrc_top is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+Running optimization stage 1 on ddr3 .......
+@N: CG364 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\aq_axi_master.v":39:7:39:19|Synthesizing module aq_axi_master in library work.
+Running optimization stage 1 on aq_axi_master .......
+@W: CL169 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\aq_axi_master.v":170:2:170:7|Pruning unused register reg_w_stb[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\aq_axi_master.v":170:2:170:7|Pruning unused register reg_wr_status[1:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\aq_axi_master.v":170:2:170:7|Pruning unused register reg_w_count[3:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\aq_axi_master.v":170:2:170:7|Pruning unused register reg_r_count[3:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\aq_axi_master.v":170:2:170:7|Pruning unused register wr_chkdata[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\aq_axi_master.v":170:2:170:7|Pruning unused register rd_chkdata[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\aq_axi_master.v":170:2:170:7|Pruning unused register resp[1:0]. Make sure that there are no unused intermediate registers.
+@W: CL271 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\aq_axi_master.v":342:2:342:7|Pruning unused bits 2 to 0 of reg_rd_len[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\aq_axi_master.v":170:2:170:7|Pruning unused bits 2 to 0 of reg_wr_len[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@A: CL282 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\aq_axi_master.v":342:2:342:7|Feedback mux created for signal reg_r_last. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@N: CG364 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\example_design\rtl\ipsl_hmemc_top_test.v":5:7:5:25|Synthesizing module ipsl_hmemc_top_test in library work.
+@W: CS263 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\example_design\rtl\ipsl_hmemc_top_test.v":280:23:280:23|Port-width mismatch for port ddrc_rst. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\example_design\rtl\ipsl_hmemc_top_test.v":282:23:282:23|Port-width mismatch for port areset_1. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\example_design\rtl\ipsl_hmemc_top_test.v":284:23:284:34|Port-width mismatch for port awid_1. The port definition is 8 bits, but the actual port connection bit width is 4. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\example_design\rtl\ipsl_hmemc_top_test.v":285:23:285:36|Port-width mismatch for port awaddr_1. The port definition is 32 bits, but the actual port connection bit width is 64. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\example_design\rtl\ipsl_hmemc_top_test.v":305:23:305:34|Port-width mismatch for port arid_1. The port definition is 8 bits, but the actual port connection bit width is 4. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\example_design\rtl\ipsl_hmemc_top_test.v":306:23:306:36|Port-width mismatch for port araddr_1. The port definition is 32 bits, but the actual port connection bit width is 64. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\example_design\rtl\ipsl_hmemc_top_test.v":310:23:310:36|Port-width mismatch for port arlock_1. The port definition is 1 bits, but the actual port connection bit width is 2. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\example_design\rtl\ipsl_hmemc_top_test.v":301:23:301:33|Port-width mismatch for port bid_1. The port definition is 8 bits, but the actual port connection bit width is 4. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\example_design\rtl\ipsl_hmemc_top_test.v":315:23:315:33|Port-width mismatch for port rid_1. The port definition is 8 bits, but the actual port connection bit width is 4. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\example_design\rtl\ipsl_hmemc_top_test.v":375:33:375:43|Port-width mismatch for port M_AXI_BID. The port definition is 1 bits, but the actual port connection bit width is 4. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\example_design\rtl\ipsl_hmemc_top_test.v":392:33:392:43|Port-width mismatch for port M_AXI_RID. The port definition is 1 bits, but the actual port connection bit width is 4. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\example_design\rtl\ipsl_hmemc_top_test.v":401:34:401:52|Port-width mismatch for port WR_ADRS. The port definition is 32 bits, but the actual port connection bit width is 28. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\example_design\rtl\ipsl_hmemc_top_test.v":402:34:402:51|Port-width mismatch for port WR_LEN. The port definition is 32 bits, but the actual port connection bit width is 13. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\example_design\rtl\ipsl_hmemc_top_test.v":410:34:410:52|Port-width mismatch for port RD_ADRS. The port definition is 32 bits, but the actual port connection bit width is 28. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\example_design\rtl\ipsl_hmemc_top_test.v":411:34:411:51|Port-width mismatch for port RD_LEN. The port definition is 32 bits, but the actual port connection bit width is 13. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\example_design\rtl\ipsl_hmemc_top_test.v":357:33:357:44|Port-width mismatch for port M_AXI_AWID. The port definition is 1 bits, but the actual port connection bit width is 4. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\example_design\rtl\ipsl_hmemc_top_test.v":358:33:358:46|Port-width mismatch for port M_AXI_AWADDR. The port definition is 32 bits, but the actual port connection bit width is 64. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\example_design\rtl\ipsl_hmemc_top_test.v":380:33:380:44|Port-width mismatch for port M_AXI_ARID. The port definition is 1 bits, but the actual port connection bit width is 4. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\example_design\rtl\ipsl_hmemc_top_test.v":381:33:381:46|Port-width mismatch for port M_AXI_ARADDR. The port definition is 32 bits, but the actual port connection bit width is 64. Adjust either the definition or the instantiation of this port.
+@W: CG133 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\example_design\rtl\ipsl_hmemc_top_test.v":19:41:19:47|Object clk_led is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG360 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\example_design\rtl\ipsl_hmemc_top_test.v":42:41:42:48|Removing wire err_flag, as there is no assignment to it.
+@W: CG360 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\example_design\rtl\ipsl_hmemc_top_test.v":97:32:97:46|Removing wire ui_clk_sync_rst, as there is no assignment to it.
+@W: CG360 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\example_design\rtl\ipsl_hmemc_top_test.v":121:32:121:44|Removing wire s00_axi_buser, as there is no assignment to it.
+@W: CG360 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\example_design\rtl\ipsl_hmemc_top_test.v":142:32:142:44|Removing wire s00_axi_ruser, as there is no assignment to it.
+@W: CG360 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\example_design\rtl\ipsl_hmemc_top_test.v":145:18:145:25|Removing wire pll_pclk, as there is no assignment to it.
+Running optimization stage 1 on ipsl_hmemc_top_test .......
+@W: CL318 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\example_design\rtl\ipsl_hmemc_top_test.v":42:41:42:48|*Output err_flag has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+Running optimization stage 2 on ipsl_hmemc_top_test .......
+@A: CL153 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\example_design\rtl\ipsl_hmemc_top_test.v":19:41:19:47|*Unassigned bits of clk_led are referenced and tied to 0 -- simulation mismatch possible.
+@W: CL156 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\example_design\rtl\ipsl_hmemc_top_test.v":121:32:121:44|*Input s00_axi_buser[0] to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\example_design\rtl\ipsl_hmemc_top_test.v":142:32:142:44|*Input s00_axi_ruser[0] to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+Running optimization stage 2 on aq_axi_master .......
+@N: CL201 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\aq_axi_master.v":342:2:342:7|Trying to extract state machine for register rd_state.
+Extracted state machine for register rd_state
+State machine has 6 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+   101
+@N: CL201 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\aq_axi_master.v":170:2:170:7|Trying to extract state machine for register wr_state.
+Extracted state machine for register wr_state
+State machine has 7 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+   101
+   110
+@N: CL159 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\aq_axi_master.v":67:16:67:24|Input M_AXI_BID is unused.
+@N: CL159 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\aq_axi_master.v":68:16:68:26|Input M_AXI_BRESP is unused.
+@N: CL159 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\aq_axi_master.v":69:16:69:26|Input M_AXI_BUSER is unused.
+@N: CL159 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\aq_axi_master.v":88:16:88:24|Input M_AXI_RID is unused.
+@N: CL159 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\aq_axi_master.v":90:16:90:26|Input M_AXI_RRESP is unused.
+@N: CL159 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\aq_axi_master.v":92:16:92:26|Input M_AXI_RUSER is unused.
+Running optimization stage 2 on ddr3 .......
+Running optimization stage 2 on ipsl_hmemc_ddrc_top_Z12 .......
+@N: CL159 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\ipsl_hmemc_ddrc_top.v":215:25:215:33|Input dfi_error is unused.
+@N: CL159 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\ipsl_hmemc_ddrc_top.v":216:25:216:38|Input dfi_error_info is unused.
+Running optimization stage 2 on GTP_DDRC .......
+Running optimization stage 2 on ipsl_ddrc_reset_ctrl_Z11 .......
+@W: CL190 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\ipsl_ddrc_reset_ctrl.v":86:0:86:5|Optimizing register bit rst_cnt[5] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\ipsl_ddrc_reset_ctrl.v":86:0:86:5|Optimizing register bit rst_cnt[6] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\ipsl_ddrc_reset_ctrl.v":86:0:86:5|Optimizing register bit rst_cnt[7] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\ipsl_ddrc_reset_ctrl.v":113:0:113:5|Optimizing register bit ddrc_rst_cnt[5] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\ipsl_ddrc_reset_ctrl.v":113:0:113:5|Optimizing register bit ddrc_rst_cnt[6] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\ipsl_ddrc_reset_ctrl.v":113:0:113:5|Optimizing register bit ddrc_rst_cnt[7] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL279 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\ipsl_ddrc_reset_ctrl.v":113:0:113:5|Pruning register bits 7 to 5 of ddrc_rst_cnt[7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\ipsl_ddrc_reset_ctrl.v":86:0:86:5|Pruning register bits 7 to 5 of rst_cnt[7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+Running optimization stage 2 on ipsl_ddrc_apb_reset_Z10 .......
+@W: CL246 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\ipsl_ddrc_apb_reset.v":47:23:47:28|Input port bits 31 to 2 of prdata[31:0] are unused. Assign logic for all port bits or change the input port size.
+Running optimization stage 2 on ipsl_hmemc_phy_top_Z9 .......
+Running optimization stage 2 on GTP_IOBUFCO .......
+Running optimization stage 2 on GTP_INV .......
+Running optimization stage 2 on ipsl_phy_io_Z8 .......
+@N: CL159 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\ipsl_phy_io.v":90:41:90:52|Input SRB_CORE_CLK is unused.
+Running optimization stage 2 on GTP_OUTBUFTCO .......
+Running optimization stage 2 on GTP_IOBUF .......
+Running optimization stage 2 on GTP_OUTBUF .......
+Running optimization stage 2 on GTP_INBUFG .......
+Running optimization stage 2 on GTP_ISERDES .......
+Running optimization stage 2 on GTP_IODELAY .......
+Running optimization stage 2 on GTP_DDC_E1 .......
+Running optimization stage 2 on GTP_IOCLKDIV .......
+Running optimization stage 2 on GTP_IOCLKBUF .......
+Running optimization stage 2 on GTP_DDRPHY .......
+Running optimization stage 2 on GTP_DLL .......
+Running optimization stage 2 on ipsl_ddrphy_update_ctrl_16BIT_2s_0s_1s_2s_3s_1 .......
+@N: CL201 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\ipsl_ddrphy_update_ctrl.v":293:0:293:5|Trying to extract state machine for register state.
+Extracted state machine for register state
+State machine has 2 reachable states with original encodings of:
+   00
+   10
+@W: CL247 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\ipsl_ddrphy_update_ctrl.v":12:13:12:23|Input port bit 2 of update_mask[2:0] is unused
+
+Running optimization stage 2 on ipsl_ddrphy_dll_update_ctrl .......
+@N: CL201 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\ipsl_ddrphy_dll_update_ctrl.v":36:0:36:5|Trying to extract state machine for register state.
+Extracted state machine for register state
+State machine has 4 reachable states with original encodings of:
+   00
+   01
+   10
+   11
+Running optimization stage 2 on ipsl_ddrphy_training_ctrl .......
+Running optimization stage 2 on ipsl_ddrphy_reset_ctrl .......
+@N: CL201 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\ipsl_ddrphy_reset_ctrl.v":52:0:52:5|Trying to extract state machine for register state.
+Extracted state machine for register state
+State machine has 11 reachable states with original encodings of:
+   0000
+   0001
+   0010
+   0011
+   0100
+   0101
+   0110
+   0111
+   1000
+   1001
+   1010
+Running optimization stage 2 on pll_50_400 .......
+@W: CL156 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\pll\pll_50_400.v":120:9:120:13|*Input clkfb to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\pll\pll_50_400.v":123:9:123:13|*Input pfden to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\pll\pll_50_400.v":125:9:125:25|*Input clkout0_2pad_gate to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\pll\pll_50_400.v":126:9:126:20|*Input clkout1_gate to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\pll\pll_50_400.v":127:9:127:20|*Input clkout2_gate to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\pll\pll_50_400.v":128:9:128:20|*Input clkout3_gate to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\pll\pll_50_400.v":129:9:129:20|*Input clkout4_gate to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\pll\pll_50_400.v":130:9:130:20|*Input clkout5_gate to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\pll\pll_50_400.v":131:15:131:22|*Input dyn_idiv[9:0] to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\pll\pll_50_400.v":132:15:132:23|*Input dyn_odiv0[9:0] to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\pll\pll_50_400.v":133:15:133:23|*Input dyn_odiv1[9:0] to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\pll\pll_50_400.v":134:15:134:23|*Input dyn_odiv2[9:0] to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\pll\pll_50_400.v":135:15:135:23|*Input dyn_odiv3[9:0] to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\pll\pll_50_400.v":136:15:136:23|*Input dyn_odiv4[9:0] to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\pll\pll_50_400.v":137:15:137:22|*Input dyn_fdiv[9:0] to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\pll\pll_50_400.v":138:15:138:23|*Input dyn_duty0[9:0] to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\pll\pll_50_400.v":139:15:139:23|*Input dyn_duty1[9:0] to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\pll\pll_50_400.v":140:15:140:23|*Input dyn_duty2[9:0] to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\pll\pll_50_400.v":141:15:141:23|*Input dyn_duty3[9:0] to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\pll\pll_50_400.v":142:15:142:23|*Input dyn_duty4[9:0] to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\pll\pll_50_400.v":143:16:143:25|*Input dyn_phase0[2:0] to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\pll\pll_50_400.v":144:16:144:25|*Input dyn_phase1[2:0] to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\pll\pll_50_400.v":145:16:145:25|*Input dyn_phase2[2:0] to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\pll\pll_50_400.v":146:16:146:25|*Input dyn_phase3[2:0] to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\pll\pll_50_400.v":147:16:147:25|*Input dyn_phase4[2:0] to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\pll\pll_50_400.v":143:16:143:25|*Input dyn_phase0[12:3] to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\pll\pll_50_400.v":144:16:144:25|*Input dyn_phase1[12:3] to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\pll\pll_50_400.v":145:16:145:25|*Input dyn_phase2[12:3] to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\pll\pll_50_400.v":146:16:146:25|*Input dyn_phase3[12:3] to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\rtl\pll\pll_50_400.v":147:16:147:25|*Input dyn_phase4[12:3] to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+Running optimization stage 2 on frame_read_write_64s_32s_32s_25s_10s_64s .......
+@W: CL156 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\frame_read_write.v":112:20:112:32|*Input rdusedw[15:0] to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\frame_read_write.v":182:20:182:32|*Input wrusedw[15:0] to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+Running optimization stage 2 on frame_fifo_read_Z7 .......
+@W: CL190 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\frame_fifo_read.v":107:0:107:5|Optimizing register bit read_cnt[0] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\frame_fifo_read.v":107:0:107:5|Optimizing register bit read_cnt[1] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\frame_fifo_read.v":107:0:107:5|Optimizing register bit read_cnt[2] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\frame_fifo_read.v":107:0:107:5|Optimizing register bit read_cnt[3] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\frame_fifo_read.v":107:0:107:5|Optimizing register bit read_cnt[4] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\frame_fifo_read.v":107:0:107:5|Optimizing register bit read_cnt[5] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL279 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\frame_fifo_read.v":107:0:107:5|Pruning register bits 5 to 0 of read_cnt[24:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@N: CL201 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\frame_fifo_read.v":107:0:107:5|Trying to extract state machine for register state.
+Extracted state machine for register state
+State machine has 6 reachable states with original encodings of:
+   0000
+   0001
+   0010
+   0011
+   0100
+   0101
+Running optimization stage 2 on afifo_64i_32o_128 .......
+Running optimization stage 2 on ipml_fifo_v1_3_afifo_64i_32o_128_Z6 .......
+Running optimization stage 2 on ipml_fifo_ctrl_v1_3_8s_9s_ASYN_252s_4s .......
+@W: CL260 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_64i_32o_128\rtl\ipml_fifo_ctrl_v1_3.v":106:8:106:13|Pruning register bit 8 of ASYN_CTRL.wptr[8:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_64i_32o_128\rtl\ipml_fifo_ctrl_v1_3.v":154:8:154:13|Pruning register bit 9 of ASYN_CTRL.rptr[9:1]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+Running optimization stage 2 on ipml_sdpram_v1_3_afifo_64i_32o_128_Z5 .......
+@W: CL138 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_64i_32o_128\rtl\ipml_sdpram_v1_3_afifo_64i_32o_128.v":533:0:533:5|Removing register 'wr_cs_bit0_ff' because it is only assigned 0 or its original value.
+@W: CL138 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_64i_32o_128\rtl\ipml_sdpram_v1_3_afifo_64i_32o_128.v":533:0:533:5|Removing register 'wr_cs_bit1_bus_ff' because it is only assigned 0 or its original value.
+@W: CL138 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_64i_32o_128\rtl\ipml_sdpram_v1_3_afifo_64i_32o_128.v":533:0:533:5|Removing register 'wr_cs_bit2_bus_ff' because it is only assigned 0 or its original value.
+@W: CL138 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_64i_32o_128\rtl\ipml_sdpram_v1_3_afifo_64i_32o_128.v":728:0:728:5|Removing register 'rd_cs_bit0_ff' because it is only assigned 0 or its original value.
+@W: CL138 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_64i_32o_128\rtl\ipml_sdpram_v1_3_afifo_64i_32o_128.v":728:0:728:5|Removing register 'rd_cs_bit1_bus_ff' because it is only assigned 0 or its original value.
+@W: CL138 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_64i_32o_128\rtl\ipml_sdpram_v1_3_afifo_64i_32o_128.v":728:0:728:5|Removing register 'rd_cs_bit2_bus_ff' because it is only assigned 0 or its original value.
+@W: CL156 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_64i_32o_128\rtl\ipml_sdpram_v1_3_afifo_64i_32o_128.v":748:45:748:50|*Input DA_bus[17:0] to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_64i_32o_128\rtl\ipml_sdpram_v1_3_afifo_64i_32o_128.v":749:45:749:50|*Input DB_bus[17:0] to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_64i_32o_128\rtl\ipml_sdpram_v1_3_afifo_64i_32o_128.v":748:45:748:50|*Input DA_bus[35:18] to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_64i_32o_128\rtl\ipml_sdpram_v1_3_afifo_64i_32o_128.v":749:45:749:50|*Input DB_bus[35:18] to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@N: CL159 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_64i_32o_128\rtl\ipml_sdpram_v1_3_afifo_64i_32o_128.v":49:40:49:49|Input wr_byte_en is unused.
+Running optimization stage 2 on frame_fifo_write_Z4 .......
+@W: CL190 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\frame_fifo_write.v":106:0:106:5|Optimizing register bit write_cnt[0] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\frame_fifo_write.v":106:0:106:5|Optimizing register bit write_cnt[1] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\frame_fifo_write.v":106:0:106:5|Optimizing register bit write_cnt[2] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\frame_fifo_write.v":106:0:106:5|Optimizing register bit write_cnt[3] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\frame_fifo_write.v":106:0:106:5|Optimizing register bit write_cnt[4] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\frame_fifo_write.v":106:0:106:5|Optimizing register bit write_cnt[5] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL279 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\frame_fifo_write.v":106:0:106:5|Pruning register bits 5 to 0 of write_cnt[24:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@N: CL201 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\frame_fifo_write.v":106:0:106:5|Trying to extract state machine for register state.
+Extracted state machine for register state
+State machine has 6 reachable states with original encodings of:
+   0000
+   0001
+   0010
+   0011
+   0100
+   0101
+@N: CL159 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\frame_fifo_write.v":45:34:45:50|Input wr_burst_data_req is unused.
+Running optimization stage 2 on afifo_32i_64o_256 .......
+Running optimization stage 2 on ipml_fifo_v1_3_afifo_32i_64o_256_Z3 .......
+Running optimization stage 2 on ipml_fifo_ctrl_v1_3_9s_8s_ASYN_508s_4s .......
+@W: CL260 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_64i_32o_128\rtl\ipml_fifo_ctrl_v1_3.v":154:8:154:13|Pruning register bit 8 of ASYN_CTRL.rptr[8:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_64i_32o_128\rtl\ipml_fifo_ctrl_v1_3.v":106:8:106:13|Pruning register bit 9 of ASYN_CTRL.wptr[9:1]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+Running optimization stage 2 on GTP_DRM18K .......
+Running optimization stage 2 on ipml_sdpram_v1_3_afifo_32i_64o_256_Z2 .......
+@W: CL138 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_32i_64o_256\rtl\ipml_sdpram_v1_3_afifo_32i_64o_256.v":533:0:533:5|Removing register 'wr_cs_bit0_ff' because it is only assigned 0 or its original value.
+@W: CL138 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_32i_64o_256\rtl\ipml_sdpram_v1_3_afifo_32i_64o_256.v":533:0:533:5|Removing register 'wr_cs_bit1_bus_ff' because it is only assigned 0 or its original value.
+@W: CL138 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_32i_64o_256\rtl\ipml_sdpram_v1_3_afifo_32i_64o_256.v":533:0:533:5|Removing register 'wr_cs_bit2_bus_ff' because it is only assigned 0 or its original value.
+@W: CL138 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_32i_64o_256\rtl\ipml_sdpram_v1_3_afifo_32i_64o_256.v":728:0:728:5|Removing register 'rd_cs_bit0_ff' because it is only assigned 0 or its original value.
+@W: CL138 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_32i_64o_256\rtl\ipml_sdpram_v1_3_afifo_32i_64o_256.v":728:0:728:5|Removing register 'rd_cs_bit1_bus_ff' because it is only assigned 0 or its original value.
+@W: CL138 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_32i_64o_256\rtl\ipml_sdpram_v1_3_afifo_32i_64o_256.v":728:0:728:5|Removing register 'rd_cs_bit2_bus_ff' because it is only assigned 0 or its original value.
+@W: CL156 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_32i_64o_256\rtl\ipml_sdpram_v1_3_afifo_32i_64o_256.v":748:45:748:50|*Input DA_bus[17:0] to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_32i_64o_256\rtl\ipml_sdpram_v1_3_afifo_32i_64o_256.v":749:45:749:50|*Input DB_bus[17:0] to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_32i_64o_256\rtl\ipml_sdpram_v1_3_afifo_32i_64o_256.v":748:45:748:50|*Input DA_bus[35:18] to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_32i_64o_256\rtl\ipml_sdpram_v1_3_afifo_32i_64o_256.v":749:45:749:50|*Input DB_bus[35:18] to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@N: CL159 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\afifo_32i_64o_256\rtl\ipml_sdpram_v1_3_afifo_32i_64o_256.v":49:40:49:49|Input wr_byte_en is unused.
+Running optimization stage 2 on video_timing_data_32s .......
+Running optimization stage 2 on color_bar .......
+@W: CL279 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\color_bar.v":286:0:286:5|Pruning register bits 7 to 1 of rgb_b_reg[7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\color_bar.v":286:0:286:5|Pruning register bits 7 to 1 of rgb_g_reg[7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\color_bar.v":286:0:286:5|Pruning register bits 7 to 1 of rgb_r_reg[7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+Running optimization stage 2 on dvi_encoder .......
+Running optimization stage 2 on serdes_4b_10to1 .......
+@W: CL246 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\dvi_tx\serdes_4b_10to1.v":8:16:8:23|Input port bits 1 to 0 of datain_2[9:0] are unused. Assign logic for all port bits or change the input port size.
+@N: CL159 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\dvi_tx\serdes_4b_10to1.v":4:16:4:18|Input clk is unused.
+Running optimization stage 2 on GTP_OUTBUFT .......
+Running optimization stage 2 on GTP_OSERDES .......
+Running optimization stage 2 on encode .......
+@W: CL260 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\dvi_tx\encode.v":108:2:108:7|Pruning register bit 0 of n0q_m[3:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL190 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\dvi_tx\encode.v":151:2:151:7|Optimizing register bit cnt[0] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL260 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\dvi_tx\encode.v":151:2:151:7|Pruning register bit 0 of cnt[4:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+Running optimization stage 2 on sd_card_bmp .......
+Running optimization stage 2 on sd_card_top .......
+Running optimization stage 2 on spi_master .......
+@N: CL201 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\sd_card\spi_master.v":64:0:64:5|Trying to extract state machine for register state.
+Extracted state machine for register state
+State machine has 6 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+   101
+Running optimization stage 2 on sd_card_cmd .......
+@N: CL201 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\sd_card\sd_card_cmd.v":90:0:90:5|Trying to extract state machine for register state.
+@W: CL247 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\sd_card\sd_card_cmd.v":39:29:39:31|Input port bit 46 of cmd[47:0] is unused
+
+Running optimization stage 2 on sd_card_sec_read_write_Z1 .......
+@N: CL201 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\sd_card\sd_card_sec_read_write.v":92:0:92:5|Trying to extract state machine for register state.
+Extracted state machine for register state
+State machine has 13 reachable states with original encodings of:
+   00000
+   00001
+   00010
+   00011
+   00100
+   00101
+   00110
+   00111
+   01000
+   01111
+   10000
+   10001
+   10010
+@W: CL260 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\sd_card\sd_card_sec_read_write.v":92:0:92:5|Pruning register bit 42 of cmd[45:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\sd_card\sd_card_sec_read_write.v":92:0:92:5|Pruning register bits 7 to 5 of cmd[45:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL260 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\sd_card\sd_card_sec_read_write.v":92:0:92:5|Pruning register bit 2 of cmd[45:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+Running optimization stage 2 on bmp_read .......
+@N: CL201 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\src\bmp_read.v":202:0:202:5|Trying to extract state machine for register state.
+Extracted state machine for register state
+State machine has 5 reachable states with original encodings of:
+   0000
+   0001
+   0010
+   0011
+   0100
+Running optimization stage 2 on ax_debounce .......
+Running optimization stage 2 on video_pll .......
+@W: CL156 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\video_pll\video_pll.v":104:9:104:13|*Input clkfb to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\video_pll\video_pll.v":107:9:107:13|*Input pfden to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\video_pll\video_pll.v":108:9:108:20|*Input clkout0_gate to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\video_pll\video_pll.v":109:9:109:25|*Input clkout0_2pad_gate to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\video_pll\video_pll.v":110:9:110:20|*Input clkout1_gate to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\video_pll\video_pll.v":111:9:111:20|*Input clkout2_gate to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\video_pll\video_pll.v":112:9:112:20|*Input clkout3_gate to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\video_pll\video_pll.v":113:9:113:20|*Input clkout4_gate to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\video_pll\video_pll.v":114:9:114:20|*Input clkout5_gate to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\video_pll\video_pll.v":115:15:115:22|*Input dyn_idiv[9:0] to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\video_pll\video_pll.v":116:15:116:23|*Input dyn_odiv0[9:0] to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\video_pll\video_pll.v":117:15:117:23|*Input dyn_odiv1[9:0] to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\video_pll\video_pll.v":118:15:118:23|*Input dyn_odiv2[9:0] to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\video_pll\video_pll.v":119:15:119:23|*Input dyn_odiv3[9:0] to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\video_pll\video_pll.v":120:15:120:23|*Input dyn_odiv4[9:0] to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\video_pll\video_pll.v":121:15:121:22|*Input dyn_fdiv[9:0] to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\video_pll\video_pll.v":122:15:122:23|*Input dyn_duty0[9:0] to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\video_pll\video_pll.v":123:15:123:23|*Input dyn_duty1[9:0] to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\video_pll\video_pll.v":124:15:124:23|*Input dyn_duty2[9:0] to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\video_pll\video_pll.v":125:15:125:23|*Input dyn_duty3[9:0] to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\video_pll\video_pll.v":126:15:126:23|*Input dyn_duty4[9:0] to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\video_pll\video_pll.v":127:16:127:25|*Input dyn_phase0[2:0] to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\video_pll\video_pll.v":128:16:128:25|*Input dyn_phase1[2:0] to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\video_pll\video_pll.v":129:16:129:25|*Input dyn_phase2[2:0] to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\video_pll\video_pll.v":130:16:130:25|*Input dyn_phase3[2:0] to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\video_pll\video_pll.v":131:16:131:25|*Input dyn_phase4[2:0] to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\video_pll\video_pll.v":127:16:127:25|*Input dyn_phase0[12:3] to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\video_pll\video_pll.v":128:16:128:25|*Input dyn_phase1[12:3] to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\video_pll\video_pll.v":129:16:129:25|*Input dyn_phase2[12:3] to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\video_pll\video_pll.v":130:16:130:25|*Input dyn_phase3[12:3] to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\source\video_pll\video_pll.v":131:16:131:25|*Input dyn_phase4[12:3] to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+Running optimization stage 2 on GTP_PLL_E1 .......
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\synthesize\synplify_impl\synwork\layer0.rt.csv
+
+
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 92MB peak: 92MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Tue May  7 16:40:49 2019
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2019 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: P-2019.03P-Beta2
+Install: C:\pango\PDS_2019.1-patch2\syn
+OS: Windows 6.1
+
+Hostname: ALINX000007-PC
+
+Implementation : synplify_impl
+Synopsys Synopsys Netlist Linker, Version comp2019q1p1, Build 007R, Built Feb 26 2019 11:45:06
+
+@N|Running in 64-bit mode
+
+Linker output is up to date. No re-linking necessary
+
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 91MB peak: 91MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Tue May  7 16:40:49 2019
+
+###########################################################]
+
+For a summary of runtime and memory usage for all design units, please see file:
+==========================================================
+@L: D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\synthesize\synplify_impl\synwork\synplify_comp.rt.csv
+
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 18MB peak: 18MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Tue May  7 16:40:49 2019
+
+###########################################################]

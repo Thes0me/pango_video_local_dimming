@@ -1,0 +1,384 @@
+@P:  Worst Slack : 14.934
+@P:  ipsl_ddrphy_dll_update_ctrl|dll_update_n_inferred_clock - Estimated Frequency : NA
+@P:  ipsl_ddrphy_dll_update_ctrl|dll_update_n_inferred_clock - Requested Frequency : 1.0 MHz
+@P:  ipsl_ddrphy_dll_update_ctrl|dll_update_n_inferred_clock - Estimated Period : NA
+@P:  ipsl_ddrphy_dll_update_ctrl|dll_update_n_inferred_clock - Requested Period : 1000.000
+@P:  ipsl_ddrphy_dll_update_ctrl|dll_update_n_inferred_clock - Slack : NA
+@P:  ipsl_phy_io_Z8|IOCLK_DIV_inferred_clock - Estimated Frequency : NA
+@P:  ipsl_phy_io_Z8|IOCLK_DIV_inferred_clock - Requested Frequency : 1.0 MHz
+@P:  ipsl_phy_io_Z8|IOCLK_DIV_inferred_clock - Estimated Period : NA
+@P:  ipsl_phy_io_Z8|IOCLK_DIV_inferred_clock - Requested Period : 1000.000
+@P:  ipsl_phy_io_Z8|IOCLK_DIV_inferred_clock - Slack : NA
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[2] - Estimated Frequency : NA
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[2] - Requested Frequency : 1.0 MHz
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[2] - Estimated Period : NA
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[2] - Requested Period : 1000.000
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[2] - Slack : NA
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[3] - Estimated Frequency : NA
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[3] - Requested Frequency : 1.0 MHz
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[3] - Estimated Period : NA
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[3] - Requested Period : 1000.000
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[3] - Slack : NA
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[4] - Estimated Frequency : NA
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[4] - Requested Frequency : 1.0 MHz
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[4] - Estimated Period : NA
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[4] - Requested Period : 1000.000
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[4] - Slack : NA
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[5] - Estimated Frequency : NA
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[5] - Requested Frequency : 1.0 MHz
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[5] - Estimated Period : NA
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[5] - Requested Period : 1000.000
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[5] - Slack : NA
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[6] - Estimated Frequency : NA
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[6] - Requested Frequency : 1.0 MHz
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[6] - Estimated Period : NA
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[6] - Requested Period : 1000.000
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[6] - Slack : NA
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[7] - Estimated Frequency : NA
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[7] - Requested Frequency : 1.0 MHz
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[7] - Estimated Period : NA
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[7] - Requested Period : 1000.000
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[7] - Slack : NA
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[9] - Estimated Frequency : NA
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[9] - Requested Frequency : 1.0 MHz
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[9] - Estimated Period : NA
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[9] - Requested Period : 1000.000
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[9] - Slack : NA
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[10] - Estimated Frequency : NA
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[10] - Requested Frequency : 1.0 MHz
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[10] - Estimated Period : NA
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[10] - Requested Period : 1000.000
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[10] - Slack : NA
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[11] - Estimated Frequency : NA
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[11] - Requested Frequency : 1.0 MHz
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[11] - Estimated Period : NA
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[11] - Requested Period : 1000.000
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[11] - Slack : NA
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[12] - Estimated Frequency : NA
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[12] - Requested Frequency : 1.0 MHz
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[12] - Estimated Period : NA
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[12] - Requested Period : 1000.000
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[12] - Slack : NA
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[17] - Estimated Frequency : NA
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[17] - Requested Frequency : 1.0 MHz
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[17] - Estimated Period : NA
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[17] - Requested Period : 1000.000
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[17] - Slack : NA
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[18] - Estimated Frequency : NA
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[18] - Requested Frequency : 1.0 MHz
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[18] - Estimated Period : NA
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[18] - Requested Period : 1000.000
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[18] - Slack : NA
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[19] - Estimated Frequency : NA
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[19] - Requested Frequency : 1.0 MHz
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[19] - Estimated Period : NA
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[19] - Requested Period : 1000.000
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[19] - Slack : NA
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[20] - Estimated Frequency : NA
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[20] - Requested Frequency : 1.0 MHz
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[20] - Estimated Period : NA
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[20] - Requested Period : 1000.000
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[20] - Slack : NA
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[21] - Estimated Frequency : NA
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[21] - Requested Frequency : 1.0 MHz
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[21] - Estimated Period : NA
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[21] - Requested Period : 1000.000
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[21] - Slack : NA
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[22] - Estimated Frequency : NA
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[22] - Requested Frequency : 1.0 MHz
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[22] - Estimated Period : NA
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[22] - Requested Period : 1000.000
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[22] - Slack : NA
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[23] - Estimated Frequency : NA
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[23] - Requested Frequency : 1.0 MHz
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[23] - Estimated Period : NA
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[23] - Requested Period : 1000.000
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[23] - Slack : NA
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[24] - Estimated Frequency : NA
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[24] - Requested Frequency : 1.0 MHz
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[24] - Estimated Period : NA
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[24] - Requested Period : 1000.000
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[24] - Slack : NA
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[25] - Estimated Frequency : NA
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[25] - Requested Frequency : 1.0 MHz
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[25] - Estimated Period : NA
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[25] - Requested Period : 1000.000
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[25] - Slack : NA
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[27] - Estimated Frequency : NA
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[27] - Requested Frequency : 1.0 MHz
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[27] - Estimated Period : NA
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[27] - Requested Period : 1000.000
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[27] - Slack : NA
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[28] - Estimated Frequency : NA
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[28] - Requested Frequency : 1.0 MHz
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[28] - Estimated Period : NA
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[28] - Requested Period : 1000.000
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[28] - Slack : NA
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[29] - Estimated Frequency : NA
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[29] - Requested Frequency : 1.0 MHz
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[29] - Estimated Period : NA
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[29] - Requested Period : 1000.000
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[29] - Slack : NA
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[31] - Estimated Frequency : NA
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[31] - Requested Frequency : 1.0 MHz
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[31] - Estimated Period : NA
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[31] - Requested Period : 1000.000
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[31] - Slack : NA
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[32] - Estimated Frequency : NA
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[32] - Requested Frequency : 1.0 MHz
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[32] - Estimated Period : NA
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[32] - Requested Period : 1000.000
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[32] - Slack : NA
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[33] - Estimated Frequency : NA
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[33] - Requested Frequency : 1.0 MHz
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[33] - Estimated Period : NA
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[33] - Requested Period : 1000.000
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[33] - Slack : NA
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[34] - Estimated Frequency : NA
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[34] - Requested Frequency : 1.0 MHz
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[34] - Estimated Period : NA
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[34] - Requested Period : 1000.000
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[34] - Slack : NA
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[35] - Estimated Frequency : NA
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[35] - Requested Frequency : 1.0 MHz
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[35] - Estimated Period : NA
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[35] - Requested Period : 1000.000
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[35] - Slack : NA
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[36] - Estimated Frequency : NA
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[36] - Requested Frequency : 1.0 MHz
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[36] - Estimated Period : NA
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[36] - Requested Period : 1000.000
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[36] - Slack : NA
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[37] - Estimated Frequency : NA
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[37] - Requested Frequency : 1.0 MHz
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[37] - Estimated Period : NA
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[37] - Requested Period : 1000.000
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[37] - Slack : NA
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[40] - Estimated Frequency : NA
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[40] - Requested Frequency : 1.0 MHz
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[40] - Estimated Period : NA
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[40] - Requested Period : 1000.000
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[40] - Slack : NA
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[41] - Estimated Frequency : NA
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[41] - Requested Frequency : 1.0 MHz
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[41] - Estimated Period : NA
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[41] - Requested Period : 1000.000
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[41] - Slack : NA
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[42] - Estimated Frequency : NA
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[42] - Requested Frequency : 1.0 MHz
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[42] - Estimated Period : NA
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[42] - Requested Period : 1000.000
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[42] - Slack : NA
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[43] - Estimated Frequency : NA
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[43] - Requested Frequency : 1.0 MHz
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[43] - Estimated Period : NA
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[43] - Requested Period : 1000.000
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[43] - Slack : NA
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[44] - Estimated Frequency : NA
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[44] - Requested Frequency : 1.0 MHz
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[44] - Estimated Period : NA
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[44] - Requested Period : 1000.000
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[44] - Slack : NA
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[45] - Estimated Frequency : NA
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[45] - Requested Frequency : 1.0 MHz
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[45] - Estimated Period : NA
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[45] - Requested Period : 1000.000
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[45] - Slack : NA
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[46] - Estimated Frequency : NA
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[46] - Requested Frequency : 1.0 MHz
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[46] - Estimated Period : NA
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[46] - Requested Period : 1000.000
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[46] - Slack : NA
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[47] - Estimated Frequency : NA
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[47] - Requested Frequency : 1.0 MHz
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[47] - Estimated Period : NA
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[47] - Requested Period : 1000.000
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[47] - Slack : NA
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[48] - Estimated Frequency : NA
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[48] - Requested Frequency : 1.0 MHz
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[48] - Estimated Period : NA
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[48] - Requested Period : 1000.000
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[48] - Slack : NA
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[49] - Estimated Frequency : NA
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[49] - Requested Frequency : 1.0 MHz
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[49] - Estimated Period : NA
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[49] - Requested Period : 1000.000
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[49] - Slack : NA
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[51] - Estimated Frequency : NA
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[51] - Requested Frequency : 1.0 MHz
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[51] - Estimated Period : NA
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[51] - Requested Period : 1000.000
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[51] - Slack : NA
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[52] - Estimated Frequency : NA
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[52] - Requested Frequency : 1.0 MHz
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[52] - Estimated Period : NA
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[52] - Requested Period : 1000.000
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[52] - Slack : NA
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[55] - Estimated Frequency : NA
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[55] - Requested Frequency : 1.0 MHz
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[55] - Estimated Period : NA
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[55] - Requested Period : 1000.000
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[55] - Slack : NA
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[56] - Estimated Frequency : NA
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[56] - Requested Frequency : 1.0 MHz
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[56] - Estimated Period : NA
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[56] - Requested Period : 1000.000
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[56] - Slack : NA
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[57] - Estimated Frequency : NA
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[57] - Requested Frequency : 1.0 MHz
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[57] - Estimated Period : NA
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[57] - Requested Period : 1000.000
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[57] - Slack : NA
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[58] - Estimated Frequency : NA
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[58] - Requested Frequency : 1.0 MHz
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[58] - Estimated Period : NA
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[58] - Requested Period : 1000.000
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[58] - Slack : NA
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[59] - Estimated Frequency : NA
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[59] - Requested Frequency : 1.0 MHz
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[59] - Estimated Period : NA
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[59] - Requested Period : 1000.000
+@P:  ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[59] - Slack : NA
+@P:  ipsl_phy_io_Z8|buffer_dqs_clk_regional_inferred_clock[0] - Estimated Frequency : NA
+@P:  ipsl_phy_io_Z8|buffer_dqs_clk_regional_inferred_clock[0] - Requested Frequency : 1.0 MHz
+@P:  ipsl_phy_io_Z8|buffer_dqs_clk_regional_inferred_clock[0] - Estimated Period : NA
+@P:  ipsl_phy_io_Z8|buffer_dqs_clk_regional_inferred_clock[0] - Requested Period : 1000.000
+@P:  ipsl_phy_io_Z8|buffer_dqs_clk_regional_inferred_clock[0] - Slack : NA
+@P:  ipsl_phy_io_Z8|buffer_dqs_clk_regional_inferred_clock[1] - Estimated Frequency : NA
+@P:  ipsl_phy_io_Z8|buffer_dqs_clk_regional_inferred_clock[1] - Requested Frequency : 1.0 MHz
+@P:  ipsl_phy_io_Z8|buffer_dqs_clk_regional_inferred_clock[1] - Estimated Period : NA
+@P:  ipsl_phy_io_Z8|buffer_dqs_clk_regional_inferred_clock[1] - Requested Period : 1000.000
+@P:  ipsl_phy_io_Z8|buffer_dqs_clk_regional_inferred_clock[1] - Slack : NA
+@P:  ipsl_phy_io_Z8|buffer_dqs_clk_regional_inferred_clock[2] - Estimated Frequency : NA
+@P:  ipsl_phy_io_Z8|buffer_dqs_clk_regional_inferred_clock[2] - Requested Frequency : 1.0 MHz
+@P:  ipsl_phy_io_Z8|buffer_dqs_clk_regional_inferred_clock[2] - Estimated Period : NA
+@P:  ipsl_phy_io_Z8|buffer_dqs_clk_regional_inferred_clock[2] - Requested Period : 1000.000
+@P:  ipsl_phy_io_Z8|buffer_dqs_clk_regional_inferred_clock[2] - Slack : NA
+@P:  ipsl_phy_io_Z8|buffer_dqs_clk_regional_inferred_clock[3] - Estimated Frequency : NA
+@P:  ipsl_phy_io_Z8|buffer_dqs_clk_regional_inferred_clock[3] - Requested Frequency : 1.0 MHz
+@P:  ipsl_phy_io_Z8|buffer_dqs_clk_regional_inferred_clock[3] - Estimated Period : NA
+@P:  ipsl_phy_io_Z8|buffer_dqs_clk_regional_inferred_clock[3] - Requested Period : 1000.000
+@P:  ipsl_phy_io_Z8|buffer_dqs_clk_regional_inferred_clock[3] - Slack : NA
+@P:  ipsl_phy_io_Z8|buffer_dqs_clk_regional_inferred_clock[4] - Estimated Frequency : NA
+@P:  ipsl_phy_io_Z8|buffer_dqs_clk_regional_inferred_clock[4] - Requested Frequency : 1.0 MHz
+@P:  ipsl_phy_io_Z8|buffer_dqs_clk_regional_inferred_clock[4] - Estimated Period : NA
+@P:  ipsl_phy_io_Z8|buffer_dqs_clk_regional_inferred_clock[4] - Requested Period : 1000.000
+@P:  ipsl_phy_io_Z8|buffer_dqs_clk_regional_inferred_clock[4] - Slack : NA
+@P:  ipsl_phy_io_Z8|dqs0_clk_r_inferred_clock - Estimated Frequency : NA
+@P:  ipsl_phy_io_Z8|dqs0_clk_r_inferred_clock - Requested Frequency : 1.0 MHz
+@P:  ipsl_phy_io_Z8|dqs0_clk_r_inferred_clock - Estimated Period : NA
+@P:  ipsl_phy_io_Z8|dqs0_clk_r_inferred_clock - Requested Period : 1000.000
+@P:  ipsl_phy_io_Z8|dqs0_clk_r_inferred_clock - Slack : NA
+@P:  ipsl_phy_io_Z8|dqs1_clk_r_inferred_clock - Estimated Frequency : NA
+@P:  ipsl_phy_io_Z8|dqs1_clk_r_inferred_clock - Requested Frequency : 1.0 MHz
+@P:  ipsl_phy_io_Z8|dqs1_clk_r_inferred_clock - Estimated Period : NA
+@P:  ipsl_phy_io_Z8|dqs1_clk_r_inferred_clock - Requested Period : 1000.000
+@P:  ipsl_phy_io_Z8|dqs1_clk_r_inferred_clock - Slack : NA
+@P:  ipsl_phy_io_Z8|dqs_90_0_inferred_clock - Estimated Frequency : NA
+@P:  ipsl_phy_io_Z8|dqs_90_0_inferred_clock - Requested Frequency : 1.0 MHz
+@P:  ipsl_phy_io_Z8|dqs_90_0_inferred_clock - Estimated Period : NA
+@P:  ipsl_phy_io_Z8|dqs_90_0_inferred_clock - Requested Period : 1000.000
+@P:  ipsl_phy_io_Z8|dqs_90_0_inferred_clock - Slack : NA
+@P:  ipsl_phy_io_Z8|dqs_90_1_inferred_clock - Estimated Frequency : NA
+@P:  ipsl_phy_io_Z8|dqs_90_1_inferred_clock - Requested Frequency : 1.0 MHz
+@P:  ipsl_phy_io_Z8|dqs_90_1_inferred_clock - Estimated Period : NA
+@P:  ipsl_phy_io_Z8|dqs_90_1_inferred_clock - Requested Period : 1000.000
+@P:  ipsl_phy_io_Z8|dqs_90_1_inferred_clock - Slack : NA
+@P:  ipsl_phy_io_Z8|dqs_ca_clk_r_01_inferred_clock - Estimated Frequency : NA
+@P:  ipsl_phy_io_Z8|dqs_ca_clk_r_01_inferred_clock - Requested Frequency : 1.0 MHz
+@P:  ipsl_phy_io_Z8|dqs_ca_clk_r_01_inferred_clock - Estimated Period : NA
+@P:  ipsl_phy_io_Z8|dqs_ca_clk_r_01_inferred_clock - Requested Period : 1000.000
+@P:  ipsl_phy_io_Z8|dqs_ca_clk_r_01_inferred_clock - Slack : NA
+@P:  ipsl_phy_io_Z8|dqs_ca_clk_r_03_inferred_clock - Estimated Frequency : NA
+@P:  ipsl_phy_io_Z8|dqs_ca_clk_r_03_inferred_clock - Requested Frequency : 1.0 MHz
+@P:  ipsl_phy_io_Z8|dqs_ca_clk_r_03_inferred_clock - Estimated Period : NA
+@P:  ipsl_phy_io_Z8|dqs_ca_clk_r_03_inferred_clock - Requested Period : 1000.000
+@P:  ipsl_phy_io_Z8|dqs_ca_clk_r_03_inferred_clock - Slack : NA
+@P:  ipsl_phy_io_Z8|dqs_ca_clk_r_04_inferred_clock - Estimated Frequency : NA
+@P:  ipsl_phy_io_Z8|dqs_ca_clk_r_04_inferred_clock - Requested Frequency : 1.0 MHz
+@P:  ipsl_phy_io_Z8|dqs_ca_clk_r_04_inferred_clock - Estimated Period : NA
+@P:  ipsl_phy_io_Z8|dqs_ca_clk_r_04_inferred_clock - Requested Period : 1000.000
+@P:  ipsl_phy_io_Z8|dqs_ca_clk_r_04_inferred_clock - Slack : NA
+@P:  ipsl_phy_io_Z8|dqs_clkw290_0_inferred_clock - Estimated Frequency : NA
+@P:  ipsl_phy_io_Z8|dqs_clkw290_0_inferred_clock - Requested Frequency : 1.0 MHz
+@P:  ipsl_phy_io_Z8|dqs_clkw290_0_inferred_clock - Estimated Period : NA
+@P:  ipsl_phy_io_Z8|dqs_clkw290_0_inferred_clock - Requested Period : 1000.000
+@P:  ipsl_phy_io_Z8|dqs_clkw290_0_inferred_clock - Slack : NA
+@P:  ipsl_phy_io_Z8|dqs_clkw290_1_inferred_clock - Estimated Frequency : NA
+@P:  ipsl_phy_io_Z8|dqs_clkw290_1_inferred_clock - Requested Frequency : 1.0 MHz
+@P:  ipsl_phy_io_Z8|dqs_clkw290_1_inferred_clock - Estimated Period : NA
+@P:  ipsl_phy_io_Z8|dqs_clkw290_1_inferred_clock - Requested Period : 1000.000
+@P:  ipsl_phy_io_Z8|dqs_clkw290_1_inferred_clock - Slack : NA
+@P:  ipsl_phy_io_Z8|dqs_clkw_0_inferred_clock - Estimated Frequency : NA
+@P:  ipsl_phy_io_Z8|dqs_clkw_0_inferred_clock - Requested Frequency : 1.0 MHz
+@P:  ipsl_phy_io_Z8|dqs_clkw_0_inferred_clock - Estimated Period : NA
+@P:  ipsl_phy_io_Z8|dqs_clkw_0_inferred_clock - Requested Period : 1000.000
+@P:  ipsl_phy_io_Z8|dqs_clkw_0_inferred_clock - Slack : NA
+@P:  ipsl_phy_io_Z8|dqs_clkw_1_inferred_clock - Estimated Frequency : NA
+@P:  ipsl_phy_io_Z8|dqs_clkw_1_inferred_clock - Requested Frequency : 1.0 MHz
+@P:  ipsl_phy_io_Z8|dqs_clkw_1_inferred_clock - Estimated Period : NA
+@P:  ipsl_phy_io_Z8|dqs_clkw_1_inferred_clock - Requested Period : 1000.000
+@P:  ipsl_phy_io_Z8|dqs_clkw_1_inferred_clock - Slack : NA
+@P:  ipsl_phy_io_Z8|dqs_clkw_ca_01_inferred_clock - Estimated Frequency : NA
+@P:  ipsl_phy_io_Z8|dqs_clkw_ca_01_inferred_clock - Requested Frequency : 1.0 MHz
+@P:  ipsl_phy_io_Z8|dqs_clkw_ca_01_inferred_clock - Estimated Period : NA
+@P:  ipsl_phy_io_Z8|dqs_clkw_ca_01_inferred_clock - Requested Period : 1000.000
+@P:  ipsl_phy_io_Z8|dqs_clkw_ca_01_inferred_clock - Slack : NA
+@P:  ipsl_phy_io_Z8|dqs_clkw_ca_03_inferred_clock - Estimated Frequency : NA
+@P:  ipsl_phy_io_Z8|dqs_clkw_ca_03_inferred_clock - Requested Frequency : 1.0 MHz
+@P:  ipsl_phy_io_Z8|dqs_clkw_ca_03_inferred_clock - Estimated Period : NA
+@P:  ipsl_phy_io_Z8|dqs_clkw_ca_03_inferred_clock - Requested Period : 1000.000
+@P:  ipsl_phy_io_Z8|dqs_clkw_ca_03_inferred_clock - Slack : NA
+@P:  ipsl_phy_io_Z8|dqs_clkw_ca_04_inferred_clock - Estimated Frequency : NA
+@P:  ipsl_phy_io_Z8|dqs_clkw_ca_04_inferred_clock - Requested Frequency : 1.0 MHz
+@P:  ipsl_phy_io_Z8|dqs_clkw_ca_04_inferred_clock - Estimated Period : NA
+@P:  ipsl_phy_io_Z8|dqs_clkw_ca_04_inferred_clock - Requested Period : 1000.000
+@P:  ipsl_phy_io_Z8|dqs_clkw_ca_04_inferred_clock - Slack : NA
+@P:  ipsl_phy_io_Z8|ioclk_01_inferred_clock - Estimated Frequency : 1008.1 MHz
+@P:  ipsl_phy_io_Z8|ioclk_01_inferred_clock - Requested Frequency : 1.0 MHz
+@P:  ipsl_phy_io_Z8|ioclk_01_inferred_clock - Estimated Period : 0.992
+@P:  ipsl_phy_io_Z8|ioclk_01_inferred_clock - Requested Period : 1000.000
+@P:  ipsl_phy_io_Z8|ioclk_01_inferred_clock - Slack : 999.008
+@P:  ipsl_phy_io_Z8|ioclk_02_inferred_clock - Estimated Frequency : NA
+@P:  ipsl_phy_io_Z8|ioclk_02_inferred_clock - Requested Frequency : 1.0 MHz
+@P:  ipsl_phy_io_Z8|ioclk_02_inferred_clock - Estimated Period : NA
+@P:  ipsl_phy_io_Z8|ioclk_02_inferred_clock - Requested Period : 1000.000
+@P:  ipsl_phy_io_Z8|ioclk_02_inferred_clock - Slack : NA
+@P:  pll_50_400|clkout1_inferred_clock - Estimated Frequency : 120.6 MHz
+@P:  pll_50_400|clkout1_inferred_clock - Requested Frequency : 1.0 MHz
+@P:  pll_50_400|clkout1_inferred_clock - Estimated Period : 8.294
+@P:  pll_50_400|clkout1_inferred_clock - Requested Period : 1000.000
+@P:  pll_50_400|clkout1_inferred_clock - Slack : 991.706
+@P:  pll_50_400|clkout3_inferred_clock - Estimated Frequency : 150.7 MHz
+@P:  pll_50_400|clkout3_inferred_clock - Requested Frequency : 1.0 MHz
+@P:  pll_50_400|clkout3_inferred_clock - Estimated Period : 6.636
+@P:  pll_50_400|clkout3_inferred_clock - Requested Period : 1000.000
+@P:  pll_50_400|clkout3_inferred_clock - Slack : 993.364
+@P:  sys_clk - Estimated Frequency : 197.4 MHz
+@P:  sys_clk - Requested Frequency : 50.0 MHz
+@P:  sys_clk - Estimated Period : 5.066
+@P:  sys_clk - Requested Period : 20.000
+@P:  sys_clk - Slack : 14.934
+@P:  video_pll|clkout0_inferred_clock - Estimated Frequency : 179.2 MHz
+@P:  video_pll|clkout0_inferred_clock - Requested Frequency : 1.0 MHz
+@P:  video_pll|clkout0_inferred_clock - Estimated Period : 5.580
+@P:  video_pll|clkout0_inferred_clock - Requested Period : 1000.000
+@P:  video_pll|clkout0_inferred_clock - Slack : 994.419
+@P:  video_pll|clkout1_inferred_clock - Estimated Frequency : 734.4 MHz
+@P:  video_pll|clkout1_inferred_clock - Requested Frequency : 1.0 MHz
+@P:  video_pll|clkout1_inferred_clock - Estimated Period : 1.362
+@P:  video_pll|clkout1_inferred_clock - Requested Period : 1000.000
+@P:  video_pll|clkout1_inferred_clock - Slack : 998.638
+@P:  System - Estimated Frequency : 780.5 MHz
+@P:  System - Requested Frequency : 1.0 MHz
+@P:  System - Estimated Period : 1.281
+@P:  System - Requested Period : 1000.000
+@P:  System - Slack : 998.719
+@P: ipsl_hmemc_top_test Part : pgl22gbg324-7
+@P: ipsl_hmemc_top_test Distributed Rams : 30.00 of 1110 (2.70%)
+@P: ipsl_hmemc_top_test Total Luts : 2079 of 17536 (11.86%)
+@P: ipsl_hmemc_top_test Total Register bits  : 1164 of 26304 (4.43%)
+@P: ipsl_hmemc_top_test Total DRM18K  : 4 of 48 (8.33%)
+@P: ipsl_hmemc_top_test Total APMs  : 0.00 of 30 (0.00%)
+@P: ipsl_hmemc_top_test Total I/O primitives  : 75 of 240 (31.25%)
+@P:  CPU Time : 0h:00m:34s

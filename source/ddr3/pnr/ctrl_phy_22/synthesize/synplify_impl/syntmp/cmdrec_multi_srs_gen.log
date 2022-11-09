@@ -1,0 +1,7 @@
+C:\pango\PDS_2019.1-patch2\syn\bin64\syn_nfilter.exe  -link  -top  ipsl_hmemc_top_test  -multisrs  "D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\synthesize\synplify_impl\synwork\synplify_comp.srs"  -osyn  "D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\synthesize\synplify_impl\synwork\synplify_mult.srs"  -log  "D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\synthesize\synplify_impl\synlog\synplify_multi_srs_gen.srr" 
+relcom:C:\pango\PDS_2019.1-patch2\syn\bin64\syn_nfilter.exe -link -top ipsl_hmemc_top_test -multisrs "D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\synthesize\synplify_impl\synwork\synplify_comp.srs" -osyn "D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\synthesize\synplify_impl\synwork\synplify_mult.srs" -log "D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\synthesize\synplify_impl\synlog\synplify_multi_srs_gen.srr"
+rc:0 success:1 runtime:0
+file:..\synwork\synplify_comp.srs|io:i|time:1557217804|size:203506|exec:0|csum:90FBF5FAEF7248A6955B5F993B2608E8
+file:..\synwork\synplify_mult.srs|io:o|time:1557217806|size:16412|exec:0|csum:
+file:..\synlog\synplify_multi_srs_gen.srr|io:o|time:1557217806|size:1198|exec:0|csum:
+file:C:\pango\PDS_2019.1-patch2\syn\bin64\syn_nfilter.exe|io:i|time:1554698560|size:8823808|exec:1|csum:3618916D7958985CF38A6328459776F6

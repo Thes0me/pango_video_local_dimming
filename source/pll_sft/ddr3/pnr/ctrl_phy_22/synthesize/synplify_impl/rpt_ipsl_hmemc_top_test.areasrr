@@ -1,0 +1,934 @@
+
+Copyright (C) 1994-2019 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: P-2019.03P-Beta2
+Install: C:\pango\PDS_2019.1-patch2\syn
+OS: Windows 6.1
+
+Hostname: ALINX000007-PC
+
+Implementation : synplify_impl
+
+#### START OF AREA REPORT #####[
+
+Part:			PGL22GBG324-7 (Pango)
+
+-----------------------------------------------------------------------------------
+########   Utilization report for  Top level view:   ipsl_hmemc_top_test   ########
+===================================================================================
+
+SEQUENTIAL ELEMENTS
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     1164               100 %                
+======================================================
+Total SEQUENTIAL ELEMENTS in the block ipsl_hmemc_top_test:	1164 (32.22 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+LUTS          1361               100 %                
+LUT5CARRY     658                100 %                
+======================================================
+Total COMBINATIONAL LOGIC in the block ipsl_hmemc_top_test:	2019 (55.88 % Utilization)
+
+
+MEMORY ELEMENTS
+Name                 Total elements     Utilization     Notes
+-------------------------------------------------------------
+DEDICATED RAMS       4                  100 %                
+DISTRIBUTED RAMS     30                 100 %                
+=============================================================
+Total MEMORY ELEMENTS in the block ipsl_hmemc_top_test:	34 (0.94 % Utilization)
+
+
+IO BUFFERS
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+BUFFERS     75                 100 %                
+====================================================
+Total IO BUFFERS in the block ipsl_hmemc_top_test:	75 (2.08 % Utilization)
+
+-------------------------------------------------------------------
+########   Utilization report for  cell:   aq_axi_master   ########
+Instance path:   ipsl_hmemc_top_test.aq_axi_master                 
+===================================================================
+
+SEQUENTIAL ELEMENTS
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     160                13.7 %               
+======================================================
+Total SEQUENTIAL ELEMENTS in the block ipsl_hmemc_top_test.aq_axi_master:	160 (4.43 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+LUTS          195                14.3 %               
+LUT5CARRY     155                23.6 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block ipsl_hmemc_top_test.aq_axi_master:	350 (9.69 % Utilization)
+
+----------------------------------------------------------
+########   Utilization report for  cell:   ddr3   ########
+Instance path:   ipsl_hmemc_top_test.ddr3                 
+==========================================================
+
+SEQUENTIAL ELEMENTS
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     118                10.1 %               
+======================================================
+Total SEQUENTIAL ELEMENTS in the block ipsl_hmemc_top_test.ddr3:	118 (3.27 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+LUTS          219                16.1 %               
+LUT5CARRY     58                 8.81 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block ipsl_hmemc_top_test.ddr3:	277 (7.67 % Utilization)
+
+
+MEMORY ELEMENTS
+Name                 Total elements     Utilization     Notes
+-------------------------------------------------------------
+DISTRIBUTED RAMS     30                 100 %                
+=============================================================
+Total MEMORY ELEMENTS in the block ipsl_hmemc_top_test.ddr3:	30 (0.83 % Utilization)
+
+
+IO BUFFERS
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+BUFFERS     51                 68 %                 
+====================================================
+Total IO BUFFERS in the block ipsl_hmemc_top_test.ddr3:	51 (1.41 % Utilization)
+
+-----------------------------------------------------------------------------
+########   Utilization report for  cell:   ipsl_hmemc_ddrc_top_Z12   ########
+Instance path:   ddr3.ipsl_hmemc_ddrc_top_Z12                                
+=============================================================================
+
+SEQUENTIAL ELEMENTS
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     25                 2.15 %               
+======================================================
+Total SEQUENTIAL ELEMENTS in the block ddr3.ipsl_hmemc_ddrc_top_Z12:	25 (0.69 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+LUTS          171                12.6 %               
+LUT5CARRY     17                 2.58 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block ddr3.ipsl_hmemc_ddrc_top_Z12:	188 (5.20 % Utilization)
+
+
+MEMORY ELEMENTS
+Name                 Total elements     Utilization     Notes
+-------------------------------------------------------------
+DISTRIBUTED RAMS     30                 100 %                
+=============================================================
+Total MEMORY ELEMENTS in the block ddr3.ipsl_hmemc_ddrc_top_Z12:	30 (0.83 % Utilization)
+
+------------------------------------------------------------------------------
+########   Utilization report for  cell:   ipsl_ddrc_reset_ctrl_Z11   ########
+Instance path:   ipsl_hmemc_ddrc_top_Z12.ipsl_ddrc_reset_ctrl_Z11             
+==============================================================================
+
+SEQUENTIAL ELEMENTS
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     25                 2.15 %               
+======================================================
+Total SEQUENTIAL ELEMENTS in the block ipsl_hmemc_ddrc_top_Z12.ipsl_ddrc_reset_ctrl_Z11:	25 (0.69 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+LUTS          171                12.6 %               
+LUT5CARRY     17                 2.58 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block ipsl_hmemc_ddrc_top_Z12.ipsl_ddrc_reset_ctrl_Z11:	188 (5.20 % Utilization)
+
+
+MEMORY ELEMENTS
+Name                 Total elements     Utilization     Notes
+-------------------------------------------------------------
+DISTRIBUTED RAMS     30                 100 %                
+=============================================================
+Total MEMORY ELEMENTS in the block ipsl_hmemc_ddrc_top_Z12.ipsl_ddrc_reset_ctrl_Z11:	30 (0.83 % Utilization)
+
+-----------------------------------------------------------------------------
+########   Utilization report for  cell:   ipsl_ddrc_apb_reset_Z10   ########
+Instance path:   ipsl_ddrc_reset_ctrl_Z11.ipsl_ddrc_apb_reset_Z10            
+=============================================================================
+
+SEQUENTIAL ELEMENTS
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     10                 0.8590 %             
+======================================================
+Total SEQUENTIAL ELEMENTS in the block ipsl_ddrc_reset_ctrl_Z11.ipsl_ddrc_apb_reset_Z10:	10 (0.28 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+LUTS          114                8.38 %               
+LUT5CARRY     7                  1.06 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block ipsl_ddrc_reset_ctrl_Z11.ipsl_ddrc_apb_reset_Z10:	121 (3.35 % Utilization)
+
+
+MEMORY ELEMENTS
+Name                 Total elements     Utilization     Notes
+-------------------------------------------------------------
+DISTRIBUTED RAMS     30                 100 %                
+=============================================================
+Total MEMORY ELEMENTS in the block ipsl_ddrc_reset_ctrl_Z11.ipsl_ddrc_apb_reset_Z10:	30 (0.83 % Utilization)
+
+---------------------------------------------------------------------------
+########   Utilization report for  cell:   ipsl_hmemc_phy_top_Z9   ########
+Instance path:   ddr3.ipsl_hmemc_phy_top_Z9                                
+===========================================================================
+
+SEQUENTIAL ELEMENTS
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     93                 7.99 %               
+======================================================
+Total SEQUENTIAL ELEMENTS in the block ddr3.ipsl_hmemc_phy_top_Z9:	93 (2.57 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+LUTS          48                 3.53 %               
+LUT5CARRY     41                 6.23 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block ddr3.ipsl_hmemc_phy_top_Z9:	89 (2.46 % Utilization)
+
+
+IO BUFFERS
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+BUFFERS     51                 68 %                 
+====================================================
+Total IO BUFFERS in the block ddr3.ipsl_hmemc_phy_top_Z9:	51 (1.41 % Utilization)
+
+---------------------------------------------------------------------------------
+########   Utilization report for  cell:   ipsl_ddrphy_dll_update_ctrl   ########
+Instance path:   ipsl_hmemc_phy_top_Z9.ipsl_ddrphy_dll_update_ctrl               
+=================================================================================
+
+SEQUENTIAL ELEMENTS
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     9                  0.7730 %             
+======================================================
+Total SEQUENTIAL ELEMENTS in the block ipsl_hmemc_phy_top_Z9.ipsl_ddrphy_dll_update_ctrl:	9 (0.25 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     7                  0.5140 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block ipsl_hmemc_phy_top_Z9.ipsl_ddrphy_dll_update_ctrl:	7 (0.19 % Utilization)
+
+----------------------------------------------------------------------------
+########   Utilization report for  cell:   ipsl_ddrphy_reset_ctrl   ########
+Instance path:   ipsl_hmemc_phy_top_Z9.ipsl_ddrphy_reset_ctrl               
+============================================================================
+
+SEQUENTIAL ELEMENTS
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     32                 2.75 %               
+======================================================
+Total SEQUENTIAL ELEMENTS in the block ipsl_hmemc_phy_top_Z9.ipsl_ddrphy_reset_ctrl:	32 (0.89 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+LUTS          27                 1.98 %               
+LUT5CARRY     8                  1.22 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block ipsl_hmemc_phy_top_Z9.ipsl_ddrphy_reset_ctrl:	35 (0.97 % Utilization)
+
+-------------------------------------------------------------------------------
+########   Utilization report for  cell:   ipsl_ddrphy_training_ctrl   ########
+Instance path:   ipsl_hmemc_phy_top_Z9.ipsl_ddrphy_training_ctrl               
+===============================================================================
+
+SEQUENTIAL ELEMENTS
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     8                  0.6870 %             
+======================================================
+Total SEQUENTIAL ELEMENTS in the block ipsl_hmemc_phy_top_Z9.ipsl_ddrphy_training_ctrl:	8 (0.22 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     5                  0.3670 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block ipsl_hmemc_phy_top_Z9.ipsl_ddrphy_training_ctrl:	5 (0.14 % Utilization)
+
+----------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   ipsl_ddrphy_update_ctrl_16BIT_2s_0s_1s_2s_3s_1   ########
+Instance path:   ipsl_hmemc_phy_top_Z9.ipsl_ddrphy_update_ctrl_16BIT_2s_0s_1s_2s_3s_1               
+====================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     44                 3.78 %               
+======================================================
+Total SEQUENTIAL ELEMENTS in the block ipsl_hmemc_phy_top_Z9.ipsl_ddrphy_update_ctrl_16BIT_2s_0s_1s_2s_3s_1:	44 (1.22 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+LUTS          9                  0.6610 %             
+LUT5CARRY     33                 5.02 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block ipsl_hmemc_phy_top_Z9.ipsl_ddrphy_update_ctrl_16BIT_2s_0s_1s_2s_3s_1:	42 (1.16 % Utilization)
+
+--------------------------------------------------------------------
+########   Utilization report for  cell:   ipsl_phy_io_Z8   ########
+Instance path:   ipsl_hmemc_phy_top_Z9.ipsl_phy_io_Z8               
+====================================================================
+
+IO BUFFERS
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+BUFFERS     51                 68 %                 
+====================================================
+Total IO BUFFERS in the block ipsl_hmemc_phy_top_Z9.ipsl_phy_io_Z8:	51 (1.41 % Utilization)
+
+----------------------------------------------------------------
+########   Utilization report for  cell:   pll_50_400   ########
+Instance path:   ddr3.pll_50_400                                
+================================================================
+-----------------------------------------------------------------
+########   Utilization report for  cell:   dvi_encoder   ########
+Instance path:   ipsl_hmemc_top_test.dvi_encoder                 
+=================================================================
+
+SEQUENTIAL ELEMENTS
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     169                14.5 %               
+======================================================
+Total SEQUENTIAL ELEMENTS in the block ipsl_hmemc_top_test.dvi_encoder:	169 (4.68 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+LUTS          239                17.6 %               
+LUT5CARRY     54                 8.21 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block ipsl_hmemc_top_test.dvi_encoder:	293 (8.11 % Utilization)
+
+
+IO BUFFERS
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+BUFFERS     8                  10.7 %               
+====================================================
+Total IO BUFFERS in the block ipsl_hmemc_top_test.dvi_encoder:	8 (0.22 % Utilization)
+
+------------------------------------------------------------
+########   Utilization report for  cell:   encode   ########
+Instance path:   dvi_encoder.encode                         
+============================================================
+
+SEQUENTIAL ELEMENTS
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     48                 4.12 %               
+======================================================
+Total SEQUENTIAL ELEMENTS in the block dvi_encoder.encode:	48 (1.33 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+LUTS          71                 5.22 %               
+LUT5CARRY     18                 2.74 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block dvi_encoder.encode:	89 (2.46 % Utilization)
+
+----------------------------------------------------------------
+########   Utilization report for  cell:   encode_0_0   ########
+Instance path:   dvi_encoder.encode_0_0                         
+================================================================
+
+SEQUENTIAL ELEMENTS
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     38                 3.26 %               
+======================================================
+Total SEQUENTIAL ELEMENTS in the block dvi_encoder.encode_0_0:	38 (1.05 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+LUTS          68                 5 %                  
+LUT5CARRY     18                 2.74 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block dvi_encoder.encode_0_0:	86 (2.38 % Utilization)
+
+----------------------------------------------------------------
+########   Utilization report for  cell:   encode_0_1   ########
+Instance path:   dvi_encoder.encode_0_1                         
+================================================================
+
+SEQUENTIAL ELEMENTS
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     42                 3.61 %               
+======================================================
+Total SEQUENTIAL ELEMENTS in the block dvi_encoder.encode_0_1:	42 (1.16 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+LUTS          70                 5.14 %               
+LUT5CARRY     18                 2.74 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block dvi_encoder.encode_0_1:	88 (2.44 % Utilization)
+
+---------------------------------------------------------------------
+########   Utilization report for  cell:   serdes_4b_10to1   ########
+Instance path:   dvi_encoder.serdes_4b_10to1                         
+=====================================================================
+
+SEQUENTIAL ELEMENTS
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     41                 3.52 %               
+======================================================
+Total SEQUENTIAL ELEMENTS in the block dvi_encoder.serdes_4b_10to1:	41 (1.13 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     30                 2.2 %                
+=================================================
+Total COMBINATIONAL LOGIC in the block dvi_encoder.serdes_4b_10to1:	30 (0.83 % Utilization)
+
+
+IO BUFFERS
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+BUFFERS     8                  10.7 %               
+====================================================
+Total IO BUFFERS in the block dvi_encoder.serdes_4b_10to1:	8 (0.22 % Utilization)
+
+----------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   frame_read_write_64s_32s_32s_25s_10s_64s   ########
+Instance path:   ipsl_hmemc_top_test.frame_read_write_64s_32s_32s_25s_10s_64s                 
+==============================================================================================
+
+SEQUENTIAL ELEMENTS
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     258                22.2 %               
+======================================================
+Total SEQUENTIAL ELEMENTS in the block ipsl_hmemc_top_test.frame_read_write_64s_32s_32s_25s_10s_64s:	258 (7.14 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+LUTS          184                13.5 %               
+LUT5CARRY     161                24.5 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block ipsl_hmemc_top_test.frame_read_write_64s_32s_32s_25s_10s_64s:	345 (9.55 % Utilization)
+
+
+MEMORY ELEMENTS
+Name               Total elements     Utilization     Notes
+-----------------------------------------------------------
+DEDICATED RAMS     4                  100 %                
+===========================================================
+Total MEMORY ELEMENTS in the block ipsl_hmemc_top_test.frame_read_write_64s_32s_32s_25s_10s_64s:	4 (0.11 % Utilization)
+
+---------------------------------------------------------------------------
+########   Utilization report for  cell:   afifo_32i_64o_256   ########    
+Instance path:   frame_read_write_64s_32s_32s_25s_10s_64s.afifo_32i_64o_256
+===========================================================================
+
+SEQUENTIAL ELEMENTS
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     76                 6.53 %               
+======================================================
+Total SEQUENTIAL ELEMENTS in the block frame_read_write_64s_32s_32s_25s_10s_64s.afifo_32i_64o_256:	76 (2.10 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+LUTS          40                 2.94 %               
+LUT5CARRY     32                 4.86 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block frame_read_write_64s_32s_32s_25s_10s_64s.afifo_32i_64o_256:	72 (1.99 % Utilization)
+
+
+MEMORY ELEMENTS
+Name               Total elements     Utilization     Notes
+-----------------------------------------------------------
+DEDICATED RAMS     2                  50 %                 
+===========================================================
+Total MEMORY ELEMENTS in the block frame_read_write_64s_32s_32s_25s_10s_64s.afifo_32i_64o_256:	2 (0.06 % Utilization)
+
+-----------------------------------------------------------------------------------------
+########   Utilization report for  cell:   ipml_fifo_v1_3_afifo_32i_64o_256_Z3   ########
+Instance path:   afifo_32i_64o_256.ipml_fifo_v1_3_afifo_32i_64o_256_Z3                   
+=========================================================================================
+
+SEQUENTIAL ELEMENTS
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     76                 6.53 %               
+======================================================
+Total SEQUENTIAL ELEMENTS in the block afifo_32i_64o_256.ipml_fifo_v1_3_afifo_32i_64o_256_Z3:	76 (2.10 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+LUTS          40                 2.94 %               
+LUT5CARRY     32                 4.86 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block afifo_32i_64o_256.ipml_fifo_v1_3_afifo_32i_64o_256_Z3:	72 (1.99 % Utilization)
+
+
+MEMORY ELEMENTS
+Name               Total elements     Utilization     Notes
+-----------------------------------------------------------
+DEDICATED RAMS     2                  50 %                 
+===========================================================
+Total MEMORY ELEMENTS in the block afifo_32i_64o_256.ipml_fifo_v1_3_afifo_32i_64o_256_Z3:	2 (0.06 % Utilization)
+
+--------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   ipml_fifo_ctrl_v1_3_9s_8s_ASYN_508s_4s   ########
+Instance path:   ipml_fifo_v1_3_afifo_32i_64o_256_Z3.ipml_fifo_ctrl_v1_3_9s_8s_ASYN_508s_4s 
+============================================================================================
+
+SEQUENTIAL ELEMENTS
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     76                 6.53 %               
+======================================================
+Total SEQUENTIAL ELEMENTS in the block ipml_fifo_v1_3_afifo_32i_64o_256_Z3.ipml_fifo_ctrl_v1_3_9s_8s_ASYN_508s_4s:	76 (2.10 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+LUTS          40                 2.94 %               
+LUT5CARRY     32                 4.86 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block ipml_fifo_v1_3_afifo_32i_64o_256_Z3.ipml_fifo_ctrl_v1_3_9s_8s_ASYN_508s_4s:	72 (1.99 % Utilization)
+
+-------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   ipml_sdpram_v1_3_afifo_32i_64o_256_Z2   ########
+Instance path:   ipml_fifo_v1_3_afifo_32i_64o_256_Z3.ipml_sdpram_v1_3_afifo_32i_64o_256_Z2 
+===========================================================================================
+
+MEMORY ELEMENTS
+Name               Total elements     Utilization     Notes
+-----------------------------------------------------------
+DEDICATED RAMS     2                  50 %                 
+===========================================================
+Total MEMORY ELEMENTS in the block ipml_fifo_v1_3_afifo_32i_64o_256_Z3.ipml_sdpram_v1_3_afifo_32i_64o_256_Z2:	2 (0.06 % Utilization)
+
+---------------------------------------------------------------------------
+########   Utilization report for  cell:   afifo_64i_32o_128   ########    
+Instance path:   frame_read_write_64s_32s_32s_25s_10s_64s.afifo_64i_32o_128
+===========================================================================
+
+SEQUENTIAL ELEMENTS
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     76                 6.53 %               
+======================================================
+Total SEQUENTIAL ELEMENTS in the block frame_read_write_64s_32s_32s_25s_10s_64s.afifo_64i_32o_128:	76 (2.10 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+LUTS          35                 2.57 %               
+LUT5CARRY     33                 5.02 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block frame_read_write_64s_32s_32s_25s_10s_64s.afifo_64i_32o_128:	68 (1.88 % Utilization)
+
+
+MEMORY ELEMENTS
+Name               Total elements     Utilization     Notes
+-----------------------------------------------------------
+DEDICATED RAMS     2                  50 %                 
+===========================================================
+Total MEMORY ELEMENTS in the block frame_read_write_64s_32s_32s_25s_10s_64s.afifo_64i_32o_128:	2 (0.06 % Utilization)
+
+-----------------------------------------------------------------------------------------
+########   Utilization report for  cell:   ipml_fifo_v1_3_afifo_64i_32o_128_Z6   ########
+Instance path:   afifo_64i_32o_128.ipml_fifo_v1_3_afifo_64i_32o_128_Z6                   
+=========================================================================================
+
+SEQUENTIAL ELEMENTS
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     76                 6.53 %               
+======================================================
+Total SEQUENTIAL ELEMENTS in the block afifo_64i_32o_128.ipml_fifo_v1_3_afifo_64i_32o_128_Z6:	76 (2.10 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+LUTS          35                 2.57 %               
+LUT5CARRY     33                 5.02 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block afifo_64i_32o_128.ipml_fifo_v1_3_afifo_64i_32o_128_Z6:	68 (1.88 % Utilization)
+
+
+MEMORY ELEMENTS
+Name               Total elements     Utilization     Notes
+-----------------------------------------------------------
+DEDICATED RAMS     2                  50 %                 
+===========================================================
+Total MEMORY ELEMENTS in the block afifo_64i_32o_128.ipml_fifo_v1_3_afifo_64i_32o_128_Z6:	2 (0.06 % Utilization)
+
+--------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   ipml_fifo_ctrl_v1_3_8s_9s_ASYN_252s_4s   ########
+Instance path:   ipml_fifo_v1_3_afifo_64i_32o_128_Z6.ipml_fifo_ctrl_v1_3_8s_9s_ASYN_252s_4s 
+============================================================================================
+
+SEQUENTIAL ELEMENTS
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     76                 6.53 %               
+======================================================
+Total SEQUENTIAL ELEMENTS in the block ipml_fifo_v1_3_afifo_64i_32o_128_Z6.ipml_fifo_ctrl_v1_3_8s_9s_ASYN_252s_4s:	76 (2.10 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+LUTS          35                 2.57 %               
+LUT5CARRY     33                 5.02 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block ipml_fifo_v1_3_afifo_64i_32o_128_Z6.ipml_fifo_ctrl_v1_3_8s_9s_ASYN_252s_4s:	68 (1.88 % Utilization)
+
+-------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   ipml_sdpram_v1_3_afifo_64i_32o_128_Z5   ########
+Instance path:   ipml_fifo_v1_3_afifo_64i_32o_128_Z6.ipml_sdpram_v1_3_afifo_64i_32o_128_Z5 
+===========================================================================================
+
+MEMORY ELEMENTS
+Name               Total elements     Utilization     Notes
+-----------------------------------------------------------
+DEDICATED RAMS     2                  50 %                 
+===========================================================
+Total MEMORY ELEMENTS in the block ipml_fifo_v1_3_afifo_64i_32o_128_Z6.ipml_sdpram_v1_3_afifo_64i_32o_128_Z5:	2 (0.06 % Utilization)
+
+----------------------------------------------------------------------------
+########   Utilization report for  cell:   frame_fifo_read_Z7   ########    
+Instance path:   frame_read_write_64s_32s_32s_25s_10s_64s.frame_fifo_read_Z7
+============================================================================
+
+SEQUENTIAL ELEMENTS
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     54                 4.64 %               
+======================================================
+Total SEQUENTIAL ELEMENTS in the block frame_read_write_64s_32s_32s_25s_10s_64s.frame_fifo_read_Z7:	54 (1.49 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+LUTS          55                 4.04 %               
+LUT5CARRY     48                 7.29 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block frame_read_write_64s_32s_32s_25s_10s_64s.frame_fifo_read_Z7:	103 (2.85 % Utilization)
+
+-----------------------------------------------------------------------------
+########   Utilization report for  cell:   frame_fifo_write_Z4   ########    
+Instance path:   frame_read_write_64s_32s_32s_25s_10s_64s.frame_fifo_write_Z4
+=============================================================================
+
+SEQUENTIAL ELEMENTS
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     52                 4.47 %               
+======================================================
+Total SEQUENTIAL ELEMENTS in the block frame_read_write_64s_32s_32s_25s_10s_64s.frame_fifo_write_Z4:	52 (1.44 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+LUTS          54                 3.97 %               
+LUT5CARRY     48                 7.29 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block frame_read_write_64s_32s_32s_25s_10s_64s.frame_fifo_write_Z4:	102 (2.82 % Utilization)
+
+-----------------------------------------------------------------
+########   Utilization report for  cell:   sd_card_bmp   ########
+Instance path:   ipsl_hmemc_top_test.sd_card_bmp                 
+=================================================================
+
+SEQUENTIAL ELEMENTS
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     397                34.1 %               
+======================================================
+Total SEQUENTIAL ELEMENTS in the block ipsl_hmemc_top_test.sd_card_bmp:	397 (10.99 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+LUTS          474                34.8 %               
+LUT5CARRY     206                31.3 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block ipsl_hmemc_top_test.sd_card_bmp:	680 (18.82 % Utilization)
+
+-----------------------------------------------------------------
+########   Utilization report for  cell:   ax_debounce   ########
+Instance path:   sd_card_bmp.ax_debounce                         
+=================================================================
+
+SEQUENTIAL ELEMENTS
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     37                 3.18 %               
+======================================================
+Total SEQUENTIAL ELEMENTS in the block sd_card_bmp.ax_debounce:	37 (1.02 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+LUTS          44                 3.23 %               
+LUT5CARRY     32                 4.86 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block sd_card_bmp.ax_debounce:	76 (2.10 % Utilization)
+
+--------------------------------------------------------------
+########   Utilization report for  cell:   bmp_read   ########
+Instance path:   sd_card_bmp.bmp_read                         
+==============================================================
+
+SEQUENTIAL ELEMENTS
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     175                15 %                 
+======================================================
+Total SEQUENTIAL ELEMENTS in the block sd_card_bmp.bmp_read:	175 (4.84 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+LUTS          138                10.1 %               
+LUT5CARRY     108                16.4 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block sd_card_bmp.bmp_read:	246 (6.81 % Utilization)
+
+-----------------------------------------------------------------
+########   Utilization report for  cell:   sd_card_top   ########
+Instance path:   sd_card_bmp.sd_card_top                         
+=================================================================
+
+SEQUENTIAL ELEMENTS
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     185                15.9 %               
+======================================================
+Total SEQUENTIAL ELEMENTS in the block sd_card_bmp.sd_card_top:	185 (5.12 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+LUTS          292                21.5 %               
+LUT5CARRY     66                 10 %                 
+======================================================
+Total COMBINATIONAL LOGIC in the block sd_card_bmp.sd_card_top:	358 (9.91 % Utilization)
+
+-----------------------------------------------------------------
+########   Utilization report for  cell:   sd_card_cmd   ########
+Instance path:   sd_card_top.sd_card_cmd                         
+=================================================================
+
+SEQUENTIAL ELEMENTS
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     52                 4.47 %               
+======================================================
+Total SEQUENTIAL ELEMENTS in the block sd_card_top.sd_card_cmd:	52 (1.44 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+LUTS          171                12.6 %               
+LUT5CARRY     36                 5.47 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block sd_card_top.sd_card_cmd:	207 (5.73 % Utilization)
+
+-------------------------------------------------------------------------------
+########   Utilization report for  cell:   sd_card_sec_read_write_Z1   ########
+Instance path:   sd_card_top.sd_card_sec_read_write_Z1                         
+===============================================================================
+
+SEQUENTIAL ELEMENTS
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     89                 7.65 %               
+======================================================
+Total SEQUENTIAL ELEMENTS in the block sd_card_top.sd_card_sec_read_write_Z1:	89 (2.46 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     68                 5 %                  
+=================================================
+Total COMBINATIONAL LOGIC in the block sd_card_top.sd_card_sec_read_write_Z1:	68 (1.88 % Utilization)
+
+----------------------------------------------------------------
+########   Utilization report for  cell:   spi_master   ########
+Instance path:   sd_card_top.spi_master                         
+================================================================
+
+SEQUENTIAL ELEMENTS
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     44                 3.78 %               
+======================================================
+Total SEQUENTIAL ELEMENTS in the block sd_card_top.spi_master:	44 (1.22 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+LUTS          53                 3.89 %               
+LUT5CARRY     30                 4.56 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block sd_card_top.spi_master:	83 (2.30 % Utilization)
+
+---------------------------------------------------------------
+########   Utilization report for  cell:   video_pll   ########
+Instance path:   ipsl_hmemc_top_test.video_pll                 
+===============================================================
+---------------------------------------------------------------------------
+########   Utilization report for  cell:   video_timing_data_32s   ########
+Instance path:   ipsl_hmemc_top_test.video_timing_data_32s                 
+===========================================================================
+
+SEQUENTIAL ELEMENTS
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     62                 5.33 %               
+======================================================
+Total SEQUENTIAL ELEMENTS in the block ipsl_hmemc_top_test.video_timing_data_32s:	62 (1.72 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+LUTS          50                 3.67 %               
+LUT5CARRY     24                 3.65 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block ipsl_hmemc_top_test.video_timing_data_32s:	74 (2.05 % Utilization)
+
+---------------------------------------------------------------
+########   Utilization report for  cell:   color_bar   ########
+Instance path:   video_timing_data_32s.color_bar               
+===============================================================
+
+SEQUENTIAL ELEMENTS
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     31                 2.66 %               
+======================================================
+Total SEQUENTIAL ELEMENTS in the block video_timing_data_32s.color_bar:	31 (0.86 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+LUTS          25                 1.84 %               
+LUT5CARRY     24                 3.65 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block video_timing_data_32s.color_bar:	49 (1.36 % Utilization)
+
+#### START OF Block RAM DETAILED REPORT ####
+
+Total Block RAMs: 4
+
+frame_read_write_m0.read_buf.U_ipml_fifo_afifo_64i_32o_128.U_ipml_sdpram.ADDR_LOOP[0].DATA_LOOP[0].U_GTP_DRM18K
+----------------------------
+WRITE_MODE_A			NORMAL_WRITE
+WRITE_MODE_B			NORMAL_WRITE
+DOA_REG					0
+DOB_REG					0
+----------------------------
+
+frame_read_write_m0.read_buf.U_ipml_fifo_afifo_64i_32o_128.U_ipml_sdpram.ADDR_LOOP[0].DATA_LOOP[1].U_GTP_DRM18K
+----------------------------
+WRITE_MODE_A			NORMAL_WRITE
+WRITE_MODE_B			NORMAL_WRITE
+DOA_REG					0
+DOB_REG					0
+----------------------------
+
+frame_read_write_m0.write_buf.U_ipml_fifo_afifo_32i_64o_256.U_ipml_sdpram.ADDR_LOOP[0].DATA_LOOP[0].U_GTP_DRM18K
+----------------------------
+WRITE_MODE_A			NORMAL_WRITE
+WRITE_MODE_B			NORMAL_WRITE
+DOA_REG					0
+DOB_REG					0
+----------------------------
+
+frame_read_write_m0.write_buf.U_ipml_fifo_afifo_32i_64o_256.U_ipml_sdpram.ADDR_LOOP[0].DATA_LOOP[1].U_GTP_DRM18K
+----------------------------
+WRITE_MODE_A			NORMAL_WRITE
+WRITE_MODE_B			NORMAL_WRITE
+DOA_REG					0
+DOB_REG					0
+----------------------------
+
+#### END OF  Block RAM DETAILED REPORT ####
+
+
+##### END OF AREA REPORT #####]
+

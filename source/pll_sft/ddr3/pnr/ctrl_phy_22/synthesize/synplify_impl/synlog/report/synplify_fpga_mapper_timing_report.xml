@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- *************************************************************************************
+FILE DESCRIPTION
+Max Top 5 critical clocks will be reported. For rest user needs to refer to Detailed report
+*******************************************************************************************-->
+<report_table display_priority="2" name="Timing Summary">
+<report_link name="Detailed report">
+<data>D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\synthesize\synplify_impl\synlog\synplify_fpga_mapper.srr</data>
+<title>START OF TIMING REPORT</title>
+</report_link>
+<row>
+<data tcl_name="clock_name">Clock Name</data>
+<data tcl_name="req_freq">Req Freq</data>
+<data tcl_name="est_freq">Est Freq</data>
+<data tcl_name="slack">Slack</data>
+</row>
+<row>
+<data>ipsl_ddrphy_dll_update_ctrl|dll_update_n_inferred_clock</data>
+<data>1.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>ipsl_phy_io_Z8|IOCLK_DIV_inferred_clock</data>
+<data>1.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[2]</data>
+<data>1.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[3]</data>
+<data>1.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[4]</data>
+<data>1.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[5]</data>
+<data>1.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[6]</data>
+<data>1.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[7]</data>
+<data>1.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[9]</data>
+<data>1.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[10]</data>
+<data>1.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[11]</data>
+<data>1.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[12]</data>
+<data>1.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[17]</data>
+<data>1.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[18]</data>
+<data>1.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[19]</data>
+<data>1.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[20]</data>
+<data>1.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[21]</data>
+<data>1.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[22]</data>
+<data>1.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[23]</data>
+<data>1.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[24]</data>
+<data>1.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[25]</data>
+<data>1.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[27]</data>
+<data>1.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[28]</data>
+<data>1.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[29]</data>
+<data>1.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[31]</data>
+<data>1.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[32]</data>
+<data>1.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[33]</data>
+<data>1.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[34]</data>
+<data>1.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[35]</data>
+<data>1.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[36]</data>
+<data>1.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[37]</data>
+<data>1.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[40]</data>
+<data>1.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[41]</data>
+<data>1.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[42]</data>
+<data>1.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[43]</data>
+<data>1.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[44]</data>
+<data>1.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[45]</data>
+<data>1.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[46]</data>
+<data>1.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[47]</data>
+<data>1.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[48]</data>
+<data>1.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[49]</data>
+<data>1.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[51]</data>
+<data>1.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[52]</data>
+<data>1.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[55]</data>
+<data>1.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[56]</data>
+<data>1.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[57]</data>
+<data>1.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[58]</data>
+<data>1.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>ipsl_phy_io_Z8|buffer_clk_sys_inferred_clock[59]</data>
+<data>1.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>ipsl_phy_io_Z8|buffer_dqs_clk_regional_inferred_clock[0]</data>
+<data>1.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>ipsl_phy_io_Z8|buffer_dqs_clk_regional_inferred_clock[1]</data>
+<data>1.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>ipsl_phy_io_Z8|buffer_dqs_clk_regional_inferred_clock[2]</data>
+<data>1.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>ipsl_phy_io_Z8|buffer_dqs_clk_regional_inferred_clock[3]</data>
+<data>1.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>ipsl_phy_io_Z8|buffer_dqs_clk_regional_inferred_clock[4]</data>
+<data>1.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>ipsl_phy_io_Z8|dqs0_clk_r_inferred_clock</data>
+<data>1.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>ipsl_phy_io_Z8|dqs1_clk_r_inferred_clock</data>
+<data>1.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>ipsl_phy_io_Z8|dqs_90_0_inferred_clock</data>
+<data>1.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>ipsl_phy_io_Z8|dqs_90_1_inferred_clock</data>
+<data>1.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>ipsl_phy_io_Z8|dqs_ca_clk_r_01_inferred_clock</data>
+<data>1.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>ipsl_phy_io_Z8|dqs_ca_clk_r_03_inferred_clock</data>
+<data>1.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>ipsl_phy_io_Z8|dqs_ca_clk_r_04_inferred_clock</data>
+<data>1.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>ipsl_phy_io_Z8|dqs_clkw290_0_inferred_clock</data>
+<data>1.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>ipsl_phy_io_Z8|dqs_clkw290_1_inferred_clock</data>
+<data>1.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>ipsl_phy_io_Z8|dqs_clkw_0_inferred_clock</data>
+<data>1.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>ipsl_phy_io_Z8|dqs_clkw_1_inferred_clock</data>
+<data>1.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>ipsl_phy_io_Z8|dqs_clkw_ca_01_inferred_clock</data>
+<data>1.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>ipsl_phy_io_Z8|dqs_clkw_ca_03_inferred_clock</data>
+<data>1.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>ipsl_phy_io_Z8|dqs_clkw_ca_04_inferred_clock</data>
+<data>1.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>ipsl_phy_io_Z8|ioclk_01_inferred_clock</data>
+<data>1.0 MHz</data>
+<data>1008.1 MHz</data>
+<data>999.008</data>
+</row>
+<row>
+<data>ipsl_phy_io_Z8|ioclk_02_inferred_clock</data>
+<data>1.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>pll_50_400|clkout1_inferred_clock</data>
+<data>1.0 MHz</data>
+<data>120.6 MHz</data>
+<data>991.706</data>
+</row>
+<row>
+<data>pll_50_400|clkout3_inferred_clock</data>
+<data>1.0 MHz</data>
+<data>150.7 MHz</data>
+<data>993.364</data>
+</row>
+<row>
+<data>sys_clk</data>
+<data>50.0 MHz</data>
+<data>197.4 MHz</data>
+<data>14.934</data>
+</row>
+<row>
+<data>video_pll|clkout0_inferred_clock</data>
+<data>1.0 MHz</data>
+<data>179.2 MHz</data>
+<data>994.419</data>
+</row>
+<row>
+<data>video_pll|clkout1_inferred_clock</data>
+<data>1.0 MHz</data>
+<data>734.4 MHz</data>
+<data>998.638</data>
+</row>
+<row>
+<data>System</data>
+<data>1.0 MHz</data>
+<data>780.5 MHz</data>
+<data>998.719</data>
+</row>
+</report_table>

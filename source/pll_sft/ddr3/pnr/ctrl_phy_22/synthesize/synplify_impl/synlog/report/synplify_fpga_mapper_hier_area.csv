@@ -1,0 +1,41 @@
+
+. Module name, LUTS, REGISTERS, LATCHES, ADDSUB, MUXES, DEDICATED RAMS, DISTRIBUTED RAMS, MULTS, BUFS
+. ipsl_hmemc_top_test, 1361, 1164, 0, 0, 0, 4, 30, 0, 0
+.	. aq_axi_master, 195, 160, 0, 0, 0, 0, 0, 0, 0
+.	. ddr3, 219, 118, 0, 0, 0, 0, 30, 0, 0
+.	.	. ipsl_hmemc_ddrc_top_Z12, 171, 25, 0, 0, 0, 0, 30, 0, 0
+.	.	.	. ipsl_ddrc_reset_ctrl_Z11, 171, 25, 0, 0, 0, 0, 30, 0, 0
+.	.	.	.	. ipsl_ddrc_apb_reset_Z10, 114, 10, 0, 0, 0, 0, 30, 0, 0
+.	.	. ipsl_hmemc_phy_top_Z9, 48, 93, 0, 0, 0, 0, 0, 0, 0
+.	.	.	. ipsl_ddrphy_dll_update_ctrl, 7, 9, 0, 0, 0, 0, 0, 0, 0
+.	.	.	. ipsl_ddrphy_reset_ctrl, 27, 32, 0, 0, 0, 0, 0, 0, 0
+.	.	.	. ipsl_ddrphy_training_ctrl, 5, 8, 0, 0, 0, 0, 0, 0, 0
+.	.	.	. ipsl_ddrphy_update_ctrl_16BIT_2s_0s_1s_2s_3s_1, 9, 44, 0, 0, 0, 0, 0, 0, 0
+.	.	.	. ipsl_phy_io_Z8, 0, 0, 0, 0, 0, 0, 0, 0, 0
+.	.	. pll_50_400, 0, 0, 0, 0, 0, 0, 0, 0, 0
+.	. dvi_encoder, 239, 169, 0, 0, 0, 0, 0, 0, 0
+.	.	. encode, 71, 48, 0, 0, 0, 0, 0, 0, 0
+.	.	. encode_0_0, 68, 38, 0, 0, 0, 0, 0, 0, 0
+.	.	. encode_0_1, 70, 42, 0, 0, 0, 0, 0, 0, 0
+.	.	. serdes_4b_10to1, 30, 41, 0, 0, 0, 0, 0, 0, 0
+.	. frame_read_write_64s_32s_32s_25s_10s_64s, 184, 258, 0, 0, 0, 4, 0, 0, 0
+.	.	. afifo_32i_64o_256, 40, 76, 0, 0, 0, 2, 0, 0, 0
+.	.	.	. ipml_fifo_v1_3_afifo_32i_64o_256_Z3, 40, 76, 0, 0, 0, 2, 0, 0, 0
+.	.	.	.	. ipml_fifo_ctrl_v1_3_9s_8s_ASYN_508s_4s, 40, 76, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	. ipml_sdpram_v1_3_afifo_32i_64o_256_Z2, 0, 0, 0, 0, 0, 2, 0, 0, 0
+.	.	. afifo_64i_32o_128, 35, 76, 0, 0, 0, 2, 0, 0, 0
+.	.	.	. ipml_fifo_v1_3_afifo_64i_32o_128_Z6, 35, 76, 0, 0, 0, 2, 0, 0, 0
+.	.	.	.	. ipml_fifo_ctrl_v1_3_8s_9s_ASYN_252s_4s, 35, 76, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	. ipml_sdpram_v1_3_afifo_64i_32o_128_Z5, 0, 0, 0, 0, 0, 2, 0, 0, 0
+.	.	. frame_fifo_read_Z7, 55, 54, 0, 0, 0, 0, 0, 0, 0
+.	.	. frame_fifo_write_Z4, 54, 52, 0, 0, 0, 0, 0, 0, 0
+.	. sd_card_bmp, 474, 397, 0, 0, 0, 0, 0, 0, 0
+.	.	. ax_debounce, 44, 37, 0, 0, 0, 0, 0, 0, 0
+.	.	. bmp_read, 138, 175, 0, 0, 0, 0, 0, 0, 0
+.	.	. sd_card_top, 292, 185, 0, 0, 0, 0, 0, 0, 0
+.	.	.	. sd_card_cmd, 171, 52, 0, 0, 0, 0, 0, 0, 0
+.	.	.	. sd_card_sec_read_write_Z1, 68, 89, 0, 0, 0, 0, 0, 0, 0
+.	.	.	. spi_master, 53, 44, 0, 0, 0, 0, 0, 0, 0
+.	. video_pll, 0, 0, 0, 0, 0, 0, 0, 0, 0
+.	. video_timing_data_32s, 50, 62, 0, 0, 0, 0, 0, 0, 0
+.	.	. color_bar, 25, 31, 0, 0, 0, 0, 0, 0, 0

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- *************************************************************************************
+FILE DESCRIPTION
+The file contains the area information from mapper to be displayed as part of the summary report.
+*******************************************************************************************-->
+<report_table display_priority="1" name="Area Summary">
+<report_link name="Detailed report">
+<data>D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\synthesize\synplify_impl\synlog\report\synplify_fpga_mapper_resourceusage.rpt</data>
+<title>Resource Usage</title>
+</report_link>
+<report_link name="Hierarchical Area report">
+<data>D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\synthesize\synplify_impl\synlog\report\synplify_fpga_mapper_hier_area_report.xml</data>
+<title>Hierarchical Area Report</title>
+</report_link>
+<parameter tcl_name="io_port" tooltip="Total I/O ports used" name="I/O ports">
+<data>78</data>
+</parameter>
+<parameter tcl_name="v_ram" tooltip="Total Dedicated Rams used" name="Dedicated Rams">
+<data>4 (48)</data>
+</parameter>
+<parameter tooltip="Total Distributed Rams used" name="Distributed Rams">
+<data>30.00 (1110)</data>
+</parameter>
+<parameter tcl_name="total_luts" tooltip="Total LUTs used" name="LUTs">
+<data>2079 (11%)</data>
+</parameter>
+</report_table>

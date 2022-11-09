@@ -1,0 +1,21 @@
+#OPTIONS:"|-modgen|-top|GTP_LUT5CARRY|-I|C:\\pango\\PDS_2019.1-patch2\\syn\\lib|-devicelib|C:\\pango\\PDS_2019.1-patch2\\syn\\lib\\xilinx\\unisim.v|-encrypt|-pro|-sysv|-dw|-primux|-ram|-fixsmult|-tri_compatible|-autosm|-fid2|-sharing|on|-ll|2000|-params|D:\\example_ziguang\\sd_picture_hdmi _ddrtest\\ipcore\\ddr3\\pnr\\ctrl_phy_22\\synthesize\\synplify_impl\\syntmp\\GTP_LUT5CARRY.param"
+#CUR:"C:\\pango\\PDS_2019.1-patch2\\syn\\bin64\\c_ver.exe":1554698400
+#CUR:"C:\\pango\\PDS_2019.1-patch2\\syn\\lib\\vlog\\hypermods.v":1554698632
+#CUR:"C:\\pango\\PDS_2019.1-patch2\\syn\\lib\\vlog\\umr_capim.v":1554698632
+#CUR:"C:\\pango\\PDS_2019.1-patch2\\syn\\lib\\vlog\\scemi_objects.v":1554698632
+#CUR:"C:\\pango\\PDS_2019.1-patch2\\syn\\lib\\vlog\\scemi_pipes.svh":1554698632
+#CUR:"D:\\example_ziguang\\sd_picture_hdmi _ddrtest\\ipcore\\ddr3\\pnr\\ctrl_phy_22\\synthesize\\synplify_impl\\syntmp\\GTP_LUT5CARRY.v":1554698584
+#CUR:"D:\\example_ziguang\\sd_picture_hdmi _ddrtest\\ipcore\\ddr3\\pnr\\ctrl_phy_22\\synthesize\\synplify_impl\\syntmp\\GTP_LUT5CARRY.param":1557218493
+#numinternalfiles:4
+#defaultlanguage:verilog
+0			"D:\example_ziguang\sd_picture_hdmi _ddrtest\ipcore\ddr3\pnr\ctrl_phy_22\synthesize\synplify_impl\syntmp\GTP_LUT5CARRY.v" verilog
+#Dependency Lists(Uses List)
+0 -1
+#Dependency Lists(Users Of)
+0 -1
+#Design Unit to File Association
+module work INT_LUTMUX4_UDP 0
+module work INT_LUTMUX2_UDP 0
+module work GTP_LUT5CARRY 0
+module work GTP_LUT5 0
+module work GTP_LUT6CARRY 0
