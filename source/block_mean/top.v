@@ -11,7 +11,10 @@ module top_block_mean(
     output     [7:0]     block_mean_fixed      ,        
     output               data_vaild_o          ,
     //added by test3
-    output     [5:0]     block_v_cnt/*synthesis syn_keep=1*/
+    output     [5:0]     block_v_cnt/*synthesis syn_keep=1*/,
+    //added by uart_command_resolve
+    input      [7:0]     brightness
+
 );
 
 
@@ -85,7 +88,8 @@ block_mean  u_block_mean (
     .gray                    ( gray_o           ),
 
     .block_mean              ( block_mean     ),
-    .data_vaild              ( data_vaild     )
+    .data_vaild              ( data_vaild     ),
+    .brightness              ( brightness     )
 );
 
 wire data_vaild_o;
@@ -108,5 +112,6 @@ gamma_fix_2_2_top  gamma_fix_2_2_rom (
     .block_mean_fixed_o      ( block_mean_fixed   ),
     .data_valid_o            ( data_vaild_o       )
 );
+
 
 endmodule

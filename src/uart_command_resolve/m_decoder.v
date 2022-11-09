@@ -5,7 +5,7 @@ module m_decoder(
 	input				 	rst_n			,
 	input				 	i_rx_en			,
 	input		[7:0]	 	i_rx_data		,
-	output reg		 		o_led_en		,
+	// output reg		 		o_led_en		,
 	output reg	[31:0] 		o_para_list		,
 	output reg	[7:0] 		o_check         ,
     output      [7:0]       cmdcode         ,
@@ -111,16 +111,16 @@ assign  check2bcode_start = state_c==CHECK && i_rx_en==1              ;
 always @(posedge clk or negedge rst_n) begin
     if(!rst_n) begin
         r_bootcode <= 8'b0;
-        o_led_en <= 'b0;
+        // o_led_en <= 'b0;
     end
     else if(state_c==BCODE && i_rx_en==1) begin
         if(i_rx_data == 8'h40) begin
             r_bootcode <= i_rx_data;
-            o_led_en <= 'b1;
+            // o_led_en <= 'b1;
         end
     end
     else begin
-        o_led_en <= 'b0;
+        // o_led_en <= 'b0;
     end
 end
 
@@ -184,11 +184,11 @@ end
 always @(posedge clk or negedge rst_n) begin
     if(!rst_n) begin
         o_check <= 8'b0;
-        o_led_en <= 1'b0;
+        // o_led_en <= 1'b0;
     end
     else if(state_c==CHECK && i_rx_en==1) begin
         o_check <= i_rx_data;
-        o_led_en <= 1'b1;
+        // o_led_en <= 1'b1;
     end
 end
 

@@ -84,7 +84,9 @@ output                               ds1 ,
 output                               ds2 ,
 output                               ds3 ,
 output                               ds4 ,
-output                               ds5 
+output                               ds5 ,
+
+input                                uart_rx
 //#############################################################################
 
 );
@@ -544,7 +546,7 @@ aq_axi_master u_aq_axi_master
 //#############################################################################
 // final test module added
 
-//##################### block_mean_cal module ###########################
+//####################### block_mean_cal module ###############################
 
 wire [7:0] block_mean/*synthesis syn_keep=1*/;
 wire data_vaild/*synthesis syn_keep=1*/;
@@ -562,10 +564,11 @@ top_block_mean block_mean_cal
     .rgb_b(rgb_b),            // input
     .block_mean_fixed(block_mean),  // output
     .data_vaild_o(data_vaild),   // output
-    .block_v_cnt(block_v_cnt)
+    .block_v_cnt(block_v_cnt),
+    .brightness(brightness)
 );
 
-//##################### fifo_led module ###########################
+//########################### fifo_led module #################################
 
 top_fifo_to_led fifo_led
     (
@@ -587,6 +590,41 @@ top_fifo_to_led fifo_led
 // add two clock pin for easy connection
 assign shcp1 = shcp;
 assign stcp1 = stcp;
+
+//##################### uart_command_resolve module ###########################
+wire  [31:0]  para_list_fixed;
+wire  [7:0]  cmdcode;
+wire  cmd_vaild;
+
+top_uart_cmd_resolve #(
+    .UART_BPS_RATE (115200)
+)
+u_top_uart_cmd_resolve (
+    .clk                     (sys_clk_g      ),
+    .rst_n                   (rst_n          ),
+    .uart_rx                 (uart_rx        ),
+
+    .para_list_fixed         (para_list_fixed),
+    .cmdcode                 (cmdcode        ),
+    .cmd_len                 (               ),
+    .check                   (               ),
+    .cmd_vaild               (cmd_vaild      )
+);
+
+//brightness control command reg
+reg [7:0] brightness;
+always @(posedge sys_clk_g or negedge rst_n) begin
+    if(~rst_n) begin
+        brightness <= 8'b0;
+    end
+    else if(cmd_vaild) begin
+        brightness <= para_list_fixed[7:0];
+    end
+    else begin
+        brightness <= brightness;
+    end
+end
+
 //#############################################################################
 
 

@@ -40,41 +40,41 @@ Setup Summary(Fast Corner):
                                                                           TNS Failing      TNS Total
  Launch Clock           Capture Clock              WNS(ns)     TNS(ns)      Endpoints      Endpoints
 ----------------------------------------------------------------------------------------------------
- sys_clk                sys_clk                     13.301       0.000              0           2619
- top|pclk_mod_in        top|pclk_mod_in            994.246       0.000              0           5364
+ sys_clk                sys_clk                     12.580       0.000              0           2847
+ top|pclk_mod_in        top|pclk_mod_in            992.876       0.000              0           5364
  sys_clk|video_pll_m0/u_pll_e1/CLKOUT1_Inferred
                         sys_clk|video_pll_m0/u_pll_e1/CLKOUT1_Inferred
-                                                     8.399       0.000              0            753
+                                                     8.710       0.000              0            753
  sys_clk|u_ipsl_hmic_h_top/u_pll_50_400/u_pll_e1/CLKOUT3_Inferred
                         sys_clk|video_pll_m0/u_pll_e1/CLKOUT1_Inferred
-                                                    -1.821     -23.865             15             15
+                                                    -2.042     -25.007             15             15
  sys_clk|video_pll_m0/u_pll_e1/CLKOUT0_Inferred
                         sys_clk|video_pll_m0/u_pll_e1/CLKOUT0_Inferred
-                                                     0.951       0.000              0             93
+                                                     0.843       0.000              0             93
  sys_clk|video_pll_m0/u_pll_e1/CLKOUT1_Inferred
                         sys_clk|video_pll_m0/u_pll_e1/CLKOUT0_Inferred
-                                                     0.955       0.000              0             30
+                                                     0.613       0.000              0             30
  sys_clk|u_ipsl_hmic_h_top/u_pll_50_400/u_pll_e1/CLKOUT3_Inferred
                         sys_clk|u_ipsl_hmic_h_top/u_pll_50_400/u_pll_e1/CLKOUT3_Inferred
-                                                     3.525       0.000              0           1977
+                                                     3.472       0.000              0           1977
  sys_clk|video_pll_m0/u_pll_e1/CLKOUT1_Inferred
                         sys_clk|u_ipsl_hmic_h_top/u_pll_50_400/u_pll_e1/CLKOUT3_Inferred
-                                                    -1.957     -20.489             12             12
+                                                    -2.153     -19.861             12             12
  sys_clk|u_ipsl_hmic_h_top/u_pll_50_400/u_pll_e1/CLKOUT1_Inferred
                         sys_clk|u_ipsl_hmic_h_top/u_pll_50_400/u_pll_e1/CLKOUT1_Inferred
-                                                    14.606       0.000              0            520
+                                                    14.832       0.000              0            520
  sys_clk|u_ipsl_hmic_h_top/u_pll_50_400/u_pll_e1/CLKOUT0_Inferred|u_ipsl_hmic_h_top/u_ipsl_hmic_h_phy_top/u_phy_io_v1_1/ioclkdiv_dut/CLKDIVOUT_Inferred
                         sys_clk|u_ipsl_hmic_h_top/u_pll_50_400/u_pll_e1/CLKOUT1_Inferred
-                                                     2.891       0.000              0             10
+                                                     2.852       0.000              0             10
  sys_clk|u_ipsl_hmic_h_top/u_pll_50_400/u_pll_e1/CLKOUT0_Inferred
                         sys_clk|u_ipsl_hmic_h_top/u_pll_50_400/u_pll_e1/CLKOUT0_Inferred
                                                      1.870       0.000              0             48
  sys_clk|u_ipsl_hmic_h_top/u_pll_50_400/u_pll_e1/CLKOUT1_Inferred
                         sys_clk|u_ipsl_hmic_h_top/u_pll_50_400/u_pll_e1/CLKOUT0_Inferred|u_ipsl_hmic_h_top/u_ipsl_hmic_h_phy_top/u_phy_io_v1_1/ioclkdiv_dut/CLKDIVOUT_Inferred
-                                                     2.245       0.000              0              9
- DebugCore_JCLK         DebugCore_JCLK              23.985       0.000              0            584
- DebugCore_CAPTURE      DebugCore_JCLK              20.876       0.000              0            118
- DebugCore_JCLK         DebugCore_CAPTURE           47.682       0.000              0             16
+                                                     2.252       0.000              0              9
+ DebugCore_JCLK         DebugCore_JCLK              24.002       0.000              0            505
+ DebugCore_CAPTURE      DebugCore_JCLK              21.095       0.000              0             94
+ DebugCore_JCLK         DebugCore_CAPTURE           46.935       0.000              0             16
 ====================================================================================================
 
 Hold Summary(Fast Corner):
@@ -82,41 +82,41 @@ Hold Summary(Fast Corner):
                                                                           THS Failing      THS Total
  Launch Clock           Capture Clock              WHS(ns)     THS(ns)      Endpoints      Endpoints
 ----------------------------------------------------------------------------------------------------
- sys_clk                sys_clk                      0.139       0.000              0           2619
- top|pclk_mod_in        top|pclk_mod_in              0.241       0.000              0           5364
+ sys_clk                sys_clk                      0.159       0.000              0           2847
+ top|pclk_mod_in        top|pclk_mod_in              0.167       0.000              0           5364
  sys_clk|video_pll_m0/u_pll_e1/CLKOUT1_Inferred
                         sys_clk|video_pll_m0/u_pll_e1/CLKOUT1_Inferred
-                                                     0.236       0.000              0            753
+                                                     0.259       0.000              0            753
  sys_clk|u_ipsl_hmic_h_top/u_pll_50_400/u_pll_e1/CLKOUT3_Inferred
                         sys_clk|video_pll_m0/u_pll_e1/CLKOUT1_Inferred
-                                                     0.215       0.000              0             15
+                                                     0.149       0.000              0             15
  sys_clk|video_pll_m0/u_pll_e1/CLKOUT0_Inferred
                         sys_clk|video_pll_m0/u_pll_e1/CLKOUT0_Inferred
-                                                     0.287       0.000              0             93
+                                                     0.357       0.000              0             93
  sys_clk|video_pll_m0/u_pll_e1/CLKOUT1_Inferred
                         sys_clk|video_pll_m0/u_pll_e1/CLKOUT0_Inferred
-                                                     0.226       0.000              0             30
+                                                     0.121       0.000              0             30
  sys_clk|u_ipsl_hmic_h_top/u_pll_50_400/u_pll_e1/CLKOUT3_Inferred
                         sys_clk|u_ipsl_hmic_h_top/u_pll_50_400/u_pll_e1/CLKOUT3_Inferred
-                                                     0.163       0.000              0           1977
+                                                     0.166       0.000              0           1977
  sys_clk|video_pll_m0/u_pll_e1/CLKOUT1_Inferred
                         sys_clk|u_ipsl_hmic_h_top/u_pll_50_400/u_pll_e1/CLKOUT3_Inferred
-                                                     0.262       0.000              0             12
+                                                     0.242       0.000              0             12
  sys_clk|u_ipsl_hmic_h_top/u_pll_50_400/u_pll_e1/CLKOUT1_Inferred
                         sys_clk|u_ipsl_hmic_h_top/u_pll_50_400/u_pll_e1/CLKOUT1_Inferred
-                                                     0.288       0.000              0            520
+                                                     0.287       0.000              0            520
  sys_clk|u_ipsl_hmic_h_top/u_pll_50_400/u_pll_e1/CLKOUT0_Inferred|u_ipsl_hmic_h_top/u_ipsl_hmic_h_phy_top/u_phy_io_v1_1/ioclkdiv_dut/CLKDIVOUT_Inferred
                         sys_clk|u_ipsl_hmic_h_top/u_pll_50_400/u_pll_e1/CLKOUT1_Inferred
-                                                     0.229       0.000              0             10
+                                                     0.317       0.000              0             10
  sys_clk|u_ipsl_hmic_h_top/u_pll_50_400/u_pll_e1/CLKOUT0_Inferred
                         sys_clk|u_ipsl_hmic_h_top/u_pll_50_400/u_pll_e1/CLKOUT0_Inferred
                                                      0.343       0.000              0             48
  sys_clk|u_ipsl_hmic_h_top/u_pll_50_400/u_pll_e1/CLKOUT1_Inferred
                         sys_clk|u_ipsl_hmic_h_top/u_pll_50_400/u_pll_e1/CLKOUT0_Inferred|u_ipsl_hmic_h_top/u_ipsl_hmic_h_phy_top/u_phy_io_v1_1/ioclkdiv_dut/CLKDIVOUT_Inferred
-                                                     0.648       0.000              0              9
- DebugCore_JCLK         DebugCore_JCLK               0.253       0.000              0            584
- DebugCore_CAPTURE      DebugCore_JCLK              24.858       0.000              0            118
- DebugCore_JCLK         DebugCore_CAPTURE            0.383       0.000              0             16
+                                                     0.687       0.000              0              9
+ DebugCore_JCLK         DebugCore_JCLK               0.317       0.000              0            505
+ DebugCore_CAPTURE      DebugCore_JCLK              24.903       0.000              0             94
+ DebugCore_JCLK         DebugCore_CAPTURE            0.598       0.000              0             16
 ====================================================================================================
 
 Recovery Summary(Fast Corner):
@@ -124,16 +124,16 @@ Recovery Summary(Fast Corner):
                                                                           TNS Failing      TNS Total
  Launch Clock           Capture Clock              WNS(ns)     TNS(ns)      Endpoints      Endpoints
 ----------------------------------------------------------------------------------------------------
- sys_clk                sys_clk                     17.894       0.000              0            298
+ sys_clk                sys_clk                     18.083       0.000              0            253
  sys_clk|u_ipsl_hmic_h_top/u_pll_50_400/u_pll_e1/CLKOUT3_Inferred
                         sys_clk|video_pll_m0/u_pll_e1/CLKOUT1_Inferred
-                                                    -1.894     -63.768             40             40
+                                                    -2.052     -64.835             40             40
  sys_clk|u_ipsl_hmic_h_top/u_pll_50_400/u_pll_e1/CLKOUT3_Inferred
                         sys_clk|u_ipsl_hmic_h_top/u_pll_50_400/u_pll_e1/CLKOUT3_Inferred
-                                                     7.947       0.000              0             93
+                                                     8.063       0.000              0             93
  sys_clk|u_ipsl_hmic_h_top/u_pll_50_400/u_pll_e1/CLKOUT1_Inferred
                         sys_clk|u_ipsl_hmic_h_top/u_pll_50_400/u_pll_e1/CLKOUT1_Inferred
-                                                    18.208       0.000              0            129
+                                                    17.823       0.000              0            129
 ====================================================================================================
 
 Removal Summary(Fast Corner):
@@ -141,16 +141,16 @@ Removal Summary(Fast Corner):
                                                                           THS Failing      THS Total
  Launch Clock           Capture Clock              WHS(ns)     THS(ns)      Endpoints      Endpoints
 ----------------------------------------------------------------------------------------------------
- sys_clk                sys_clk                      0.268       0.000              0            298
+ sys_clk                sys_clk                      0.352       0.000              0            253
  sys_clk|u_ipsl_hmic_h_top/u_pll_50_400/u_pll_e1/CLKOUT3_Inferred
                         sys_clk|video_pll_m0/u_pll_e1/CLKOUT1_Inferred
                                                      0.151       0.000              0             40
  sys_clk|u_ipsl_hmic_h_top/u_pll_50_400/u_pll_e1/CLKOUT3_Inferred
                         sys_clk|u_ipsl_hmic_h_top/u_pll_50_400/u_pll_e1/CLKOUT3_Inferred
-                                                     0.581       0.000              0             93
+                                                     0.440       0.000              0             93
  sys_clk|u_ipsl_hmic_h_top/u_pll_50_400/u_pll_e1/CLKOUT1_Inferred
                         sys_clk|u_ipsl_hmic_h_top/u_pll_50_400/u_pll_e1/CLKOUT1_Inferred
-                                                     0.500       0.000              0            129
+                                                     0.560       0.000              0            129
 ====================================================================================================
 
 Minimum Pulse Width Summary(Fast Corner):

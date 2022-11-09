@@ -16504,3 +16504,473 @@
 [DEBUG][2022-11-09 01:48:42] [22460] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgmenu.cpp:2851] : end to send jtag flash program cmd.
 [DEBUG][2022-11-09 01:49:11] [22460] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgclient.cpp:537] : stop the timer for monitoring connection timeout
 [INFO][2022-11-09 15:03:16] [22460] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\cfg_gui\cfgmain.cpp:53] : /***************************End Configration***************************/
+[INFO][2022-11-10 05:00:45] [9004] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgworkspace.cpp:165] : /***************************Start Configuration***************************/
+[INFO][2022-11-10 05:00:45] [9004] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgworkspace.cpp:166] : Path: D:/Softwares/PDS_2021.1-SP7.3-ads/bin
+[INFO][2022-11-10 05:00:45] [9004] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgworkspace.cpp:167] : Version: 94852
+[INFO][2022-11-10 05:00:46] [9004] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgworkspace.cpp:370] : Current Path: D:/Projects/FPGA_match/final_test
+[INFO][2022-11-10 05:00:46] [9004] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgworkspace.cpp:371] : PDS Dir Path: D:/Projects/FPGA_match/final_test
+[INFO][2022-11-10 05:00:49] [9004] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgmenu.cpp:871] : Configuration is not connect with server. connect first then scan chain.
+[DEBUG][2022-11-10 05:00:49] [9004] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:463] : Client Local host name:thesame
+[DEBUG][2022-11-10 05:00:49] [9004] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:471] : Client Local Address:192.168.242.1
+[DEBUG][2022-11-10 05:00:49] [9004] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:471] : Client Local Address:192.168.35.1
+[DEBUG][2022-11-10 05:00:49] [9004] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:471] : Client Local Address:192.168.137.1
+[DEBUG][2022-11-10 05:00:49] [9004] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:471] : Client Local Address:10.134.246.51
+[DEBUG][2022-11-10 05:00:49] [9004] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:498] : Server Address:127.0.0.1, Port:65420
+[INFO][2022-11-10 05:00:49] [9004] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:538] : Connect OK, Server: 127.0.0.1  Port: 65420
+[DEBUG][2022-11-10 05:00:49] [9004] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgclient.cpp:324] : Finish.
+[INFO][2022-11-10 05:00:49] [9004] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgclient.cpp:325] : Connect server succeeded
+[DEBUG][2022-11-10 05:00:49] [9004] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:653] : Send RPC:1
+[DEBUG][2022-11-10 05:00:49] [9004] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:772] : Send cmd [check version information:40004] OK
+[DEBUG][2022-11-10 05:00:49] [9004] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:893] : Recv RPC[1] cmd [check version information:40004]
+[DEBUG][2022-11-10 05:00:49] [9004] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:901] : Revc exec: check version information start
+[DEBUG][2022-11-10 05:00:49] [9004] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:653] : Send RPC:2
+[DEBUG][2022-11-10 05:00:49] [9004] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:772] : Send cmd [get_cable_paras:40010] OK
+[DEBUG][2022-11-10 05:00:49] [9004] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgmenu.cpp:890] : Begin to send initialize chain cmd...
+[DEBUG][2022-11-10 05:00:49] [9004] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:653] : Send RPC:3
+[DEBUG][2022-11-10 05:00:49] [9004] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:772] : Send cmd [Open config cable:20001] OK
+[DEBUG][2022-11-10 05:00:49] [9004] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgmenu.cpp:909] : End to send initialize chain cmd.
+[DEBUG][2022-11-10 05:00:49] [9004] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:903] : Revc exec: check version information end
+[DEBUG][2022-11-10 05:00:49] [9004] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgclient.cpp:444] : COMMAND[check version information] execute successfully, takes 0.0 secs.
+[DEBUG][2022-11-10 05:00:50] [9004] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:893] : Recv RPC[2] cmd [get_cable_paras:40010]
+[DEBUG][2022-11-10 05:00:50] [9004] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:901] : Revc exec: get_cable_paras start
+[DEBUG][2022-11-10 05:00:50] [9004] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:903] : Revc exec: get_cable_paras end
+[DEBUG][2022-11-10 05:00:50] [9004] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgclient.cpp:444] : COMMAND[get_cable_paras] execute successfully, takes 0.9 secs.
+[DEBUG][2022-11-10 05:00:51] [9004] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:893] : Recv RPC[3] cmd [Open config cable:20001]
+[DEBUG][2022-11-10 05:00:51] [9004] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:901] : Revc exec: Open config cable start
+[DEBUG][2022-11-10 05:00:51] [9004] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgcommand.cpp:232] : begin the exec of open cable cmd...
+[DEBUG][2022-11-10 05:00:51] [9004] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgdatamanager.cpp:480] : Begin to deal with chain from server...
+[DEBUG][2022-11-10 05:00:51] [9004] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgdatamanager.cpp:488] : Begin to set user chain...
+[DEBUG][2022-11-10 05:00:51] [9004] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgdatamanager.cpp:506] : End to set user chain.
+[DEBUG][2022-11-10 05:00:51] [9004] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgmenu.cpp:3480] : Begin to update graphic item and tree item ...
+[DEBUG][2022-11-10 05:00:51] [9004] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgmenu.cpp:3502] : End to update graphic item and tree item ...
+[INFO][2022-11-10 05:00:53] [9004] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgmenu.cpp:735] : set OpenLastPath: D:/Projects/FPGA_match/final_test/generate_bitstream/top.sbit
+[DEBUG][2022-11-10 05:00:53] [9004] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgutil.cpp:182] : begin to get device info from CFG file...
+[DEBUG][2022-11-10 05:00:53] [9004] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgutil.cpp:203] : end to get device info from CFG file...
+[DEBUG][2022-11-10 05:00:53] [9004] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgmenu.cpp:3480] : Begin to update graphic item and tree item ...
+[DEBUG][2022-11-10 05:00:53] [9004] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgmenu.cpp:3502] : End to update graphic item and tree item ...
+[DEBUG][2022-11-10 05:00:53] [9004] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgmenu.cpp:929] : End to deal wiht chain from server.
+[DEBUG][2022-11-10 05:00:53] [9004] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgcommand.cpp:234] : end the exec of open cable cmd.
+[DEBUG][2022-11-10 05:00:53] [9004] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:903] : Revc exec: Open config cable end
+[DEBUG][2022-11-10 05:00:53] [9004] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgclient.cpp:444] : COMMAND[Open config cable] execute successfully, takes 3.4 secs.
+[DEBUG][2022-11-10 05:00:54] [9004] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgmenu.cpp:2690] : Begin to send programming cmd...
+[DEBUG][2022-11-10 05:00:54] [9004] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:653] : Send RPC:4
+[DEBUG][2022-11-10 05:00:54] [9004] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgclient.cpp:930] : Begin to send program data.
+[DEBUG][2022-11-10 05:00:54] [9004] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgclient.cpp:951] : End to send program data.
+[DEBUG][2022-11-10 05:00:54] [9004] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:772] : Send cmd [Program:20002] OK
+[DEBUG][2022-11-10 05:00:54] [9004] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:893] : Recv RPC[0] cmd [set progress bar:40001]
+[DEBUG][2022-11-10 05:00:54] [9004] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgcommand.cpp:842] : The value of Progress is 6
+[DEBUG][2022-11-10 05:00:54] [9004] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:901] : Revc exec: set progress bar start
+[DEBUG][2022-11-10 05:00:54] [9004] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:903] : Revc exec: set progress bar end
+[DEBUG][2022-11-10 05:00:54] [9004] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:893] : Recv RPC[0] cmd [set progress bar:40001]
+[DEBUG][2022-11-10 05:00:54] [9004] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgcommand.cpp:842] : The value of Progress is 10
+[DEBUG][2022-11-10 05:00:54] [9004] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:901] : Revc exec: set progress bar start
+[DEBUG][2022-11-10 05:00:54] [9004] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:903] : Revc exec: set progress bar end
+[DEBUG][2022-11-10 05:00:54] [9004] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:893] : Recv RPC[0] cmd [set progress bar:40001]
+[DEBUG][2022-11-10 05:00:54] [9004] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgcommand.cpp:842] : The value of Progress is 15
+[DEBUG][2022-11-10 05:00:54] [9004] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:901] : Revc exec: set progress bar start
+[DEBUG][2022-11-10 05:00:54] [9004] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:903] : Revc exec: set progress bar end
+[DEBUG][2022-11-10 05:00:54] [9004] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:893] : Recv RPC[0] cmd [set progress bar:40001]
+[DEBUG][2022-11-10 05:00:54] [9004] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgcommand.cpp:842] : The value of Progress is 20
+[DEBUG][2022-11-10 05:00:54] [9004] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:901] : Revc exec: set progress bar start
+[DEBUG][2022-11-10 05:00:54] [9004] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:903] : Revc exec: set progress bar end
+[DEBUG][2022-11-10 05:00:54] [9004] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:893] : Recv RPC[0] cmd [set progress bar:40001]
+[DEBUG][2022-11-10 05:00:54] [9004] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgcommand.cpp:842] : The value of Progress is 25
+[DEBUG][2022-11-10 05:00:54] [9004] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:901] : Revc exec: set progress bar start
+[DEBUG][2022-11-10 05:00:54] [9004] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:903] : Revc exec: set progress bar end
+[DEBUG][2022-11-10 05:00:54] [9004] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:893] : Recv RPC[0] cmd [set progress bar:40001]
+[DEBUG][2022-11-10 05:00:54] [9004] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgcommand.cpp:842] : The value of Progress is 30
+[DEBUG][2022-11-10 05:00:54] [9004] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:901] : Revc exec: set progress bar start
+[DEBUG][2022-11-10 05:00:54] [9004] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:903] : Revc exec: set progress bar end
+[DEBUG][2022-11-10 05:00:54] [9004] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:893] : Recv RPC[0] cmd [set progress bar:40001]
+[DEBUG][2022-11-10 05:00:54] [9004] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgcommand.cpp:842] : The value of Progress is 35
+[DEBUG][2022-11-10 05:00:54] [9004] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:901] : Revc exec: set progress bar start
+[DEBUG][2022-11-10 05:00:54] [9004] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:903] : Revc exec: set progress bar end
+[DEBUG][2022-11-10 05:00:54] [9004] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:893] : Recv RPC[0] cmd [set progress bar:40001]
+[DEBUG][2022-11-10 05:00:54] [9004] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgcommand.cpp:842] : The value of Progress is 40
+[DEBUG][2022-11-10 05:00:54] [9004] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:901] : Revc exec: set progress bar start
+[DEBUG][2022-11-10 05:00:54] [9004] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:903] : Revc exec: set progress bar end
+[DEBUG][2022-11-10 05:00:54] [9004] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:893] : Recv RPC[0] cmd [set progress bar:40001]
+[DEBUG][2022-11-10 05:00:54] [9004] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgcommand.cpp:842] : The value of Progress is 45
+[DEBUG][2022-11-10 05:00:54] [9004] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:901] : Revc exec: set progress bar start
+[DEBUG][2022-11-10 05:00:54] [9004] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:903] : Revc exec: set progress bar end
+[DEBUG][2022-11-10 05:00:54] [9004] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:893] : Recv RPC[0] cmd [set progress bar:40001]
+[DEBUG][2022-11-10 05:00:54] [9004] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgcommand.cpp:842] : The value of Progress is 50
+[DEBUG][2022-11-10 05:00:54] [9004] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:901] : Revc exec: set progress bar start
+[DEBUG][2022-11-10 05:00:54] [9004] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:903] : Revc exec: set progress bar end
+[DEBUG][2022-11-10 05:00:54] [9004] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:893] : Recv RPC[0] cmd [set progress bar:40001]
+[DEBUG][2022-11-10 05:00:54] [9004] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgcommand.cpp:842] : The value of Progress is 55
+[DEBUG][2022-11-10 05:00:54] [9004] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:901] : Revc exec: set progress bar start
+[DEBUG][2022-11-10 05:00:54] [9004] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:903] : Revc exec: set progress bar end
+[DEBUG][2022-11-10 05:00:54] [9004] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:893] : Recv RPC[0] cmd [set progress bar:40001]
+[DEBUG][2022-11-10 05:00:54] [9004] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgcommand.cpp:842] : The value of Progress is 60
+[DEBUG][2022-11-10 05:00:54] [9004] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:901] : Revc exec: set progress bar start
+[DEBUG][2022-11-10 05:00:54] [9004] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:903] : Revc exec: set progress bar end
+[DEBUG][2022-11-10 05:00:54] [9004] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:893] : Recv RPC[0] cmd [set progress bar:40001]
+[DEBUG][2022-11-10 05:00:54] [9004] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgcommand.cpp:842] : The value of Progress is 65
+[DEBUG][2022-11-10 05:00:54] [9004] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:901] : Revc exec: set progress bar start
+[DEBUG][2022-11-10 05:00:54] [9004] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:903] : Revc exec: set progress bar end
+[DEBUG][2022-11-10 05:00:54] [9004] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:893] : Recv RPC[0] cmd [set progress bar:40001]
+[DEBUG][2022-11-10 05:00:54] [9004] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgcommand.cpp:842] : The value of Progress is 70
+[DEBUG][2022-11-10 05:00:54] [9004] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:901] : Revc exec: set progress bar start
+[DEBUG][2022-11-10 05:00:54] [9004] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:903] : Revc exec: set progress bar end
+[DEBUG][2022-11-10 05:00:54] [9004] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:893] : Recv RPC[0] cmd [set progress bar:40001]
+[DEBUG][2022-11-10 05:00:54] [9004] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgcommand.cpp:842] : The value of Progress is 75
+[DEBUG][2022-11-10 05:00:54] [9004] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:901] : Revc exec: set progress bar start
+[DEBUG][2022-11-10 05:00:54] [9004] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:903] : Revc exec: set progress bar end
+[DEBUG][2022-11-10 05:00:54] [9004] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:893] : Recv RPC[0] cmd [set progress bar:40001]
+[DEBUG][2022-11-10 05:00:54] [9004] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgcommand.cpp:842] : The value of Progress is 80
+[DEBUG][2022-11-10 05:00:54] [9004] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:901] : Revc exec: set progress bar start
+[DEBUG][2022-11-10 05:00:54] [9004] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:903] : Revc exec: set progress bar end
+[DEBUG][2022-11-10 05:00:54] [9004] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:893] : Recv RPC[0] cmd [set progress bar:40001]
+[DEBUG][2022-11-10 05:00:54] [9004] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgcommand.cpp:842] : The value of Progress is 85
+[DEBUG][2022-11-10 05:00:54] [9004] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:901] : Revc exec: set progress bar start
+[DEBUG][2022-11-10 05:00:54] [9004] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:903] : Revc exec: set progress bar end
+[DEBUG][2022-11-10 05:00:54] [9004] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:893] : Recv RPC[0] cmd [set progress bar:40001]
+[DEBUG][2022-11-10 05:00:54] [9004] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgcommand.cpp:842] : The value of Progress is 90
+[DEBUG][2022-11-10 05:00:54] [9004] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:901] : Revc exec: set progress bar start
+[DEBUG][2022-11-10 05:00:54] [9004] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:903] : Revc exec: set progress bar end
+[DEBUG][2022-11-10 05:00:54] [9004] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:893] : Recv RPC[0] cmd [set progress bar:40001]
+[DEBUG][2022-11-10 05:00:54] [9004] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgcommand.cpp:842] : The value of Progress is 95
+[DEBUG][2022-11-10 05:00:54] [9004] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:901] : Revc exec: set progress bar start
+[DEBUG][2022-11-10 05:00:54] [9004] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:903] : Revc exec: set progress bar end
+[DEBUG][2022-11-10 05:00:55] [9004] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:893] : Recv RPC[0] cmd [set progress bar:40001]
+[DEBUG][2022-11-10 05:00:55] [9004] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgcommand.cpp:842] : The value of Progress is 100
+[DEBUG][2022-11-10 05:00:55] [9004] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:901] : Revc exec: set progress bar start
+[DEBUG][2022-11-10 05:00:55] [9004] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:903] : Revc exec: set progress bar end
+[DEBUG][2022-11-10 05:00:55] [9004] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:893] : Recv RPC[4] cmd [Program:20002]
+[DEBUG][2022-11-10 05:00:55] [9004] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:901] : Revc exec: Program start
+[DEBUG][2022-11-10 05:00:55] [9004] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:903] : Revc exec: Program end
+[DEBUG][2022-11-10 05:00:55] [9004] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgclient.cpp:444] : COMMAND[Program] execute successfully, takes 0.9 secs.
+[DEBUG][2022-11-10 05:00:55] [9004] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgmenu.cpp:2714] : End to send programming cmd.
+[INFO][2022-11-10 05:00:56] [9004] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\cfg_gui\cfgmain.cpp:53] : /***************************End Configration***************************/
+[INFO][2022-11-10 05:15:18] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgworkspace.cpp:165] : /***************************Start Configuration***************************/
+[INFO][2022-11-10 05:15:18] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgworkspace.cpp:166] : Path: D:/Softwares/PDS_2021.1-SP7.3-ads/bin
+[INFO][2022-11-10 05:15:18] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgworkspace.cpp:167] : Version: 94852
+[INFO][2022-11-10 05:15:19] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgworkspace.cpp:370] : Current Path: D:/Projects/FPGA_match/final_test
+[INFO][2022-11-10 05:15:19] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgworkspace.cpp:371] : PDS Dir Path: D:/Projects/FPGA_match/final_test
+[INFO][2022-11-10 05:15:22] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgmenu.cpp:871] : Configuration is not connect with server. connect first then scan chain.
+[DEBUG][2022-11-10 05:15:22] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:463] : Client Local host name:thesame
+[DEBUG][2022-11-10 05:15:22] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:471] : Client Local Address:192.168.242.1
+[DEBUG][2022-11-10 05:15:22] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:471] : Client Local Address:192.168.35.1
+[DEBUG][2022-11-10 05:15:22] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:471] : Client Local Address:192.168.137.1
+[DEBUG][2022-11-10 05:15:22] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:471] : Client Local Address:10.134.246.51
+[DEBUG][2022-11-10 05:15:22] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:498] : Server Address:127.0.0.1, Port:65420
+[INFO][2022-11-10 05:15:23] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:538] : Connect OK, Server: 127.0.0.1  Port: 65420
+[DEBUG][2022-11-10 05:15:23] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgclient.cpp:324] : Finish.
+[INFO][2022-11-10 05:15:23] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgclient.cpp:325] : Connect server succeeded
+[DEBUG][2022-11-10 05:15:23] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:653] : Send RPC:1
+[DEBUG][2022-11-10 05:15:23] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:772] : Send cmd [check version information:40004] OK
+[DEBUG][2022-11-10 05:15:23] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:893] : Recv RPC[1] cmd [check version information:40004]
+[DEBUG][2022-11-10 05:15:23] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:901] : Revc exec: check version information start
+[DEBUG][2022-11-10 05:15:23] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:653] : Send RPC:2
+[DEBUG][2022-11-10 05:15:23] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:772] : Send cmd [get_cable_paras:40010] OK
+[DEBUG][2022-11-10 05:15:23] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgmenu.cpp:890] : Begin to send initialize chain cmd...
+[DEBUG][2022-11-10 05:15:23] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:653] : Send RPC:3
+[DEBUG][2022-11-10 05:15:23] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:772] : Send cmd [Open config cable:20001] OK
+[DEBUG][2022-11-10 05:15:23] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgmenu.cpp:909] : End to send initialize chain cmd.
+[DEBUG][2022-11-10 05:15:23] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:903] : Revc exec: check version information end
+[DEBUG][2022-11-10 05:15:23] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgclient.cpp:444] : COMMAND[check version information] execute successfully, takes 0.0 secs.
+[DEBUG][2022-11-10 05:15:24] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:893] : Recv RPC[2] cmd [get_cable_paras:40010]
+[DEBUG][2022-11-10 05:15:24] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:901] : Revc exec: get_cable_paras start
+[DEBUG][2022-11-10 05:15:24] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:903] : Revc exec: get_cable_paras end
+[DEBUG][2022-11-10 05:15:24] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgclient.cpp:444] : COMMAND[get_cable_paras] execute successfully, takes 0.8 secs.
+[DEBUG][2022-11-10 05:15:24] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:893] : Recv RPC[3] cmd [Open config cable:20001]
+[DEBUG][2022-11-10 05:15:24] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:901] : Revc exec: Open config cable start
+[DEBUG][2022-11-10 05:15:24] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgcommand.cpp:232] : begin the exec of open cable cmd...
+[DEBUG][2022-11-10 05:15:24] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgdatamanager.cpp:480] : Begin to deal with chain from server...
+[DEBUG][2022-11-10 05:15:24] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgdatamanager.cpp:488] : Begin to set user chain...
+[DEBUG][2022-11-10 05:15:24] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgdatamanager.cpp:506] : End to set user chain.
+[DEBUG][2022-11-10 05:15:24] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgmenu.cpp:3480] : Begin to update graphic item and tree item ...
+[DEBUG][2022-11-10 05:15:24] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgmenu.cpp:3502] : End to update graphic item and tree item ...
+[DEBUG][2022-11-10 05:15:25] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgmenu.cpp:2337] : selected file name is empty and ignore.
+[DEBUG][2022-11-10 05:15:25] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgmenu.cpp:929] : End to deal wiht chain from server.
+[DEBUG][2022-11-10 05:15:25] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgcommand.cpp:234] : end the exec of open cable cmd.
+[DEBUG][2022-11-10 05:15:25] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:903] : Revc exec: Open config cable end
+[DEBUG][2022-11-10 05:15:25] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgclient.cpp:444] : COMMAND[Open config cable] execute successfully, takes 2.5 secs.
+[DEBUG][2022-11-10 05:15:27] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgmenu.cpp:1843] : Begin to send scan outer flash cmd...
+[DEBUG][2022-11-10 05:15:27] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:653] : Send RPC:4
+[DEBUG][2022-11-10 05:15:27] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:772] : Send cmd [Scan Outer SPI Flash:20300] OK
+[DEBUG][2022-11-10 05:15:27] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgmenu.cpp:1846] : End to send scan outer flash cmd.
+[DEBUG][2022-11-10 05:15:27] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:893] : Recv RPC[4] cmd [Scan Outer SPI Flash:20300]
+[DEBUG][2022-11-10 05:15:27] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:901] : Revc exec: Scan Outer SPI Flash start
+[DEBUG][2022-11-10 05:15:27] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgcommand.cpp:931] : begin to exec scan jtag flash cmd...
+[DEBUG][2022-11-10 05:15:27] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgdatamanager.cpp:556] : Begin to initialize JtagFlash for selected FPGA Device...
+[DEBUG][2022-11-10 05:15:27] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgmenu.cpp:3480] : Begin to update graphic item and tree item ...
+[DEBUG][2022-11-10 05:15:27] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgmenu.cpp:3502] : End to update graphic item and tree item ...
+[DEBUG][2022-11-10 05:15:29] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgmenu.cpp:2337] : selected file name is empty and ignore.
+[DEBUG][2022-11-10 05:15:29] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgmenu.cpp:1863] : End to initialize OuterFlash for selected FPGA Device...
+[DEBUG][2022-11-10 05:15:29] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgcommand.cpp:933] : end to exec scan jtag flash cmd...
+[DEBUG][2022-11-10 05:15:29] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:903] : Revc exec: Scan Outer SPI Flash end
+[DEBUG][2022-11-10 05:15:29] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgclient.cpp:444] : COMMAND[Scan Outer SPI Flash] execute successfully, takes 1.6 secs.
+[DEBUG][2022-11-10 05:15:31] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgmenu.cpp:1426] : Begin to Converte file.
+[DEBUG][2022-11-10 05:15:40] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgmenuinfodialog.cpp:831] : begin to parse sfc file.
+[DEBUG][2022-11-10 05:15:40] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgutil.cpp:182] : begin to get device info from CFG file...
+[DEBUG][2022-11-10 05:15:40] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgutil.cpp:203] : end to get device info from CFG file...
+[DEBUG][2022-11-10 05:15:40] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgutil.cpp:182] : begin to get device info from CFG file...
+[DEBUG][2022-11-10 05:15:40] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgutil.cpp:203] : end to get device info from CFG file...
+[DEBUG][2022-11-10 05:15:40] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgmenuinfodialog.cpp:893] : end to parse sfc file.
+[DEBUG][2022-11-10 05:15:41] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgmenu.cpp:1436] : End to Converte file.
+[DEBUG][2022-11-10 05:15:42] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgmenu.cpp:2266] : Begin to assign configuration file...
+[INFO][2022-11-10 05:15:44] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgmenu.cpp:735] : set OpenLastPath: D:/Projects/FPGA_match/final_test/generate_bitstream/top.sfc
+[DEBUG][2022-11-10 05:15:44] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgflash.cpp:138] : begin to check SFC File and Flash Device Read Mode.
+[DEBUG][2022-11-10 05:15:44] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgflash.cpp:179] : end to check SFC File and Flash Device Read Mode.
+[DEBUG][2022-11-10 05:15:44] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgmenu.cpp:3480] : Begin to update graphic item and tree item ...
+[DEBUG][2022-11-10 05:15:44] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgmenu.cpp:3502] : End to update graphic item and tree item ...
+[DEBUG][2022-11-10 05:15:44] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgmenu.cpp:2281] : End to assign configuration file...
+[DEBUG][2022-11-10 05:15:45] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgmenu.cpp:2798] : begin to send promgram jtag flash cmd.
+[DEBUG][2022-11-10 05:15:45] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgmenu.cpp:2864] : begin to send jtag flash erase cmd
+[DEBUG][2022-11-10 05:15:45] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:653] : Send RPC:5
+[DEBUG][2022-11-10 05:15:45] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgclient.cpp:1176] : Begin to send embed flash erase data.
+[DEBUG][2022-11-10 05:15:45] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgclient.cpp:1235] : Begin to send flash erase data.
+[DEBUG][2022-11-10 05:15:45] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgclient.cpp:1246] : End to send flash erase data.
+[DEBUG][2022-11-10 05:15:45] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgclient.cpp:1182] : End to send embed flash erase data.
+[DEBUG][2022-11-10 05:15:45] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:772] : Send cmd [Erase Outer Flash:20302] OK
+[DEBUG][2022-11-10 05:15:45] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:893] : Recv RPC[0] cmd [set progress bar:40001]
+[DEBUG][2022-11-10 05:15:45] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgcommand.cpp:842] : The value of Progress is 1
+[DEBUG][2022-11-10 05:15:45] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:901] : Revc exec: set progress bar start
+[DEBUG][2022-11-10 05:15:45] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:903] : Revc exec: set progress bar end
+[DEBUG][2022-11-10 05:15:46] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:893] : Recv RPC[0] cmd [set progress bar:40001]
+[DEBUG][2022-11-10 05:15:46] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgcommand.cpp:842] : The value of Progress is 8
+[DEBUG][2022-11-10 05:15:46] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:901] : Revc exec: set progress bar start
+[DEBUG][2022-11-10 05:15:46] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:903] : Revc exec: set progress bar end
+[DEBUG][2022-11-10 05:15:46] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:893] : Recv RPC[0] cmd [set progress bar:40001]
+[DEBUG][2022-11-10 05:15:46] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgcommand.cpp:842] : The value of Progress is 16
+[DEBUG][2022-11-10 05:15:46] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:901] : Revc exec: set progress bar start
+[DEBUG][2022-11-10 05:15:46] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:903] : Revc exec: set progress bar end
+[DEBUG][2022-11-10 05:15:46] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:893] : Recv RPC[0] cmd [set progress bar:40001]
+[DEBUG][2022-11-10 05:15:46] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgcommand.cpp:842] : The value of Progress is 25
+[DEBUG][2022-11-10 05:15:46] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:901] : Revc exec: set progress bar start
+[DEBUG][2022-11-10 05:15:46] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:903] : Revc exec: set progress bar end
+[DEBUG][2022-11-10 05:15:47] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:893] : Recv RPC[0] cmd [set progress bar:40001]
+[DEBUG][2022-11-10 05:15:47] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgcommand.cpp:842] : The value of Progress is 33
+[DEBUG][2022-11-10 05:15:47] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:901] : Revc exec: set progress bar start
+[DEBUG][2022-11-10 05:15:47] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:903] : Revc exec: set progress bar end
+[DEBUG][2022-11-10 05:15:47] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:893] : Recv RPC[0] cmd [set progress bar:40001]
+[DEBUG][2022-11-10 05:15:47] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgcommand.cpp:842] : The value of Progress is 41
+[DEBUG][2022-11-10 05:15:47] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:901] : Revc exec: set progress bar start
+[DEBUG][2022-11-10 05:15:47] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:903] : Revc exec: set progress bar end
+[DEBUG][2022-11-10 05:15:47] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:893] : Recv RPC[0] cmd [set progress bar:40001]
+[DEBUG][2022-11-10 05:15:47] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgcommand.cpp:842] : The value of Progress is 50
+[DEBUG][2022-11-10 05:15:47] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:901] : Revc exec: set progress bar start
+[DEBUG][2022-11-10 05:15:47] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:903] : Revc exec: set progress bar end
+[DEBUG][2022-11-10 05:15:48] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:893] : Recv RPC[0] cmd [set progress bar:40001]
+[DEBUG][2022-11-10 05:15:48] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgcommand.cpp:842] : The value of Progress is 58
+[DEBUG][2022-11-10 05:15:48] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:901] : Revc exec: set progress bar start
+[DEBUG][2022-11-10 05:15:48] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:903] : Revc exec: set progress bar end
+[DEBUG][2022-11-10 05:15:48] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:893] : Recv RPC[0] cmd [set progress bar:40001]
+[DEBUG][2022-11-10 05:15:48] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgcommand.cpp:842] : The value of Progress is 66
+[DEBUG][2022-11-10 05:15:48] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:901] : Revc exec: set progress bar start
+[DEBUG][2022-11-10 05:15:48] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:903] : Revc exec: set progress bar end
+[DEBUG][2022-11-10 05:15:48] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:893] : Recv RPC[0] cmd [set progress bar:40001]
+[DEBUG][2022-11-10 05:15:48] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgcommand.cpp:842] : The value of Progress is 75
+[DEBUG][2022-11-10 05:15:48] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:901] : Revc exec: set progress bar start
+[DEBUG][2022-11-10 05:15:48] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:903] : Revc exec: set progress bar end
+[DEBUG][2022-11-10 05:15:49] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:893] : Recv RPC[0] cmd [set progress bar:40001]
+[DEBUG][2022-11-10 05:15:49] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgcommand.cpp:842] : The value of Progress is 83
+[DEBUG][2022-11-10 05:15:49] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:901] : Revc exec: set progress bar start
+[DEBUG][2022-11-10 05:15:49] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:903] : Revc exec: set progress bar end
+[DEBUG][2022-11-10 05:15:49] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:893] : Recv RPC[0] cmd [set progress bar:40001]
+[DEBUG][2022-11-10 05:15:49] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgcommand.cpp:842] : The value of Progress is 91
+[DEBUG][2022-11-10 05:15:49] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:901] : Revc exec: set progress bar start
+[DEBUG][2022-11-10 05:15:49] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:903] : Revc exec: set progress bar end
+[DEBUG][2022-11-10 05:15:49] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:893] : Recv RPC[0] cmd [set progress bar:40001]
+[DEBUG][2022-11-10 05:15:49] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgcommand.cpp:842] : The value of Progress is 100
+[DEBUG][2022-11-10 05:15:49] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:901] : Revc exec: set progress bar start
+[DEBUG][2022-11-10 05:15:49] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:903] : Revc exec: set progress bar end
+[DEBUG][2022-11-10 05:15:49] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:893] : Recv RPC[5] cmd [Erase Outer Flash:20302]
+[DEBUG][2022-11-10 05:15:49] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:901] : Revc exec: Erase Outer Flash start
+[DEBUG][2022-11-10 05:15:49] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:903] : Revc exec: Erase Outer Flash end
+[DEBUG][2022-11-10 05:15:49] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgclient.cpp:444] : COMMAND[Erase Outer Flash] execute finish, takes 4.3 secs.
+[DEBUG][2022-11-10 05:15:49] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgmenu.cpp:2901] : end to send jtag flash erase cmd.
+[DEBUG][2022-11-10 05:15:49] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:653] : Send RPC:6
+[DEBUG][2022-11-10 05:15:49] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgclient.cpp:1164] : Begin to send jtag flash program data.
+[DEBUG][2022-11-10 05:15:49] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgclient.cpp:1212] : Begin to send flash program data.
+[DEBUG][2022-11-10 05:15:49] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgclient.cpp:1229] : End to send flash program data.
+[DEBUG][2022-11-10 05:15:49] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgclient.cpp:1170] : End to send embed flash program data.
+[DEBUG][2022-11-10 05:15:49] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:772] : Send cmd [Program Outer Flash:20301] OK
+[DEBUG][2022-11-10 05:15:49] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:893] : Recv RPC[0] cmd [set progress bar:40001]
+[DEBUG][2022-11-10 05:15:49] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgcommand.cpp:842] : The value of Progress is 1
+[DEBUG][2022-11-10 05:15:49] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:901] : Revc exec: set progress bar start
+[DEBUG][2022-11-10 05:15:49] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:903] : Revc exec: set progress bar end
+[DEBUG][2022-11-10 05:15:50] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:893] : Recv RPC[0] cmd [set progress bar:40001]
+[DEBUG][2022-11-10 05:15:50] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgcommand.cpp:842] : The value of Progress is 6
+[DEBUG][2022-11-10 05:15:50] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:901] : Revc exec: set progress bar start
+[DEBUG][2022-11-10 05:15:50] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:903] : Revc exec: set progress bar end
+[DEBUG][2022-11-10 05:15:51] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:893] : Recv RPC[0] cmd [set progress bar:40001]
+[DEBUG][2022-11-10 05:15:51] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgcommand.cpp:842] : The value of Progress is 10
+[DEBUG][2022-11-10 05:15:51] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:901] : Revc exec: set progress bar start
+[DEBUG][2022-11-10 05:15:51] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:903] : Revc exec: set progress bar end
+[DEBUG][2022-11-10 05:15:51] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:893] : Recv RPC[0] cmd [set progress bar:40001]
+[DEBUG][2022-11-10 05:15:51] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgcommand.cpp:842] : The value of Progress is 15
+[DEBUG][2022-11-10 05:15:51] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:901] : Revc exec: set progress bar start
+[DEBUG][2022-11-10 05:15:51] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:903] : Revc exec: set progress bar end
+[DEBUG][2022-11-10 05:15:52] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:893] : Recv RPC[0] cmd [set progress bar:40001]
+[DEBUG][2022-11-10 05:15:52] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgcommand.cpp:842] : The value of Progress is 20
+[DEBUG][2022-11-10 05:15:52] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:901] : Revc exec: set progress bar start
+[DEBUG][2022-11-10 05:15:52] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:903] : Revc exec: set progress bar end
+[DEBUG][2022-11-10 05:15:52] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:893] : Recv RPC[0] cmd [set progress bar:40001]
+[DEBUG][2022-11-10 05:15:52] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgcommand.cpp:842] : The value of Progress is 25
+[DEBUG][2022-11-10 05:15:52] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:901] : Revc exec: set progress bar start
+[DEBUG][2022-11-10 05:15:52] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:903] : Revc exec: set progress bar end
+[DEBUG][2022-11-10 05:15:53] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:893] : Recv RPC[0] cmd [set progress bar:40001]
+[DEBUG][2022-11-10 05:15:53] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgcommand.cpp:842] : The value of Progress is 30
+[DEBUG][2022-11-10 05:15:53] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:901] : Revc exec: set progress bar start
+[DEBUG][2022-11-10 05:15:53] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:903] : Revc exec: set progress bar end
+[DEBUG][2022-11-10 05:15:54] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:893] : Recv RPC[0] cmd [set progress bar:40001]
+[DEBUG][2022-11-10 05:15:54] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgcommand.cpp:842] : The value of Progress is 35
+[DEBUG][2022-11-10 05:15:54] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:901] : Revc exec: set progress bar start
+[DEBUG][2022-11-10 05:15:54] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:903] : Revc exec: set progress bar end
+[DEBUG][2022-11-10 05:15:54] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:893] : Recv RPC[0] cmd [set progress bar:40001]
+[DEBUG][2022-11-10 05:15:54] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgcommand.cpp:842] : The value of Progress is 40
+[DEBUG][2022-11-10 05:15:54] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:901] : Revc exec: set progress bar start
+[DEBUG][2022-11-10 05:15:54] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:903] : Revc exec: set progress bar end
+[DEBUG][2022-11-10 05:15:55] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:893] : Recv RPC[0] cmd [set progress bar:40001]
+[DEBUG][2022-11-10 05:15:55] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgcommand.cpp:842] : The value of Progress is 45
+[DEBUG][2022-11-10 05:15:55] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:901] : Revc exec: set progress bar start
+[DEBUG][2022-11-10 05:15:55] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:903] : Revc exec: set progress bar end
+[DEBUG][2022-11-10 05:15:55] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:893] : Recv RPC[0] cmd [set progress bar:40001]
+[DEBUG][2022-11-10 05:15:55] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgcommand.cpp:842] : The value of Progress is 50
+[DEBUG][2022-11-10 05:15:55] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:901] : Revc exec: set progress bar start
+[DEBUG][2022-11-10 05:15:55] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:903] : Revc exec: set progress bar end
+[DEBUG][2022-11-10 05:15:56] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:893] : Recv RPC[0] cmd [set progress bar:40001]
+[DEBUG][2022-11-10 05:15:56] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgcommand.cpp:842] : The value of Progress is 55
+[DEBUG][2022-11-10 05:15:56] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:901] : Revc exec: set progress bar start
+[DEBUG][2022-11-10 05:15:56] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:903] : Revc exec: set progress bar end
+[DEBUG][2022-11-10 05:15:57] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:893] : Recv RPC[0] cmd [set progress bar:40001]
+[DEBUG][2022-11-10 05:15:57] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgcommand.cpp:842] : The value of Progress is 60
+[DEBUG][2022-11-10 05:15:57] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:901] : Revc exec: set progress bar start
+[DEBUG][2022-11-10 05:15:57] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:903] : Revc exec: set progress bar end
+[DEBUG][2022-11-10 05:15:57] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:893] : Recv RPC[0] cmd [set progress bar:40001]
+[DEBUG][2022-11-10 05:15:57] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgcommand.cpp:842] : The value of Progress is 65
+[DEBUG][2022-11-10 05:15:57] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:901] : Revc exec: set progress bar start
+[DEBUG][2022-11-10 05:15:57] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:903] : Revc exec: set progress bar end
+[DEBUG][2022-11-10 05:15:58] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:893] : Recv RPC[0] cmd [set progress bar:40001]
+[DEBUG][2022-11-10 05:15:58] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgcommand.cpp:842] : The value of Progress is 70
+[DEBUG][2022-11-10 05:15:58] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:901] : Revc exec: set progress bar start
+[DEBUG][2022-11-10 05:15:58] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:903] : Revc exec: set progress bar end
+[DEBUG][2022-11-10 05:15:58] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:893] : Recv RPC[0] cmd [set progress bar:40001]
+[DEBUG][2022-11-10 05:15:58] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgcommand.cpp:842] : The value of Progress is 75
+[DEBUG][2022-11-10 05:15:58] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:901] : Revc exec: set progress bar start
+[DEBUG][2022-11-10 05:15:58] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:903] : Revc exec: set progress bar end
+[DEBUG][2022-11-10 05:15:59] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:893] : Recv RPC[0] cmd [set progress bar:40001]
+[DEBUG][2022-11-10 05:15:59] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgcommand.cpp:842] : The value of Progress is 80
+[DEBUG][2022-11-10 05:15:59] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:901] : Revc exec: set progress bar start
+[DEBUG][2022-11-10 05:15:59] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:903] : Revc exec: set progress bar end
+[DEBUG][2022-11-10 05:16:00] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:893] : Recv RPC[0] cmd [set progress bar:40001]
+[DEBUG][2022-11-10 05:16:00] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgcommand.cpp:842] : The value of Progress is 85
+[DEBUG][2022-11-10 05:16:00] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:901] : Revc exec: set progress bar start
+[DEBUG][2022-11-10 05:16:00] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:903] : Revc exec: set progress bar end
+[DEBUG][2022-11-10 05:16:00] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:893] : Recv RPC[0] cmd [set progress bar:40001]
+[DEBUG][2022-11-10 05:16:00] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgcommand.cpp:842] : The value of Progress is 90
+[DEBUG][2022-11-10 05:16:00] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:901] : Revc exec: set progress bar start
+[DEBUG][2022-11-10 05:16:00] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:903] : Revc exec: set progress bar end
+[DEBUG][2022-11-10 05:16:01] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:893] : Recv RPC[0] cmd [set progress bar:40001]
+[DEBUG][2022-11-10 05:16:01] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgcommand.cpp:842] : The value of Progress is 95
+[DEBUG][2022-11-10 05:16:01] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:901] : Revc exec: set progress bar start
+[DEBUG][2022-11-10 05:16:01] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:903] : Revc exec: set progress bar end
+[DEBUG][2022-11-10 05:16:01] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:893] : Recv RPC[0] cmd [set progress bar:40001]
+[DEBUG][2022-11-10 05:16:01] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgcommand.cpp:842] : The value of Progress is 100
+[DEBUG][2022-11-10 05:16:01] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:901] : Revc exec: set progress bar start
+[DEBUG][2022-11-10 05:16:01] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:903] : Revc exec: set progress bar end
+[DEBUG][2022-11-10 05:16:01] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:893] : Recv RPC[6] cmd [Program Outer Flash:20301]
+[DEBUG][2022-11-10 05:16:01] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:901] : Revc exec: Program Outer Flash start
+[DEBUG][2022-11-10 05:16:01] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:903] : Revc exec: Program Outer Flash end
+[DEBUG][2022-11-10 05:16:01] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgclient.cpp:444] : COMMAND[Program Outer Flash] execute finish, takes 12.3 secs.
+[DEBUG][2022-11-10 05:16:01] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgmenu.cpp:2914] : begin to send jtag flash verify cmd
+[DEBUG][2022-11-10 05:16:01] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:653] : Send RPC:7
+[DEBUG][2022-11-10 05:16:01] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgclient.cpp:1188] : Begin to send embed flash verify data.
+[DEBUG][2022-11-10 05:16:01] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgclient.cpp:1252] : Begin to send flash verify data.
+[DEBUG][2022-11-10 05:16:01] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgclient.cpp:1269] : End to send flash verify data.
+[DEBUG][2022-11-10 05:16:01] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgclient.cpp:1194] : End to send embed flash verify data.
+[DEBUG][2022-11-10 05:16:01] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:772] : Send cmd [Verify Outer Flash:20303] OK
+[DEBUG][2022-11-10 05:16:02] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:893] : Recv RPC[0] cmd [set progress bar:40001]
+[DEBUG][2022-11-10 05:16:02] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgcommand.cpp:842] : The value of Progress is 1
+[DEBUG][2022-11-10 05:16:02] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:901] : Revc exec: set progress bar start
+[DEBUG][2022-11-10 05:16:02] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:903] : Revc exec: set progress bar end
+[DEBUG][2022-11-10 05:16:02] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:893] : Recv RPC[0] cmd [set progress bar:40001]
+[DEBUG][2022-11-10 05:16:02] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgcommand.cpp:842] : The value of Progress is 6
+[DEBUG][2022-11-10 05:16:02] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:901] : Revc exec: set progress bar start
+[DEBUG][2022-11-10 05:16:02] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:903] : Revc exec: set progress bar end
+[DEBUG][2022-11-10 05:16:02] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:893] : Recv RPC[0] cmd [set progress bar:40001]
+[DEBUG][2022-11-10 05:16:02] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgcommand.cpp:842] : The value of Progress is 10
+[DEBUG][2022-11-10 05:16:02] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:901] : Revc exec: set progress bar start
+[DEBUG][2022-11-10 05:16:02] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:903] : Revc exec: set progress bar end
+[DEBUG][2022-11-10 05:16:02] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:893] : Recv RPC[0] cmd [set progress bar:40001]
+[DEBUG][2022-11-10 05:16:02] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgcommand.cpp:842] : The value of Progress is 15
+[DEBUG][2022-11-10 05:16:02] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:901] : Revc exec: set progress bar start
+[DEBUG][2022-11-10 05:16:02] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:903] : Revc exec: set progress bar end
+[DEBUG][2022-11-10 05:16:02] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:893] : Recv RPC[0] cmd [set progress bar:40001]
+[DEBUG][2022-11-10 05:16:02] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgcommand.cpp:842] : The value of Progress is 21
+[DEBUG][2022-11-10 05:16:02] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:901] : Revc exec: set progress bar start
+[DEBUG][2022-11-10 05:16:02] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:903] : Revc exec: set progress bar end
+[DEBUG][2022-11-10 05:16:02] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:893] : Recv RPC[0] cmd [set progress bar:40001]
+[DEBUG][2022-11-10 05:16:02] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgcommand.cpp:842] : The value of Progress is 25
+[DEBUG][2022-11-10 05:16:02] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:901] : Revc exec: set progress bar start
+[DEBUG][2022-11-10 05:16:02] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:903] : Revc exec: set progress bar end
+[DEBUG][2022-11-10 05:16:02] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:893] : Recv RPC[0] cmd [set progress bar:40001]
+[DEBUG][2022-11-10 05:16:02] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgcommand.cpp:842] : The value of Progress is 30
+[DEBUG][2022-11-10 05:16:02] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:901] : Revc exec: set progress bar start
+[DEBUG][2022-11-10 05:16:02] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:903] : Revc exec: set progress bar end
+[DEBUG][2022-11-10 05:16:02] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:893] : Recv RPC[0] cmd [set progress bar:40001]
+[DEBUG][2022-11-10 05:16:02] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgcommand.cpp:842] : The value of Progress is 35
+[DEBUG][2022-11-10 05:16:02] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:901] : Revc exec: set progress bar start
+[DEBUG][2022-11-10 05:16:02] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:903] : Revc exec: set progress bar end
+[DEBUG][2022-11-10 05:16:02] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:893] : Recv RPC[0] cmd [set progress bar:40001]
+[DEBUG][2022-11-10 05:16:02] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgcommand.cpp:842] : The value of Progress is 40
+[DEBUG][2022-11-10 05:16:02] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:901] : Revc exec: set progress bar start
+[DEBUG][2022-11-10 05:16:02] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:903] : Revc exec: set progress bar end
+[DEBUG][2022-11-10 05:16:02] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:893] : Recv RPC[0] cmd [set progress bar:40001]
+[DEBUG][2022-11-10 05:16:02] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgcommand.cpp:842] : The value of Progress is 46
+[DEBUG][2022-11-10 05:16:02] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:901] : Revc exec: set progress bar start
+[DEBUG][2022-11-10 05:16:02] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:903] : Revc exec: set progress bar end
+[DEBUG][2022-11-10 05:16:02] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:893] : Recv RPC[0] cmd [set progress bar:40001]
+[DEBUG][2022-11-10 05:16:02] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgcommand.cpp:842] : The value of Progress is 50
+[DEBUG][2022-11-10 05:16:02] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:901] : Revc exec: set progress bar start
+[DEBUG][2022-11-10 05:16:02] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:903] : Revc exec: set progress bar end
+[DEBUG][2022-11-10 05:16:02] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:893] : Recv RPC[0] cmd [set progress bar:40001]
+[DEBUG][2022-11-10 05:16:02] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgcommand.cpp:842] : The value of Progress is 55
+[DEBUG][2022-11-10 05:16:02] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:901] : Revc exec: set progress bar start
+[DEBUG][2022-11-10 05:16:02] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:903] : Revc exec: set progress bar end
+[DEBUG][2022-11-10 05:16:02] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:893] : Recv RPC[0] cmd [set progress bar:40001]
+[DEBUG][2022-11-10 05:16:02] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgcommand.cpp:842] : The value of Progress is 60
+[DEBUG][2022-11-10 05:16:02] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:901] : Revc exec: set progress bar start
+[DEBUG][2022-11-10 05:16:02] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:903] : Revc exec: set progress bar end
+[DEBUG][2022-11-10 05:16:02] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:893] : Recv RPC[0] cmd [set progress bar:40001]
+[DEBUG][2022-11-10 05:16:02] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgcommand.cpp:842] : The value of Progress is 65
+[DEBUG][2022-11-10 05:16:02] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:901] : Revc exec: set progress bar start
+[DEBUG][2022-11-10 05:16:02] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:903] : Revc exec: set progress bar end
+[DEBUG][2022-11-10 05:16:02] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:893] : Recv RPC[0] cmd [set progress bar:40001]
+[DEBUG][2022-11-10 05:16:02] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgcommand.cpp:842] : The value of Progress is 71
+[DEBUG][2022-11-10 05:16:02] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:901] : Revc exec: set progress bar start
+[DEBUG][2022-11-10 05:16:02] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:903] : Revc exec: set progress bar end
+[DEBUG][2022-11-10 05:16:02] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:893] : Recv RPC[0] cmd [set progress bar:40001]
+[DEBUG][2022-11-10 05:16:02] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgcommand.cpp:842] : The value of Progress is 75
+[DEBUG][2022-11-10 05:16:02] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:901] : Revc exec: set progress bar start
+[DEBUG][2022-11-10 05:16:02] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:903] : Revc exec: set progress bar end
+[DEBUG][2022-11-10 05:16:02] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:893] : Recv RPC[0] cmd [set progress bar:40001]
+[DEBUG][2022-11-10 05:16:02] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgcommand.cpp:842] : The value of Progress is 80
+[DEBUG][2022-11-10 05:16:02] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:901] : Revc exec: set progress bar start
+[DEBUG][2022-11-10 05:16:02] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:903] : Revc exec: set progress bar end
+[DEBUG][2022-11-10 05:16:02] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:893] : Recv RPC[0] cmd [set progress bar:40001]
+[DEBUG][2022-11-10 05:16:02] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgcommand.cpp:842] : The value of Progress is 85
+[DEBUG][2022-11-10 05:16:02] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:901] : Revc exec: set progress bar start
+[DEBUG][2022-11-10 05:16:02] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:903] : Revc exec: set progress bar end
+[DEBUG][2022-11-10 05:16:02] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:893] : Recv RPC[0] cmd [set progress bar:40001]
+[DEBUG][2022-11-10 05:16:02] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgcommand.cpp:842] : The value of Progress is 90
+[DEBUG][2022-11-10 05:16:02] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:901] : Revc exec: set progress bar start
+[DEBUG][2022-11-10 05:16:02] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:903] : Revc exec: set progress bar end
+[DEBUG][2022-11-10 05:16:02] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:893] : Recv RPC[0] cmd [set progress bar:40001]
+[DEBUG][2022-11-10 05:16:02] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgcommand.cpp:842] : The value of Progress is 96
+[DEBUG][2022-11-10 05:16:02] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:901] : Revc exec: set progress bar start
+[DEBUG][2022-11-10 05:16:02] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:903] : Revc exec: set progress bar end
+[DEBUG][2022-11-10 05:16:02] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:893] : Recv RPC[0] cmd [set progress bar:40001]
+[DEBUG][2022-11-10 05:16:02] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgcommand.cpp:842] : The value of Progress is 100
+[DEBUG][2022-11-10 05:16:02] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:901] : Revc exec: set progress bar start
+[DEBUG][2022-11-10 05:16:02] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:903] : Revc exec: set progress bar end
+[DEBUG][2022-11-10 05:16:03] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:893] : Recv RPC[7] cmd [Verify Outer Flash:20303]
+[DEBUG][2022-11-10 05:16:03] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:901] : Revc exec: Verify Outer Flash start
+[DEBUG][2022-11-10 05:16:03] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\common\cdtcommunicate.cpp:903] : Revc exec: Verify Outer Flash end
+[DEBUG][2022-11-10 05:16:03] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgclient.cpp:444] : COMMAND[Verify Outer Flash] execute successfully, takes 1.2 secs.
+[DEBUG][2022-11-10 05:16:03] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgmenu.cpp:2937] : end to send jtag flash verify cmd
+[DEBUG][2022-11-10 05:16:03] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\configuration\cfgmenu.cpp:2851] : end to send jtag flash program cmd.
+[INFO][2022-11-10 05:16:07] [23896] - [d:\wf\2021.1\output_files\ads\fab_develop\branches\pds_2021.1\source\sw\cdt\cfg_gui\cfgmain.cpp:53] : /***************************End Configration***************************/

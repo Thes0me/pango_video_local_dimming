@@ -2,6 +2,10 @@ Instances in group:
     gopDRM2 block_mean_cal/gamma_fix_2_2_rom/gamma_fix_2_2_rom/U_ipml_rom_gamma_fix_2_2/U_ipml_spram_gamma_fix_2_2/ADDR_LOOP[0].DATA_LOOP[0].U_GTP_DRM9K/iGopDrm
     gopA2 block_mean_cal/u_block_mean/N12.eq_0/gateop_A2
     gopA block_mean_cal/u_block_mean/N12.eq_2/gateop
+    gopA2 block_mean_cal/u_block_mean/N983.fsub_1/gateop_A2
+    gopA2 block_mean_cal/u_block_mean/N983.fsub_3/gateop_A2
+    gopA2 block_mean_cal/u_block_mean/N983.fsub_5/gateop_A2
+    gopA2 block_mean_cal/u_block_mean/N983.fsub_7/gateop_A2
     gopA2Q1 block_mean_cal/u_block_mean/h_reg[0][0]/opit_0_inv_A2Q1
     gopA2Q2 block_mean_cal/u_block_mean/h_reg[0][2]/opit_0_inv_A2Q21
     gopA2Q2 block_mean_cal/u_block_mean/h_reg[0][4]/opit_0_inv_A2Q21
@@ -1013,14 +1017,11 @@ Instances in group:
     gopOBUFIOL stcp_obuf/opit_1
     gopIBUF sys_clk_ibuf/opit_0
     gopIBUFIOL sys_clk_ibuf/opit_1
-    gopMUX16TO1 u_CORES/u_debug_core_0/u0_trig_unit/u_cfg_reg_file/N246_16_muxf7
-    gopMUX32TO1 u_CORES/u_debug_core_0/u0_trig_unit/u_cfg_reg_file/N246_32_muxf8
-    gopMUX16TO1 u_CORES/u_debug_core_0/u0_trig_unit/u_cfg_reg_file/N246_56_muxf7
-    gopMUX32TO1 u_CORES/u_debug_core_0/u0_trig_unit/u_cfg_reg_file/N246_72_muxf8
+    gopMUX16TO1 u_CORES/u_debug_core_0/u0_trig_unit/u_cfg_reg_file/N220_40_muxf7
+    gopMUX32TO1 u_CORES/u_debug_core_0/u0_trig_unit/u_cfg_reg_file/N220_56_muxf8
     gopA2Q2 u_CORES/u_debug_core_0/u0_trig_unit/u_cfg_reg_file/bit_cnt[1]/opit_0_inv_A2Q21
     gopA2Q2 u_CORES/u_debug_core_0/u0_trig_unit/u_cfg_reg_file/bit_cnt[3]/opit_0_inv_A2Q21
     gopA2Q2 u_CORES/u_debug_core_0/u0_trig_unit/u_cfg_reg_file/bit_cnt[5]/opit_0_inv_A2Q21
-    gopAQ u_CORES/u_debug_core_0/u0_trig_unit/u_cfg_reg_file/bit_cnt[6]/opit_0_inv_AQ
     gopA2 u_CORES/u_debug_core_0/u_Storage_Condition/N227_1/gateop_A2
     gopA2 u_CORES/u_debug_core_0/u_Storage_Condition/N227_3/gateop_A2
     gopA2 u_CORES/u_debug_core_0/u_Storage_Condition/N227_5/gateop_A2
@@ -1055,7 +1056,7 @@ Instances in group:
     gopA2Q2 u_CORES/u_debug_core_0/u_rd_addr_gen/confck_same_ram.ram_radr[7]/opit_0_inv_A2Q21
     gopA2Q2 u_CORES/u_debug_core_0/u_rd_addr_gen/confck_same_ram.ram_radr[9]/opit_0_inv_A2Q21
     gopA2Q2 u_CORES/u_debug_core_0/u_rd_addr_gen/confck_same_ram.ram_radr[11]/opit_0_inv_A2Q21
-    gopA2 u_aq_axi_master/N23.eq_1/gateop_A2
+    gopA2 u_aq_axi_master/N23.eq_0/gateop_A2
     gopA2 u_aq_axi_master/N23.eq_3/gateop_A2
     gopA2 u_aq_axi_master/N23.eq_5/gateop_A2
     gopA2 u_aq_axi_master/N23.eq_7/gateop_A2
@@ -1275,6 +1276,41 @@ Instances in group:
     gopIOMDDRDEL u_ipsl_hmic_h_top/u_ipsl_hmic_h_phy_top/u_phy_io_v1_1/iol_iddr34_dut/gateop_inv_IO
     gopIOMDDRDEL u_ipsl_hmic_h_top/u_ipsl_hmic_h_phy_top/u_phy_io_v1_1/iol_iddr35_dut/gateop_inv_IO
     gopIOMDDRDEL u_ipsl_hmic_h_top/u_ipsl_hmic_h_phy_top/u_phy_io_v1_1/iol_iddr36_dut/gateop_inv_IO
+    gopA2Q2 u_top_uart_cmd_resolve/u_m_bps/r_bps_cnt[1]/opit_0_A2Q21
+    gopA2Q2 u_top_uart_cmd_resolve/u_m_bps/r_bps_cnt[3]/opit_0_A2Q21
+    gopA2Q2 u_top_uart_cmd_resolve/u_m_bps/r_bps_cnt[5]/opit_0_A2Q21
+    gopA2Q2 u_top_uart_cmd_resolve/u_m_bps/r_bps_cnt[7]/opit_0_A2Q21
+    gopA2Q2 u_top_uart_cmd_resolve/u_m_bps/r_bps_cnt[9]/opit_0_A2Q21
+    gopA2 u_top_uart_cmd_resolve/u_m_decoder/N140.fsub_1/gateop_A2
+    gopA2 u_top_uart_cmd_resolve/u_m_decoder/N140.fsub_3/gateop_A2
+    gopA2 u_top_uart_cmd_resolve/u_m_decoder/N140.fsub_5/gateop_A2
+    gopA2 u_top_uart_cmd_resolve/u_m_decoder/N140.fsub_7/gateop_A2
+    gopA2 u_top_uart_cmd_resolve/u_m_decoder/N141.eq_0/gateop_A2
+    gopA2 u_top_uart_cmd_resolve/u_m_decoder/N141.eq_2/gateop_A2
+    gopA2 u_top_uart_cmd_resolve/u_m_decoder/N141.eq_4/gateop_A2
+    gopA2 u_top_uart_cmd_resolve/u_m_decoder/N141.eq_6/gateop_A2
+    gopA2 u_top_uart_cmd_resolve/u_m_decoder/N141.eq_8/gateop_A2
+    gopA2 u_top_uart_cmd_resolve/u_m_decoder/N141.eq_10/gateop_A2
+    gopA2 u_top_uart_cmd_resolve/u_m_decoder/N141.eq_12/gateop_A2
+    gopA2 u_top_uart_cmd_resolve/u_m_decoder/N141.eq_14/gateop_A2
+    gopA2Q2 u_top_uart_cmd_resolve/u_m_decoder/cnt[1]/opit_0_inv_A2Q21
+    gopA2Q2 u_top_uart_cmd_resolve/u_m_decoder/cnt[3]/opit_0_inv_A2Q21
+    gopA2Q2 u_top_uart_cmd_resolve/u_m_decoder/cnt[5]/opit_0_inv_A2Q21
+    gopA2Q2 u_top_uart_cmd_resolve/u_m_decoder/cnt[7]/opit_0_inv_A2Q21
+    gopA2Q2 u_top_uart_cmd_resolve/u_m_decoder/cnt[9]/opit_0_inv_A2Q21
+    gopA2Q2 u_top_uart_cmd_resolve/u_m_decoder/cnt[11]/opit_0_inv_A2Q21
+    gopA2Q2 u_top_uart_cmd_resolve/u_m_decoder/cnt[13]/opit_0_inv_A2Q21
+    gopA2Q2 u_top_uart_cmd_resolve/u_m_decoder/cnt[15]/opit_0_inv_A2Q21
+    gopA2Q2 u_top_uart_cmd_resolve/u_m_decoder/cnt[17]/opit_0_inv_A2Q21
+    gopA2Q2 u_top_uart_cmd_resolve/u_m_decoder/cnt[19]/opit_0_inv_A2Q21
+    gopA2Q2 u_top_uart_cmd_resolve/u_m_decoder/cnt[21]/opit_0_inv_A2Q21
+    gopA2Q2 u_top_uart_cmd_resolve/u_m_decoder/cnt[23]/opit_0_inv_A2Q21
+    gopA2Q2 u_top_uart_cmd_resolve/u_m_decoder/cnt[25]/opit_0_inv_A2Q21
+    gopA2Q2 u_top_uart_cmd_resolve/u_m_decoder/cnt[27]/opit_0_inv_A2Q21
+    gopA2Q2 u_top_uart_cmd_resolve/u_m_decoder/cnt[29]/opit_0_inv_A2Q21
+    gopA2Q2 u_top_uart_cmd_resolve/u_m_decoder/cnt[31]/opit_0_inv_A2Q21
+    gopIBUF uart_rx_ibuf/opit_0
+    gopIBUFIOL uart_rx_ibuf/opit_1
     gopA2Q2 video_timing_data_m0/color_bar_m0/h_cnt[1]/opit_0_inv_A2Q21
     gopA2Q2 video_timing_data_m0/color_bar_m0/h_cnt[3]/opit_0_inv_A2Q21
     gopA2Q2 video_timing_data_m0/color_bar_m0/h_cnt[5]/opit_0_inv_A2Q21
@@ -1328,24 +1364,24 @@ Instances fixed:
 Instances is not target:
     gopGRS GRS_INST/grs
     gopAPM2 block_mean_cal/u_block_mean/N967/gopapm
-    gopMUX16TO1 block_mean_cal/u_block_mean/N1118_57[0]_muxf7
-    gopMUX16TO1 block_mean_cal/u_block_mean/N1118_57[1]_muxf7
-    gopMUX16TO1 block_mean_cal/u_block_mean/N1118_57[2]_muxf7
-    gopMUX16TO1 block_mean_cal/u_block_mean/N1118_57[3]_muxf7
-    gopMUX16TO1 block_mean_cal/u_block_mean/N1118_57[4]_muxf7
-    gopMUX16TO1 block_mean_cal/u_block_mean/N1118_57[5]_muxf7
-    gopMUX16TO1 block_mean_cal/u_block_mean/N1118_57[6]_muxf7
-    gopMUX16TO1 block_mean_cal/u_block_mean/N1118_57[7]_muxf7
-    gopMUX16TO1 block_mean_cal/u_block_mean/N1118_57[8]_muxf7
-    gopMUX16TO1 block_mean_cal/u_block_mean/N1118_84[0]_muxf7
-    gopMUX16TO1 block_mean_cal/u_block_mean/N1118_84[1]_muxf7
-    gopMUX16TO1 block_mean_cal/u_block_mean/N1118_84[2]_muxf7
-    gopMUX16TO1 block_mean_cal/u_block_mean/N1118_84[3]_muxf7
-    gopMUX16TO1 block_mean_cal/u_block_mean/N1118_84[4]_muxf7
-    gopMUX16TO1 block_mean_cal/u_block_mean/N1118_84[5]_muxf7
-    gopMUX16TO1 block_mean_cal/u_block_mean/N1118_84[6]_muxf7
-    gopMUX16TO1 block_mean_cal/u_block_mean/N1118_84[7]_muxf7
-    gopMUX16TO1 block_mean_cal/u_block_mean/N1118_84[8]_muxf7
+    gopMUX16TO1 block_mean_cal/u_block_mean/N1164_57[0]_muxf7
+    gopMUX16TO1 block_mean_cal/u_block_mean/N1164_57[1]_muxf7
+    gopMUX16TO1 block_mean_cal/u_block_mean/N1164_57[2]_muxf7
+    gopMUX16TO1 block_mean_cal/u_block_mean/N1164_57[3]_muxf7
+    gopMUX16TO1 block_mean_cal/u_block_mean/N1164_57[4]_muxf7
+    gopMUX16TO1 block_mean_cal/u_block_mean/N1164_57[5]_muxf7
+    gopMUX16TO1 block_mean_cal/u_block_mean/N1164_57[6]_muxf7
+    gopMUX16TO1 block_mean_cal/u_block_mean/N1164_57[7]_muxf7
+    gopMUX16TO1 block_mean_cal/u_block_mean/N1164_57[8]_muxf7
+    gopMUX16TO1 block_mean_cal/u_block_mean/N1164_84[0]_muxf7
+    gopMUX16TO1 block_mean_cal/u_block_mean/N1164_84[1]_muxf7
+    gopMUX16TO1 block_mean_cal/u_block_mean/N1164_84[2]_muxf7
+    gopMUX16TO1 block_mean_cal/u_block_mean/N1164_84[3]_muxf7
+    gopMUX16TO1 block_mean_cal/u_block_mean/N1164_84[4]_muxf7
+    gopMUX16TO1 block_mean_cal/u_block_mean/N1164_84[5]_muxf7
+    gopMUX16TO1 block_mean_cal/u_block_mean/N1164_84[6]_muxf7
+    gopMUX16TO1 block_mean_cal/u_block_mean/N1164_84[7]_muxf7
+    gopMUX16TO1 block_mean_cal/u_block_mean/N1164_84[8]_muxf7
     gopMUX4TO1Q block_mean_cal/u_block_mean/block_mean_temp[0]/opit_0_inv_MUX4TO1Q
     gopMUX4TO1Q block_mean_cal/u_block_mean/block_mean_temp[1]/opit_0_inv_MUX4TO1Q
     gopMUX4TO1Q block_mean_cal/u_block_mean/block_mean_temp[2]/opit_0_inv_MUX4TO1Q
@@ -1505,17 +1541,19 @@ Instances is not target:
     gopDRM frame_read_write_m0/write_buf/U_ipml_fifo_afifo_16i_64o_512/U_ipml_sdpram/ADDR_LOOP[0].DATA_LOOP[14].U_GTP_DRM18K/iGopDrm
     gopDRM frame_read_write_m0/write_buf/U_ipml_fifo_afifo_16i_64o_512/U_ipml_sdpram/ADDR_LOOP[0].DATA_LOOP[15].U_GTP_DRM18K/iGopDrm
     gopMUX4TO1Q u_CORES/u_debug_core_0/ram_wdat0/opit_0_inv_MUX4TO1Q
-    gopMUX4TO1Q u_CORES/u_debug_core_0/u0_trig_unit/u_cfg_reg_file/getback_n.cfg_rdata/opit_0_inv_MUX4TO1Q
+    gopMUX8TO1 u_CORES/u_debug_core_0/u0_trig_unit/u_cfg_reg_file/N220_8_muxf6
+    gopMUX16TO1 u_CORES/u_debug_core_0/u0_trig_unit/u_cfg_reg_file/N220_24_muxf7
     gopDRM u_CORES/u_debug_core_0/u_Data_Capture_Memory/block_ram.ram_data_0/iGopDrm
-    gopDRM u_CORES/u_debug_core_0/u_Data_Capture_Memory/block_ram.ram_data_1/iGopDrm
-    gopDRM u_CORES/u_debug_core_0/u_Data_Capture_Memory/block_ram.ram_data_2/iGopDrm
-    gopDRM u_CORES/u_debug_core_0/u_Data_Capture_Memory/block_ram.ram_data_3/iGopDrm
-    gopDRM u_CORES/u_debug_core_0/u_Data_Capture_Memory/block_ram.ram_data_4/iGopDrm
-    gopDRM u_CORES/u_debug_core_0/u_Data_Capture_Memory/block_ram.ram_data_5/iGopDrm
+    gopDRM u_CORES/u_debug_core_0/u_Data_Capture_Memory/block_ram.ram_data_1_0/iGopDrm
+    gopDRM u_CORES/u_debug_core_0/u_Data_Capture_Memory/block_ram.ram_data_1_1_0/iGopDrm
+    gopDRM u_CORES/u_debug_core_0/u_Data_Capture_Memory/block_ram.ram_data_1_1_1_0/iGopDrm
+    gopDRM u_CORES/u_debug_core_0/u_Data_Capture_Memory/block_ram.ram_data_1_1_1_1/iGopDrm
     gopMUX8TO1 u_CORES/u_debug_core_0/u_Storage_Condition/u_cfg_reg_file/N194_8_muxf6
     gopMUX8TO1 u_CORES/u_debug_core_0/u_Storage_Condition/u_cfg_reg_file/N194_19_muxf6
+    gopMUX4TO1Q u_CORES/u_debug_core_0/u_Storage_Condition/u_cfg_reg_file/bit_cnt[4]/opit_0_inv_MUX4TO1Q
     gopMUX4TO1Q u_CORES/u_debug_core_0/u_Trigger_Condition/u_cfg_reg_file/getback_n.cfg_rdata/opit_0_inv_MUX4TO1Q
     gopMUX8TO1 u_CORES/u_debug_core_0/u_rd_addr_gen/N142_11_muxf6
+    gopMUX4TO1Q u_CORES/u_debug_core_0/u_rd_addr_gen/tdo_mux_d1/opit_0_inv_MUX4TO1Q
     gopMUX4TO1Q u_aq_axi_master/reg_r_len[6]/opit_0_inv_MUX4TO1Q
     gopMUX4TO1Q u_aq_axi_master/reg_r_len[7]/opit_0_inv_MUX4TO1Q
     gopMUX4TO1Q u_aq_axi_master/reg_w_len[6]/opit_0_inv_MUX4TO1Q
@@ -1539,62 +1577,54 @@ Instances is not target:
     gopIOBUFIOL u_ipsl_hmic_h_top/u_ipsl_hmic_h_phy_top/u_phy_io_v1_1/iob_36_dut/opit_1
     gopMUX4TO1Q video_timing_data_m0/color_bar_m0/vs_reg/opit_0_inv_MUX4TO1Q
 Pin whose loads are focus:
-    Q gopQ frame_read_write_m0/frame_fifo_read_m0/read_req_d0/opit_0_inv
-    Q gopL5Q frame_read_write_m0/read_buf/U_ipml_fifo_afifo_64i_16o_128/U_ipml_fifo_ctrl/ASYN_CTRL.rptr[5]/opit_0_L5Q
-    Q gopQ frame_read_write_m0/read_buf/U_ipml_fifo_afifo_64i_16o_128/U_ipml_fifo_ctrl/ASYN_CTRL.wrptr1[5]/opit_0
-    Q gopL5Q video_timing_data_m0/read_req/opit_0_inv_L5Q
-    Q gopQ frame_read_write_m0/read_buf/U_ipml_fifo_afifo_64i_16o_128/U_ipml_fifo_ctrl/ASYN_CTRL.rwptr1[3]/opit_0
-    Q gopQ frame_read_write_m0/read_buf/U_ipml_fifo_afifo_64i_16o_128/U_ipml_fifo_ctrl/ASYN_CTRL.rwptr1[4]/opit_0
-    Q gopL5Q frame_read_write_m0/read_buf/U_ipml_fifo_afifo_64i_16o_128/U_ipml_fifo_ctrl/ASYN_CTRL.wptr[3]/opit_0_L5Q
-    Q gopL5Q frame_read_write_m0/read_buf/U_ipml_fifo_afifo_64i_16o_128/U_ipml_fifo_ctrl/ASYN_CTRL.wptr[4]/opit_0_L5Q
-    Q gopL5Q frame_read_write_m0/read_buf/U_ipml_fifo_afifo_64i_16o_128/U_ipml_fifo_ctrl/ASYN_CTRL.rptr[9]/opit_0_L5Q
-    Q gopQ frame_read_write_m0/read_buf/U_ipml_fifo_afifo_64i_16o_128/U_ipml_fifo_ctrl/ASYN_CTRL.wrptr1[9]/opit_0
-    Q gopL5Q frame_read_write_m0/read_buf/U_ipml_fifo_afifo_64i_16o_128/U_ipml_fifo_ctrl/ASYN_CTRL.rptr[2]/opit_0_L5Q
-    Q gopQ frame_read_write_m0/read_buf/U_ipml_fifo_afifo_64i_16o_128/U_ipml_fifo_ctrl/ASYN_CTRL.wrptr1[2]/opit_0
     Q gopL5Q frame_read_write_m0/frame_fifo_read_m0/read_req_ack/opit_0_inv_L5Q
+    Q gopL5Q video_timing_data_m0/read_req/opit_0_inv_L5Q
     Q gopL5Q frame_read_write_m0/frame_fifo_read_m0/fifo_aclr/opit_0_inv_L5Q
-    Q gopQ frame_read_write_m0/read_buf/U_ipml_fifo_afifo_64i_16o_128/U_ipml_fifo_ctrl/ASYN_CTRL.rwptr1[5]/opit_0
+    Q gopL5Q frame_read_write_m0/read_buf/U_ipml_fifo_afifo_64i_16o_128/U_ipml_fifo_ctrl/ASYN_CTRL.rptr[8]/opit_0_L5Q
+    Q gopQ frame_read_write_m0/read_buf/U_ipml_fifo_afifo_64i_16o_128/U_ipml_fifo_ctrl/ASYN_CTRL.wrptr1[8]/opit_0
+    Q gopQ frame_read_write_m0/read_buf/U_ipml_fifo_afifo_64i_16o_128/U_ipml_fifo_ctrl/ASYN_CTRL.rwptr1[4]/opit_0
+    Q gopL5Q frame_read_write_m0/read_buf/U_ipml_fifo_afifo_64i_16o_128/U_ipml_fifo_ctrl/ASYN_CTRL.wptr[4]/opit_0_L5Q
+    Q gopL5Q frame_read_write_m0/read_buf/U_ipml_fifo_afifo_64i_16o_128/U_ipml_fifo_ctrl/ASYN_CTRL.rptr[2]/opit_0_L5Q
+    Q gopL5Q frame_read_write_m0/read_buf/U_ipml_fifo_afifo_64i_16o_128/U_ipml_fifo_ctrl/ASYN_CTRL.rptr[5]/opit_0_L5Q
+    Q gopQ frame_read_write_m0/read_buf/U_ipml_fifo_afifo_64i_16o_128/U_ipml_fifo_ctrl/ASYN_CTRL.wrptr1[2]/opit_0
+    Q gopQ frame_read_write_m0/read_buf/U_ipml_fifo_afifo_64i_16o_128/U_ipml_fifo_ctrl/ASYN_CTRL.wrptr1[5]/opit_0
+    Q gopQ frame_read_write_m0/read_buf/U_ipml_fifo_afifo_64i_16o_128/U_ipml_fifo_ctrl/ASYN_CTRL.rwptr1[0]/opit_0
+    Q gopL5Q frame_read_write_m0/read_buf/U_ipml_fifo_afifo_64i_16o_128/U_ipml_fifo_ctrl/ASYN_CTRL.wptr[0]/opit_0_L5Q
+    Q gopQ frame_read_write_m0/read_buf/U_ipml_fifo_afifo_64i_16o_128/U_ipml_fifo_ctrl/ASYN_CTRL.rwptr1[2]/opit_0
+    Q gopL5Q frame_read_write_m0/read_buf/U_ipml_fifo_afifo_64i_16o_128/U_ipml_fifo_ctrl/ASYN_CTRL.wptr[2]/opit_0_L5Q
+    Q gopQ frame_read_write_m0/read_buf/U_ipml_fifo_afifo_64i_16o_128/U_ipml_fifo_ctrl/ASYN_CTRL.rwptr1[1]/opit_0
     Q gopQ frame_read_write_m0/read_buf/U_ipml_fifo_afifo_64i_16o_128/U_ipml_fifo_ctrl/ASYN_CTRL.rwptr1[6]/opit_0
-    Q gopL5Q frame_read_write_m0/read_buf/U_ipml_fifo_afifo_64i_16o_128/U_ipml_fifo_ctrl/ASYN_CTRL.wptr[5]/opit_0_L5Q
+    Q gopQ frame_read_write_m0/read_buf/U_ipml_fifo_afifo_64i_16o_128/U_ipml_fifo_ctrl/ASYN_CTRL.rwptr1[7]/opit_0
+    Q gopL5Q frame_read_write_m0/read_buf/U_ipml_fifo_afifo_64i_16o_128/U_ipml_fifo_ctrl/ASYN_CTRL.wptr[1]/opit_0_L5Q
     Q gopL5Q frame_read_write_m0/read_buf/U_ipml_fifo_afifo_64i_16o_128/U_ipml_fifo_ctrl/ASYN_CTRL.wptr[6]/opit_0_L5Q
+    Q gopL5Q frame_read_write_m0/read_buf/U_ipml_fifo_afifo_64i_16o_128/U_ipml_fifo_ctrl/ASYN_CTRL.wptr[7]/opit_0_L5Q
+    Q gopQ frame_read_write_m0/frame_fifo_read_m0/read_req_d0/opit_0_inv
     Q gopL5Q frame_read_write_m0/read_buf/U_ipml_fifo_afifo_64i_16o_128/U_ipml_fifo_ctrl/ASYN_CTRL.rptr[1]/opit_0_L5Q
+    Q gopL5Q frame_read_write_m0/read_buf/U_ipml_fifo_afifo_64i_16o_128/U_ipml_fifo_ctrl/ASYN_CTRL.rptr[7]/opit_0_L5Q
     Q gopQ frame_read_write_m0/read_buf/U_ipml_fifo_afifo_64i_16o_128/U_ipml_fifo_ctrl/ASYN_CTRL.wrptr1[1]/opit_0
+    Q gopQ frame_read_write_m0/read_buf/U_ipml_fifo_afifo_64i_16o_128/U_ipml_fifo_ctrl/ASYN_CTRL.wrptr1[7]/opit_0
+    Q gopQ frame_read_write_m0/read_buf/U_ipml_fifo_afifo_64i_16o_128/U_ipml_fifo_ctrl/ASYN_CTRL.rwptr1[3]/opit_0
+    Q gopQ frame_read_write_m0/read_buf/U_ipml_fifo_afifo_64i_16o_128/U_ipml_fifo_ctrl/ASYN_CTRL.rwptr1[5]/opit_0
     Q gopQ frame_read_write_m0/read_buf/U_ipml_fifo_afifo_64i_16o_128/U_ipml_fifo_ctrl/ASYN_CTRL.rwptr1[10]/opit_0
+    Q gopL5Q frame_read_write_m0/read_buf/U_ipml_fifo_afifo_64i_16o_128/U_ipml_fifo_ctrl/ASYN_CTRL.wptr[3]/opit_0_L5Q
+    Q gopL5Q frame_read_write_m0/read_buf/U_ipml_fifo_afifo_64i_16o_128/U_ipml_fifo_ctrl/ASYN_CTRL.wptr[5]/opit_0_L5Q
     Q gopL5Q frame_read_write_m0/read_buf/U_ipml_fifo_afifo_64i_16o_128/U_ipml_fifo_ctrl/ASYN_CTRL.wptr[10]/opit_0_L5Q
+    Q gopL5Q frame_read_write_m0/read_buf/U_ipml_fifo_afifo_64i_16o_128/U_ipml_fifo_ctrl/ASYN_CTRL.rptr[3]/opit_0_L5Q
+    Q gopL5Q frame_read_write_m0/read_buf/U_ipml_fifo_afifo_64i_16o_128/U_ipml_fifo_ctrl/ASYN_CTRL.rptr[4]/opit_0_L5Q
     Q gopL5Q frame_read_write_m0/read_buf/U_ipml_fifo_afifo_64i_16o_128/U_ipml_fifo_ctrl/ASYN_CTRL.rptr[6]/opit_0_L5Q
-    Q gopL5Q frame_read_write_m0/read_buf/U_ipml_fifo_afifo_64i_16o_128/U_ipml_fifo_ctrl/ASYN_CTRL.rptr[10]/opit_0_L5Q
+    Q gopQ frame_read_write_m0/read_buf/U_ipml_fifo_afifo_64i_16o_128/U_ipml_fifo_ctrl/ASYN_CTRL.wrptr1[3]/opit_0
+    Q gopQ frame_read_write_m0/read_buf/U_ipml_fifo_afifo_64i_16o_128/U_ipml_fifo_ctrl/ASYN_CTRL.wrptr1[4]/opit_0
     Q gopQ frame_read_write_m0/read_buf/U_ipml_fifo_afifo_64i_16o_128/U_ipml_fifo_ctrl/ASYN_CTRL.wrptr1[6]/opit_0
-    Q gopQ frame_read_write_m0/read_buf/U_ipml_fifo_afifo_64i_16o_128/U_ipml_fifo_ctrl/ASYN_CTRL.wrptr1[10]/opit_0
     Q gopQ frame_read_write_m0/read_buf/U_ipml_fifo_afifo_64i_16o_128/U_ipml_fifo_ctrl/ASYN_CTRL.rwptr1[8]/opit_0
     Q gopQ frame_read_write_m0/read_buf/U_ipml_fifo_afifo_64i_16o_128/U_ipml_fifo_ctrl/ASYN_CTRL.rwptr1[9]/opit_0
     Q gopL5Q frame_read_write_m0/read_buf/U_ipml_fifo_afifo_64i_16o_128/U_ipml_fifo_ctrl/ASYN_CTRL.wptr[8]/opit_0_L5Q
     Q gopL5Q frame_read_write_m0/read_buf/U_ipml_fifo_afifo_64i_16o_128/U_ipml_fifo_ctrl/ASYN_CTRL.wptr[9]/opit_0_L5Q
-    Q gopL5Q frame_read_write_m0/read_buf/U_ipml_fifo_afifo_64i_16o_128/U_ipml_fifo_ctrl/ASYN_CTRL.rptr[3]/opit_0_L5Q
-    Q gopQ frame_read_write_m0/read_buf/U_ipml_fifo_afifo_64i_16o_128/U_ipml_fifo_ctrl/ASYN_CTRL.wrptr1[3]/opit_0
-    Q gopQ frame_read_write_m0/read_buf/U_ipml_fifo_afifo_64i_16o_128/U_ipml_fifo_ctrl/ASYN_CTRL.rwptr1[7]/opit_0
-    Q gopL5Q frame_read_write_m0/read_buf/U_ipml_fifo_afifo_64i_16o_128/U_ipml_fifo_ctrl/ASYN_CTRL.wptr[7]/opit_0_L5Q
+    Q gopL5Q frame_read_write_m0/read_buf/U_ipml_fifo_afifo_64i_16o_128/U_ipml_fifo_ctrl/ASYN_CTRL.rptr[9]/opit_0_L5Q
+    Q gopL5Q frame_read_write_m0/read_buf/U_ipml_fifo_afifo_64i_16o_128/U_ipml_fifo_ctrl/ASYN_CTRL.rptr[10]/opit_0_L5Q
     Q gopL5Q frame_read_write_m0/read_buf/U_ipml_fifo_afifo_64i_16o_128/U_ipml_fifo_ctrl/ASYN_CTRL.rptr[11]/opit_0_L5Q
     Z gopL5Q frame_read_write_m0/read_buf/U_ipml_fifo_afifo_64i_16o_128/U_ipml_fifo_ctrl/ASYN_CTRL.rptr[11]/opit_0_L5Q
+    Q gopQ frame_read_write_m0/read_buf/U_ipml_fifo_afifo_64i_16o_128/U_ipml_fifo_ctrl/ASYN_CTRL.wrptr1[9]/opit_0
+    Q gopQ frame_read_write_m0/read_buf/U_ipml_fifo_afifo_64i_16o_128/U_ipml_fifo_ctrl/ASYN_CTRL.wrptr1[10]/opit_0
     Q gopQ frame_read_write_m0/read_buf/U_ipml_fifo_afifo_64i_16o_128/U_ipml_fifo_ctrl/ASYN_CTRL.wrptr1[11]/opit_0
-    Q gopL5Q frame_read_write_m0/read_buf/U_ipml_fifo_afifo_64i_16o_128/U_ipml_fifo_ctrl/ASYN_CTRL.rptr[4]/opit_0_L5Q
-    Q gopL5Q frame_read_write_m0/read_buf/U_ipml_fifo_afifo_64i_16o_128/U_ipml_fifo_ctrl/ASYN_CTRL.rptr[8]/opit_0_L5Q
-    Q gopQ frame_read_write_m0/read_buf/U_ipml_fifo_afifo_64i_16o_128/U_ipml_fifo_ctrl/ASYN_CTRL.wrptr1[4]/opit_0
-    Q gopQ frame_read_write_m0/read_buf/U_ipml_fifo_afifo_64i_16o_128/U_ipml_fifo_ctrl/ASYN_CTRL.wrptr1[8]/opit_0
-    Q gopQ frame_read_write_m0/read_buf/U_ipml_fifo_afifo_64i_16o_128/U_ipml_fifo_ctrl/ASYN_CTRL.rwptr1[0]/opit_0
-    Q gopQ frame_read_write_m0/read_buf/U_ipml_fifo_afifo_64i_16o_128/U_ipml_fifo_ctrl/ASYN_CTRL.rwptr1[1]/opit_0
-    Q gopQ frame_read_write_m0/read_buf/U_ipml_fifo_afifo_64i_16o_128/U_ipml_fifo_ctrl/ASYN_CTRL.rwptr1[2]/opit_0
-    Q gopL5Q frame_read_write_m0/read_buf/U_ipml_fifo_afifo_64i_16o_128/U_ipml_fifo_ctrl/ASYN_CTRL.wptr[0]/opit_0_L5Q
-    Q gopL5Q frame_read_write_m0/read_buf/U_ipml_fifo_afifo_64i_16o_128/U_ipml_fifo_ctrl/ASYN_CTRL.wptr[1]/opit_0_L5Q
-    Q gopL5Q frame_read_write_m0/read_buf/U_ipml_fifo_afifo_64i_16o_128/U_ipml_fifo_ctrl/ASYN_CTRL.wptr[2]/opit_0_L5Q
-    Q gopL5Q frame_read_write_m0/read_buf/U_ipml_fifo_afifo_64i_16o_128/U_ipml_fifo_ctrl/ASYN_CTRL.rptr[7]/opit_0_L5Q
-    Q gopQ frame_read_write_m0/read_buf/U_ipml_fifo_afifo_64i_16o_128/U_ipml_fifo_ctrl/ASYN_CTRL.wrptr1[7]/opit_0
-    Q gopL5Q dvi_encoder_m0/serdes_4b_10to1_m0/TMDS_shift_2l[0]/opit_0_L5Q
-    Z gopLUT5 dvi_encoder_m0/serdes_4b_10to1_m0/N68/gateop
-    Q gopL5Q dvi_encoder_m0/serdes_4b_10to1_m0/TMDS_shift_1h[0]/opit_0_L5Q
-    Z gopLUT5 dvi_encoder_m0/serdes_4b_10to1_m0/N78/gateop
-    Q gopL5Q dvi_encoder_m0/serdes_4b_10to1_m0/TMDS_shift_2h[0]/opit_0_L5Q
-    Z gopLUT5 dvi_encoder_m0/serdes_4b_10to1_m0/N69/gateop
-    Q gopL5Q dvi_encoder_m0/serdes_4b_10to1_m0/TMDS_shift_1l[0]/opit_0_L5Q
-    Z gopLUT5 dvi_encoder_m0/serdes_4b_10to1_m0/N77/gateop
 
 Reduce:

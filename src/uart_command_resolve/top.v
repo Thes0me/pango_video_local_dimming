@@ -7,7 +7,7 @@ module top_uart_cmd_resolve(
     output  [7:0]    cmdcode,
     output  [7:0]    cmd_len,
     output  [7:0]    check,
-    output           led_en,
+    // output           led_en,
     output           cmd_vaild
 );
 
@@ -49,7 +49,7 @@ m_decoder u_m_decoder(
 	.rst_n(rst_n),
 	.i_rx_en(w_rx_en),
 	.i_rx_data(w_rx_data),
-	.o_led_en(led_en),
+	// .o_led_en(led_en),
 	.o_para_list(para_list),
 	.o_check(check),
     .cmdcode(cmdcode),

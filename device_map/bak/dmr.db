@@ -3227,9 +3227,9 @@
             <data>Peak Memory (B)</data>
         </column_headers>
         <row>
-            <data>5.14062</data>
-            <data>14</data>
-            <data>267,235,328</data>
+            <data>5.20312</data>
+            <data>15</data>
+            <data>266,727,424</data>
         </row>
     </table>
     <table id="device_map_messages" title="Device Map Messages" column_number="1">

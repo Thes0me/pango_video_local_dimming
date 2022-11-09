@@ -8,6 +8,7 @@ module block_mean(
     input            [5:0]        block_y,
     input            [5:0]        inblock_line,
     input            [7:0]        gray,
+    input            [7:0]        brightness,
 
     output           [7:0]        block_mean,
     output   reg                  data_vaild
@@ -282,7 +283,9 @@ always @(posedge clk or negedge rstn) begin
     end
 end
 // assign block_mean = (block_mean_temp>8'd255)? 8'd255 : block_mean_temp[7:0];
-assign block_mean = (block_mean_temp * 910) >> 10;
+// assign block_mean = (block_mean_temp * 910) >> 10;
+//add by uart command solve module
+assign block_mean = (((block_mean_temp * 910) >> 10)>brightness) ? ((block_mean_temp * 910) >> 10)-brightness : 8'b0;
 
 
 always @(posedge clk or negedge rstn) begin

@@ -142,6 +142,22 @@
             <data>Verilog</data>
         </row>
         <row>
+            <data>D:/Projects/FPGA_match/final_test/source/uart_command_resolve/m_bps.v</data>
+            <data>Verilog</data>
+        </row>
+        <row>
+            <data>D:/Projects/FPGA_match/final_test/source/uart_command_resolve/m_decoder.v</data>
+            <data>Verilog</data>
+        </row>
+        <row>
+            <data>D:/Projects/FPGA_match/final_test/source/uart_command_resolve/m_s2p.v</data>
+            <data>Verilog</data>
+        </row>
+        <row>
+            <data>D:/Projects/FPGA_match/final_test/source/uart_command_resolve/top.v</data>
+            <data>Verilog</data>
+        </row>
+        <row>
             <data>D:/Projects/FPGA_match/final_test/ipcore/video_pll/video_pll.idf</data>
             <data>IP</data>
         </row>
@@ -169,9 +185,9 @@
             <data>Peak Memory (B)</data>
         </column_headers>
         <row>
-            <data>4.60938</data>
+            <data>4.5625</data>
             <data>7</data>
-            <data>148,332,544</data>
+            <data>149,135,360</data>
         </row>
     </table>
     <table id="compile_messages" title="Compile Messages" column_number="1">
@@ -228,28 +244,28 @@
             <data color="4278190080" align="0" message="4" bold="0">Verilog-0002: [D:/Projects/FPGA_match/final_test/source/sources_1/top.v(line number: 30)] Analyzing module top (library work)</data>
         </row>
         <row>
-            <data color="4278190080" align="0" message="4" bold="0">[D:/Projects/FPGA_match/final_test/source/sources_1/top.v(line number: 112)] Convert attribute name from syn_keep to PAP_KEEP</data>
-        </row>
-        <row>
             <data color="4278190080" align="0" message="4" bold="0">[D:/Projects/FPGA_match/final_test/source/sources_1/top.v(line number: 114)] Convert attribute name from syn_keep to PAP_KEEP</data>
         </row>
         <row>
-            <data color="4278190080" align="0" message="4" bold="0">[D:/Projects/FPGA_match/final_test/source/sources_1/top.v(line number: 367)] Convert attribute name from syn_keep to PAP_KEEP</data>
-        </row>
-        <row>
-            <data color="4278190080" align="0" message="4" bold="0">[D:/Projects/FPGA_match/final_test/source/sources_1/top.v(line number: 368)] Convert attribute name from syn_keep to PAP_KEEP</data>
+            <data color="4278190080" align="0" message="4" bold="0">[D:/Projects/FPGA_match/final_test/source/sources_1/top.v(line number: 116)] Convert attribute name from syn_keep to PAP_KEEP</data>
         </row>
         <row>
             <data color="4278190080" align="0" message="4" bold="0">[D:/Projects/FPGA_match/final_test/source/sources_1/top.v(line number: 369)] Convert attribute name from syn_keep to PAP_KEEP</data>
         </row>
         <row>
-            <data color="4278190080" align="0" message="4" bold="0">[D:/Projects/FPGA_match/final_test/source/sources_1/top.v(line number: 549)] Convert attribute name from syn_keep to PAP_KEEP</data>
+            <data color="4278190080" align="0" message="4" bold="0">[D:/Projects/FPGA_match/final_test/source/sources_1/top.v(line number: 370)] Convert attribute name from syn_keep to PAP_KEEP</data>
         </row>
         <row>
-            <data color="4278190080" align="0" message="4" bold="0">[D:/Projects/FPGA_match/final_test/source/sources_1/top.v(line number: 550)] Convert attribute name from syn_keep to PAP_KEEP</data>
+            <data color="4278190080" align="0" message="4" bold="0">[D:/Projects/FPGA_match/final_test/source/sources_1/top.v(line number: 371)] Convert attribute name from syn_keep to PAP_KEEP</data>
         </row>
         <row>
             <data color="4278190080" align="0" message="4" bold="0">[D:/Projects/FPGA_match/final_test/source/sources_1/top.v(line number: 551)] Convert attribute name from syn_keep to PAP_KEEP</data>
+        </row>
+        <row>
+            <data color="4278190080" align="0" message="4" bold="0">[D:/Projects/FPGA_match/final_test/source/sources_1/top.v(line number: 552)] Convert attribute name from syn_keep to PAP_KEEP</data>
+        </row>
+        <row>
+            <data color="4278190080" align="0" message="4" bold="0">[D:/Projects/FPGA_match/final_test/source/sources_1/top.v(line number: 553)] Convert attribute name from syn_keep to PAP_KEEP</data>
         </row>
         <row>
             <data color="4278190080" align="0" message="5" bold="0">Public-4030: File 'D:/Projects/FPGA_match/final_test/source/sources_1/video_define.v' has been added. It is skipped.</data>
@@ -369,7 +385,7 @@
             <data color="4278190080" align="0" message="4" bold="0">[D:/Projects/FPGA_match/final_test/source/block_mean/top.v(line number: 14)] Convert attribute name from syn_keep to PAP_KEEP</data>
         </row>
         <row>
-            <data color="4278190080" align="0" message="4" bold="0">[D:/Projects/FPGA_match/final_test/source/block_mean/top.v(line number: 54)] Convert attribute name from syn_keep to PAP_KEEP</data>
+            <data color="4278190080" align="0" message="4" bold="0">[D:/Projects/FPGA_match/final_test/source/block_mean/top.v(line number: 57)] Convert attribute name from syn_keep to PAP_KEEP</data>
         </row>
         <row>
             <data color="4278190080" align="0" message="4" bold="0">Verilog-0001: Analyzing file D:/Projects/FPGA_match/final_test/source/block_mean/video_pixel_counter.v</data>
@@ -421,6 +437,30 @@
         </row>
         <row>
             <data color="4278190080" align="0" message="4" bold="0">Verilog-0002: [D:/Projects/FPGA_match/final_test/source/block_mean/gamma_fix_2_2.v(line number: 1)] Analyzing module gamma_fix_2_2_top (library work)</data>
+        </row>
+        <row>
+            <data color="4278190080" align="0" message="4" bold="0">Verilog-0001: Analyzing file D:/Projects/FPGA_match/final_test/source/uart_command_resolve/m_bps.v</data>
+        </row>
+        <row>
+            <data color="4278190080" align="0" message="4" bold="0">Verilog-0002: [D:/Projects/FPGA_match/final_test/source/uart_command_resolve/m_bps.v(line number: 3)] Analyzing module m_bps (library work)</data>
+        </row>
+        <row>
+            <data color="4278190080" align="0" message="4" bold="0">Verilog-0001: Analyzing file D:/Projects/FPGA_match/final_test/source/uart_command_resolve/m_decoder.v</data>
+        </row>
+        <row>
+            <data color="4278190080" align="0" message="4" bold="0">Verilog-0002: [D:/Projects/FPGA_match/final_test/source/uart_command_resolve/m_decoder.v(line number: 3)] Analyzing module m_decoder (library work)</data>
+        </row>
+        <row>
+            <data color="4278190080" align="0" message="4" bold="0">Verilog-0001: Analyzing file D:/Projects/FPGA_match/final_test/source/uart_command_resolve/m_s2p.v</data>
+        </row>
+        <row>
+            <data color="4278190080" align="0" message="4" bold="0">Verilog-0002: [D:/Projects/FPGA_match/final_test/source/uart_command_resolve/m_s2p.v(line number: 3)] Analyzing module m_s2p (library work)</data>
+        </row>
+        <row>
+            <data color="4278190080" align="0" message="4" bold="0">Verilog-0001: Analyzing file D:/Projects/FPGA_match/final_test/source/uart_command_resolve/top.v</data>
+        </row>
+        <row>
+            <data color="4278190080" align="0" message="4" bold="0">Verilog-0002: [D:/Projects/FPGA_match/final_test/source/uart_command_resolve/top.v(line number: 1)] Analyzing module top_uart_cmd_resolve (library work)</data>
         </row>
         <row>
             <data color="4278190080" align="0" message="4" bold="0">Verilog-0001: Analyzing file D:/Projects/FPGA_match/final_test/ipcore/gamma_fix_2_2/gamma_fix_2_2.v</data>
@@ -1432,7 +1472,7 @@
     BLACK_B = 8'b00000000</data>
         </row>
         <row>
-            <data color="4278190080" align="0" message="5" bold="0">Verilog-2019: [D:/Projects/FPGA_match/final_test/source/sources_1/top.v(line number: 322)] Width mismatch between port vout_data and signal bound to it for instantiated module video_timing_data</data>
+            <data color="4278190080" align="0" message="5" bold="0">Verilog-2019: [D:/Projects/FPGA_match/final_test/source/sources_1/top.v(line number: 324)] Width mismatch between port vout_data and signal bound to it for instantiated module video_timing_data</data>
         </row>
         <row>
             <data color="4278190080" align="0" message="4" bold="0">Verilog-0003: [D:/Projects/FPGA_match/final_test/source/sources_1/frame_read_write.v(line number: 31)] Elaborating module frame_read_write</data>
@@ -4112,64 +4152,64 @@
             <data color="4278190080" align="0" message="5" bold="0">Verilog-2023: [D:/Projects/FPGA_match/final_test/source/ddr3/ddr3.v(line number: 596)] Give initial value 0 for the no drive pin psel in module instance top.u_ipsl_hmic_h_top</data>
         </row>
         <row>
-            <data color="4278190080" align="0" message="5" bold="0">Verilog-2019: [D:/Projects/FPGA_match/final_test/source/sources_1/top.v(line number: 384)] Width mismatch between port ddrc_rst and signal bound to it for instantiated module ddr3</data>
+            <data color="4278190080" align="0" message="5" bold="0">Verilog-2019: [D:/Projects/FPGA_match/final_test/source/sources_1/top.v(line number: 386)] Width mismatch between port ddrc_rst and signal bound to it for instantiated module ddr3</data>
         </row>
         <row>
-            <data color="4278190080" align="0" message="5" bold="0">Verilog-2019: [D:/Projects/FPGA_match/final_test/source/sources_1/top.v(line number: 386)] Width mismatch between port areset_1 and signal bound to it for instantiated module ddr3</data>
+            <data color="4278190080" align="0" message="5" bold="0">Verilog-2019: [D:/Projects/FPGA_match/final_test/source/sources_1/top.v(line number: 388)] Width mismatch between port areset_1 and signal bound to it for instantiated module ddr3</data>
         </row>
         <row>
-            <data color="4278190080" align="0" message="5" bold="0">Verilog-2019: [D:/Projects/FPGA_match/final_test/source/sources_1/top.v(line number: 388)] Width mismatch between port awid_1 and signal bound to it for instantiated module ddr3</data>
+            <data color="4278190080" align="0" message="5" bold="0">Verilog-2019: [D:/Projects/FPGA_match/final_test/source/sources_1/top.v(line number: 390)] Width mismatch between port awid_1 and signal bound to it for instantiated module ddr3</data>
         </row>
         <row>
-            <data color="4278190080" align="0" message="5" bold="0">Verilog-2019: [D:/Projects/FPGA_match/final_test/source/sources_1/top.v(line number: 389)] Width mismatch between port awaddr_1 and signal bound to it for instantiated module ddr3</data>
+            <data color="4278190080" align="0" message="5" bold="0">Verilog-2019: [D:/Projects/FPGA_match/final_test/source/sources_1/top.v(line number: 391)] Width mismatch between port awaddr_1 and signal bound to it for instantiated module ddr3</data>
         </row>
         <row>
-            <data color="4278190080" align="0" message="5" bold="0">Verilog-2019: [D:/Projects/FPGA_match/final_test/source/sources_1/top.v(line number: 405)] Width mismatch between port bid_1 and signal bound to it for instantiated module ddr3</data>
+            <data color="4278190080" align="0" message="5" bold="0">Verilog-2019: [D:/Projects/FPGA_match/final_test/source/sources_1/top.v(line number: 407)] Width mismatch between port bid_1 and signal bound to it for instantiated module ddr3</data>
         </row>
         <row>
-            <data color="4278190080" align="0" message="5" bold="0">Verilog-2019: [D:/Projects/FPGA_match/final_test/source/sources_1/top.v(line number: 409)] Width mismatch between port arid_1 and signal bound to it for instantiated module ddr3</data>
+            <data color="4278190080" align="0" message="5" bold="0">Verilog-2019: [D:/Projects/FPGA_match/final_test/source/sources_1/top.v(line number: 411)] Width mismatch between port arid_1 and signal bound to it for instantiated module ddr3</data>
         </row>
         <row>
-            <data color="4278190080" align="0" message="5" bold="0">Verilog-2019: [D:/Projects/FPGA_match/final_test/source/sources_1/top.v(line number: 410)] Width mismatch between port araddr_1 and signal bound to it for instantiated module ddr3</data>
+            <data color="4278190080" align="0" message="5" bold="0">Verilog-2019: [D:/Projects/FPGA_match/final_test/source/sources_1/top.v(line number: 412)] Width mismatch between port araddr_1 and signal bound to it for instantiated module ddr3</data>
         </row>
         <row>
-            <data color="4278190080" align="0" message="5" bold="0">Verilog-2019: [D:/Projects/FPGA_match/final_test/source/sources_1/top.v(line number: 414)] Width mismatch between port arlock_1 and signal bound to it for instantiated module ddr3</data>
+            <data color="4278190080" align="0" message="5" bold="0">Verilog-2019: [D:/Projects/FPGA_match/final_test/source/sources_1/top.v(line number: 416)] Width mismatch between port arlock_1 and signal bound to it for instantiated module ddr3</data>
         </row>
         <row>
-            <data color="4278190080" align="0" message="5" bold="0">Verilog-2019: [D:/Projects/FPGA_match/final_test/source/sources_1/top.v(line number: 419)] Width mismatch between port rid_1 and signal bound to it for instantiated module ddr3</data>
+            <data color="4278190080" align="0" message="5" bold="0">Verilog-2019: [D:/Projects/FPGA_match/final_test/source/sources_1/top.v(line number: 421)] Width mismatch between port rid_1 and signal bound to it for instantiated module ddr3</data>
         </row>
         <row>
             <data color="4278190080" align="0" message="4" bold="0">Verilog-0003: [D:/Projects/FPGA_match/final_test/source/sources_1/aq_axi_master.v(line number: 39)] Elaborating module aq_axi_master</data>
         </row>
         <row>
-            <data color="4278190080" align="0" message="5" bold="0">Verilog-2019: [D:/Projects/FPGA_match/final_test/source/sources_1/top.v(line number: 460)] Width mismatch between port M_AXI_AWID and signal bound to it for instantiated module aq_axi_master</data>
+            <data color="4278190080" align="0" message="5" bold="0">Verilog-2019: [D:/Projects/FPGA_match/final_test/source/sources_1/top.v(line number: 462)] Width mismatch between port M_AXI_AWID and signal bound to it for instantiated module aq_axi_master</data>
         </row>
         <row>
-            <data color="4278190080" align="0" message="5" bold="0">Verilog-2019: [D:/Projects/FPGA_match/final_test/source/sources_1/top.v(line number: 461)] Width mismatch between port M_AXI_AWADDR and signal bound to it for instantiated module aq_axi_master</data>
+            <data color="4278190080" align="0" message="5" bold="0">Verilog-2019: [D:/Projects/FPGA_match/final_test/source/sources_1/top.v(line number: 463)] Width mismatch between port M_AXI_AWADDR and signal bound to it for instantiated module aq_axi_master</data>
         </row>
         <row>
-            <data color="4278190080" align="0" message="5" bold="0">Verilog-2019: [D:/Projects/FPGA_match/final_test/source/sources_1/top.v(line number: 478)] Width mismatch between port M_AXI_BID and signal bound to it for instantiated module aq_axi_master</data>
+            <data color="4278190080" align="0" message="5" bold="0">Verilog-2019: [D:/Projects/FPGA_match/final_test/source/sources_1/top.v(line number: 480)] Width mismatch between port M_AXI_BID and signal bound to it for instantiated module aq_axi_master</data>
         </row>
         <row>
-            <data color="4278190080" align="0" message="5" bold="0">Verilog-2019: [D:/Projects/FPGA_match/final_test/source/sources_1/top.v(line number: 483)] Width mismatch between port M_AXI_ARID and signal bound to it for instantiated module aq_axi_master</data>
+            <data color="4278190080" align="0" message="5" bold="0">Verilog-2019: [D:/Projects/FPGA_match/final_test/source/sources_1/top.v(line number: 485)] Width mismatch between port M_AXI_ARID and signal bound to it for instantiated module aq_axi_master</data>
         </row>
         <row>
-            <data color="4278190080" align="0" message="5" bold="0">Verilog-2019: [D:/Projects/FPGA_match/final_test/source/sources_1/top.v(line number: 484)] Width mismatch between port M_AXI_ARADDR and signal bound to it for instantiated module aq_axi_master</data>
+            <data color="4278190080" align="0" message="5" bold="0">Verilog-2019: [D:/Projects/FPGA_match/final_test/source/sources_1/top.v(line number: 486)] Width mismatch between port M_AXI_ARADDR and signal bound to it for instantiated module aq_axi_master</data>
         </row>
         <row>
-            <data color="4278190080" align="0" message="5" bold="0">Verilog-2019: [D:/Projects/FPGA_match/final_test/source/sources_1/top.v(line number: 495)] Width mismatch between port M_AXI_RID and signal bound to it for instantiated module aq_axi_master</data>
+            <data color="4278190080" align="0" message="5" bold="0">Verilog-2019: [D:/Projects/FPGA_match/final_test/source/sources_1/top.v(line number: 497)] Width mismatch between port M_AXI_RID and signal bound to it for instantiated module aq_axi_master</data>
         </row>
         <row>
-            <data color="4278190080" align="0" message="5" bold="0">Verilog-2019: [D:/Projects/FPGA_match/final_test/source/sources_1/top.v(line number: 504)] Width mismatch between port WR_ADRS and signal bound to it for instantiated module aq_axi_master</data>
+            <data color="4278190080" align="0" message="5" bold="0">Verilog-2019: [D:/Projects/FPGA_match/final_test/source/sources_1/top.v(line number: 506)] Width mismatch between port WR_ADRS and signal bound to it for instantiated module aq_axi_master</data>
         </row>
         <row>
-            <data color="4278190080" align="0" message="5" bold="0">Verilog-2019: [D:/Projects/FPGA_match/final_test/source/sources_1/top.v(line number: 505)] Width mismatch between port WR_LEN and signal bound to it for instantiated module aq_axi_master</data>
+            <data color="4278190080" align="0" message="5" bold="0">Verilog-2019: [D:/Projects/FPGA_match/final_test/source/sources_1/top.v(line number: 507)] Width mismatch between port WR_LEN and signal bound to it for instantiated module aq_axi_master</data>
         </row>
         <row>
-            <data color="4278190080" align="0" message="5" bold="0">Verilog-2019: [D:/Projects/FPGA_match/final_test/source/sources_1/top.v(line number: 513)] Width mismatch between port RD_ADRS and signal bound to it for instantiated module aq_axi_master</data>
+            <data color="4278190080" align="0" message="5" bold="0">Verilog-2019: [D:/Projects/FPGA_match/final_test/source/sources_1/top.v(line number: 515)] Width mismatch between port RD_ADRS and signal bound to it for instantiated module aq_axi_master</data>
         </row>
         <row>
-            <data color="4278190080" align="0" message="5" bold="0">Verilog-2019: [D:/Projects/FPGA_match/final_test/source/sources_1/top.v(line number: 514)] Width mismatch between port RD_LEN and signal bound to it for instantiated module aq_axi_master</data>
+            <data color="4278190080" align="0" message="5" bold="0">Verilog-2019: [D:/Projects/FPGA_match/final_test/source/sources_1/top.v(line number: 516)] Width mismatch between port RD_LEN and signal bound to it for instantiated module aq_axi_master</data>
         </row>
         <row>
             <data color="4278190080" align="0" message="4" bold="0">Verilog-0003: [D:/Projects/FPGA_match/final_test/source/block_mean/top.v(line number: 1)] Elaborating module top_block_mean</data>
@@ -4462,16 +4502,38 @@
     S_EN = 32'b00000000000000000000000000000001</data>
         </row>
         <row>
-            <data color="4278190080" align="0" message="5" bold="0">Verilog-2036: [D:/Projects/FPGA_match/final_test/source/sources_1/top.v(line number: 455)] Net s00_axi_buser connected to input port of module instance top has no driver, tie it to 0</data>
+            <data color="4278190080" align="0" message="4" bold="0">Verilog-0003: [D:/Projects/FPGA_match/final_test/source/uart_command_resolve/top.v(line number: 1)] Elaborating module top_uart_cmd_resolve</data>
         </row>
         <row>
-            <data color="4278190080" align="0" message="5" bold="0">Verilog-2036: [D:/Projects/FPGA_match/final_test/source/sources_1/top.v(line number: 455)] Net s00_axi_ruser connected to input port of module instance top has no driver, tie it to 0</data>
+            <data color="4278190080" align="0" message="4" bold="0">top.u_top_uart_cmd_resolve parameter value:
+    UART_BPS_RATE = 32'b00000000000000011100001000000000
+    BPS_DLY_BIT = 32'b00000000000000000010000111101000</data>
         </row>
         <row>
-            <data color="4278190080" align="0" message="5" bold="0">Verilog-2021: [D:/Projects/FPGA_match/final_test/source/sources_1/top.v(line number: 124)] Net cmos_16bit_wr in top(original module top) does not have a driver, tie it to 0</data>
+            <data color="4278190080" align="0" message="4" bold="0">Verilog-0003: [D:/Projects/FPGA_match/final_test/source/uart_command_resolve/m_bps.v(line number: 3)] Elaborating module m_bps</data>
         </row>
         <row>
-            <data color="4278190080" align="0" message="5" bold="0">Sdm-2004: [D:/Projects/FPGA_match/final_test/source/block_mean/block_mean.v(line number: 178)] Latch is generated for signal next_state, possible missing assignment in an if or case statement.</data>
+            <data color="4278190080" align="0" message="4" bold="0">top.u_top_uart_cmd_resolve.u_m_bps parameter value:
+    UART_BPS_RATE = 32'b00000000000000011100001000000000
+    CLK_PERIORD = 32'b00000000000000000000000000010100</data>
+        </row>
+        <row>
+            <data color="4278190080" align="0" message="4" bold="0">Verilog-0003: [D:/Projects/FPGA_match/final_test/source/uart_command_resolve/m_s2p.v(line number: 3)] Elaborating module m_s2p</data>
+        </row>
+        <row>
+            <data color="4278190080" align="0" message="4" bold="0">Verilog-0003: [D:/Projects/FPGA_match/final_test/source/uart_command_resolve/m_decoder.v(line number: 3)] Elaborating module m_decoder</data>
+        </row>
+        <row>
+            <data color="4278190080" align="0" message="5" bold="0">Verilog-2036: [D:/Projects/FPGA_match/final_test/source/sources_1/top.v(line number: 457)] Net s00_axi_buser connected to input port of module instance top has no driver, tie it to 0</data>
+        </row>
+        <row>
+            <data color="4278190080" align="0" message="5" bold="0">Verilog-2036: [D:/Projects/FPGA_match/final_test/source/sources_1/top.v(line number: 457)] Net s00_axi_ruser connected to input port of module instance top has no driver, tie it to 0</data>
+        </row>
+        <row>
+            <data color="4278190080" align="0" message="5" bold="0">Verilog-2021: [D:/Projects/FPGA_match/final_test/source/sources_1/top.v(line number: 126)] Net cmos_16bit_wr in top(original module top) does not have a driver, tie it to 0</data>
+        </row>
+        <row>
+            <data color="4278190080" align="0" message="5" bold="0">Sdm-2004: [D:/Projects/FPGA_match/final_test/source/block_mean/block_mean.v(line number: 179)] Latch is generated for signal next_state, possible missing assignment in an if or case statement.</data>
         </row>
         <row>
             <data color="4278190080" align="0" message="4" bold="0">Removed inst srb_ioclkdiv_rstn that is redundant to srb_dqs_rstn.</data>
@@ -4625,6 +4687,9 @@
         </row>
         <row>
             <data color="4278190080" align="0" message="4" bold="0">FSM rd_state_fsm[2:0] inferred.</data>
+        </row>
+        <row>
+            <data color="4278190080" align="0" message="4" bold="0">FSM state_c_fsm[3:0] inferred.</data>
         </row>
         <row>
             <data color="4278190080" align="0" message="4" bold="0">Constant propagation done on N310_1 (bmsWIDEMUX).</data>

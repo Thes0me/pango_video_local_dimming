@@ -1419,9 +1419,9 @@
             <data>IOBD_152_258</data>
             <data>BANKR0</data>
             <data></data>
-            <data></data>
-            <data></data>
-            <data></data>
+            <data>uart_rx</data>
+            <data>input</data>
+            <data>YES</data>
         </row>
         <row>
             <data>D17</data>
@@ -2191,7 +2191,7 @@
             <data>u_CORES/u_GTP_SCANCHAIN_PG</data>
             <data>clkbufg_4</data>
             <data>ntclkbufg_1</data>
-            <data>170</data>
+            <data>153</data>
         </row>
         <row>
             <data>CLKOUT1</data>
@@ -2217,12 +2217,12 @@
         <row>
             <data>u_ipsl_hmic_h_top/pll_rst_1</data>
             <data>N11_0</data>
-            <data>2189</data>
+            <data>2265</data>
         </row>
         <row>
             <data>_$$_GND_$$_</data>
             <data>_$$_GND_$$_</data>
-            <data>25</data>
+            <data>23</data>
         </row>
         <row>
             <data>block_mean_cal/u_video_pixel_counter/N11</data>
@@ -2237,7 +2237,7 @@
         <row>
             <data>u_CORES/u_debug_core_0/N69</data>
             <data>u_CORES/u_debug_core_0/N69</data>
-            <data>410</data>
+            <data>349</data>
         </row>
         <row>
             <data>u_CORES/u_jtag_hub/N3</data>
@@ -2248,6 +2248,16 @@
             <data>u_ipsl_hmic_h_top/pll_rst</data>
             <data>N11</data>
             <data>1</data>
+        </row>
+        <row>
+            <data>u_top_uart_cmd_resolve/u_m_bps/N35</data>
+            <data>u_top_uart_cmd_resolve/u_m_bps/N35</data>
+            <data>10</data>
+        </row>
+        <row>
+            <data>u_top_uart_cmd_resolve/u_m_s2p/N95</data>
+            <data>u_top_uart_cmd_resolve/u_m_s2p/N95_inv</data>
+            <data>4</data>
         </row>
         <row>
             <data>u_CORES/u_debug_core_0/resetn</data>
@@ -2569,7 +2579,7 @@
         <row>
             <data>sys_clk_g</data>
             <data>sys_clkbufg</data>
-            <data>1318</data>
+            <data>1365</data>
         </row>
         <row>
             <data>block_mean_cal/u_block_mean/block_y_changed</data>
@@ -2607,29 +2617,19 @@
             <data>180</data>
         </row>
         <row>
-            <data>ntclkbufg_1</data>
-            <data>clkbufg_4</data>
-            <data>170</data>
-        </row>
-        <row>
             <data>fifo_led/u_WS2812/led_cnt [1]</data>
             <data>fifo_led/u_WS2812/led_cnt[1]</data>
             <data>161</data>
         </row>
         <row>
+            <data>ntclkbufg_1</data>
+            <data>clkbufg_4</data>
+            <data>153</data>
+        </row>
+        <row>
             <data>fifo_led/u_WS2812/led_cnt [0]</data>
             <data>fifo_led/u_WS2812/led_cnt[0]</data>
             <data>122</data>
-        </row>
-        <row>
-            <data>u_CORES/u_debug_core_0/data_start_d1</data>
-            <data>u_CORES/u_debug_core_0/data_start_d1</data>
-            <data>115</data>
-        </row>
-        <row>
-            <data>u_CORES/u_debug_core_0/conf_rst</data>
-            <data>u_CORES/u_debug_core_0/u_hub_data_decode/newrst.conf_rst</data>
-            <data>114</data>
         </row>
         <row>
             <data>fifo_led/u_WS2812/led_cnt [2]</data>
@@ -2642,6 +2642,11 @@
             <data>103</data>
         </row>
         <row>
+            <data>u_CORES/u_debug_core_0/conf_rst</data>
+            <data>u_CORES/u_debug_core_0/u_hub_data_decode/newrst.conf_rst</data>
+            <data>99</data>
+        </row>
+        <row>
             <data>block_mean_cal/u_block_mean/send_cnt [0]</data>
             <data>block_mean_cal/u_block_mean/send_cnt[0]</data>
             <data>95</data>
@@ -2650,6 +2655,11 @@
             <data>block_mean_cal/u_block_mean/send_cnt [1]</data>
             <data>block_mean_cal/u_block_mean/send_cnt[1]</data>
             <data>94</data>
+        </row>
+        <row>
+            <data>u_CORES/u_debug_core_0/data_start_d1</data>
+            <data>u_CORES/u_debug_core_0/data_start_d1</data>
+            <data>90</data>
         </row>
         <row>
             <data>video_clk5x</data>
@@ -2663,7 +2673,7 @@
         </row>
         <row>
             <data>fifo_led/u_WS2812/N6545</data>
-            <data>fifo_led/u_WS2812/N6545_9</data>
+            <data>fifo_led/u_WS2812/N6545_8</data>
             <data>50</data>
         </row>
         <row>
@@ -2687,13 +2697,13 @@
             <data>45</data>
         </row>
         <row>
-            <data>u_ipsl_hmic_h_top/u_ipsl_hmic_h_ddrc_top/u_ddrc_reset_ctrl_v1_1/u_ddrc_apb_reset_v1_1/cnt [5]</data>
-            <data>u_ipsl_hmic_h_top/u_ipsl_hmic_h_ddrc_top/u_ddrc_reset_ctrl_v1_1/u_ddrc_apb_reset_v1_1/cnt[5]</data>
+            <data>u_ipsl_hmic_h_top/u_ipsl_hmic_h_ddrc_top/u_ddrc_reset_ctrl_v1_1/u_ddrc_apb_reset_v1_1/cnt [6]</data>
+            <data>u_ipsl_hmic_h_top/u_ipsl_hmic_h_ddrc_top/u_ddrc_reset_ctrl_v1_1/u_ddrc_apb_reset_v1_1/cnt[6]</data>
             <data>45</data>
         </row>
         <row>
-            <data>u_ipsl_hmic_h_top/u_ipsl_hmic_h_ddrc_top/u_ddrc_reset_ctrl_v1_1/u_ddrc_apb_reset_v1_1/cnt [6]</data>
-            <data>u_ipsl_hmic_h_top/u_ipsl_hmic_h_ddrc_top/u_ddrc_reset_ctrl_v1_1/u_ddrc_apb_reset_v1_1/cnt[6]</data>
+            <data>u_ipsl_hmic_h_top/u_ipsl_hmic_h_ddrc_top/u_ddrc_reset_ctrl_v1_1/u_ddrc_apb_reset_v1_1/cnt [5]</data>
+            <data>u_ipsl_hmic_h_top/u_ipsl_hmic_h_ddrc_top/u_ddrc_reset_ctrl_v1_1/u_ddrc_apb_reset_v1_1/cnt[5]</data>
             <data>45</data>
         </row>
         <row>
@@ -2702,23 +2712,23 @@
             <data>45</data>
         </row>
         <row>
-            <data>u_ipsl_hmic_h_top/u_ipsl_hmic_h_ddrc_top/u_ddrc_reset_ctrl_v1_1/u_ddrc_apb_reset_v1_1/cnt [3]</data>
-            <data>u_ipsl_hmic_h_top/u_ipsl_hmic_h_ddrc_top/u_ddrc_reset_ctrl_v1_1/u_ddrc_apb_reset_v1_1/cnt[3]</data>
-            <data>44</data>
-        </row>
-        <row>
             <data>u_ipsl_hmic_h_top/u_ipsl_hmic_h_ddrc_top/u_ddrc_reset_ctrl_v1_1/u_ddrc_apb_reset_v1_1/cnt [4]</data>
             <data>u_ipsl_hmic_h_top/u_ipsl_hmic_h_ddrc_top/u_ddrc_reset_ctrl_v1_1/u_ddrc_apb_reset_v1_1/cnt[4]</data>
             <data>44</data>
         </row>
         <row>
-            <data>frame_read_write_m0/frame_fifo_read_m0/state_1</data>
-            <data>frame_read_write_m0/frame_fifo_read_m0/state_1</data>
+            <data>u_ipsl_hmic_h_top/u_ipsl_hmic_h_ddrc_top/u_ddrc_reset_ctrl_v1_1/u_ddrc_apb_reset_v1_1/cnt [3]</data>
+            <data>u_ipsl_hmic_h_top/u_ipsl_hmic_h_ddrc_top/u_ddrc_reset_ctrl_v1_1/u_ddrc_apb_reset_v1_1/cnt[3]</data>
             <data>44</data>
         </row>
         <row>
             <data>u_ipsl_hmic_h_top/u_ipsl_hmic_h_ddrc_top/u_ddrc_reset_ctrl_v1_1/u_ddrc_apb_reset_v1_1/cnt [2]</data>
             <data>u_ipsl_hmic_h_top/u_ipsl_hmic_h_ddrc_top/u_ddrc_reset_ctrl_v1_1/u_ddrc_apb_reset_v1_1/cnt[2]</data>
+            <data>44</data>
+        </row>
+        <row>
+            <data>frame_read_write_m0/frame_fifo_read_m0/state_1</data>
+            <data>frame_read_write_m0/frame_fifo_read_m0/state_1</data>
             <data>44</data>
         </row>
         <row>
@@ -2732,53 +2742,13 @@
             <data>43</data>
         </row>
         <row>
-            <data>fifo_led/dout [2]</data>
-            <data>fifo_led/u_port_in/mean_in_led_out/U_ipml_fifo_fifo_led/U_ipml_sdpram/ADDR_LOOP[0].DATA_LOOP[0].U_GTP_DRM9K</data>
-            <data>42</data>
-        </row>
-        <row>
             <data>fifo_led/u_data_tx/cnt [0]</data>
             <data>fifo_led/u_data_tx/cnt[0]</data>
             <data>42</data>
         </row>
         <row>
-            <data>fifo_led/dout [3]</data>
-            <data>fifo_led/u_port_in/mean_in_led_out/U_ipml_fifo_fifo_led/U_ipml_sdpram/ADDR_LOOP[0].DATA_LOOP[0].U_GTP_DRM9K</data>
-            <data>42</data>
-        </row>
-        <row>
-            <data>fifo_led/dout [0]</data>
-            <data>fifo_led/u_port_in/mean_in_led_out/U_ipml_fifo_fifo_led/U_ipml_sdpram/ADDR_LOOP[0].DATA_LOOP[0].U_GTP_DRM9K</data>
-            <data>42</data>
-        </row>
-        <row>
-            <data>fifo_led/dout [4]</data>
-            <data>fifo_led/u_port_in/mean_in_led_out/U_ipml_fifo_fifo_led/U_ipml_sdpram/ADDR_LOOP[0].DATA_LOOP[0].U_GTP_DRM9K</data>
-            <data>42</data>
-        </row>
-        <row>
-            <data>fifo_led/dout [5]</data>
-            <data>fifo_led/u_port_in/mean_in_led_out/U_ipml_fifo_fifo_led/U_ipml_sdpram/ADDR_LOOP[0].DATA_LOOP[0].U_GTP_DRM9K</data>
-            <data>42</data>
-        </row>
-        <row>
-            <data>fifo_led/dout [6]</data>
-            <data>fifo_led/u_port_in/mean_in_led_out/U_ipml_fifo_fifo_led/U_ipml_sdpram/ADDR_LOOP[0].DATA_LOOP[0].U_GTP_DRM9K</data>
-            <data>42</data>
-        </row>
-        <row>
-            <data>fifo_led/dout [7]</data>
-            <data>fifo_led/u_port_in/mean_in_led_out/U_ipml_fifo_fifo_led/U_ipml_sdpram/ADDR_LOOP[0].DATA_LOOP[0].U_GTP_DRM9K</data>
-            <data>42</data>
-        </row>
-        <row>
-            <data>fifo_led/dout [1]</data>
-            <data>fifo_led/u_port_in/mean_in_led_out/U_ipml_fifo_fifo_led/U_ipml_sdpram/ADDR_LOOP[0].DATA_LOOP[0].U_GTP_DRM9K</data>
-            <data>42</data>
-        </row>
-        <row>
-            <data>u_CORES/u_debug_core_0/u_Storage_Condition/conf_reg [16]</data>
-            <data>u_CORES/u_debug_core_0/u_Storage_Condition/conf_reg[16]</data>
+            <data>block_mean_cal/block_h_cnt [1]</data>
+            <data>block_mean_cal/u_video_pixel_counter/block_h_cnt[1]</data>
             <data>41</data>
         </row>
         <row>
@@ -2787,8 +2757,8 @@
             <data>41</data>
         </row>
         <row>
-            <data>block_mean_cal/block_h_cnt [1]</data>
-            <data>block_mean_cal/u_video_pixel_counter/block_h_cnt[1]</data>
+            <data>u_CORES/u_debug_core_0/u_Storage_Condition/conf_reg [16]</data>
+            <data>u_CORES/u_debug_core_0/u_Storage_Condition/conf_reg[16]</data>
             <data>41</data>
         </row>
         <row>
@@ -2797,13 +2767,13 @@
             <data>41</data>
         </row>
         <row>
-            <data>fifo_led/u_data_tx/cnt [1]</data>
-            <data>fifo_led/u_data_tx/cnt[1]</data>
+            <data>fifo_led/u_data_tx/cnt [2]</data>
+            <data>fifo_led/u_data_tx/cnt[2]</data>
             <data>41</data>
         </row>
         <row>
-            <data>fifo_led/u_data_tx/cnt [2]</data>
-            <data>fifo_led/u_data_tx/cnt[2]</data>
+            <data>fifo_led/u_data_tx/cnt [1]</data>
+            <data>fifo_led/u_data_tx/cnt[1]</data>
             <data>41</data>
         </row>
         <row>
@@ -2812,23 +2782,23 @@
             <data>41</data>
         </row>
         <row>
-            <data>fifo_led/u_WS2812/_N12105</data>
-            <data>fifo_led/u_WS2812/N1045_mux9_6</data>
+            <data>fifo_led/dout [7]</data>
+            <data>fifo_led/u_port_in/mean_in_led_out/U_ipml_fifo_fifo_led/U_ipml_sdpram/ADDR_LOOP[0].DATA_LOOP[0].U_GTP_DRM9K</data>
             <data>40</data>
         </row>
         <row>
-            <data>fifo_led/u_WS2812/N1039</data>
-            <data>fifo_led/u_WS2812/N1039_mux48</data>
+            <data>fifo_led/dout [6]</data>
+            <data>fifo_led/u_port_in/mean_in_led_out/U_ipml_fifo_fifo_led/U_ipml_sdpram/ADDR_LOOP[0].DATA_LOOP[0].U_GTP_DRM9K</data>
             <data>40</data>
         </row>
         <row>
-            <data>fifo_led/u_WS2812/N1054</data>
-            <data>fifo_led/u_WS2812/N1054_mux9</data>
+            <data>fifo_led/dout [4]</data>
+            <data>fifo_led/u_port_in/mean_in_led_out/U_ipml_fifo_fifo_led/U_ipml_sdpram/ADDR_LOOP[0].DATA_LOOP[0].U_GTP_DRM9K</data>
             <data>40</data>
         </row>
         <row>
-            <data>block_mean_cal/gray_o [7]</data>
-            <data>block_mean_cal/u_rgb_to_gray/gray_d[7]</data>
+            <data>fifo_led/dout [3]</data>
+            <data>fifo_led/u_port_in/mean_in_led_out/U_ipml_fifo_fifo_led/U_ipml_sdpram/ADDR_LOOP[0].DATA_LOOP[0].U_GTP_DRM9K</data>
             <data>40</data>
         </row>
         <row>
@@ -2837,33 +2807,33 @@
             <data>40</data>
         </row>
         <row>
-            <data>block_mean_cal/gray_o [1]</data>
-            <data>block_mean_cal/u_rgb_to_gray/gray_d[1]</data>
+            <data>fifo_led/dout [2]</data>
+            <data>fifo_led/u_port_in/mean_in_led_out/U_ipml_fifo_fifo_led/U_ipml_sdpram/ADDR_LOOP[0].DATA_LOOP[0].U_GTP_DRM9K</data>
             <data>40</data>
         </row>
         <row>
-            <data>block_mean_cal/gray_o [2]</data>
-            <data>block_mean_cal/u_rgb_to_gray/gray_d[2]</data>
+            <data>fifo_led/dout [1]</data>
+            <data>fifo_led/u_port_in/mean_in_led_out/U_ipml_fifo_fifo_led/U_ipml_sdpram/ADDR_LOOP[0].DATA_LOOP[0].U_GTP_DRM9K</data>
+            <data>40</data>
+        </row>
+        <row>
+            <data>u_ipsl_hmic_h_top/u_ipsl_hmic_h_ddrc_top/u_ddrc_reset_ctrl_v1_1/_N7289</data>
+            <data>u_ipsl_hmic_h_top/u_ipsl_hmic_h_ddrc_top/u_ddrc_reset_ctrl_v1_1/N65_7[19]_3</data>
+            <data>40</data>
+        </row>
+        <row>
+            <data>fifo_led/dout [0]</data>
+            <data>fifo_led/u_port_in/mean_in_led_out/U_ipml_fifo_fifo_led/U_ipml_sdpram/ADDR_LOOP[0].DATA_LOOP[0].U_GTP_DRM9K</data>
+            <data>40</data>
+        </row>
+        <row>
+            <data>block_mean_cal/gray_o [7]</data>
+            <data>block_mean_cal/u_rgb_to_gray/gray_d[7]</data>
             <data>40</data>
         </row>
         <row>
             <data>block_mean_cal/gray_o [6]</data>
             <data>block_mean_cal/u_rgb_to_gray/gray_d[6]</data>
-            <data>40</data>
-        </row>
-        <row>
-            <data>block_mean_cal/gray_o [3]</data>
-            <data>block_mean_cal/u_rgb_to_gray/gray_d[3]</data>
-            <data>40</data>
-        </row>
-        <row>
-            <data>fifo_led/u_WS2812/_N3321</data>
-            <data>fifo_led/u_WS2812/N1045_mux4</data>
-            <data>40</data>
-        </row>
-        <row>
-            <data>u_ipsl_hmic_h_top/u_ipsl_hmic_h_ddrc_top/u_ddrc_reset_ctrl_v1_1/_N6899</data>
-            <data>u_ipsl_hmic_h_top/u_ipsl_hmic_h_ddrc_top/u_ddrc_reset_ctrl_v1_1/N65_7[30]_3</data>
             <data>40</data>
         </row>
         <row>
@@ -2877,9 +2847,54 @@
             <data>40</data>
         </row>
         <row>
+            <data>block_mean_cal/gray_o [3]</data>
+            <data>block_mean_cal/u_rgb_to_gray/gray_d[3]</data>
+            <data>40</data>
+        </row>
+        <row>
+            <data>block_mean_cal/gray_o [2]</data>
+            <data>block_mean_cal/u_rgb_to_gray/gray_d[2]</data>
+            <data>40</data>
+        </row>
+        <row>
+            <data>block_mean_cal/gray_o [1]</data>
+            <data>block_mean_cal/u_rgb_to_gray/gray_d[1]</data>
+            <data>40</data>
+        </row>
+        <row>
+            <data>fifo_led/u_WS2812/_N12804</data>
+            <data>fifo_led/u_WS2812/N1045_mux9_8</data>
+            <data>40</data>
+        </row>
+        <row>
+            <data>fifo_led/u_WS2812/_N3453</data>
+            <data>fifo_led/u_WS2812/N1045_mux4</data>
+            <data>40</data>
+        </row>
+        <row>
+            <data>fifo_led/u_WS2812/N1054</data>
+            <data>fifo_led/u_WS2812/N1054_mux9</data>
+            <data>40</data>
+        </row>
+        <row>
+            <data>fifo_led/u_WS2812/N1039</data>
+            <data>fifo_led/u_WS2812/N1039_mux48</data>
+            <data>40</data>
+        </row>
+        <row>
+            <data>fifo_led/dout [5]</data>
+            <data>fifo_led/u_port_in/mean_in_led_out/U_ipml_fifo_fifo_led/U_ipml_sdpram/ADDR_LOOP[0].DATA_LOOP[0].U_GTP_DRM9K</data>
+            <data>40</data>
+        </row>
+        <row>
             <data>u_aq_axi_master/rd_first_data</data>
             <data>u_aq_axi_master/rd_first_data</data>
             <data>38</data>
+        </row>
+        <row>
+            <data>u_aq_axi_master/rd_state_0</data>
+            <data>u_aq_axi_master/rd_state_0</data>
+            <data>36</data>
         </row>
         <row>
             <data>rd_burst_len[6]</data>
@@ -2887,9 +2902,9 @@
             <data>36</data>
         </row>
         <row>
-            <data>u_aq_axi_master/rd_state_0</data>
-            <data>u_aq_axi_master/rd_state_0</data>
-            <data>36</data>
+            <data>u_aq_axi_master/wr_state_2</data>
+            <data>u_aq_axi_master/wr_state_2</data>
+            <data>35</data>
         </row>
         <row>
             <data>u_aq_axi_master/rd_state_2</data>
@@ -2897,9 +2912,9 @@
             <data>35</data>
         </row>
         <row>
-            <data>u_aq_axi_master/wr_state_2</data>
-            <data>u_aq_axi_master/wr_state_2</data>
-            <data>35</data>
+            <data>u_top_uart_cmd_resolve/u_m_decoder/N141</data>
+            <data>u_top_uart_cmd_resolve/u_m_decoder/N141.eq_15</data>
+            <data>34</data>
         </row>
         <row>
             <data>u_aq_axi_master/N5</data>
@@ -2912,23 +2927,18 @@
             <data>33</data>
         </row>
         <row>
-            <data>fifo_led/empty</data>
-            <data>fifo_led/u_port_in/mean_in_led_out/U_ipml_fifo_fifo_led/U_ipml_fifo_ctrl/ASYN_CTRL.asyn_rempty</data>
+            <data>frame_read_write_m0/frame_fifo_write_m0/state_3</data>
+            <data>frame_read_write_m0/frame_fifo_write_m0/state_3</data>
             <data>32</data>
         </row>
         <row>
-            <data>frame_read_write_m0/frame_fifo_write_m0/state_3</data>
-            <data>frame_read_write_m0/frame_fifo_write_m0/state_3</data>
-            <data>32</data>
+            <data>u_CORES/u_debug_core_0/u_rd_addr_gen/counter [0]</data>
+            <data>u_CORES/u_debug_core_0/u_rd_addr_gen/confck_same.counter[0]</data>
+            <data>31</data>
         </row>
         <row>
             <data>block_mean_cal/u_block_mean/send_cnt [2]</data>
             <data>block_mean_cal/u_block_mean/send_cnt[2]</data>
-            <data>31</data>
-        </row>
-        <row>
-            <data>frame_read_write_m0/frame_fifo_read_m0/state_4</data>
-            <data>frame_read_write_m0/frame_fifo_read_m0/state_4</data>
             <data>31</data>
         </row>
         <row>
@@ -2937,8 +2947,18 @@
             <data>31</data>
         </row>
         <row>
+            <data>frame_read_write_m0/frame_fifo_read_m0/state_4</data>
+            <data>frame_read_write_m0/frame_fifo_read_m0/state_4</data>
+            <data>31</data>
+        </row>
+        <row>
             <data>fifo_led/u_WS2812/N911</data>
             <data>fifo_led/u_WS2812/N911</data>
+            <data>30</data>
+        </row>
+        <row>
+            <data>fifo_led/empty</data>
+            <data>fifo_led/u_port_in/mean_in_led_out/U_ipml_fifo_fifo_led/U_ipml_fifo_ctrl/ASYN_CTRL.asyn_rempty</data>
             <data>30</data>
         </row>
         <row>
@@ -2947,24 +2967,9 @@
             <data>30</data>
         </row>
         <row>
-            <data>u_CORES/u_debug_core_0/u_rd_addr_gen/counter [0]</data>
-            <data>u_CORES/u_debug_core_0/u_rd_addr_gen/confck_same.counter[0]</data>
-            <data>30</data>
-        </row>
-        <row>
             <data>frame_read_write_m0/frame_fifo_write_m0/write_req_d2</data>
             <data>frame_read_write_m0/frame_fifo_write_m0/write_req_d2</data>
             <data>29</data>
-        </row>
-        <row>
-            <data>u_CORES/u_debug_core_0/u_rd_addr_gen/counter [1]</data>
-            <data>u_CORES/u_debug_core_0/u_rd_addr_gen/confck_same.counter[1]</data>
-            <data>28</data>
-        </row>
-        <row>
-            <data>u_CORES/u_debug_core_0/u_rd_addr_gen/counter [2]</data>
-            <data>u_CORES/u_debug_core_0/u_rd_addr_gen/confck_same.counter[2]</data>
-            <data>28</data>
         </row>
         <row>
             <data>frame_read_write_m0/write_buf/U_ipml_fifo_afifo_16i_64o_512/U_ipml_fifo_ctrl/wfull</data>
@@ -2987,8 +2992,13 @@
             <data>26</data>
         </row>
         <row>
-            <data>fifo_led/data_cnt [1]</data>
-            <data>fifo_led/u_data_tx/data_cnt[1]</data>
+            <data>fifo_led/u_WS2812/led_cnt [3]</data>
+            <data>fifo_led/u_WS2812/led_cnt[3]</data>
+            <data>25</data>
+        </row>
+        <row>
+            <data>u_CORES/u_debug_core_0/u_rd_addr_gen/counter [3]</data>
+            <data>u_CORES/u_debug_core_0/u_rd_addr_gen/confck_same.counter[3]</data>
             <data>25</data>
         </row>
         <row>
@@ -2997,48 +3007,23 @@
             <data>25</data>
         </row>
         <row>
+            <data>u_CORES/u_debug_core_0/u_rd_addr_gen/counter [2]</data>
+            <data>u_CORES/u_debug_core_0/u_rd_addr_gen/confck_same.counter[2]</data>
+            <data>25</data>
+        </row>
+        <row>
             <data>fifo_led/u_WS2812/led_cnt [5]</data>
             <data>fifo_led/u_WS2812/led_cnt[5]</data>
             <data>25</data>
         </row>
         <row>
-            <data>fifo_led/data_cnt [2]</data>
-            <data>fifo_led/u_data_tx/data_cnt[2]</data>
-            <data>25</data>
-        </row>
-        <row>
-            <data>fifo_led/u_WS2812/led_cnt [3]</data>
-            <data>fifo_led/u_WS2812/led_cnt[3]</data>
-            <data>25</data>
-        </row>
-        <row>
-            <data>fifo_led/data_cnt [0]</data>
-            <data>fifo_led/u_data_tx/data_cnt[0]</data>
+            <data>video_timing_data_m0/video_de_d0</data>
+            <data>video_timing_data_m0/video_de_d0</data>
             <data>25</data>
         </row>
         <row>
             <data>fifo_led/data_cnt [3]</data>
             <data>fifo_led/u_data_tx/data_cnt[3]</data>
-            <data>25</data>
-        </row>
-        <row>
-            <data>video_timing_data_m0/video_de_d0</data>
-            <data>video_timing_data_m0/video_de_d0</data>
-            <data>25</data>
-        </row>
-        <row>
-            <data>fifo_led/u_WS2812/i [1]</data>
-            <data>fifo_led/u_WS2812/i[1]</data>
-            <data>23</data>
-        </row>
-        <row>
-            <data>fifo_led/u_port_in/mean_in_led_out/U_ipml_fifo_fifo_led/U_ipml_fifo_ctrl/wfull</data>
-            <data>fifo_led/u_port_in/mean_in_led_out/U_ipml_fifo_fifo_led/U_ipml_fifo_ctrl/ASYN_CTRL.asyn_wfull</data>
-            <data>23</data>
-        </row>
-        <row>
-            <data>fifo_led/u_WS2812/i [2]</data>
-            <data>fifo_led/u_WS2812/i[2]</data>
             <data>23</data>
         </row>
         <row>
@@ -3052,13 +3037,38 @@
             <data>23</data>
         </row>
         <row>
+            <data>fifo_led/data_cnt [1]</data>
+            <data>fifo_led/u_data_tx/data_cnt[1]</data>
+            <data>23</data>
+        </row>
+        <row>
+            <data>fifo_led/data_cnt [0]</data>
+            <data>fifo_led/u_data_tx/data_cnt[0]</data>
+            <data>23</data>
+        </row>
+        <row>
+            <data>fifo_led/u_port_in/mean_in_led_out/U_ipml_fifo_fifo_led/U_ipml_fifo_ctrl/wfull</data>
+            <data>fifo_led/u_port_in/mean_in_led_out/U_ipml_fifo_fifo_led/U_ipml_fifo_ctrl/ASYN_CTRL.asyn_wfull</data>
+            <data>23</data>
+        </row>
+        <row>
             <data>frame_read_write_m0/read_buf/U_ipml_fifo_afifo_64i_16o_128/U_ipml_fifo_ctrl/wfull</data>
             <data>frame_read_write_m0/read_buf/U_ipml_fifo_afifo_64i_16o_128/U_ipml_fifo_ctrl/ASYN_CTRL.asyn_wfull</data>
             <data>23</data>
         </row>
         <row>
-            <data>fifo_led/u_WS2812/symbol</data>
-            <data>fifo_led/u_WS2812/symbol</data>
+            <data>fifo_led/data_cnt [2]</data>
+            <data>fifo_led/u_data_tx/data_cnt[2]</data>
+            <data>23</data>
+        </row>
+        <row>
+            <data>dvi_encoder_m0/encb/q_m_reg [8]</data>
+            <data>dvi_encoder_m0/encb/q_m_reg[8]</data>
+            <data>22</data>
+        </row>
+        <row>
+            <data>block_mean_cal/cnt_de_o</data>
+            <data>block_mean_cal/u_video_pixel_counter/de_d</data>
             <data>22</data>
         </row>
     </table>
@@ -3083,15 +3093,15 @@
         </row>
         <row>
             <data>FF</data>
-            <data>3727</data>
+            <data>3759</data>
             <data>26304</data>
             <data>15</data>
         </row>
         <row>
             <data>LUT</data>
-            <data>4178</data>
+            <data>4262</data>
             <data>17536</data>
-            <data>24</data>
+            <data>25</data>
         </row>
         <row>
             <data>Distributed RAM</data>
@@ -3113,9 +3123,9 @@
         </row>
         <row>
             <data>DRM</data>
-            <data>26</data>
+            <data>25</data>
             <data>48</data>
-            <data>55</data>
+            <data>53</data>
         </row>
         <row>
             <data>FUSECODE</data>
@@ -3125,9 +3135,9 @@
         </row>
         <row>
             <data>IO</data>
-            <data>105</data>
+            <data>106</data>
             <data>240</data>
-            <data>44</data>
+            <data>45</data>
         </row>
         <row>
             <data>IOCKDIV</data>
@@ -3227,9 +3237,9 @@
             <data>Peak Memory (B)</data>
         </column_headers>
         <row>
-            <data>5.20312</data>
+            <data>5.21875</data>
             <data>15</data>
-            <data>266,727,424</data>
+            <data>267,845,632</data>
         </row>
     </table>
     <table id="device_map_messages" title="Device Map Messages" column_number="1">
@@ -3616,6 +3626,11 @@
                 </row>
                 <row>
                     <data>sys_clk_ibuf</data>
+                    <data>PAP_DONT_TOUCH</data>
+                    <data>TRUE</data>
+                </row>
+                <row>
+                    <data>uart_rx_ibuf</data>
                     <data>PAP_DONT_TOUCH</data>
                     <data>TRUE</data>
                 </row>
@@ -7888,6 +7903,47 @@
                     <data></data>
                     <data></data>
                     <data>NOHYS</data>
+                    <data></data>
+                    <data></data>
+                    <data></data>
+                    <data></data>
+                    <data></data>
+                    <data></data>
+                    <data></data>
+                    <data></data>
+                    <data></data>
+                    <data></data>
+                    <data></data>
+                    <data></data>
+                    <data></data>
+                    <data></data>
+                    <data></data>
+                    <data></data>
+                    <data></data>
+                    <data></data>
+                    <data></data>
+                    <data></data>
+                    <data></data>
+                    <data></data>
+                    <data></data>
+                    <data></data>
+                    <data></data>
+                    <data></data>
+                </row>
+                <row>
+                    <data>uart_rx</data>
+                    <data>input</data>
+                    <data>D18</data>
+                    <data>3.3</data>
+                    <data>LVTTL33</data>
+                    <data></data>
+                    <data></data>
+                    <data></data>
+                    <data></data>
+                    <data></data>
+                    <data></data>
+                    <data></data>
+                    <data></data>
                     <data></data>
                     <data></data>
                     <data></data>

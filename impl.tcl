@@ -697,3 +697,25 @@ dev_map
 pnr 
 report_timing 
 gen_bit_stream 
+add_design "D:/Projects/FPGA_match/final_test/source/uart_command_resolve/m_bps.v"
+add_design "D:/Projects/FPGA_match/final_test/source/uart_command_resolve/m_decoder.v"
+add_design "D:/Projects/FPGA_match/final_test/source/uart_command_resolve/m_s2p.v"
+add_design "D:/Projects/FPGA_match/final_test/source/uart_command_resolve/top.v"
+set_arch -family Logos -device PGL22G -speedgrade -6 -package MBG324
+compile -top_module top
+synthesize -ads -selected_syn_tool_opt 2 
+set_arch -family Logos -device PGL22G -speedgrade -6 -package MBG324
+compile -top_module top
+set_arch -family Logos -device PGL22G -speedgrade -6 -package MBG324
+compile -top_module top
+set_arch -family Logos -device PGL22G -speedgrade -6 -package MBG324
+compile -top_module top
+synthesize -ads -selected_syn_tool_opt 2 
+dev_map 
+set_arch -family Logos -device PGL22G -speedgrade -6 -package MBG324
+compile -top_module top
+synthesize -ads -selected_syn_tool_opt 2 
+dev_map 
+pnr 
+report_timing 
+gen_bit_stream 

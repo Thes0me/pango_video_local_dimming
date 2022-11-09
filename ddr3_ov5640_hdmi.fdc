@@ -912,3 +912,7 @@ define_attribute {p:stcp1} {PAP_IO_VCCIO} {3.3}
 define_attribute {p:stcp1} {PAP_IO_STANDARD} {LVTTL33}
 define_attribute {p:stcp1} {PAP_IO_DRIVE} {4}
 define_attribute {p:stcp1} {PAP_IO_SLEW} {FAST}
+define_attribute {p:uart_rx} {PAP_IO_DIRECTION} {INPUT}
+define_attribute {p:uart_rx} {PAP_IO_LOC} {D18}
+define_attribute {p:uart_rx} {PAP_IO_VCCIO} {3.3}
+define_attribute {p:uart_rx} {PAP_IO_STANDARD} {LVTTL33}

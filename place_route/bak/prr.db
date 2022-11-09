@@ -23,7 +23,7 @@
         <row color="4294901760" align="0" message="2" bold="0">
             <data>ddr_init_done</data>
             <data>output</data>
-            <data>U13</data>
+            <data>P11</data>
             <data>BANKR2</data>
             <data>3.3</data>
             <data>LVCMOS33</data>
@@ -42,8 +42,8 @@
         <row color="4294901760" align="0" message="2" bold="0">
             <data>ddrphy_rst_done</data>
             <data>output</data>
-            <data>M18</data>
-            <data>BANKR1</data>
+            <data>P17</data>
+            <data>BANKR2</data>
             <data>3.3</data>
             <data>LVCMOS33</data>
             <data>8</data>
@@ -1258,7 +1258,7 @@
         <row color="4294901760" align="0" message="2" bold="0">
             <data>pll_lock</data>
             <data>output</data>
-            <data>R10</data>
+            <data>U18</data>
             <data>BANKR2</data>
             <data>3.3</data>
             <data>LVCMOS33</data>
@@ -3759,9 +3759,9 @@
             <data>IOBD_152_142</data>
             <data>BANKR1</data>
             <data></data>
-            <data>ddrphy_rst_done</data>
-            <data>output</data>
-            <data>NO</data>
+            <data></data>
+            <data></data>
+            <data></data>
         </row>
         <row>
             <data>M17</data>
@@ -3831,9 +3831,9 @@
             <data>IOBD_152_118</data>
             <data>BANKR2</data>
             <data></data>
-            <data>pll_lock</data>
-            <data>output</data>
-            <data>NO</data>
+            <data></data>
+            <data></data>
+            <data></data>
         </row>
         <row>
             <data>T10</data>
@@ -3867,9 +3867,9 @@
             <data>IOBD_152_110</data>
             <data>BANKR2</data>
             <data></data>
-            <data>ddr_init_done</data>
-            <data>output</data>
-            <data>NO</data>
+            <data></data>
+            <data></data>
+            <data></data>
         </row>
         <row>
             <data>V13</data>
@@ -3939,9 +3939,9 @@
             <data>IOBD_152_86</data>
             <data>BANKR2</data>
             <data></data>
-            <data></data>
-            <data></data>
-            <data></data>
+            <data>ddr_init_done</data>
+            <data>output</data>
+            <data>NO</data>
         </row>
         <row>
             <data>P12</data>
@@ -3975,9 +3975,9 @@
             <data>IOBD_152_78</data>
             <data>BANKR2</data>
             <data></data>
-            <data></data>
-            <data></data>
-            <data></data>
+            <data>pll_lock</data>
+            <data>output</data>
+            <data>NO</data>
         </row>
         <row>
             <data>U17</data>
@@ -4029,9 +4029,9 @@
             <data>IOBD_152_46</data>
             <data>BANKR2</data>
             <data></data>
-            <data></data>
-            <data></data>
-            <data></data>
+            <data>ddrphy_rst_done</data>
+            <data>output</data>
+            <data>NO</data>
         </row>
         <row>
             <data>P18</data>
@@ -4219,43 +4219,43 @@
             <data>40</data>
             <row>
                 <data>  FF</data>
-                <data>2820</data>
+                <data>2798</data>
                 <data>19644</data>
                 <data>15</data>
             </row>
             <row>
                 <data>  LUT</data>
-                <data>3251</data>
+                <data>3278</data>
                 <data>13096</data>
-                <data>25</data>
+                <data>26</data>
             </row>
             <row>
                 <data>  LUT-FF pairs</data>
-                <data>770</data>
+                <data>765</data>
                 <data>13096</data>
                 <data>6</data>
             </row>
         </row>
         <row>
             <data>Use of CLMS</data>
-            <data>418</data>
+            <data>411</data>
             <data>1110</data>
             <data>38</data>
             <row>
                 <data>  FF</data>
-                <data>907</data>
+                <data>929</data>
                 <data>6660</data>
                 <data>14</data>
             </row>
             <row>
                 <data>  LUT</data>
-                <data>1023</data>
+                <data>992</data>
                 <data>4440</data>
-                <data>24</data>
+                <data>23</data>
             </row>
             <row>
                 <data>  LUT-FF pairs</data>
-                <data>211</data>
+                <data>216</data>
                 <data>4440</data>
                 <data>5</data>
             </row>
@@ -4400,9 +4400,9 @@
         </row>
         <row>
             <data>Use of RCKB</data>
-            <data>2</data>
+            <data>3</data>
             <data>24</data>
-            <data>9</data>
+            <data>13</data>
         </row>
         <row>
             <data>Use of RCKBMUX_TEST</data>
@@ -4503,7 +4503,7 @@
             <data>0</data>
             <data>0</data>
             <data>2</data>
-            <data>2</data>
+            <data>3</data>
             <data>0</data>
             <data>1</data>
             <data>0</data>
@@ -5918,9 +5918,9 @@
             <data>Peak Memory (B)</data>
         </column_headers>
         <row>
-            <data>42.875</data>
-            <data>44</data>
-            <data>638,586,880</data>
+            <data>42.2344</data>
+            <data>43</data>
+            <data>639,279,104</data>
         </row>
     </table>
     <table id="pnr_messages" title="Place &amp; Route Messages" column_number="1">
@@ -6339,10 +6339,10 @@
                     <data>u_ipsl_hmic_h_top/u_pll_50_400/u_pll_e1/goppll</data>
                     <data>PLL_82_71</data>
                     <data>CLKIN2</data>
-                    <data>ntR982</data>
+                    <data>ntR967</data>
                     <data> - </data>
                     <data>GND_40</data>
-                    <data>CLMA_78_88</data>
+                    <data>CLMA_78_76</data>
                 </row>
                 <row>
                     <data>video_pll_m0/u_pll_e1/goppll</data>
@@ -6366,9 +6366,9 @@
                     <data>video_pll_m0/u_pll_e1/goppll</data>
                     <data>PLL_82_51</data>
                     <data>CLKIN2</data>
-                    <data>ntR981</data>
+                    <data>ntR989</data>
                     <data> - </data>
-                    <data>GND_33</data>
+                    <data>GND_38</data>
                     <data>CLMA_78_52</data>
                 </row>
                 <row>
