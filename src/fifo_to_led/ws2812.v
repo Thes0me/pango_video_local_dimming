@@ -3,7 +3,7 @@
 module ws2812(
     input                        sys_clk,
     input                        sys_rst_n,
-    input         [5-1:0]        data_cnt,
+    input         [5:0]        data_cnt,
     input       [320-1:0]        data0,
     output      reg              LED0 ,
     output      reg              LED1 ,
@@ -332,7 +332,7 @@ always @(posedge sys_clk or negedge sys_rst_n) begin
 	else if(data_cnt == 1'b0)
     begin
         if(sys_cnt < 5070)
-        LED0 = 1'b0;
+        LED0 <= 1'b0;
         else if(RGB_RZ == 0)begin
             if(cnt <= 32'd16)	begin		//?????????0.3us*50M=15
 		    LED0 <= 1;
@@ -349,7 +349,7 @@ always @(posedge sys_clk or negedge sys_rst_n) begin
 			LED0 <= 0;
 		    end
     end
-    else LED0 = 1'b1; 	
+    else LED0 <= 1'b1; 	
 end
 
 always @(posedge sys_clk or negedge sys_rst_n) begin
@@ -359,7 +359,7 @@ always @(posedge sys_clk or negedge sys_rst_n) begin
 	else if(data_cnt == 1'b0)
     begin
         if(sys_cnt < 5070)
-        LED20 = 1'b0;
+        LED20 <= 1'b0;
         else if(RZ20 == 0)begin
             if(cnt <= 32'd16)	begin		//?????????0.3us*50M=15
 		    LED20 <= 1;
@@ -376,7 +376,7 @@ always @(posedge sys_clk or negedge sys_rst_n) begin
 			LED20 <= 0;
 		    end
     end
-    else LED20 = 1'b1; 	
+    else LED20 <= 1'b1; 	
 end
 
 always @(posedge sys_clk or negedge sys_rst_n) begin
@@ -386,7 +386,7 @@ always @(posedge sys_clk or negedge sys_rst_n) begin
 	else if(data_cnt == 1'b1)
     begin
         if(sys_cnt < 5070)
-        LED1 = 1'b0;
+        LED1 <= 1'b0;
         else if(RZ1 == 0)begin
             if(cnt <= 32'd16)	begin		//?????????0.3us*50M=15
 		    LED1 <= 1;
@@ -403,7 +403,7 @@ always @(posedge sys_clk or negedge sys_rst_n) begin
 			LED1 <= 0;
 		    end
     end
-    else LED1 = 1'b1; 	
+    else LED1 <= 1'b1; 	
 end
 
 always @(posedge sys_clk or negedge sys_rst_n) begin
@@ -413,7 +413,7 @@ always @(posedge sys_clk or negedge sys_rst_n) begin
 	else if(data_cnt == 1'b1)
     begin
         if(sys_cnt < 5070)
-        LED21 = 1'b0;
+        LED21 <= 1'b0;
         else if(RZ21 == 0)begin
             if(cnt <= 32'd16)	begin		//?????????0.3us*50M=15
 		    LED21 <= 1;
@@ -430,7 +430,7 @@ always @(posedge sys_clk or negedge sys_rst_n) begin
 			LED21 <= 0;
 		    end
     end
-    else LED21 = 1'b1; 	
+    else LED21 <= 1'b1; 	
 end
 
 always @(posedge sys_clk or negedge sys_rst_n) begin
@@ -440,7 +440,7 @@ always @(posedge sys_clk or negedge sys_rst_n) begin
 	else if(data_cnt == 2'b10)
     begin
         if(sys_cnt < 5070)
-        LED2 = 1'b0;
+        LED2 <= 1'b0;
         else if(RZ2 == 0)begin
             if(cnt <= 32'd16)	begin		//?????????0.3us*50M=15
 		    LED2 <= 1;
@@ -457,7 +457,7 @@ always @(posedge sys_clk or negedge sys_rst_n) begin
 			LED2 <= 0;
 		    end
     end
-    else LED2 = 1'b1; 	
+    else LED2 <= 1'b1; 	
 end
 
 always @(posedge sys_clk or negedge sys_rst_n) begin
@@ -467,7 +467,7 @@ always @(posedge sys_clk or negedge sys_rst_n) begin
 	else if(data_cnt == 2'b10)
     begin
         if(sys_cnt < 5070)
-        LED22 = 1'b0;
+        LED22 <= 1'b0;
         else if(RZ22 == 0)begin
             if(cnt <= 32'd16)	begin		//?????????0.3us*50M=15
 		    LED22 <= 1;
@@ -484,7 +484,7 @@ always @(posedge sys_clk or negedge sys_rst_n) begin
 			LED22 <= 0;
 		    end
     end
-    else LED22 = 1'b1; 	
+    else LED22 <= 1'b1; 	
 end
 
 always @(posedge sys_clk or negedge sys_rst_n) begin
@@ -494,7 +494,7 @@ always @(posedge sys_clk or negedge sys_rst_n) begin
 	else if(data_cnt == 2'b11)
     begin
         if(sys_cnt < 5070)
-        LED3 = 1'b0;
+        LED3 <= 1'b0;
         else if(RZ3 == 0)begin
             if(cnt <= 32'd16)	begin		//?????????0.3us*50M=15
 		    LED3 <= 1;
@@ -511,7 +511,7 @@ always @(posedge sys_clk or negedge sys_rst_n) begin
 			LED3 <= 0;
 		    end
     end
-    else LED3 = 1'b1; 	
+    else LED3 <= 1'b1; 	
 end
 
 always @(posedge sys_clk or negedge sys_rst_n) begin
@@ -521,7 +521,7 @@ always @(posedge sys_clk or negedge sys_rst_n) begin
 	else if(data_cnt == 2'b11)
     begin
         if(sys_cnt < 5070)
-        LED23 = 1'b0;
+        LED23 <= 1'b0;
         else if(RZ23 == 0)begin
             if(cnt <= 32'd16)	begin		//?????????0.3us*50M=15
 		    LED23 <= 1;
@@ -538,7 +538,7 @@ always @(posedge sys_clk or negedge sys_rst_n) begin
 			LED23 <= 0;
 		    end
     end
-    else LED23 = 1'b1; 	
+    else LED23 <= 1'b1; 	
 end
 
 always @(posedge sys_clk or negedge sys_rst_n) begin
@@ -548,7 +548,7 @@ always @(posedge sys_clk or negedge sys_rst_n) begin
 	else if(data_cnt == 3'b100)
     begin
         if(sys_cnt < 5070)
-        LED4 = 1'b0;
+        LED4 <= 1'b0;
         else if(RZ4 == 0)begin
             if(cnt <= 32'd16)	begin		//?????????0.3us*50M=15
 		    LED4 <= 1;
@@ -565,7 +565,7 @@ always @(posedge sys_clk or negedge sys_rst_n) begin
 			LED4 <= 0;
 		    end
     end
-    else LED4 = 1'b1; 	
+    else LED4 <= 1'b1; 	
 end
 
 always @(posedge sys_clk or negedge sys_rst_n) begin
@@ -575,7 +575,7 @@ always @(posedge sys_clk or negedge sys_rst_n) begin
 	else if(data_cnt == 3'b100)
     begin
         if(sys_cnt < 5070)
-        LED24 = 1'b0;
+        LED24 <= 1'b0;
         else if(RZ24 == 0)begin
             if(cnt <= 32'd16)	begin		//?????????0.3us*50M=15
 		    LED24 <= 1;
@@ -592,7 +592,7 @@ always @(posedge sys_clk or negedge sys_rst_n) begin
 			LED24 <= 0;
 		    end
     end
-    else LED24 = 1'b1; 	
+    else LED24 <= 1'b1; 	
 end
 
 always @(posedge sys_clk or negedge sys_rst_n) begin
@@ -602,7 +602,7 @@ always @(posedge sys_clk or negedge sys_rst_n) begin
 	else if(data_cnt == 3'b101)
     begin
         if(sys_cnt < 5070)
-        LED5 = 1'b0;
+        LED5 <= 1'b0;
         else if(RZ5 == 0)begin
             if(cnt <= 32'd16)	begin		//?????????0.3us*50M=15
 		    LED5 <= 1;
@@ -619,7 +619,7 @@ always @(posedge sys_clk or negedge sys_rst_n) begin
 			LED5 <= 0;
 		    end
     end
-    else LED5 = 1'b1; 	
+    else LED5 <= 1'b1; 	
 end
 
 always @(posedge sys_clk or negedge sys_rst_n) begin
@@ -629,7 +629,7 @@ always @(posedge sys_clk or negedge sys_rst_n) begin
 	else if(data_cnt == 3'b101)
     begin
         if(sys_cnt < 5070)
-        LED25 = 1'b0;
+        LED25 <= 1'b0;
         else if(RZ25 == 0)begin
             if(cnt <= 32'd16)	begin		//?????????0.3us*50M=15
 		    LED25 <= 1;
@@ -646,7 +646,7 @@ always @(posedge sys_clk or negedge sys_rst_n) begin
 			LED25 <= 0;
 		    end
     end
-    else LED25 = 1'b1; 	
+    else LED25 <= 1'b1; 	
 end
 
 always @(posedge sys_clk or negedge sys_rst_n) begin
@@ -656,7 +656,7 @@ always @(posedge sys_clk or negedge sys_rst_n) begin
 	else if(data_cnt == 3'b110)
     begin
         if(sys_cnt < 5070)
-        LED6 = 1'b0;
+        LED6 <= 1'b0;
         else if(RZ6 == 0)begin
             if(cnt <= 32'd16)	begin		//?????????0.3us*50M=15
 		    LED6 <= 1;
@@ -673,7 +673,7 @@ always @(posedge sys_clk or negedge sys_rst_n) begin
 			LED6 <= 0;
 		    end
     end
-    else LED6 = 1'b1; 	
+    else LED6 <= 1'b1; 	
 end
 
 always @(posedge sys_clk or negedge sys_rst_n) begin
@@ -683,7 +683,7 @@ always @(posedge sys_clk or negedge sys_rst_n) begin
 	else if(data_cnt == 3'b110)
     begin
         if(sys_cnt < 5070)
-        LED26 = 1'b0;
+        LED26 <= 1'b0;
         else if(RZ26 == 0)begin
             if(cnt <= 32'd16)	begin		//?????????0.3us*50M=15
 		    LED26 <= 1;
@@ -700,7 +700,7 @@ always @(posedge sys_clk or negedge sys_rst_n) begin
 			LED26 <= 0;
 		    end
     end
-    else LED26 = 1'b1; 	
+    else LED26 <= 1'b1; 	
 end
 
 always @(posedge sys_clk or negedge sys_rst_n) begin
@@ -710,7 +710,7 @@ always @(posedge sys_clk or negedge sys_rst_n) begin
 	else if(data_cnt == 3'b111)
     begin
         if(sys_cnt < 5070)
-        LED7 = 1'b0;
+        LED7 <= 1'b0;
         else if(RZ7 == 0)begin
             if(cnt <= 32'd16)	begin		//?????????0.3us*50M=15
 		    LED7 <= 1;
@@ -727,7 +727,7 @@ always @(posedge sys_clk or negedge sys_rst_n) begin
 			LED7 <= 0;
 		    end
     end
-    else LED7 = 1'b1; 	
+    else LED7 <= 1'b1; 	
 end
 
 always @(posedge sys_clk or negedge sys_rst_n) begin
@@ -737,7 +737,7 @@ always @(posedge sys_clk or negedge sys_rst_n) begin
 	else if(data_cnt == 3'b111)
     begin
         if(sys_cnt < 5070)
-        LED27 = 1'b0;
+        LED27 <= 1'b0;
         else if(RZ27 == 0)begin
             if(cnt <= 32'd16)	begin		//?????????0.3us*50M=15
 		    LED27 <= 1;
@@ -754,7 +754,7 @@ always @(posedge sys_clk or negedge sys_rst_n) begin
 			LED27 <= 0;
 		    end
     end
-    else LED27 = 1'b1; 	
+    else LED27 <= 1'b1; 	
 end
 
 always @(posedge sys_clk or negedge sys_rst_n) begin
@@ -764,7 +764,7 @@ always @(posedge sys_clk or negedge sys_rst_n) begin
 	else if(data_cnt == 4'b1000)
     begin
         if(sys_cnt < 5070)
-        LED8 = 1'b0;
+        LED8 <= 1'b0;
         else if(RZ8 == 0)begin
             if(cnt <= 32'd16)	begin		//?????????0.3us*50M=15
 		    LED8 <= 1;
@@ -781,7 +781,7 @@ always @(posedge sys_clk or negedge sys_rst_n) begin
 			LED8 <= 0;
 		    end
     end
-    else LED8 = 1'b1; 	
+    else LED8 <= 1'b1; 	
 end
 
 always @(posedge sys_clk or negedge sys_rst_n) begin
@@ -791,7 +791,7 @@ always @(posedge sys_clk or negedge sys_rst_n) begin
 	else if(data_cnt == 4'b1000)
     begin
         if(sys_cnt < 5070)
-        LED28 = 1'b0;
+        LED28 <= 1'b0;
         else if(RZ28 == 0)begin
             if(cnt <= 32'd16)	begin		//?????????0.3us*50M=15
 		    LED28 <= 1;
@@ -808,7 +808,7 @@ always @(posedge sys_clk or negedge sys_rst_n) begin
 			LED28 <= 0;
 		    end
     end
-    else LED28 = 1'b1; 	
+    else LED28 <= 1'b1; 	
 end
 
 always @(posedge sys_clk or negedge sys_rst_n) begin
@@ -818,7 +818,7 @@ always @(posedge sys_clk or negedge sys_rst_n) begin
 	else if(data_cnt == 4'b1001)
     begin
         if(sys_cnt < 5070)
-        LED9 = 1'b0;
+        LED9 <= 1'b0;
         else if(RZ9 == 0)begin
             if(cnt <= 32'd16)	begin		//?????????0.3us*50M=15
 		    LED9 <= 1;
@@ -835,7 +835,7 @@ always @(posedge sys_clk or negedge sys_rst_n) begin
 			LED9 <= 0;
 		    end
     end
-    else LED9 = 1'b1; 	
+    else LED9 <= 1'b1; 	
 end
 
 always @(posedge sys_clk or negedge sys_rst_n) begin
@@ -845,7 +845,7 @@ always @(posedge sys_clk or negedge sys_rst_n) begin
 	else if(data_cnt == 4'b1001)
     begin
         if(sys_cnt < 5070)
-        LED29 = 1'b0;
+        LED29 <= 1'b0;
         else if(RZ29 == 0)begin
             if(cnt <= 32'd16)	begin		//?????????0.3us*50M=15
 		    LED29 <= 1;
@@ -862,7 +862,7 @@ always @(posedge sys_clk or negedge sys_rst_n) begin
 			LED29 <= 0;
 		    end
     end
-    else LED29 = 1'b1; 	
+    else LED29 <= 1'b1; 	
 end
 
 always @(posedge sys_clk or negedge sys_rst_n) begin
@@ -872,7 +872,7 @@ always @(posedge sys_clk or negedge sys_rst_n) begin
 	else if(data_cnt == 4'b1010)
     begin
         if(sys_cnt < 5070)
-        LED10 = 1'b0;
+        LED10 <= 1'b0;
         else if(RZ10 == 0)begin
             if(cnt <= 32'd16)	begin		//?????????0.3us*50M=15
 		    LED10 <= 1;
@@ -889,7 +889,7 @@ always @(posedge sys_clk or negedge sys_rst_n) begin
 			LED10 <= 0;
 		    end
     end
-    else LED10 = 1'b1; 	
+    else LED10 <= 1'b1; 	
 end
 
 always @(posedge sys_clk or negedge sys_rst_n) begin
@@ -899,7 +899,7 @@ always @(posedge sys_clk or negedge sys_rst_n) begin
 	else if(data_cnt == 4'b1010)
     begin
         if(sys_cnt < 5070)
-        LED30 = 1'b0;
+        LED30 <= 1'b0;
         else if(RZ30 == 0)begin
             if(cnt <= 32'd16)	begin		//?????????0.3us*50M=15
 		    LED30 <= 1;
@@ -916,7 +916,7 @@ always @(posedge sys_clk or negedge sys_rst_n) begin
 			LED30 <= 0;
 		    end
     end
-    else LED30 = 1'b1; 	
+    else LED30 <= 1'b1; 	
 end
 
 always @(posedge sys_clk or negedge sys_rst_n) begin
@@ -926,7 +926,7 @@ always @(posedge sys_clk or negedge sys_rst_n) begin
 	else if(data_cnt == 4'b1011)
     begin
         if(sys_cnt < 5070)
-        LED11 = 1'b0;
+        LED11 <= 1'b0;
         else if(RZ11 == 0)begin
             if(cnt <= 32'd16)	begin		//?????????0.3us*50M=15
 		    LED11 <= 1;
@@ -943,7 +943,7 @@ always @(posedge sys_clk or negedge sys_rst_n) begin
 			LED11 <= 0;
 		    end
     end
-    else LED11 = 1'b1; 	
+    else LED11 <= 1'b1; 	
 end
 
 always @(posedge sys_clk or negedge sys_rst_n) begin
@@ -953,7 +953,7 @@ always @(posedge sys_clk or negedge sys_rst_n) begin
 	else if(data_cnt == 4'b1011)
     begin
         if(sys_cnt < 5070)
-        LED31 = 1'b0;
+        LED31 <= 1'b0;
         else if(RZ31 == 0)begin
             if(cnt <= 32'd16)	begin		//?????????0.3us*50M=15
 		    LED31 <= 1;
@@ -970,7 +970,7 @@ always @(posedge sys_clk or negedge sys_rst_n) begin
 			LED31 <= 0;
 		    end
     end
-    else LED31 = 1'b1; 	
+    else LED31 <= 1'b1; 	
 end
 
 always @(posedge sys_clk or negedge sys_rst_n) begin
@@ -980,7 +980,7 @@ always @(posedge sys_clk or negedge sys_rst_n) begin
 	else if(data_cnt == 4'b1100)
     begin
         if(sys_cnt < 5070)
-        LED12 = 1'b0;
+        LED12 <= 1'b0;
         else if(RZ12 == 0)begin
             if(cnt <= 32'd16)	begin		//?????????0.3us*50M=15
 		    LED12 <= 1;
@@ -997,7 +997,7 @@ always @(posedge sys_clk or negedge sys_rst_n) begin
 			LED12 <= 0;
 		    end
     end
-    else LED12 = 1'b1; 	
+    else LED12 <= 1'b1; 	
 end
 
 always @(posedge sys_clk or negedge sys_rst_n) begin
@@ -1007,7 +1007,7 @@ always @(posedge sys_clk or negedge sys_rst_n) begin
 	else if(data_cnt == 4'b1100)
     begin
         if(sys_cnt < 5070)
-        LED32 = 1'b0;
+        LED32 <= 1'b0;
         else if(RZ32 == 0)begin
             if(cnt <= 32'd16)	begin		//?????????0.3us*50M=15
 		    LED32 <= 1;
@@ -1024,7 +1024,7 @@ always @(posedge sys_clk or negedge sys_rst_n) begin
 			LED32 <= 0;
 		    end
     end
-    else LED32 = 1'b1; 	
+    else LED32 <= 1'b1; 	
 end
 
 always @(posedge sys_clk or negedge sys_rst_n) begin
@@ -1034,7 +1034,7 @@ always @(posedge sys_clk or negedge sys_rst_n) begin
 	else if(data_cnt == 4'b1101)
     begin
         if(sys_cnt < 5070)
-        LED13 = 1'b0;
+        LED13 <= 1'b0;
         else if(RZ13 == 0)begin
             if(cnt <= 32'd16)	begin		//?????????0.3us*50M=15
 		    LED13 <= 1;
@@ -1051,7 +1051,7 @@ always @(posedge sys_clk or negedge sys_rst_n) begin
 			LED13 <= 0;
 		    end
     end
-    else LED13 = 1'b1; 	
+    else LED13 <= 1'b1; 	
 end
 
 always @(posedge sys_clk or negedge sys_rst_n) begin
@@ -1061,7 +1061,7 @@ always @(posedge sys_clk or negedge sys_rst_n) begin
 	else if(data_cnt == 4'b1101)
     begin
         if(sys_cnt < 5070)
-        LED33 = 1'b0;
+        LED33 <= 1'b0;
         else if(RZ33 == 0)begin
             if(cnt <= 32'd16)	begin		//?????????0.3us*50M=15
 		    LED33 <= 1;
@@ -1078,7 +1078,7 @@ always @(posedge sys_clk or negedge sys_rst_n) begin
 			LED33 <= 0;
 		    end
     end
-    else LED33 = 1'b1; 	
+    else LED33 <= 1'b1; 	
 end
 
 always @(posedge sys_clk or negedge sys_rst_n) begin
@@ -1088,7 +1088,7 @@ always @(posedge sys_clk or negedge sys_rst_n) begin
 	else if(data_cnt == 4'b1110)
     begin
         if(sys_cnt < 5070)
-        LED14 = 1'b0;
+        LED14 <= 1'b0;
         else if(RZ14 == 0)begin
             if(cnt <= 32'd16)	begin		//?????????0.3us*50M=15
 		    LED14 <= 1;
@@ -1105,7 +1105,7 @@ always @(posedge sys_clk or negedge sys_rst_n) begin
 			LED14 <= 0;
 		    end
     end
-    else LED14 = 1'b1; 	
+    else LED14 <= 1'b1; 	
 end
 
 always @(posedge sys_clk or negedge sys_rst_n) begin
@@ -1115,7 +1115,7 @@ always @(posedge sys_clk or negedge sys_rst_n) begin
 	else if(data_cnt == 4'b1110)
     begin
         if(sys_cnt < 5070)
-        LED34 = 1'b0;
+        LED34 <= 1'b0;
         else if(RZ34 == 0)begin
             if(cnt <= 32'd16)	begin		//?????????0.3us*50M=15
 		    LED34 <= 1;
@@ -1132,7 +1132,7 @@ always @(posedge sys_clk or negedge sys_rst_n) begin
 			LED34 <= 0;
 		    end
     end
-    else LED34 = 1'b1; 	
+    else LED34 <= 1'b1; 	
 end
 
 always @(posedge sys_clk or negedge sys_rst_n) begin
@@ -1142,7 +1142,7 @@ always @(posedge sys_clk or negedge sys_rst_n) begin
 	else if(data_cnt == 4'b1111)
     begin
         if(sys_cnt < 5070)
-        LED15 = 1'b0;
+        LED15 <= 1'b0;
         else if(RZ15 == 0)begin
             if(cnt <= 32'd16)	begin		//?????????0.3us*50M=15
 		    LED15 <= 1;
@@ -1159,7 +1159,7 @@ always @(posedge sys_clk or negedge sys_rst_n) begin
 			LED15 <= 0;
 		    end
     end
-    else LED15 = 1'b1; 	
+    else LED15 <= 1'b1; 	
 end
 
 always @(posedge sys_clk or negedge sys_rst_n) begin
@@ -1169,7 +1169,7 @@ always @(posedge sys_clk or negedge sys_rst_n) begin
 	else if(data_cnt == 4'b1111)
     begin
         if(sys_cnt < 5070)
-        LED35 = 1'b0;
+        LED35 <= 1'b0;
         else if(RZ35 == 0)begin
             if(cnt <= 32'd16)	begin		//?????????0.3us*50M=15
 		    LED35 <= 1;
@@ -1186,7 +1186,7 @@ always @(posedge sys_clk or negedge sys_rst_n) begin
 			LED35 <= 0;
 		    end
     end
-    else LED35 = 1'b1; 	
+    else LED35 <= 1'b1; 	
 end
 
 always @(posedge sys_clk or negedge sys_rst_n) begin
@@ -1196,7 +1196,7 @@ always @(posedge sys_clk or negedge sys_rst_n) begin
 	else if(data_cnt == 5'b10000)
     begin
         if(sys_cnt < 5070)
-        LED16 = 1'b0;
+        LED16 <= 1'b0;
         else if(RZ16 == 0)begin
             if(cnt <= 32'd16)	begin		//?????????0.3us*50M=15
 		    LED16 <= 1;
@@ -1213,7 +1213,7 @@ always @(posedge sys_clk or negedge sys_rst_n) begin
 			LED16 <= 0;
 		    end
     end
-    else LED16 = 1'b1; 	
+    else LED16 <= 1'b1; 	
 end
 
 always @(posedge sys_clk or negedge sys_rst_n) begin
@@ -1223,7 +1223,7 @@ always @(posedge sys_clk or negedge sys_rst_n) begin
 	else if(data_cnt == 5'b10000)
     begin
         if(sys_cnt < 5070)
-        LED36 = 1'b0;
+        LED36 <= 1'b0;
         else if(RZ36 == 0)begin
             if(cnt <= 32'd16)	begin		//?????????0.3us*50M=15
 		    LED36 <= 1;
@@ -1240,7 +1240,7 @@ always @(posedge sys_clk or negedge sys_rst_n) begin
 			LED36 <= 0;
 		    end
     end
-    else LED36 = 1'b1; 	
+    else LED36 <= 1'b1; 	
 end
 
 always @(posedge sys_clk or negedge sys_rst_n) begin
@@ -1250,7 +1250,7 @@ always @(posedge sys_clk or negedge sys_rst_n) begin
 	else if(data_cnt == 5'b10001)
     begin
         if(sys_cnt < 5070)
-        LED17 = 1'b0;
+        LED17 <= 1'b0;
         else if(RZ17 == 0)begin
             if(cnt <= 32'd16)	begin		//?????????0.3us*50M=15
 		    LED17 <= 1;
@@ -1267,7 +1267,7 @@ always @(posedge sys_clk or negedge sys_rst_n) begin
 			LED17 <= 0;
 		    end
     end
-    else LED17 = 1'b1; 	
+    else LED17 <= 1'b1; 	
 end
 
 always @(posedge sys_clk or negedge sys_rst_n) begin
@@ -1277,7 +1277,7 @@ always @(posedge sys_clk or negedge sys_rst_n) begin
 	else if(data_cnt == 5'b10001)
     begin
         if(sys_cnt < 5070)
-        LED37 = 1'b0;
+        LED37 <= 1'b0;
         else if(RZ37 == 0)begin
             if(cnt <= 32'd16)	begin		//?????????0.3us*50M=15
 		    LED37 <= 1;
@@ -1294,7 +1294,7 @@ always @(posedge sys_clk or negedge sys_rst_n) begin
 			LED37 <= 0;
 		    end
     end
-    else LED37 = 1'b1; 	
+    else LED37 <= 1'b1; 	
 end
 
 always @(posedge sys_clk or negedge sys_rst_n) begin
@@ -1304,7 +1304,7 @@ always @(posedge sys_clk or negedge sys_rst_n) begin
 	else if(data_cnt == 5'b10010)
     begin
         if(sys_cnt < 5070)
-        LED18 = 1'b0;
+        LED18 <= 1'b0;
         else if(RZ18 == 0)begin
             if(cnt <= 32'd16)	begin		//?????????0.3us*50M=15
 		    LED18 <= 1;
@@ -1321,7 +1321,7 @@ always @(posedge sys_clk or negedge sys_rst_n) begin
 			LED18 <= 0;
 		    end
     end
-    else LED18 = 1'b1; 	
+    else LED18 <= 1'b1; 	
 end
 
 always @(posedge sys_clk or negedge sys_rst_n) begin
@@ -1331,7 +1331,7 @@ always @(posedge sys_clk or negedge sys_rst_n) begin
 	else if(data_cnt == 5'b10010)
     begin
         if(sys_cnt < 5070)
-        LED38 = 1'b0;
+        LED38 <= 1'b0;
         else if(RZ38 == 0)begin
             if(cnt <= 32'd16)	begin		//?????????0.3us*50M=15
 		    LED38 <= 1;
@@ -1348,7 +1348,7 @@ always @(posedge sys_clk or negedge sys_rst_n) begin
 			LED38 <= 0;
 		    end
     end
-    else LED38 = 1'b1; 	
+    else LED38 <= 1'b1; 	
 end
 
 always @(posedge sys_clk or negedge sys_rst_n) begin
@@ -1358,7 +1358,7 @@ always @(posedge sys_clk or negedge sys_rst_n) begin
 	else if(data_cnt == 5'b10011)
     begin
         if(sys_cnt < 5070)
-        LED19 = 1'b0;
+        LED19 <= 1'b0;
         else if(RZ19 == 0)begin
             if(cnt <= 32'd16)	begin		//?????????0.3us*50M=15
 		    LED19 <= 1;
@@ -1375,7 +1375,7 @@ always @(posedge sys_clk or negedge sys_rst_n) begin
 			LED19 <= 0;
 		    end
     end
-    else LED19 = 1'b1; 	
+    else LED19 <= 1'b1; 	
 end
 
 always @(posedge sys_clk or negedge sys_rst_n) begin
@@ -1385,7 +1385,7 @@ always @(posedge sys_clk or negedge sys_rst_n) begin
 	else if(data_cnt == 5'b10011)
     begin
         if(sys_cnt < 5070)
-        LED39 = 1'b0;
+        LED39 <= 1'b0;
         else if(RZ39 == 0)begin
             if(cnt <= 32'd16)	begin		//?????????0.3us*50M=15
 		    LED39 <= 1;
@@ -1402,7 +1402,7 @@ always @(posedge sys_clk or negedge sys_rst_n) begin
 			LED39 <= 0;
 		    end
     end
-    else LED39 = 1'b1; 	
+    else LED39 <= 1'b1; 	
 end
 
 always @(posedge sys_clk) begin

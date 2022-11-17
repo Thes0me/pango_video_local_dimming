@@ -1,4 +1,4 @@
-module gamma_fix_2_2(
+module gamma_fix_2_2_top(
     input                   clk,
     input                   rstn,
     input          [7:0]    block_mean_i,
@@ -22,10 +22,18 @@ end
 assign data_valid_o = data_valid_i_d[1];
 
 //查找rom获取gamma校正之后的亮度值
-blk_mem_gen_0 gamma_fix_2_2_rom (
-  .clka(clk),    // input wire clka
-  .addra(block_mean_i),  // input wire [7 : 0] addra
-  .douta(block_mean_fixed_o)  // output wire [7 : 0] douta
+// blk_mem_gen_0 gamma_fix_2_2_rom (
+//   .clka(clk),    // input wire clka
+//   .addra(block_mean_i),  // input wire [7 : 0] addra
+//   .douta(block_mean_fixed_o)  // output wire [7 : 0] douta
+// );
+
+//replace ip
+gamma_fix_2_2 gamma_fix_2_2_rom (
+  .addr(block_mean_i),          // input [7:0]
+  .clk(clk),            // input
+  .rst(),            // input
+  .rd_data(block_mean_fixed_o)     // output [7:0]
 );
 
 

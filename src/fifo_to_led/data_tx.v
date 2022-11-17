@@ -1,19 +1,19 @@
-`timescale 1ns / 1ps
-
 module data_tx(
         input                             rd_clk,
         input                             rst_n, 
         input                             empty,
        //input                             data_valid,
+       input             [5:0]          block_v_cnt,
         input                   [7:0]     dout,
         output     reg          [320-1:0] data0,
        output          reg               rd_start,
-       output          reg     [5-1:0]          data_cnt
+       output          reg     [5:0]          data_cnt
     );
     
 //reg  [5-1:0] data_cnt;  
 reg     [6-1:0]  cnt;
-
+reg              empty_r;
+assign data_flag = ((~empty_r) & empty) ? 1'b1:1'b0;
 always  @(posedge rd_clk or negedge rst_n)begin
     if(!rst_n)begin
         rd_start <= 1'b0;
@@ -23,13 +23,19 @@ end
 
 always  @(posedge rd_clk or negedge rst_n)begin
     if(!rst_n)begin
+        empty_r <= 1'b0;
+    end 
+    else empty_r <= empty;     
+end
+
+
+always  @(posedge rd_clk or negedge rst_n)begin
+    if(!rst_n)begin
         data_cnt <= 1'b0;
     end 
-    else if(data_cnt == 5'b10100)
-        data_cnt <= 1'b0;
-    else if(cnt == 6'b101000)
-        data_cnt <=  data_cnt + 1'b1;
-    else data_cnt <= data_cnt;   
+    else if(data_flag == 1'b1)
+    data_cnt <=  block_v_cnt-1'b1;
+    else data_cnt <= data_cnt;
 end
 
 always  @(posedge rd_clk or negedge rst_n)begin

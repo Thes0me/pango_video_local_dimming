@@ -85,16 +85,31 @@ always  @(posedge rd_clk or negedge rst_n)begin
     end
 end
 
-//todooooooooooooooooooooooooooooooooooo
-fifo_generator_0 inst_fifo_port (
-  .wr_clk(wr_clk),  // input wire wr_clk
-  .rd_clk(rd_clk),  // input wire rd_clk
-  .din(din),        // input wire [7 : 0] din
-  .wr_en(wr_en),    // input wire wr_en
-  .rd_en(rd_en),    // input wire rd_en
-  .dout(dout),      // output wire [7 : 0] dout
-  .full(),      // output wire full
-  .empty(empty)    // output wire empty
+// ip replace
+// fifo_generator_0 inst_fifo_port (
+//   .wr_clk(wr_clk),  // input wire wr_clk
+//   .rd_clk(rd_clk),  // input wire rd_clk
+//   .din(din),        // input wire [7 : 0] din
+//   .wr_en(wr_en),    // input wire wr_en
+//   .rd_en(rd_en),    // input wire rd_en
+//   .dout(dout),      // output wire [7 : 0] dout
+//   .full(),      // output wire full
+//   .empty(empty)    // output wire empty
+// );
+
+fifo_led mean_in_led_out (
+  .wr_clk(wr_clk),                // input
+  .wr_rst(),                // input
+  .wr_en(wr_en),                  // input
+  .wr_data(din),              // input [7:0]
+  .wr_full(),              // output
+  .almost_full(),      // output
+  .rd_clk(rd_clk),                // input
+  .rd_rst(),                // input
+  .rd_en(rd_en),                  // input
+  .rd_data(dout),              // output [7:0]
+  .rd_empty(empty),            // output
+  .almost_empty()     // output
 );
 
 endmodule

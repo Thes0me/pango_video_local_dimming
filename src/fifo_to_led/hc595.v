@@ -112,21 +112,21 @@ module hc595(
 		end
 		else begin
 			case(shcp_edge_cnt)
-				0:  begin shcp <= 0; stcp <= 0;ds0 <= rdata[39]; ds3 <= rdata[19]; ds1 <= rdata[31];   ds4 <= rdata[11];     ds2 <= rdata[23];    ds5 <= rdata[3]; end
+				0:  begin shcp <= 0; stcp <= 0;ds0 <= rdata[38]; ds3 <= rdata[1]; ds1 <= rdata[30];   ds4 <= rdata[9];     ds2 <= rdata[23];    ds5 <= rdata[16];                      end
 				1:  begin shcp <= 1; end                                                                                                                     
-				2:  begin shcp <= 0; ds0 <= rdata[38];           ds3 <= rdata[18]; ds1 <= rdata[30];   ds4 <= rdata[10];     ds2 <= rdata[22];    ds5 <= rdata[2]; end
+				2:  begin shcp <= 0; ds0 <= rdata[37];           ds3 <= rdata[2]; ds1 <= rdata[29];   ds4 <= rdata[10];    ds2 <= rdata[22];    ds5 <= rdata[17];                      end
 				3:  begin shcp <= 1; end                                                                                                                     
-				4:  begin shcp <= 0; ds0 <= rdata[37];           ds3 <= rdata[17]; ds1 <= rdata[29];  ds4 <= rdata[9];     ds2 <= rdata[21];    ds5 <= rdata[1]; end
+				4:  begin shcp <= 0; ds0 <= rdata[36];           ds3 <= rdata[3]; ds1 <= rdata[28];  ds4 <= rdata[11];     ds2 <= rdata[21];    ds5 <= rdata[18];                      end
 				5:  begin shcp <= 1; end                                                                                                                     
-				6:  begin shcp <= 0; ds0 <= rdata[36];           ds3 <= rdata[16]; ds1 <= rdata[28];  ds4 <= rdata[8];     ds2 <= rdata[20];    ds5 <= rdata[0]; end
+				6:  begin shcp <= 0; ds0 <= rdata[35];           ds3 <= rdata[4]; ds1 <= rdata[27];  ds4 <= rdata[12];     ds2 <= rdata[20];    ds5 <= rdata[19];                      end
 				7:  begin shcp <= 1; end                    
-				8:  begin shcp <= 0; ds0 <= rdata[35];           ds3 <= rdata[15]; ds1 <= rdata[27];  ds4 <= rdata[7];     end
+				8:  begin shcp <= 0; ds0 <= rdata[34];           ds3 <= rdata[5]; ds1 <= rdata[26];  ds4 <= rdata[13];                                                                end
 				9:  begin shcp <= 1; end                    
-				10: begin shcp <= 0; ds0 <= rdata[34];           ds3 <= rdata[14]; ds1 <= rdata[26];  ds4 <= rdata[6];     end
+				10: begin shcp <= 0; ds0 <= rdata[33];           ds3 <= rdata[6]; ds1 <= rdata[25];  ds4 <= rdata[14];                                                                end
 				11: begin shcp <= 1; end                    
-				12: begin shcp <= 0; ds0 <= rdata[33];           ds3 <= rdata[13]; ds1 <= rdata[25];  ds4 <= rdata[5];     end
+				12: begin shcp <= 0; ds0 <= rdata[32];           ds3 <= rdata[7]; ds1 <= rdata[24];  ds4 <= rdata[15];                                                                end
 				13: begin shcp <= 1; end                    
-				14: begin shcp <= 0; ds0 <= rdata[32];           ds3 <= rdata[12]; ds1 <= rdata[24];  ds4 <= rdata[4];     end
+				14: begin shcp <= 0; ds0 <= rdata[39];           ds3 <= rdata[0]; ds1 <= rdata[31];  ds4 <= rdata[8];      ds2 <= rdata[23];    ds5 <= rdata[16];                      end
 				15: begin shcp <= 1; end
 				16: begin stcp <= 1'b1;end
 				default: begin shcp <= 0; stcp <= 0; ds0 <= 0; end
