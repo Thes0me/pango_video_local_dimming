@@ -23,7 +23,7 @@
         <row color="4294901760" align="0" message="2" bold="0">
             <data>ddr_init_done</data>
             <data>output</data>
-            <data>P11</data>
+            <data>P12</data>
             <data>BANKR2</data>
             <data>3.3</data>
             <data>LVCMOS33</data>
@@ -42,7 +42,7 @@
         <row color="4294901760" align="0" message="2" bold="0">
             <data>ddrphy_rst_done</data>
             <data>output</data>
-            <data>P17</data>
+            <data>U15</data>
             <data>BANKR2</data>
             <data>3.3</data>
             <data>LVCMOS33</data>
@@ -1258,7 +1258,7 @@
         <row color="4294901760" align="0" message="2" bold="0">
             <data>pll_lock</data>
             <data>output</data>
-            <data>U18</data>
+            <data>P17</data>
             <data>BANKR2</data>
             <data>3.3</data>
             <data>LVCMOS33</data>
@@ -1994,6 +1994,25 @@
             <data>NA</data>
             <data>NA</data>
             <data>OFF</data>
+            <data>YES</data>
+        </row>
+        <row>
+            <data>uart_rx</data>
+            <data>input</data>
+            <data>D18</data>
+            <data>BANKR0</data>
+            <data>3.3</data>
+            <data>LVTTL33</data>
+            <data>NA</data>
+            <data>NONE</data>
+            <data>NA</data>
+            <data>NOHYS</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
+            <data>NA</data>
             <data>YES</data>
         </row>
         <row>
@@ -3435,9 +3454,9 @@
             <data>IOBD_152_258</data>
             <data>BANKR0</data>
             <data></data>
-            <data></data>
-            <data></data>
-            <data></data>
+            <data>uart_rx</data>
+            <data>input</data>
+            <data>YES</data>
         </row>
         <row>
             <data>D17</data>
@@ -3939,18 +3958,18 @@
             <data>IOBD_152_86</data>
             <data>BANKR2</data>
             <data></data>
-            <data>ddr_init_done</data>
-            <data>output</data>
-            <data>NO</data>
+            <data></data>
+            <data></data>
+            <data></data>
         </row>
         <row>
             <data>P12</data>
             <data>IOBR_152_85</data>
             <data>BANKR2</data>
             <data></data>
-            <data></data>
-            <data></data>
-            <data></data>
+            <data>ddr_init_done</data>
+            <data>output</data>
+            <data>NO</data>
         </row>
         <row>
             <data>V18</data>
@@ -3975,9 +3994,9 @@
             <data>IOBD_152_78</data>
             <data>BANKR2</data>
             <data></data>
-            <data>pll_lock</data>
-            <data>output</data>
-            <data>NO</data>
+            <data></data>
+            <data></data>
+            <data></data>
         </row>
         <row>
             <data>U17</data>
@@ -4029,7 +4048,7 @@
             <data>IOBD_152_46</data>
             <data>BANKR2</data>
             <data></data>
-            <data>ddrphy_rst_done</data>
+            <data>pll_lock</data>
             <data>output</data>
             <data>NO</data>
         </row>
@@ -4083,9 +4102,9 @@
             <data>IOBD_152_34</data>
             <data>BANKR2</data>
             <data></data>
-            <data></data>
-            <data></data>
-            <data></data>
+            <data>ddrphy_rst_done</data>
+            <data>output</data>
+            <data>NO</data>
         </row>
         <row>
             <data>V15</data>
@@ -4202,9 +4221,9 @@
         </row>
         <row>
             <data>Use of APM</data>
-            <data>2</data>
+            <data>6.5</data>
             <data>30</data>
-            <data>7</data>
+            <data>22</data>
         </row>
         <row>
             <data>Use of BKCL</data>
@@ -4214,50 +4233,50 @@
         </row>
         <row>
             <data>Use of CLMA</data>
-            <data>1292</data>
+            <data>2463</data>
             <data>3274</data>
-            <data>40</data>
+            <data>76</data>
             <row>
                 <data>  FF</data>
-                <data>2798</data>
+                <data>6064</data>
                 <data>19644</data>
-                <data>15</data>
+                <data>31</data>
             </row>
             <row>
                 <data>  LUT</data>
-                <data>3278</data>
+                <data>6438</data>
                 <data>13096</data>
-                <data>26</data>
+                <data>50</data>
             </row>
             <row>
                 <data>  LUT-FF pairs</data>
-                <data>765</data>
+                <data>681</data>
                 <data>13096</data>
                 <data>6</data>
             </row>
         </row>
         <row>
             <data>Use of CLMS</data>
-            <data>411</data>
+            <data>821</data>
             <data>1110</data>
-            <data>38</data>
+            <data>74</data>
             <row>
                 <data>  FF</data>
-                <data>929</data>
+                <data>2038</data>
                 <data>6660</data>
-                <data>14</data>
+                <data>31</data>
             </row>
             <row>
                 <data>  LUT</data>
-                <data>992</data>
+                <data>1906</data>
                 <data>4440</data>
-                <data>23</data>
+                <data>43</data>
             </row>
             <row>
                 <data>  LUT-FF pairs</data>
-                <data>216</data>
+                <data>250</data>
                 <data>4440</data>
-                <data>5</data>
+                <data>6</data>
             </row>
             <row>
                 <data>  Distributed RAM</data>
@@ -4286,9 +4305,9 @@
         </row>
         <row>
             <data>Use of DRM</data>
-            <data>26</data>
+            <data>27</data>
             <data>48</data>
-            <data>55</data>
+            <data>57</data>
         </row>
         <row>
             <data>Use of FLSIF</data>
@@ -4316,9 +4335,9 @@
         </row>
         <row>
             <data>Use of IO</data>
-            <data>105</data>
+            <data>106</data>
             <data>240</data>
-            <data>44</data>
+            <data>45</data>
             <row>
                 <data>  IOBD</data>
                 <data>53</data>
@@ -4327,9 +4346,9 @@
             </row>
             <row>
                 <data>  IOBR</data>
-                <data>1</data>
+                <data>2</data>
                 <data>6</data>
-                <data>17</data>
+                <data>34</data>
             </row>
             <row>
                 <data>  IOBS</data>
@@ -4364,7 +4383,7 @@
         </row>
         <row>
             <data>Use of IOL</data>
-            <data>121</data>
+            <data>122</data>
             <data>240</data>
             <data>51</data>
         </row>
@@ -4400,9 +4419,9 @@
         </row>
         <row>
             <data>Use of RCKB</data>
-            <data>3</data>
+            <data>4</data>
             <data>24</data>
-            <data>13</data>
+            <data>17</data>
         </row>
         <row>
             <data>Use of RCKBMUX_TEST</data>
@@ -4418,9 +4437,9 @@
         </row>
         <row>
             <data>Use of SCANCHAIN</data>
-            <data>1</data>
+            <data>0</data>
             <data>4</data>
-            <data>25</data>
+            <data>0</data>
         </row>
         <row>
             <data>Use of START</data>
@@ -4484,11 +4503,11 @@
         </column_headers>
         <row>
             <data>top</data>
-            <data>4178</data>
-            <data>3727</data>
+            <data>8223</data>
+            <data>8102</data>
             <data>0</data>
-            <data>2</data>
-            <data>26</data>
+            <data>6.5</data>
+            <data>27</data>
             <data>0</data>
             <data>0</data>
             <data>2</data>
@@ -4496,243 +4515,19 @@
             <data>0</data>
             <data>0</data>
             <data>1</data>
-            <data>105</data>
+            <data>106</data>
             <data>1</data>
             <data>0</data>
             <data>2</data>
             <data>0</data>
             <data>0</data>
             <data>2</data>
-            <data>3</data>
+            <data>4</data>
             <data>0</data>
-            <data>1</data>
+            <data>0</data>
             <data>0</data>
             <data>0</data>
             <data>8</data>
-            <row>
-                <data>block_mean_cal</data>
-                <data>1458</data>
-                <data>1263</data>
-                <data>0</data>
-                <data>2</data>
-                <data>0.5</data>
-                <data>0</data>
-                <data>0</data>
-                <data>0</data>
-                <data>0</data>
-                <data>0</data>
-                <data>0</data>
-                <data>0</data>
-                <data>0</data>
-                <data>0</data>
-                <data>0</data>
-                <data>0</data>
-                <data>0</data>
-                <data>0</data>
-                <data>0</data>
-                <data>0</data>
-                <data>0</data>
-                <data>0</data>
-                <data>0</data>
-                <data>0</data>
-                <data>0</data>
-                <row>
-                    <data>gamma_fix_2_2_rom</data>
-                    <data>0</data>
-                    <data>2</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0.5</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <row>
-                        <data>gamma_fix_2_2_rom</data>
-                        <data>0</data>
-                        <data>0</data>
-                        <data>0</data>
-                        <data>0</data>
-                        <data>0.5</data>
-                        <data>0</data>
-                        <data>0</data>
-                        <data>0</data>
-                        <data>0</data>
-                        <data>0</data>
-                        <data>0</data>
-                        <data>0</data>
-                        <data>0</data>
-                        <data>0</data>
-                        <data>0</data>
-                        <data>0</data>
-                        <data>0</data>
-                        <data>0</data>
-                        <data>0</data>
-                        <data>0</data>
-                        <data>0</data>
-                        <data>0</data>
-                        <data>0</data>
-                        <data>0</data>
-                        <data>0</data>
-                        <row>
-                            <data>U_ipml_rom_gamma_fix_2_2</data>
-                            <data>0</data>
-                            <data>0</data>
-                            <data>0</data>
-                            <data>0</data>
-                            <data>0.5</data>
-                            <data>0</data>
-                            <data>0</data>
-                            <data>0</data>
-                            <data>0</data>
-                            <data>0</data>
-                            <data>0</data>
-                            <data>0</data>
-                            <data>0</data>
-                            <data>0</data>
-                            <data>0</data>
-                            <data>0</data>
-                            <data>0</data>
-                            <data>0</data>
-                            <data>0</data>
-                            <data>0</data>
-                            <data>0</data>
-                            <data>0</data>
-                            <data>0</data>
-                            <data>0</data>
-                            <data>0</data>
-                            <row>
-                                <data>U_ipml_spram_gamma_fix_2_2</data>
-                                <data>0</data>
-                                <data>0</data>
-                                <data>0</data>
-                                <data>0</data>
-                                <data>0.5</data>
-                                <data>0</data>
-                                <data>0</data>
-                                <data>0</data>
-                                <data>0</data>
-                                <data>0</data>
-                                <data>0</data>
-                                <data>0</data>
-                                <data>0</data>
-                                <data>0</data>
-                                <data>0</data>
-                                <data>0</data>
-                                <data>0</data>
-                                <data>0</data>
-                                <data>0</data>
-                                <data>0</data>
-                                <data>0</data>
-                                <data>0</data>
-                                <data>0</data>
-                                <data>0</data>
-                                <data>0</data>
-                            </row>
-                        </row>
-                    </row>
-                </row>
-                <row>
-                    <data>u_block_mean</data>
-                    <data>1386</data>
-                    <data>1153</data>
-                    <data>0</data>
-                    <data>0.5</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                </row>
-                <row>
-                    <data>u_rgb_to_gray</data>
-                    <data>33</data>
-                    <data>76</data>
-                    <data>0</data>
-                    <data>1.5</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                </row>
-                <row>
-                    <data>u_video_pixel_counter</data>
-                    <data>39</data>
-                    <data>32</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                </row>
-            </row>
             <row>
                 <data>cmos_write_req_gen_m0</data>
                 <data>4</data>
@@ -4899,258 +4694,6 @@
                     <data>0</data>
                     <data>0</data>
                     <data>0</data>
-                </row>
-            </row>
-            <row>
-                <data>fifo_led</data>
-                <data>624</data>
-                <data>969</data>
-                <data>0</data>
-                <data>0</data>
-                <data>0.5</data>
-                <data>0</data>
-                <data>0</data>
-                <data>0</data>
-                <data>0</data>
-                <data>0</data>
-                <data>0</data>
-                <data>0</data>
-                <data>0</data>
-                <data>0</data>
-                <data>0</data>
-                <data>0</data>
-                <data>0</data>
-                <data>0</data>
-                <data>0</data>
-                <data>0</data>
-                <data>0</data>
-                <data>0</data>
-                <data>0</data>
-                <data>0</data>
-                <data>0</data>
-                <row>
-                    <data>u_WS2812</data>
-                    <data>434</data>
-                    <data>483</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                </row>
-                <row>
-                    <data>u_data_tx</data>
-                    <data>56</data>
-                    <data>334</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                </row>
-                <row>
-                    <data>u_hc595</data>
-                    <data>29</data>
-                    <data>54</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                </row>
-                <row>
-                    <data>u_port_in</data>
-                    <data>105</data>
-                    <data>98</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0.5</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <data>0</data>
-                    <row>
-                        <data>mean_in_led_out</data>
-                        <data>96</data>
-                        <data>90</data>
-                        <data>0</data>
-                        <data>0</data>
-                        <data>0.5</data>
-                        <data>0</data>
-                        <data>0</data>
-                        <data>0</data>
-                        <data>0</data>
-                        <data>0</data>
-                        <data>0</data>
-                        <data>0</data>
-                        <data>0</data>
-                        <data>0</data>
-                        <data>0</data>
-                        <data>0</data>
-                        <data>0</data>
-                        <data>0</data>
-                        <data>0</data>
-                        <data>0</data>
-                        <data>0</data>
-                        <data>0</data>
-                        <data>0</data>
-                        <data>0</data>
-                        <data>0</data>
-                        <row>
-                            <data>U_ipml_fifo_fifo_led</data>
-                            <data>96</data>
-                            <data>90</data>
-                            <data>0</data>
-                            <data>0</data>
-                            <data>0.5</data>
-                            <data>0</data>
-                            <data>0</data>
-                            <data>0</data>
-                            <data>0</data>
-                            <data>0</data>
-                            <data>0</data>
-                            <data>0</data>
-                            <data>0</data>
-                            <data>0</data>
-                            <data>0</data>
-                            <data>0</data>
-                            <data>0</data>
-                            <data>0</data>
-                            <data>0</data>
-                            <data>0</data>
-                            <data>0</data>
-                            <data>0</data>
-                            <data>0</data>
-                            <data>0</data>
-                            <data>0</data>
-                            <row>
-                                <data>U_ipml_fifo_ctrl</data>
-                                <data>96</data>
-                                <data>90</data>
-                                <data>0</data>
-                                <data>0</data>
-                                <data>0</data>
-                                <data>0</data>
-                                <data>0</data>
-                                <data>0</data>
-                                <data>0</data>
-                                <data>0</data>
-                                <data>0</data>
-                                <data>0</data>
-                                <data>0</data>
-                                <data>0</data>
-                                <data>0</data>
-                                <data>0</data>
-                                <data>0</data>
-                                <data>0</data>
-                                <data>0</data>
-                                <data>0</data>
-                                <data>0</data>
-                                <data>0</data>
-                                <data>0</data>
-                                <data>0</data>
-                                <data>0</data>
-                            </row>
-                            <row>
-                                <data>U_ipml_sdpram</data>
-                                <data>0</data>
-                                <data>0</data>
-                                <data>0</data>
-                                <data>0</data>
-                                <data>0.5</data>
-                                <data>0</data>
-                                <data>0</data>
-                                <data>0</data>
-                                <data>0</data>
-                                <data>0</data>
-                                <data>0</data>
-                                <data>0</data>
-                                <data>0</data>
-                                <data>0</data>
-                                <data>0</data>
-                                <data>0</data>
-                                <data>0</data>
-                                <data>0</data>
-                                <data>0</data>
-                                <data>0</data>
-                                <data>0</data>
-                                <data>0</data>
-                                <data>0</data>
-                                <data>0</data>
-                                <data>0</data>
-                            </row>
-                        </row>
-                    </row>
                 </row>
             </row>
             <row>
@@ -5463,7 +5006,7 @@
             </row>
             <row>
                 <data>u_aq_axi_master</data>
-                <data>259</data>
+                <data>269</data>
                 <data>160</data>
                 <data>0</data>
                 <data>0</data>
@@ -5798,6 +5341,1098 @@
                 </row>
             </row>
             <row>
+                <data>u_mux_command_control</data>
+                <data>41</data>
+                <data>32</data>
+                <data>0</data>
+                <data>3</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+            </row>
+            <row>
+                <data>u_top_color_block_mean</data>
+                <data>4063</data>
+                <data>3483</data>
+                <data>0</data>
+                <data>1.5</data>
+                <data>1.5</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <row>
+                    <data>u_block_mean_B</data>
+                    <data>1388</data>
+                    <data>1152</data>
+                    <data>0</data>
+                    <data>0.5</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                </row>
+                <row>
+                    <data>u_block_mean_G</data>
+                    <data>1427</data>
+                    <data>1143</data>
+                    <data>0</data>
+                    <data>0.5</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                </row>
+                <row>
+                    <data>u_block_mean_R</data>
+                    <data>1209</data>
+                    <data>1130</data>
+                    <data>0</data>
+                    <data>0.5</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                </row>
+                <row>
+                    <data>u_gamma_fix_b</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0.5</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <row>
+                        <data>gamma_fix_2_2_rom</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0.5</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <row>
+                            <data>U_ipml_rom_gamma_fix_2_2</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <data>0.5</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <row>
+                                <data>U_ipml_spram_gamma_fix_2_2</data>
+                                <data>0</data>
+                                <data>0</data>
+                                <data>0</data>
+                                <data>0</data>
+                                <data>0.5</data>
+                                <data>0</data>
+                                <data>0</data>
+                                <data>0</data>
+                                <data>0</data>
+                                <data>0</data>
+                                <data>0</data>
+                                <data>0</data>
+                                <data>0</data>
+                                <data>0</data>
+                                <data>0</data>
+                                <data>0</data>
+                                <data>0</data>
+                                <data>0</data>
+                                <data>0</data>
+                                <data>0</data>
+                                <data>0</data>
+                                <data>0</data>
+                                <data>0</data>
+                                <data>0</data>
+                                <data>0</data>
+                            </row>
+                        </row>
+                    </row>
+                </row>
+                <row>
+                    <data>u_gamma_fix_g</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0.5</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <row>
+                        <data>gamma_fix_2_2_rom</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0.5</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <row>
+                            <data>U_ipml_rom_gamma_fix_2_2</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <data>0.5</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <row>
+                                <data>U_ipml_spram_gamma_fix_2_2</data>
+                                <data>0</data>
+                                <data>0</data>
+                                <data>0</data>
+                                <data>0</data>
+                                <data>0.5</data>
+                                <data>0</data>
+                                <data>0</data>
+                                <data>0</data>
+                                <data>0</data>
+                                <data>0</data>
+                                <data>0</data>
+                                <data>0</data>
+                                <data>0</data>
+                                <data>0</data>
+                                <data>0</data>
+                                <data>0</data>
+                                <data>0</data>
+                                <data>0</data>
+                                <data>0</data>
+                                <data>0</data>
+                                <data>0</data>
+                                <data>0</data>
+                                <data>0</data>
+                                <data>0</data>
+                                <data>0</data>
+                            </row>
+                        </row>
+                    </row>
+                </row>
+                <row>
+                    <data>u_gamma_fix_r</data>
+                    <data>0</data>
+                    <data>2</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0.5</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <row>
+                        <data>gamma_fix_2_2_rom</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0.5</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <row>
+                            <data>U_ipml_rom_gamma_fix_2_2</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <data>0.5</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <row>
+                                <data>U_ipml_spram_gamma_fix_2_2</data>
+                                <data>0</data>
+                                <data>0</data>
+                                <data>0</data>
+                                <data>0</data>
+                                <data>0.5</data>
+                                <data>0</data>
+                                <data>0</data>
+                                <data>0</data>
+                                <data>0</data>
+                                <data>0</data>
+                                <data>0</data>
+                                <data>0</data>
+                                <data>0</data>
+                                <data>0</data>
+                                <data>0</data>
+                                <data>0</data>
+                                <data>0</data>
+                                <data>0</data>
+                                <data>0</data>
+                                <data>0</data>
+                                <data>0</data>
+                                <data>0</data>
+                                <data>0</data>
+                                <data>0</data>
+                                <data>0</data>
+                            </row>
+                        </row>
+                    </row>
+                </row>
+                <row>
+                    <data>u_video_pixel_counter</data>
+                    <data>39</data>
+                    <data>32</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                </row>
+            </row>
+            <row>
+                <data>u_top_fifo_to_led</data>
+                <data>1015</data>
+                <data>2265</data>
+                <data>0</data>
+                <data>0</data>
+                <data>6</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <row>
+                    <data>u_WS2812</data>
+                    <data>808</data>
+                    <data>1123</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                </row>
+                <row>
+                    <data>u_data_tx</data>
+                    <data>55</data>
+                    <data>974</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                </row>
+                <row>
+                    <data>u_hc595</data>
+                    <data>29</data>
+                    <data>54</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                </row>
+                <row>
+                    <data>u_port_in</data>
+                    <data>123</data>
+                    <data>114</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>6</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <row>
+                        <data>mean_in_led_out</data>
+                        <data>114</data>
+                        <data>106</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>6</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <row>
+                            <data>U_ipml_fifo_fifo_led</data>
+                            <data>114</data>
+                            <data>106</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <data>6</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <row>
+                                <data>U_ipml_fifo_ctrl</data>
+                                <data>114</data>
+                                <data>106</data>
+                                <data>0</data>
+                                <data>0</data>
+                                <data>0</data>
+                                <data>0</data>
+                                <data>0</data>
+                                <data>0</data>
+                                <data>0</data>
+                                <data>0</data>
+                                <data>0</data>
+                                <data>0</data>
+                                <data>0</data>
+                                <data>0</data>
+                                <data>0</data>
+                                <data>0</data>
+                                <data>0</data>
+                                <data>0</data>
+                                <data>0</data>
+                                <data>0</data>
+                                <data>0</data>
+                                <data>0</data>
+                                <data>0</data>
+                                <data>0</data>
+                                <data>0</data>
+                            </row>
+                            <row>
+                                <data>U_ipml_sdpram</data>
+                                <data>0</data>
+                                <data>0</data>
+                                <data>0</data>
+                                <data>0</data>
+                                <data>6</data>
+                                <data>0</data>
+                                <data>0</data>
+                                <data>0</data>
+                                <data>0</data>
+                                <data>0</data>
+                                <data>0</data>
+                                <data>0</data>
+                                <data>0</data>
+                                <data>0</data>
+                                <data>0</data>
+                                <data>0</data>
+                                <data>0</data>
+                                <data>0</data>
+                                <data>0</data>
+                                <data>0</data>
+                                <data>0</data>
+                                <data>0</data>
+                                <data>0</data>
+                                <data>0</data>
+                                <data>0</data>
+                            </row>
+                        </row>
+                    </row>
+                </row>
+            </row>
+            <row>
+                <data>u_top_uart_cmd_resolve</data>
+                <data>111</data>
+                <data>140</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <row>
+                    <data>u_m_bps</data>
+                    <data>18</data>
+                    <data>11</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                </row>
+                <row>
+                    <data>u_m_decoder</data>
+                    <data>73</data>
+                    <data>105</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                </row>
+                <row>
+                    <data>u_m_s2p</data>
+                    <data>20</data>
+                    <data>24</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                </row>
+            </row>
+            <row>
+                <data>u_top_white_block_mean</data>
+                <data>1456</data>
+                <data>1259</data>
+                <data>0</data>
+                <data>2</data>
+                <data>0.5</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <row>
+                    <data>u_block_mean_white</data>
+                    <data>1385</data>
+                    <data>1153</data>
+                    <data>0</data>
+                    <data>0.5</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                </row>
+                <row>
+                    <data>u_gamma_fix_2_2_top</data>
+                    <data>0</data>
+                    <data>2</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0.5</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <row>
+                        <data>gamma_fix_2_2_rom</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0.5</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <data>0</data>
+                        <row>
+                            <data>U_ipml_rom_gamma_fix_2_2</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <data>0.5</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <data>0</data>
+                            <row>
+                                <data>U_ipml_spram_gamma_fix_2_2</data>
+                                <data>0</data>
+                                <data>0</data>
+                                <data>0</data>
+                                <data>0</data>
+                                <data>0.5</data>
+                                <data>0</data>
+                                <data>0</data>
+                                <data>0</data>
+                                <data>0</data>
+                                <data>0</data>
+                                <data>0</data>
+                                <data>0</data>
+                                <data>0</data>
+                                <data>0</data>
+                                <data>0</data>
+                                <data>0</data>
+                                <data>0</data>
+                                <data>0</data>
+                                <data>0</data>
+                                <data>0</data>
+                                <data>0</data>
+                                <data>0</data>
+                                <data>0</data>
+                                <data>0</data>
+                                <data>0</data>
+                            </row>
+                        </row>
+                    </row>
+                </row>
+                <row>
+                    <data>u_rgb_to_gray</data>
+                    <data>31</data>
+                    <data>72</data>
+                    <data>0</data>
+                    <data>1.5</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                </row>
+                <row>
+                    <data>u_video_pixel_counter</data>
+                    <data>40</data>
+                    <data>32</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                    <data>0</data>
+                </row>
+            </row>
+            <row>
                 <data>video_pll_m0</data>
                 <data>0</data>
                 <data>0</data>
@@ -5827,7 +6462,7 @@
             </row>
             <row>
                 <data>video_timing_data_m0</data>
-                <data>73</data>
+                <data>75</data>
                 <data>62</data>
                 <data>0</data>
                 <data>0</data>
@@ -5854,7 +6489,7 @@
                 <data>0</data>
                 <row>
                     <data>color_bar_m0</data>
-                    <data>48</data>
+                    <data>50</data>
                     <data>31</data>
                     <data>0</data>
                     <data>0</data>
@@ -5881,34 +6516,6 @@
                     <data>0</data>
                 </row>
             </row>
-            <row>
-                <data>u_CORES</data>
-                <data>571</data>
-                <data>572</data>
-                <data>0</data>
-                <data>0</data>
-                <data>6</data>
-                <data>0</data>
-                <data>0</data>
-                <data>0</data>
-                <data>0</data>
-                <data>0</data>
-                <data>0</data>
-                <data>0</data>
-                <data>0</data>
-                <data>0</data>
-                <data>0</data>
-                <data>0</data>
-                <data>0</data>
-                <data>0</data>
-                <data>0</data>
-                <data>0</data>
-                <data>0</data>
-                <data>1</data>
-                <data>0</data>
-                <data>0</data>
-                <data>0</data>
-            </row>
         </row>
     </table>
     <table id="pnr_runtime" title="Place &amp; Route Runtime &amp; Memory" column_number="3">
@@ -5918,42 +6525,45 @@
             <data>Peak Memory (B)</data>
         </column_headers>
         <row>
-            <data>42.2344</data>
-            <data>43</data>
-            <data>639,279,104</data>
+            <data>82.9844</data>
+            <data>86</data>
+            <data>769,679,360</data>
         </row>
     </table>
     <table id="pnr_messages" title="Place &amp; Route Messages" column_number="1">
         <column_headers/>
         <row>
-            <data color="4278190080" align="0" message="4" bold="0">Parameter configuration file D:/Projects/FPGA_match/final_test/testparam.txt cannot open.</data>
+            <data color="4278190080" align="0" message="4" bold="0">Parameter configuration file D:/Projects/FPGA_match/final_test_new_funcs/testparam.txt cannot open.</data>
         </row>
         <row>
-            <data color="4278190080" align="0" message="6" bold="0">ConstraintEditor-2002: [D:/Projects/FPGA_match/final_test/device_map/top.pcf(line number: 23)] | Port ds0 has been placed at location D17, whose type is share pin.</data>
+            <data color="4278190080" align="0" message="6" bold="0">ConstraintEditor-2002: [D:/Projects/FPGA_match/final_test_new_funcs/device_map/top.pcf(line number: 23)] | Port ds0 has been placed at location D17, whose type is share pin.</data>
         </row>
         <row>
-            <data color="4278190080" align="0" message="6" bold="0">ConstraintEditor-2002: [D:/Projects/FPGA_match/final_test/device_map/top.pcf(line number: 24)] | Port ds1 has been placed at location E18, whose type is share pin.</data>
+            <data color="4278190080" align="0" message="6" bold="0">ConstraintEditor-2002: [D:/Projects/FPGA_match/final_test_new_funcs/device_map/top.pcf(line number: 24)] | Port ds1 has been placed at location E18, whose type is share pin.</data>
         </row>
         <row>
-            <data color="4278190080" align="0" message="6" bold="0">ConstraintEditor-2002: [D:/Projects/FPGA_match/final_test/device_map/top.pcf(line number: 25)] | Port ds2 has been placed at location H13, whose type is share pin.</data>
+            <data color="4278190080" align="0" message="6" bold="0">ConstraintEditor-2002: [D:/Projects/FPGA_match/final_test_new_funcs/device_map/top.pcf(line number: 25)] | Port ds2 has been placed at location H13, whose type is share pin.</data>
         </row>
         <row>
-            <data color="4278190080" align="0" message="6" bold="0">ConstraintEditor-2002: [D:/Projects/FPGA_match/final_test/device_map/top.pcf(line number: 26)] | Port ds3 has been placed at location G13, whose type is share pin.</data>
+            <data color="4278190080" align="0" message="6" bold="0">ConstraintEditor-2002: [D:/Projects/FPGA_match/final_test_new_funcs/device_map/top.pcf(line number: 26)] | Port ds3 has been placed at location G13, whose type is share pin.</data>
         </row>
         <row>
-            <data color="4278190080" align="0" message="6" bold="0">ConstraintEditor-2002: [D:/Projects/FPGA_match/final_test/device_map/top.pcf(line number: 64)] | Port stcp1 has been placed at location F14, whose type is share pin.</data>
+            <data color="4278190080" align="0" message="6" bold="0">ConstraintEditor-2002: [D:/Projects/FPGA_match/final_test_new_funcs/device_map/top.pcf(line number: 64)] | Port stcp1 has been placed at location F14, whose type is share pin.</data>
         </row>
         <row>
-            <data color="4278190080" align="0" message="6" bold="0">ConstraintEditor-2002: [D:/Projects/FPGA_match/final_test/device_map/top.pcf(line number: 68)] | Port tmds_data_n[1] has been placed at location A11, whose type is share pin.</data>
+            <data color="4278190080" align="0" message="6" bold="0">ConstraintEditor-2002: [D:/Projects/FPGA_match/final_test_new_funcs/device_map/top.pcf(line number: 68)] | Port tmds_data_n[1] has been placed at location A11, whose type is share pin.</data>
         </row>
         <row>
-            <data color="4278190080" align="0" message="6" bold="0">ConstraintEditor-2002: [D:/Projects/FPGA_match/final_test/device_map/top.pcf(line number: 69)] | Port tmds_data_n[2] has been placed at location A10, whose type is share pin.</data>
+            <data color="4278190080" align="0" message="6" bold="0">ConstraintEditor-2002: [D:/Projects/FPGA_match/final_test_new_funcs/device_map/top.pcf(line number: 69)] | Port tmds_data_n[2] has been placed at location A10, whose type is share pin.</data>
         </row>
         <row>
-            <data color="4278190080" align="0" message="6" bold="0">ConstraintEditor-2002: [D:/Projects/FPGA_match/final_test/device_map/top.pcf(line number: 71)] | Port tmds_data_p[1] has been placed at location B11, whose type is share pin.</data>
+            <data color="4278190080" align="0" message="6" bold="0">ConstraintEditor-2002: [D:/Projects/FPGA_match/final_test_new_funcs/device_map/top.pcf(line number: 71)] | Port tmds_data_p[1] has been placed at location B11, whose type is share pin.</data>
         </row>
         <row>
-            <data color="4278190080" align="0" message="6" bold="0">ConstraintEditor-2002: [D:/Projects/FPGA_match/final_test/device_map/top.pcf(line number: 72)] | Port tmds_data_p[2] has been placed at location B10, whose type is share pin.</data>
+            <data color="4278190080" align="0" message="6" bold="0">ConstraintEditor-2002: [D:/Projects/FPGA_match/final_test_new_funcs/device_map/top.pcf(line number: 72)] | Port tmds_data_p[2] has been placed at location B10, whose type is share pin.</data>
+        </row>
+        <row>
+            <data color="4278190080" align="0" message="6" bold="0">ConstraintEditor-2002: [D:/Projects/FPGA_match/final_test_new_funcs/device_map/top.pcf(line number: 104)] | Port uart_rx has been placed at location D18, whose type is share pin.</data>
         </row>
         <row>
             <data color="4278190080" align="0" message="5" bold="0">ConstraintEditor-4019: Port 'ddr_init_done' unspecified I/O constraint.</data>
@@ -5965,13 +6575,10 @@
             <data color="4278190080" align="0" message="5" bold="0">ConstraintEditor-4019: Port 'pll_lock' unspecified I/O constraint.</data>
         </row>
         <row>
-            <data color="4278190080" align="0" message="6" bold="0">Route-2036: The clock path from u_CORES/u_GTP_SCANCHAIN_PG/scanchain:TCK_USER to clkbufg_4/gopclkbufg:CLK is routed by SRB.</data>
+            <data color="4278190080" align="0" message="6" bold="0">Route-2036: The clock path from u_top_color_block_mean/u_video_pixel_counter/de_d/opit_0_inv:Q to u_top_color_block_mean/u_video_pixel_counter/block_v_cnt[3]/opit_0_A2Q21:CLK is routed by SRB.</data>
         </row>
         <row>
-            <data color="4278190080" align="0" message="6" bold="0">Route-2036: The clock path from u_CORES/u_GTP_SCANCHAIN_PG/scanchain:CAPDR to clkbufg_3/gopclkbufg:CLK is routed by SRB.</data>
-        </row>
-        <row>
-            <data color="4278190080" align="0" message="6" bold="0">Route-2036: The clock path from block_mean_cal/u_video_pixel_counter/de_d/opit_0_inv:Q to block_mean_cal/u_video_pixel_counter/block_v_cnt[3]/opit_0_A2Q21:CLK is routed by SRB.</data>
+            <data color="4278190080" align="0" message="6" bold="0">Route-2036: The clock path from u_top_white_block_mean/u_video_pixel_counter/de_d/opit_0_inv:Q to u_top_white_block_mean/u_video_pixel_counter/block_v_cnt[3]/opit_0_A2Q21:CLK is routed by SRB.</data>
         </row>
     </table>
     <general_container id="pnr_settings" align="1">
@@ -6240,50 +6847,34 @@
                     <data>SiteOfDriverInst</data>
                 </column_headers>
                 <row>
-                    <data>clkbufg_3/gopclkbufg</data>
-                    <data>USCM_74_111</data>
-                    <data>ntclkbufg_0</data>
-                    <data>11</data>
-                    <data>u_CORES/u_GTP_SCANCHAIN_PG/scanchain</data>
-                    <data>SCANCHAIN_48_328</data>
-                </row>
-                <row>
-                    <data>clkbufg_4/gopclkbufg</data>
-                    <data>USCM_74_110</data>
-                    <data>ntclkbufg_1</data>
-                    <data>166</data>
-                    <data>u_CORES/u_GTP_SCANCHAIN_PG/scanchain</data>
-                    <data>SCANCHAIN_48_328</data>
-                </row>
-                <row>
-                    <data>clkbufg_5/gopclkbufg</data>
+                    <data>clkbufg_0/gopclkbufg</data>
                     <data>USCM_74_107</data>
-                    <data>ntclkbufg_2</data>
+                    <data>ntclkbufg_0</data>
                     <data>160</data>
                     <data>u_ipsl_hmic_h_top/u_pll_50_400/u_pll_e1/goppll</data>
                     <data>PLL_82_71</data>
                 </row>
                 <row>
-                    <data>clkbufg_6/gopclkbufg</data>
+                    <data>clkbufg_1/gopclkbufg</data>
                     <data>USCM_74_106</data>
-                    <data>ntclkbufg_3</data>
+                    <data>ntclkbufg_1</data>
                     <data>360</data>
                     <data>u_ipsl_hmic_h_top/u_pll_50_400/u_pll_e1/goppll</data>
                     <data>PLL_82_71</data>
                 </row>
                 <row>
                     <data>cmos_pclkbufg/gopclkbufg</data>
-                    <data>USCM_74_105</data>
+                    <data>USCM_74_104</data>
                     <data>pclk_mod_in_g</data>
-                    <data>866</data>
+                    <data>2919</data>
                     <data>pclk_mod_in_ibuf/opit_1</data>
                     <data>IOL_151_74</data>
                 </row>
                 <row>
                     <data>sys_clkbufg/gopclkbufg</data>
-                    <data>USCM_74_104</data>
+                    <data>USCM_74_105</data>
                     <data>sys_clk_g</data>
-                    <data>1260</data>
+                    <data>2279</data>
                     <data>sys_clk_ibuf/opit_1</data>
                     <data>IOL_7_298</data>
                 </row>
@@ -6333,15 +6924,15 @@
                     <data>sys_clk_g</data>
                     <data> - </data>
                     <data>sys_clkbufg/gopclkbufg</data>
-                    <data>USCM_74_104</data>
+                    <data>USCM_74_105</data>
                 </row>
                 <row>
                     <data>u_ipsl_hmic_h_top/u_pll_50_400/u_pll_e1/goppll</data>
                     <data>PLL_82_71</data>
                     <data>CLKIN2</data>
-                    <data>ntR967</data>
+                    <data>ntR2533</data>
                     <data> - </data>
-                    <data>GND_40</data>
+                    <data>GND_52</data>
                     <data>CLMA_78_76</data>
                 </row>
                 <row>
@@ -6360,15 +6951,15 @@
                     <data>sys_clk_g</data>
                     <data> - </data>
                     <data>sys_clkbufg/gopclkbufg</data>
-                    <data>USCM_74_104</data>
+                    <data>USCM_74_105</data>
                 </row>
                 <row>
                     <data>video_pll_m0/u_pll_e1/goppll</data>
                     <data>PLL_82_51</data>
                     <data>CLKIN2</data>
-                    <data>ntR989</data>
+                    <data>ntR2542</data>
                     <data> - </data>
-                    <data>GND_38</data>
+                    <data>GND_47</data>
                     <data>CLMA_78_52</data>
                 </row>
                 <row>

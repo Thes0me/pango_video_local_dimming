@@ -719,3 +719,121 @@ dev_map
 pnr 
 report_timing 
 gen_bit_stream 
+remove_design -force -verilog "D:/Projects/FPGA_match/final_test_new_funcs/source/block_mean/top.v"
+remove_design -force -verilog "D:/Projects/FPGA_match/final_test_new_funcs/source/block_mean/rgb_to_gray.v"
+remove_design -force -verilog "D:/Projects/FPGA_match/final_test_new_funcs/source/block_mean/video_pixel_counter.v"
+remove_design -force -verilog "D:/Projects/FPGA_match/final_test_new_funcs/source/block_mean/block_mean.v"
+remove_design -force -verilog "D:/Projects/FPGA_match/final_test_new_funcs/source/fifo_to_led/top.v"
+remove_design -force -verilog "D:/Projects/FPGA_match/final_test_new_funcs/source/mean_to_fifo/port.v"
+remove_design -force -verilog "D:/Projects/FPGA_match/final_test_new_funcs/source/fifo_to_led/data_tx.v"
+remove_design -force -verilog "D:/Projects/FPGA_match/final_test_new_funcs/source/fifo_to_led/hc595.v"
+remove_design -force -verilog "D:/Projects/FPGA_match/final_test_new_funcs/source/fifo_to_led/ws2812.v"
+add_design "D:/Projects/FPGA_match/final_test_new_funcs/source/block_mean/block_mean.v"
+add_design "D:/Projects/FPGA_match/final_test_new_funcs/source/block_mean/color_bar.v"
+add_design "D:/Projects/FPGA_match/final_test_new_funcs/source/block_mean/rgb_to_gray.v"
+add_design "D:/Projects/FPGA_match/final_test_new_funcs/source/block_mean/top_block_mean_color.v"
+add_design "D:/Projects/FPGA_match/final_test_new_funcs/source/block_mean/top_block_mean_white.v"
+add_design "D:/Projects/FPGA_match/final_test_new_funcs/source/block_mean/video_pixel_counter.v"
+add_design "D:/Projects/FPGA_match/final_test_new_funcs/source/mux_command/mux_command_control.v"
+add_design "D:/Projects/FPGA_match/final_test_new_funcs/source/mean_to_fifo/port.v"
+add_design "D:/Projects/FPGA_match/final_test_new_funcs/source/fifo_to_led/data_tx.v"
+add_design "D:/Projects/FPGA_match/final_test_new_funcs/source/fifo_to_led/hc595.v"
+add_design "D:/Projects/FPGA_match/final_test_new_funcs/source/fifo_to_led/top_led.v"
+add_design "D:/Projects/FPGA_match/final_test_new_funcs/source/fifo_to_led/ws2812.v"
+remove_design -force -verilog "D:/Projects/FPGA_match/final_test_new_funcs/source/sources_1/color_bar.v"
+set_arch -family Logos -device PGL22G -speedgrade -6 -package MBG324
+compile -top_module top
+remove_design -verilog "D:/Projects/FPGA_match/final_test_new_funcs/source/sources_1/video_define.v"
+add_design "D:/Projects/FPGA_match/final_test_new_funcs/source/sources_1/video_define.v"
+set_arch -family Logos -device PGL22G -speedgrade -6 -package MBG324
+compile -top_module top
+add_design "D:/Projects/FPGA_match/final_test_new_funcs/source/block_mean/video_define.v"
+set_arch -family Logos -device PGL22G -speedgrade -6 -package MBG324
+compile -top_module top
+set_arch -family Logos -device PGL22G -speedgrade -6 -package MBG324
+compile -top_module top
+synthesize -ads -selected_syn_tool_opt 2 
+dev_map 
+remove_fic -force"D:/Projects/FPGA_match/final_test_new_funcs/synthesize/top_syn.fic"
+dev_map 
+pnr 
+report_timing 
+gen_bit_stream 
+set_arch -family Logos -device PGL22G -speedgrade -6 -package MBG324
+compile -top_module top
+synthesize -ads -selected_syn_tool_opt 2 
+add_fic "D:/Projects/FPGA_match/final_test_new_funcs/synthesize/top_syn.fic"
+dev_map 
+pnr 
+report_timing 
+gen_bit_stream 
+set_arch -family Logos -device PGL22G -speedgrade -6 -package MBG324
+compile -top_module top
+synthesize -ads -selected_syn_tool_opt 2 
+dev_map 
+pnr 
+report_timing 
+gen_bit_stream 
+set_arch -family Logos -device PGL22G -speedgrade -6 -package MBG324
+compile -top_module top
+synthesize -ads -selected_syn_tool_opt 2 
+dev_map 
+pnr 
+report_timing 
+gen_bit_stream 
+remove_design -force -verilog "D:/Projects/FPGA_match/final_test_new_funcs/source/sources_1/video_define.v"
+set_arch -family Logos -device PGL22G -speedgrade -6 -package MBG324
+compile -top_module top
+synthesize -ads -selected_syn_tool_opt 2 
+dev_map 
+pnr 
+report_timing 
+gen_bit_stream 
+set_arch -family Logos -device PGL22G -speedgrade -6 -package MBG324
+compile -top_module top
+synthesize -ads -selected_syn_tool_opt 2 
+remove_fic -force"D:/Projects/FPGA_match/final_test_new_funcs/synthesize/top_syn.fic"
+synthesize -ads -selected_syn_tool_opt 2 
+dev_map 
+pnr 
+report_timing 
+gen_bit_stream 
+set_arch -family Logos -device PGL22G -speedgrade -6 -package MBG324
+compile -top_module top
+synthesize -ads -selected_syn_tool_opt 2 
+dev_map 
+pnr 
+report_timing 
+gen_bit_stream 
+set_arch -family Logos -device PGL22G -speedgrade -6 -package MBG324
+compile -top_module top
+synthesize -ads -selected_syn_tool_opt 2 
+dev_map 
+pnr 
+report_timing 
+gen_bit_stream 
+set_arch -family Logos -device PGL22G -speedgrade -6 -package MBG324
+compile -top_module top
+set_arch -family Logos -device PGL22G -speedgrade -6 -package MBG324
+compile -top_module top
+set_arch -family Logos -device PGL22G -speedgrade -6 -package MBG324
+compile -top_module top
+set_arch -family Logos -device PGL22G -speedgrade -6 -package MBG324
+compile -top_module top
+set_arch -family Logos -device PGL22G -speedgrade -6 -package MBG324
+compile -top_module top
+synthesize -ads -selected_syn_tool_opt 2 
+set_arch -family Logos -device PGL22G -speedgrade -6 -package MBG324
+compile -top_module top
+synthesize -ads -selected_syn_tool_opt 2 
+dev_map 
+pnr 
+report_timing 
+gen_bit_stream 
+set_arch -family Logos -device PGL22G -speedgrade -6 -package MBG324
+compile -top_module top
+synthesize -ads -selected_syn_tool_opt 2 
+dev_map 
+pnr 
+report_timing 
+gen_bit_stream 

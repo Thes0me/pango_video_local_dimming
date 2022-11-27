@@ -3,11 +3,11 @@ module port_in(
     input   wr_clk,                
     input   rst_n,                  
     input   data_valid, 
-    input   [7:0]   din,           
+    input   [23:0]   din,           
     input    rd_start,    
     //output  full,                 
     output  empty,  
-    output  [7:0]    dout
+    output  [23:0]    dout
     );
 parameter cnt_max = 42 - 1;
 
@@ -15,7 +15,7 @@ reg     wr_en;
 reg     rd_en;
 reg     [5:0] cnt;
 
-reg     [7:0]   wr_data;
+reg     [23:0]   wr_data;
 
 
 always @(posedge wr_clk or negedge rst_n) begin
@@ -85,7 +85,7 @@ always  @(posedge rd_clk or negedge rst_n)begin
     end
 end
 
-// ip replace
+// // ip replace
 // fifo_generator_0 inst_fifo_port (
 //   .wr_clk(wr_clk),  // input wire wr_clk
 //   .rd_clk(rd_clk),  // input wire rd_clk
@@ -96,6 +96,7 @@ end
 //   .full(),      // output wire full
 //   .empty(empty)    // output wire empty
 // );
+
 
 fifo_led mean_in_led_out (
   .wr_clk(wr_clk),                // input

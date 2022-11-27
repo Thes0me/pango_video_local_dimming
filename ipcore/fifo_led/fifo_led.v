@@ -38,13 +38,13 @@ module fifo_led
    );
 
 
-localparam WR_DEPTH_WIDTH = 10 ; // @IPC int 9,20
+localparam WR_DEPTH_WIDTH = 12 ; // @IPC int 9,20
 
-localparam WR_DATA_WIDTH = 8 ; // @IPC int 1,1152
+localparam WR_DATA_WIDTH = 24 ; // @IPC int 1,1152
 
-localparam RD_DEPTH_WIDTH = 10 ; // @IPC int 9,20
+localparam RD_DEPTH_WIDTH = 12 ; // @IPC int 9,20
 
-localparam RD_DATA_WIDTH = 8 ; // @IPC int 1,1152
+localparam RD_DATA_WIDTH = 24 ; // @IPC int 1,1152
 
 localparam OUTPUT_REG = 0 ; // @IPC bool
 

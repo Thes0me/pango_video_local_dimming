@@ -60,9 +60,9 @@ module ipml_sdpram_v1_6_fifo_led
 
 //*************************************************************************************************************************************
 
-localparam MODE_9K = 1 ; // @IPC bool
+localparam MODE_9K = 0 ; // @IPC bool
 
-localparam MODE_18K = 0 ; // @IPC bool
+localparam MODE_18K = 1 ; // @IPC bool
 
 //********************************************************************************************************************************************************************   
 //declare localparam
@@ -80,18 +80,18 @@ localparam  ADDR_WIDTH_NARROW = c_WR_DATA_WIDTH >= c_RD_DATA_WIDTH ? c_RD_ADDR_W
 
 localparam  DATA_WIDTH_W2N    = c_WR_DATA_WIDTH >= c_RD_DATA_WIDTH ? 1 : 0 ;
 
-localparam  N_DATA_1_WIDTH   =  ADDR_WIDTH_WIDE <= 8  ? (DATA_WIDTH_WIDE%9 == 0) ? ( (ADDR_STROBE_EN == 1) ? 18 : 36 ) : 
-                                                       ((DATA_WIDTH_WIDE%8 == 0) ? ( (ADDR_STROBE_EN == 1) ? 16 : 32 ) : 
-                                                                                   ( (ADDR_STROBE_EN == 1) ? 18 : 36 ) ) :   //cascade with 256*36 type DRM
-                                ADDR_WIDTH_WIDE == 9  ? (DATA_WIDTH_WIDE%9 == 0) ? 18 :
+localparam  N_DATA_1_WIDTH   =  ADDR_WIDTH_WIDE <= 9  ? ( (DATA_WIDTH_WIDE%9 == 0) ? ( (ADDR_STROBE_EN == 1) ? 18 : 36 ) :
+                                                          (DATA_WIDTH_WIDE%8 == 0) ? ( (ADDR_STROBE_EN == 1) ? 16 : 32 ) : 
+                                                                                     ( (ADDR_STROBE_EN == 1) ? 18 : 36 ) ) :     //cascade with 512*36 type DRM 
+                                ADDR_WIDTH_WIDE == 10 ? (DATA_WIDTH_WIDE%9 == 0) ? 18 : 
                                                        ((DATA_WIDTH_WIDE%8 == 0) ? 16 : 
-                                                                                   18 ):   //cascade with 512*18 type DRM
-                                ADDR_WIDTH_WIDE == 10 ? (DATA_WIDTH_WIDE%9 == 0) ? 9  : 
-                                                       ((DATA_WIDTH_WIDE%8 == 0) ? 8  :
-                                                                                   9  ):    //cascade with 1k*9   type DRM
-                                ADDR_WIDTH_WIDE == 11 ? 4:                                    //cascade with 2k*4   type DRM
-                                ADDR_WIDTH_WIDE == 12 ? 2:                                    //cascade with 4k*2   type DRM
-                                                    	1;                                    //cascade with 8k*1   type DRM
+                                                                                   18 ) :     //cascade with 1k*18  type DRM
+                                ADDR_WIDTH_WIDE == 11 ? (DATA_WIDTH_WIDE%9 == 0)  ? 9 : 
+                                                       ((DATA_WIDTH_WIDE%8 == 0)  ? 8 : 
+                                                                                    9 ) :     //cascade with 2k*9   type DRM
+                                ADDR_WIDTH_WIDE == 12 ? 4:                                    //cascade with 4k*4   type DRM
+                                ADDR_WIDTH_WIDE == 13 ? 2:                                    //cascade with 8k*2   type DRM
+                                                        1;                                    //cascade with 16k*1  type DRM
                                                                  
 localparam  L_DATA_1_WIDTH   =  DATA_WIDTH_WIDE == 1  ? 1:                                    //cascade with 16k*1  type DRM
                                 DATA_WIDTH_WIDE == 2  ? 2:                                    //cascade with 8k*2   type DRM
@@ -100,20 +100,20 @@ localparam  L_DATA_1_WIDTH   =  DATA_WIDTH_WIDE == 1  ? 1:                      
                                 DATA_WIDTH_WIDE == 9  ? 9:                                    //cascade with 4k*4   type DRM
                                 DATA_WIDTH_WIDE <= 16 ? 16:  
                                 DATA_WIDTH_WIDE <= 18 ? 18:                                   //cascade with 1k*18  type DRM
-                            ((DATA_WIDTH_WIDE%9 == 0) ? ( (ADDR_STROBE_EN == 1) ? 18 : 36 ) : 
-                             (DATA_WIDTH_WIDE%8 == 0) ? ( (ADDR_STROBE_EN == 1) ? 16 : 32 ) :
-                                                        ( (ADDR_STROBE_EN == 1) ? 18 : 36 ) ) ;   //cascade with 512*36 type DRM
+                            ( (DATA_WIDTH_WIDE%9 == 0) ? ( (ADDR_STROBE_EN == 1) ? 18 : 36 ) :  
+                              (DATA_WIDTH_WIDE%8 == 0) ? ( (ADDR_STROBE_EN == 1) ? 16 : 32 ) :
+                                                         ( (ADDR_STROBE_EN == 1) ? 18 : 36 ) ) ;//cascade with 512*36 type DRM
 //WIDTH_RATIO = 2
-localparam  N_DATA_WIDTH_2_WIDE   =   DATA_WIDTH_WIDE%9 == 0 ? (ADDR_WIDTH_WIDE <= 8  ? ( (ADDR_STROBE_EN == 1) ? 18 : 36 ) : 
-                                                                                        18 ) :
-                                      (ADDR_WIDTH_WIDE <= 8  ? ( (ADDR_STROBE_EN == 1) ? 16 : 32 ) :
-                                       ADDR_WIDTH_WIDE == 9  ? 16 :
-                                       ADDR_WIDTH_WIDE == 10 ? 8  :
-                                       ADDR_WIDTH_WIDE == 11 ? 4  :
-                                                               2 ) ;
+localparam  N_DATA_WIDTH_2_WIDE   =   DATA_WIDTH_WIDE%9 == 0 ? (ADDR_WIDTH_WIDE <= 9  ? (ADDR_STROBE_EN == 1) ? 18 : 36 : 
+                                                                                                                18 ) :
+                                      (ADDR_WIDTH_WIDE <= 9  ? (ADDR_STROBE_EN == 1) ? 16 : 32 :
+                                      ADDR_WIDTH_WIDE == 10 ? 16  :
+                                      ADDR_WIDTH_WIDE == 11 ? 8   :
+                                      ADDR_WIDTH_WIDE == 12 ? 4   :
+                                                              2 ) ;
                                      
-localparam  L_DATA_WIDTH_2_WIDE   =   DATA_WIDTH_WIDE%9 == 0 ? (DATA_WIDTH_WIDE == 18  ? 18 :
-                                                                                         ( (ADDR_STROBE_EN == 1) ? 18 : 36 ) ) :
+localparam  L_DATA_WIDTH_2_WIDE   =   DATA_WIDTH_WIDE%9 == 0 ? ( (DATA_WIDTH_WIDE == 18)  ? 18 : 
+                                                                                            ( (ADDR_STROBE_EN == 1) ?  18 : 36 ) ) :
                                       (DATA_WIDTH_WIDE == 2  ? 2  :
                                       DATA_WIDTH_WIDE == 4  ? 4   :
                                       DATA_WIDTH_WIDE == 8  ? 8   :
@@ -121,10 +121,10 @@ localparam  L_DATA_WIDTH_2_WIDE   =   DATA_WIDTH_WIDE%9 == 0 ? (DATA_WIDTH_WIDE 
                                                               ( (ADDR_STROBE_EN == 1) ? 16 : 32 ) );
 //WIDTH_RATIO == 4
 localparam  N_DATA_WIDTH_4_WIDE   =   DATA_WIDTH_WIDE%9 == 0 ? ( (ADDR_STROBE_EN == 1) ? 18 : 36 ) :
-                                      (ADDR_WIDTH_WIDE <= 8  ? ( (ADDR_STROBE_EN == 1) ? 16 : 32 ) :
-                                       ADDR_WIDTH_WIDE == 9  ? 16 :
-                                       ADDR_WIDTH_WIDE == 10 ? 8  :
-                                                               4 );
+                                      (ADDR_WIDTH_WIDE <= 9  ? ( (ADDR_STROBE_EN == 1) ? 16 : 32 ) :
+                                      ADDR_WIDTH_WIDE == 10 ? 16  :
+                                      ADDR_WIDTH_WIDE == 11 ? 8   :
+                                                              4 ) ;
 
 localparam  L_DATA_WIDTH_4_WIDE   =  DATA_WIDTH_WIDE%9 == 0 ? ( (ADDR_STROBE_EN == 1) ? 18 : 36 ) :
                                      DATA_WIDTH_WIDE == 4  ? 4  :
@@ -134,18 +134,18 @@ localparam  L_DATA_WIDTH_4_WIDE   =  DATA_WIDTH_WIDE%9 == 0 ? ( (ADDR_STROBE_EN 
                                                              ( (ADDR_STROBE_EN == 1) ? 16 : 32 ) ;
 
 //WIDTH_RATIO == 8
-localparam  N_DATA_WIDTH_8_WIDE   =  ADDR_WIDTH_WIDE <= 8  ? ( (ADDR_STROBE_EN == 1) ? 16 : 32 ) :
-                                     ADDR_WIDTH_WIDE == 9  ? 16:
+localparam  N_DATA_WIDTH_8_WIDE   =  ADDR_WIDTH_WIDE <= 9  ? ( (ADDR_STROBE_EN == 1) ? 16 : 32 ) :
+                                     ADDR_WIDTH_WIDE == 10 ? 16:
                                                              8 ;
 
 localparam  L_DATA_WIDTH_8_WIDE   =  DATA_WIDTH_WIDE == 8  ? 8 :
                                      DATA_WIDTH_WIDE == 16 ? 16:
                                                              ( (ADDR_STROBE_EN == 1) ? 16 : 32 ) ;
 //WIDTH_RATIO == 16   
-localparam  N_DATA_WIDTH_16_WIDE  =  ADDR_WIDTH_WIDE <= 8 ? ( (ADDR_STROBE_EN == 1) ? 16 : 32 ) :
+localparam  N_DATA_WIDTH_16_WIDE  =  ADDR_WIDTH_WIDE <= 9 ?  ( (ADDR_STROBE_EN == 1) ? 16 : 32 ) :
                                                             16;
 
-localparam  L_DATA_WIDTH_16_WIDE  =  DATA_WIDTH_WIDE == 16 ? 16:
+localparam  L_DATA_WIDTH_16_WIDE  =  DATA_WIDTH_WIDE == 16 ? 16 :
                                                              ( (ADDR_STROBE_EN == 1) ? 16 : 32 );
 
 //WIDTH_RATIO == 32   
@@ -156,20 +156,20 @@ localparam  L_DATA_WIDTH_32_WIDE  =  ( (ADDR_STROBE_EN == 1) ? 16 : 32 ) ;
 //********************************************************************************************************************************************************************   
 //BYTE ENABLE parameter 
 //byte_enable && WIDTH_RATIO = 1
-localparam  N_BYTE_DATA_1_WIDTH = (ADDR_WIDTH_WIDE <= 8) ? (c_WR_BYTE_WIDTH == 8 ? ( (ADDR_STROBE_EN == 1) ? 16 : 32 ) : 
+localparam  N_BYTE_DATA_1_WIDTH = (ADDR_WIDTH_WIDE <= 9) ? (c_WR_BYTE_WIDTH == 8 ? ( (ADDR_STROBE_EN == 1) ? 16 : 32 ) : 
                                                                                    ( (ADDR_STROBE_EN == 1) ? 18 : 36 ) ) :
                                                            (c_WR_BYTE_WIDTH == 8 ? 16 : 18);
 
 localparam  L_BYTE_DATA_1_WIDTH = (c_WR_BYTE_WIDTH == 8) ? (DATA_WIDTH_WIDE <= 16 ? 16 : 
-                                                                                    ( (ADDR_STROBE_EN == 1) ? 16 : 32 ) ): 
+                                                                                     ( (ADDR_STROBE_EN == 1) ? 16 : 32 ) ): 
                                                            (DATA_WIDTH_WIDE <= 18 ? 18 : 
-                                                                                    ( (ADDR_STROBE_EN == 1) ? 18 : 36 ) );
+                                                                                     ( (ADDR_STROBE_EN == 1) ? 18 : 36 ) );
 //byte_enable && WIDTH_RATIO = 2
-localparam  N_BYTE_DATA_WIDTH_2_WIDE = (ADDR_WIDTH_WIDE <= 8) ? ( (DATA_WIDTH_WIDE%9 == 0) ? ( (ADDR_STROBE_EN == 1) ? 18 : 36 ) : 
+localparam  N_BYTE_DATA_WIDTH_2_WIDE = (ADDR_WIDTH_WIDE <= 9) ? ( (DATA_WIDTH_WIDE%9 == 0) ? ( (ADDR_STROBE_EN == 1) ? 18 : 36 ) :
                                                                                              ( (ADDR_STROBE_EN == 1) ? 16 : 32 ) ) :
                                                                 ( (DATA_WIDTH_WIDE%9 == 0) ? 18 : 16 );
 
-localparam  L_BYTE_DATA_WIDTH_2_WIDE = (DATA_WIDTH_WIDE%9 == 0) ? (DATA_WIDTH_WIDE <= 18 ? 18 : 
+localparam  L_BYTE_DATA_WIDTH_2_WIDE = (DATA_WIDTH_WIDE%9 == 0) ? (DATA_WIDTH_WIDE <= 18 ? 18 :
                                                                                            ( (ADDR_STROBE_EN == 1) ? 18 : 36 ) ): 
                                                                   (DATA_WIDTH_WIDE <= 16 ? 16 : 
                                                                                            ( (ADDR_STROBE_EN == 1) ? 16 : 32 ) );
@@ -178,7 +178,7 @@ localparam  N_BYTE_DATA_WIDTH_4_WIDE = ( DATA_WIDTH_WIDE%9 == 0 ) ? ( (ADDR_STRO
                                                                     ( (ADDR_STROBE_EN == 1) ? 16 : 32 ) ;
 
 localparam  L_BYTE_DATA_WIDTH_4_WIDE = N_BYTE_DATA_WIDTH_4_WIDE; 
-       
+
 //******************************************************************************************************************************************************************** 
 localparam  WIDTH_RATIO  =  (c_WR_DATA_WIDTH > c_RD_DATA_WIDTH) ? (c_WR_DATA_WIDTH/c_RD_DATA_WIDTH) : (c_RD_DATA_WIDTH/c_WR_DATA_WIDTH);
 
@@ -247,26 +247,25 @@ localparam  D_DRM_DATA_WIDTH_B  = (DRM_DATA_WIDTH_A == 32 || DRM_DATA_WIDTH_A==3
                                   ((DRM_DATA_WIDTH_B == 36) ? 18 : ((DRM_DATA_WIDTH_B == 32) ? 16 : DRM_DATA_WIDTH_B));
 
 //DRM_ADDR_WIDTH is the ADDR_WIDTH of INSTANCE DRM primitives
-//9k mode
-localparam  DRM_ADDR_WIDTH_A = DRM_DATA_WIDTH_A == 1  ? 13:
-                               DRM_DATA_WIDTH_A == 2  ? 12:
-                               DRM_DATA_WIDTH_A == 4  ? 11:
-                               DRM_DATA_WIDTH_A == 8  ? 10:
-                               DRM_DATA_WIDTH_A == 9  ? 10:
-                               DRM_DATA_WIDTH_A == 16 ? 9:
-                               DRM_DATA_WIDTH_A == 18 ? 9:
-                               DRM_DATA_WIDTH_A == 32 ? 8:
-                                                        8;
+localparam  DRM_ADDR_WIDTH_A = DRM_DATA_WIDTH_A == 1  ? 14:
+                               DRM_DATA_WIDTH_A == 2  ? 13:
+                               DRM_DATA_WIDTH_A == 4  ? 12:
+                               DRM_DATA_WIDTH_A == 8  ? 11:
+                               DRM_DATA_WIDTH_A == 9  ? 11:
+                               DRM_DATA_WIDTH_A == 16 ? 10:
+                               DRM_DATA_WIDTH_A == 18 ? 10:
+                               DRM_DATA_WIDTH_A == 32 ?  9:
+                                                         9;
                                                          
-localparam  DRM_ADDR_WIDTH_B = DRM_DATA_WIDTH_B == 1  ? 13: 
-                               DRM_DATA_WIDTH_B == 2  ? 12:
-                               DRM_DATA_WIDTH_B == 4  ? 11:
-                               DRM_DATA_WIDTH_B == 8  ? 10:
-                               DRM_DATA_WIDTH_B == 9  ? 10:
-                               DRM_DATA_WIDTH_B == 16 ? 9:
-                               DRM_DATA_WIDTH_B == 18 ? 9:
-                               DRM_DATA_WIDTH_B == 32 ? 8:
-                                                        8;
+localparam  DRM_ADDR_WIDTH_B = DRM_DATA_WIDTH_B == 1  ? 14: 
+                               DRM_DATA_WIDTH_B == 2  ? 13:
+                               DRM_DATA_WIDTH_B == 4  ? 12:
+                               DRM_DATA_WIDTH_B == 8  ? 11:
+                               DRM_DATA_WIDTH_B == 9  ? 11:
+                               DRM_DATA_WIDTH_B == 16 ? 10:
+                               DRM_DATA_WIDTH_B == 18 ? 10:
+                               DRM_DATA_WIDTH_B == 32 ?  9:
+                                                         9;
 
 localparam  ADDR_WIDTH_A  = c_WR_ADDR_WIDTH > DRM_ADDR_WIDTH_A ? c_WR_ADDR_WIDTH : DRM_ADDR_WIDTH_A;
 //CS_ADDR_WIDTH_A is the CS address width to choose the DRM18K CS_ADDR_WIDTH_A=  [ extra-addres + cs[2]+csp[1]+cs[0] ]
@@ -353,8 +352,8 @@ initial begin
       $display("IPSpecCheck: 01030113 ipml_flex_sdpram parameter setting error !!!: c_WR_ADDR_STROBE_EN or c_RD_ADDR_STROBE_EN must be 0 or 1")/* PANGO PAP_ERROR */;
       $finish;
    end
-   else if ( (c_WR_CLK_EN==1 || c_RD_CLK_EN==1) && (c_WR_ADDR_STROBE_EN==1 || c_RD_ADDR_STROBE_EN==1) ) begin
-      $display("IPSpecCheck: 01030114 ipml_flex_sdpram parameter setting error !!!: Clock Enable and Address Strobe only works individually")/* PANGO PAP_ERROR */;
+   else if ( (c_SIM_DEVICE == "PGL22G") && (c_WR_CLK_EN==1 || c_RD_CLK_EN==1) && (c_WR_ADDR_STROBE_EN==1 || c_RD_ADDR_STROBE_EN==1) ) begin
+      $display("IPSpecCheck: 01030114 ipml_flex_sdpram parameter setting error !!!: Clock Enable and Address Strobe only works individually when using PGL22G")/* PANGO PAP_ERROR */;
       $finish;
    end
    else if( c_RST_TYPE!="ASYNC" && c_RST_TYPE!="SYNC" && c_RST_TYPE!="ASYNC_SYNC_RELEASE" ) begin
@@ -429,7 +428,7 @@ reg   [CAS_DATA_WIDTH_A-1:0]                    wr_data_mix_bus   ;
 reg   [D_CAS_DATA_WIDTH_A-1:0]                  da_data_bus       ; //the data bus of data_cascaded instance DRM
 wire  [Q_CAS_DATA_WIDTH_A*ADDR_LOOP_NUM_A-1:0]  qa_data_bus       ; //the total data width of instance DRM
 wire  [ADDR_WIDTH_A-1:0]                        wr_addr_bus       ;
-reg   [DATA_LOOP_NUM*13-1:0]                    drm_wr_addr_bus   ; //write address to all instance DRM
+reg   [DATA_LOOP_NUM*14-1:0]                    drm_wr_addr_bus   ; //write address to all instance DRM
 reg                                             wr_cs_bit0        ; //write cs[0]  to all instance DRM
 reg   [ADDR_LOOP_NUM_A-1:0]                     wr_cs_bit1_bus    ; //write cs[1]  to all instance DRM
 reg   [ADDR_LOOP_NUM_A-1:0]                     wr_cs_bit2_bus    ; //write cs[2] bus  to every data_cascaded DRM-block
@@ -448,7 +447,7 @@ reg   [D_CAS_DATA_WIDTH_B-1:0]                  db_data_bus       ; //the data b
 wire  [Q_CAS_DATA_WIDTH_B*ADDR_LOOP_NUM_B-1:0]  qb_data_bus       ; //the total data width of instance DRM
 wire  [ADDR_WIDTH_B-1:0]                        rd_addr_bus       ;  
 wire  [3:0]                                     rd_addr_bsel_bus  ;
-reg   [12:0]                                    drm_rd_addr       ; //read address to all instance DRM
+reg   [13:0]                                    drm_rd_addr       ; //read address to all instance DRM
 reg                                             rd_cs_bit0        ; //read cs[0]  to all instance DRM
 reg   [ADDR_LOOP_NUM_B-1:0]                     rd_cs_bit1_bus    ; //read cs[1]  to all instance DRM
 reg   [ADDR_LOOP_NUM_B-1:0]                     rd_cs_bit2_bus    ; //raad cs[2]  bus  to every data_cascaded DRM-block
@@ -461,14 +460,10 @@ wire  [ADDR_LOOP_NUM_B-1:0]                     rd_cs_bit2_bus_m  ;
 
 reg   [CAS_DATA_WIDTH_B-1:0]                    rd_mix_data       ; //mix data form rd_data_bus
 reg   [CAS_DATA_WIDTH_B-1:0]                    rd_full_data      ; //
-                                                                 
+                                                                  
 //byte enable                                                   
 wire  [CAS_DATA_WIDTH_A/WR_BYTE_WIDTH_A-1 : 0]    wr_byte_en_bus    ;
 reg   [CAS_DATA_WIDTH_A/WR_BYTE_WIDTH_A-1 : 0]    wr_byte_en_mix_bus;
-
-//MASK sel
-wire  [ADDR_LOOP_NUM_A*DATA_LOOP_NUM-1:0]      csa_mask_bus      ;
-wire  [ADDR_LOOP_NUM_B*DATA_LOOP_NUM-1:0]      csb_mask_bus      ;
 //*************************************************************************************************************************************
 //write data mux 
 assign  wr_data_bus[CAS_DATA_WIDTH_A-1:0] = {{(CAS_DATA_WIDTH_A - c_WR_DATA_WIDTH){1'b0}},wr_data[c_WR_DATA_WIDTH-1:0]};
@@ -483,13 +478,13 @@ integer gen_wa;
 always @(*) begin
    for( gen_wa=0;gen_wa < DATA_LOOP_NUM;gen_wa = gen_wa + 1 ) begin
       case (DRM_DATA_WIDTH_A)
-         1      : drm_wr_addr_bus[gen_wa*13 +: 13] = wr_addr_bus[(ADDR_WIDTH_A-CS_ADDR_WIDTH_A-1):0];
-         2      : drm_wr_addr_bus[gen_wa*13 +: 13] = wr_addr_bus[(ADDR_WIDTH_A-CS_ADDR_WIDTH_A-1):0] <<1;
-         4      : drm_wr_addr_bus[gen_wa*13 +: 13] = wr_addr_bus[(ADDR_WIDTH_A-CS_ADDR_WIDTH_A-1):0] <<2;
-         8,9    : drm_wr_addr_bus[gen_wa*13 +: 13] = wr_addr_bus[(ADDR_WIDTH_A-CS_ADDR_WIDTH_A-1):0] <<3;
-         16,18  : drm_wr_addr_bus[gen_wa*13 +: 13] = {wr_addr_bus[(ADDR_WIDTH_A-CS_ADDR_WIDTH_A-1):0],2'b00,wr_byte_en_mix_bus[gen_wa*2 +: 2]};
-         32,36  : drm_wr_addr_bus[gen_wa*13 +: 13] = {wr_addr_bus[(ADDR_WIDTH_A-CS_ADDR_WIDTH_A-1):0],1'b0,wr_byte_en_mix_bus[gen_wa*4 +: 4]};
-         default: drm_wr_addr_bus[gen_wa*13 +: 13] = 13'b0;
+         1      : drm_wr_addr_bus[gen_wa*14 +: 14] = wr_addr_bus[(ADDR_WIDTH_A-CS_ADDR_WIDTH_A-1):0];
+         2      : drm_wr_addr_bus[gen_wa*14 +: 14] = wr_addr_bus[(ADDR_WIDTH_A-CS_ADDR_WIDTH_A-1):0] <<1;
+         4      : drm_wr_addr_bus[gen_wa*14 +: 14] = wr_addr_bus[(ADDR_WIDTH_A-CS_ADDR_WIDTH_A-1):0] <<2;
+         8,9    : drm_wr_addr_bus[gen_wa*14 +: 14] = wr_addr_bus[(ADDR_WIDTH_A-CS_ADDR_WIDTH_A-1):0] <<3;
+         16,18  : drm_wr_addr_bus[gen_wa*14 +: 14] = {wr_addr_bus[(ADDR_WIDTH_A-CS_ADDR_WIDTH_A-1):0],2'b00,wr_byte_en_mix_bus[gen_wa*2 +: 2]};
+         32,36  : drm_wr_addr_bus[gen_wa*14 +: 14] = {wr_addr_bus[(ADDR_WIDTH_A-CS_ADDR_WIDTH_A-1):0],1'b0,wr_byte_en_mix_bus[gen_wa*4 +: 4]};
+         default: drm_wr_addr_bus[gen_wa*14 +: 14] = 14'b0;
       endcase
    end
 end
@@ -569,9 +564,9 @@ begin
     end
 end
 
-assign wr_cs_bit0_m     = wr_addr_strobe ? wr_cs_bit0_ff     : wr_cs_bit0;
-assign wr_cs_bit1_bus_m = wr_addr_strobe ? wr_cs_bit1_bus_ff : wr_cs_bit1_bus;
-assign wr_cs_bit2_bus_m = wr_addr_strobe ? wr_cs_bit2_bus_ff : wr_cs_bit2_bus;
+assign wr_cs_bit0_m     = (c_SIM_DEVICE == "PGL22G") ? (wr_addr_strobe ? wr_cs_bit0_ff     : wr_cs_bit0    ) : wr_cs_bit0;
+assign wr_cs_bit1_bus_m = (c_SIM_DEVICE == "PGL22G") ? (wr_addr_strobe ? wr_cs_bit1_bus_ff : wr_cs_bit1_bus) : wr_cs_bit1_bus;
+assign wr_cs_bit2_bus_m = (c_SIM_DEVICE == "PGL22G") ? (wr_addr_strobe ? wr_cs_bit2_bus_ff : wr_cs_bit2_bus) : wr_cs_bit2_bus;
 //****************************************************************************************************************************************************
 //generate wr_data_mix_bus  and wr_byte_en_mix_bus
 integer  gen_i_wd,gen_j_wd;
@@ -677,7 +672,7 @@ assign rd_addr_bsel_bus = (c_RD_CLK_OR_POL_INV == 1) ? rd_addr_bsel_rd_invt : (c
                                                      ? rd_addr_bsel_rd_oce  : rd_addr_bsel_rd_ce;
 
 always@(*) begin
-    drm_rd_addr = 13'b0;
+    drm_rd_addr = 14'b0;
     case(DRM_DATA_WIDTH_B)  //synthesis parallel_case 
         1      : drm_rd_addr = rd_addr_bus[(ADDR_WIDTH_B-CS_ADDR_WIDTH_B-1):0];
         2      : drm_rd_addr = {rd_addr_bus[(ADDR_WIDTH_B-CS_ADDR_WIDTH_B-1):0],1'b0};
@@ -685,7 +680,7 @@ always@(*) begin
         8,9    : drm_rd_addr = {rd_addr_bus[(ADDR_WIDTH_B-CS_ADDR_WIDTH_B-1):0],3'b000};
         16,18  : drm_rd_addr = {rd_addr_bus[(ADDR_WIDTH_B-CS_ADDR_WIDTH_B-1):0],2'b00,2'b11};
         32,36  : drm_rd_addr = {rd_addr_bus[(ADDR_WIDTH_B-CS_ADDR_WIDTH_B-1):0],1'b0,4'b1111};
-        default: drm_rd_addr = 13'b0;
+        default: drm_rd_addr = 14'b0;
     endcase
 end
 
@@ -764,9 +759,9 @@ begin
     end
 end
 
-assign rd_cs_bit0_m     = rd_addr_strobe ? rd_cs_bit0_ff     : rd_cs_bit0;
-assign rd_cs_bit1_bus_m = rd_addr_strobe ? rd_cs_bit1_bus_ff : rd_cs_bit1_bus;
-assign rd_cs_bit2_bus_m = rd_addr_strobe ? rd_cs_bit2_bus_ff : rd_cs_bit2_bus;
+assign rd_cs_bit0_m     = (c_SIM_DEVICE == "PGL22G") ? (rd_addr_strobe ? rd_cs_bit0_ff     : rd_cs_bit0    ) : rd_cs_bit0;
+assign rd_cs_bit1_bus_m = (c_SIM_DEVICE == "PGL22G") ? (rd_addr_strobe ? rd_cs_bit1_bus_ff : rd_cs_bit1_bus) : rd_cs_bit1_bus;
+assign rd_cs_bit2_bus_m = (c_SIM_DEVICE == "PGL22G") ? (rd_addr_strobe ? rd_cs_bit2_bus_ff : rd_cs_bit2_bus) : rd_cs_bit2_bus;
 
 wire [18*DATA_LOOP_NUM*ADDR_LOOP_NUM_A-1:0]  QA_bus;
 wire [18*DATA_LOOP_NUM*ADDR_LOOP_NUM_B-1:0]  QB_bus;
@@ -827,12 +822,11 @@ generate
            assign  DB_bus[gen_i*18 +:D_DRM_DATA_WIDTH_B] = db_data_bus[gen_i*D_DRM_DATA_WIDTH_B +:D_DRM_DATA_WIDTH_B];
         end
 
-        assign csa_mask_bus[gen_i + DATA_LOOP_NUM*gen_j] = ({wr_cs2_ctrl[gen_j],wr_cs_bit1_bus_m[gen_j],wr_cs_bit0_m} == csa_mask);// && (wr_en_bus[gen_i] == 1'b1)) ? 1'b1 : 1'b0;
-        assign csb_mask_bus[gen_i + DATA_LOOP_NUM*gen_j] = ({rd_cs_bit2_bus_m[gen_j],rd_cs_bit1_bus_m[gen_j],rd_cs_bit0_m} == csb_mask);// ? 1'b0 : 1'b1;
-
-        GTP_DRM9K # (            
+        GTP_DRM18K # (
                  .GRS_EN                   ( "FALSE"                  ),
                  .SIM_DEVICE               ( c_SIM_DEVICE             ),
+                 .CSA_MASK                 ( csa_mask                 ),
+                 .CSB_MASK                 ( csb_mask                 ),  
                  .DATA_WIDTH_A             ( DRM_DATA_WIDTH_A         ),    // 1 2 4 8 16 9 18 
                  .DATA_WIDTH_B             ( DRM_DATA_WIDTH_B         ),    // 1 2 4 8 16 9 18                     
                  .WRITE_MODE_A             ( "NORMAL_WRITE"           ),
@@ -849,24 +843,26 @@ generate
                  .RAM_ADDR_WIDTH           ( ADDR_WIDTH_A             ),
                  .RAM_DATA_WIDTH           ( CAS_DATA_WIDTH_A         ),
                  .INIT_FORMAT              ( c_INIT_FORMAT            )    //binary or hex       
-        ) U_GTP_DRM9K (
+        ) U_GTP_DRM18K (
                 .DOA(QA_bus[(gen_i*18+gen_j*18*DATA_LOOP_NUM) +:18]),
-                .ADDRA(drm_wr_addr_bus[gen_i*13 +:13]),            //wr_addr[12:0]
+                .ADDRA(drm_wr_addr_bus[gen_i*14 +:14]),            //wr_addr[13:0]
                 .ADDRA_HOLD(wr_addr_strobe),
                 .DIA(DA_bus[gen_i*18 +:18]),
+                .CSA({wr_cs2_ctrl[gen_j],wr_cs_bit1_bus_m[gen_j],wr_cs_bit0_m}),
                 .WEA(wr_en_bus[gen_i]),
                 .CLKA(wr_clk),
-                .CEA(csa_mask_bus[gen_i + DATA_LOOP_NUM*gen_j] & wr_clk_en),
+                .CEA(wr_clk_en),
                 .ORCEA(rd_oce),
                 .RSTA(wr_rst),
 
                 .DOB(QB_bus[(gen_i*18+gen_j*18*DATA_LOOP_NUM) +:18]),
-                .ADDRB(drm_rd_addr[12:0]),             //rd_addr[12:0]
+                .ADDRB(drm_rd_addr[13:0]),             //rd_addr[13:0]
                 .ADDRB_HOLD(rd_addr_strobe),
                 .DIB(DB_bus[gen_i*18 +:18]),
+                .CSB({rd_cs_bit2_bus_m[gen_j],rd_cs_bit1_bus_m[gen_j],rd_cs_bit0_m}),
                 .WEB(1'b0),
                 .CLKB(rd_clk),
-                .CEB(csb_mask_bus[gen_i + DATA_LOOP_NUM*gen_j] & rd_clk_en),
+                .CEB(rd_clk_en),
                 .ORCEB(rd_oce),
                 .RSTB(rd_rst)
        );
@@ -1113,6 +1109,7 @@ always@(*) begin
 end
 
 assign  rd_data = rd_full_data[c_RD_DATA_WIDTH-1:0];
+
 
 
 endmodule

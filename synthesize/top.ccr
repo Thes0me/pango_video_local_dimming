@@ -1,4 +1,4 @@
-##### Written on 2022/11/10 04:53:31 ###############################
+##### Written on 2022/11/21 20:32:10 ###############################
 
 
 ##### DESIGN INFO ##################################################
@@ -7,7 +7,7 @@ Top Module:
 	top
 
 Constraint File(s):
-	D:/Projects/FPGA_match/final_test/ddr3_ov5640_hdmi.fdc
+	D:/Projects/FPGA_match/final_test_new_funcs/ddr3_ov5640_hdmi.fdc
 
 ##### SUMMARY ######################################################
 
@@ -21,43 +21,43 @@ Inapplicable constraints(except overwritten constraints):
 
 define_attribute {p:tmds_data_n[1]} {PAP_IO_LOC} {A11}
 
-	C: ConstraintEditor-2002: [D:/Projects/FPGA_match/final_test/ddr3_ov5640_hdmi.fdc(line number: 684)] | Port tmds_data_n[1] has been placed at location A11, whose type is share pin.
+	C: ConstraintEditor-2002: [D:/Projects/FPGA_match/final_test_new_funcs/ddr3_ov5640_hdmi.fdc(line number: 684)] | Port tmds_data_n[1] has been placed at location A11, whose type is share pin.
 
 define_attribute {p:tmds_data_n[2]} {PAP_IO_LOC} {A10}
 
-	C: ConstraintEditor-2002: [D:/Projects/FPGA_match/final_test/ddr3_ov5640_hdmi.fdc(line number: 693)] | Port tmds_data_n[2] has been placed at location A10, whose type is share pin.
+	C: ConstraintEditor-2002: [D:/Projects/FPGA_match/final_test_new_funcs/ddr3_ov5640_hdmi.fdc(line number: 693)] | Port tmds_data_n[2] has been placed at location A10, whose type is share pin.
 
 define_attribute {p:tmds_data_p[1]} {PAP_IO_LOC} {B11}
 
-	C: ConstraintEditor-2002: [D:/Projects/FPGA_match/final_test/ddr3_ov5640_hdmi.fdc(line number: 711)] | Port tmds_data_p[1] has been placed at location B11, whose type is share pin.
+	C: ConstraintEditor-2002: [D:/Projects/FPGA_match/final_test_new_funcs/ddr3_ov5640_hdmi.fdc(line number: 711)] | Port tmds_data_p[1] has been placed at location B11, whose type is share pin.
 
 define_attribute {p:tmds_data_p[2]} {PAP_IO_LOC} {B10}
 
-	C: ConstraintEditor-2002: [D:/Projects/FPGA_match/final_test/ddr3_ov5640_hdmi.fdc(line number: 720)] | Port tmds_data_p[2] has been placed at location B10, whose type is share pin.
+	C: ConstraintEditor-2002: [D:/Projects/FPGA_match/final_test_new_funcs/ddr3_ov5640_hdmi.fdc(line number: 720)] | Port tmds_data_p[2] has been placed at location B10, whose type is share pin.
 
 define_attribute {p:ds1} {PAP_IO_LOC} {E18}
 
-	C: ConstraintEditor-2002: [D:/Projects/FPGA_match/final_test/ddr3_ov5640_hdmi.fdc(line number: 855)] | Port ds1 has been placed at location E18, whose type is share pin.
+	C: ConstraintEditor-2002: [D:/Projects/FPGA_match/final_test_new_funcs/ddr3_ov5640_hdmi.fdc(line number: 855)] | Port ds1 has been placed at location E18, whose type is share pin.
 
 define_attribute {p:ds2} {PAP_IO_LOC} {H13}
 
-	C: ConstraintEditor-2002: [D:/Projects/FPGA_match/final_test/ddr3_ov5640_hdmi.fdc(line number: 861)] | Port ds2 has been placed at location H13, whose type is share pin.
+	C: ConstraintEditor-2002: [D:/Projects/FPGA_match/final_test_new_funcs/ddr3_ov5640_hdmi.fdc(line number: 861)] | Port ds2 has been placed at location H13, whose type is share pin.
 
 define_attribute {p:ds3} {PAP_IO_LOC} {G13}
 
-	C: ConstraintEditor-2002: [D:/Projects/FPGA_match/final_test/ddr3_ov5640_hdmi.fdc(line number: 867)] | Port ds3 has been placed at location G13, whose type is share pin.
+	C: ConstraintEditor-2002: [D:/Projects/FPGA_match/final_test_new_funcs/ddr3_ov5640_hdmi.fdc(line number: 867)] | Port ds3 has been placed at location G13, whose type is share pin.
 
 define_attribute {p:ds0} {PAP_IO_LOC} {D17}
 
-	C: ConstraintEditor-2002: [D:/Projects/FPGA_match/final_test/ddr3_ov5640_hdmi.fdc(line number: 898)] | Port ds0 has been placed at location D17, whose type is share pin.
+	C: ConstraintEditor-2002: [D:/Projects/FPGA_match/final_test_new_funcs/ddr3_ov5640_hdmi.fdc(line number: 898)] | Port ds0 has been placed at location D17, whose type is share pin.
 
 define_attribute {p:stcp1} {PAP_IO_LOC} {F14}
 
-	C: ConstraintEditor-2002: [D:/Projects/FPGA_match/final_test/ddr3_ov5640_hdmi.fdc(line number: 910)] | Port stcp1 has been placed at location F14, whose type is share pin.
+	C: ConstraintEditor-2002: [D:/Projects/FPGA_match/final_test_new_funcs/ddr3_ov5640_hdmi.fdc(line number: 910)] | Port stcp1 has been placed at location F14, whose type is share pin.
 
 define_attribute {p:uart_rx} {PAP_IO_LOC} {D18}
 
-	C: ConstraintEditor-2002: [D:/Projects/FPGA_match/final_test/ddr3_ov5640_hdmi.fdc(line number: 916)] | Port uart_rx has been placed at location D18, whose type is share pin.
+	C: ConstraintEditor-2002: [D:/Projects/FPGA_match/final_test_new_funcs/ddr3_ov5640_hdmi.fdc(line number: 916)] | Port uart_rx has been placed at location D18, whose type is share pin.
 
 
 Constraints with issues:

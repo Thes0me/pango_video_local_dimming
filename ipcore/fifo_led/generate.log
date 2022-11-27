@@ -1,7 +1,7 @@
 IP Generator (Version 2021.1-SP7.3 build 94852)
 Check out license ...
-Start generating at 2022-11-06 21:55
-Instance: fifo_led (D:\Projects\FPGA_match\final_test\ipcore\fifo_led\fifo_led.idf)
+Start generating at 2022-11-20 15:33
+Instance: fifo_led (D:\Projects\FPGA_match\final_test_new_funcs\ipcore\fifo_led\fifo_led.idf)
 IP: DRM Based FIFO (1.6)
 Part: Logos-PGL22G-MBG324--6
 Create directory 'rtl' ...

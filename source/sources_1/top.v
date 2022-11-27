@@ -547,45 +547,88 @@ aq_axi_master u_aq_axi_master
 // final test module added
 
 //####################### block_mean_cal module ###############################
+//color block mean module instantiation
+// top_color_block_mean Outputs
+wire  [23:0]  block_mean_color;
+wire  data_vaild_color;
+wire  [5:0]  block_v_cnt_color;
 
-wire [7:0] block_mean/*synthesis syn_keep=1*/;
-wire data_vaild/*synthesis syn_keep=1*/;
-wire [5:0] block_v_cnt/*synthesis syn_keep=1*/;
+top_color_block_mean  u_top_color_block_mean (
+    .clk                     ( pclk_mod_in_g               ),
+    .rstn                    ( rst_n               ),
+    .de                      ( de_input                 ),
+    .hs                      ( ~hs_input                 ),
+    .vs                      ( ~vs_input                 ),
+    .rgb_r                   ( rgb_r              ),
+    .rgb_g                   ( rgb_g              ),
+    .rgb_b                   ( rgb_b              ),
 
-top_block_mean block_mean_cal
-    (
-    .clk(pclk_mod_in_g),                // input
-    .rstn(rst_n),              // input
-    .hs(~hs_input),                  // input
-    .vs(~vs_input),                  // input
-    .de(de_input),                  // input
-    .rgb_r(rgb_r),            // input
-    .rgb_g(rgb_g),            // input
-    .rgb_b(rgb_b),            // input
-    .block_mean_fixed(block_mean),  // output
-    .data_vaild_o(data_vaild),   // output
-    .block_v_cnt(block_v_cnt),
-    .brightness(brightness)
+    .block_mean_color        ( block_mean_color   ),
+    .data_vaild              ( data_vaild_color   ),
+    .block_v_cnt             ( block_v_cnt_color  )
 );
 
-//########################### fifo_led module #################################
+//white block mean module instantiation
+// top_white_block_mean Outputs
+wire  [7:0]  block_mean_white;
+wire  data_vaild_white;
+wire  [5:0]  block_v_cnt_white;
 
-top_fifo_to_led fifo_led
-    (
-    .clk(sys_clk_g),                // input
-    .pclk(pclk_mod_in_g),              // input
-    .rstn(rst_n),              // input
-    .block_mean(block_mean),  // input
-    .data_vaild(data_vaild),  // input
-    .shcp(shcp),              // output
-    .stcp(stcp),              // output
-    .ds0 (ds0 ),                // output
-    .ds1 (ds1 ),                // output
-    .ds2 (ds2 ),                // output
-    .ds3 (ds3 ),                // output
-    .ds4 (ds4 ),                // output
-    .ds5 (ds5 ),                 // output
-    .block_v_cnt (block_v_cnt)
+top_white_block_mean  u_top_white_block_mean (
+    .clk                     ( pclk_mod_in_g               ),
+    .rstn                    ( rst_n               ),
+    .de                      ( de_input                 ),
+    .hs                      ( ~hs_input                 ),
+    .vs                      ( ~vs_input                 ),
+    .rgb_r                   ( rgb_r              ),
+    .rgb_g                   ( rgb_g              ),
+    .rgb_b                   ( rgb_b              ),
+
+    .block_mean_white        ( block_mean_white   ),
+    .data_vaild_white        ( data_vaild_white   ),
+    .block_v_cnt             ( block_v_cnt_white  )
+);
+//######################### mux_command module ################################
+// mux output
+wire [23:0]   block_mean/*synthesis syn_keep=1*/;
+wire          data_vaild/*synthesis syn_keep=1*/;
+wire [5:0]    block_v_cnt/*synthesis syn_keep=1*/;
+
+mux_command_control  u_mux_command_control (
+    .clk                     ( pclk_mod_in_g                ),
+    .rstn                    ( rst_n                ),
+    .cmd_vaild               ( cmd_vaild           ),
+    .cmd_code                ( cmdcode            ),
+    .para_list               ( para_list_fixed           ),
+    .block_mean_white        ( block_mean_white    ),
+    .block_v_cnt_white       ( block_v_cnt_white   ),
+    .data_vaild_white        ( data_vaild_white    ),
+    .block_mean_color        ( block_mean_color    ),
+    .block_v_cnt_color       ( block_v_cnt_color   ),
+    .data_vaild_color        ( data_vaild_color    ),
+
+    .block_mean              ( block_mean          ),
+    .data_vaild              ( data_vaild          ),
+    .block_v_cnt             ( block_v_cnt         )
+);
+//########################### fifo_led module #################################
+// top_fifo_to_led Outputs
+top_fifo_to_led  u_top_fifo_to_led (
+    .clk                     ( sys_clk_g           ),
+    .pclk                    ( pclk_mod_in_g          ),
+    .rstn                    ( rst_n          ),
+    .block_mean              ( block_mean    ),
+    .data_vaild              ( data_vaild    ),
+    .block_v_cnt             ( block_v_cnt   ),
+
+    .shcp                    ( shcp          ),
+    .stcp                    ( stcp          ),
+    .ds0                     ( ds0           ),
+    .ds1                     ( ds1           ),
+    .ds2                     ( ds2           ),
+    .ds3                     ( ds3           ),
+    .ds4                     ( ds4           ),
+    .ds5                     ( ds5           )
 );
 // add two clock pin for easy connection
 assign shcp1 = shcp;
@@ -610,20 +653,6 @@ u_top_uart_cmd_resolve (
     .check                   (               ),
     .cmd_vaild               (cmd_vaild      )
 );
-
-//brightness control command reg
-reg [7:0] brightness;
-always @(posedge sys_clk_g or negedge rst_n) begin
-    if(~rst_n) begin
-        brightness <= 8'b0;
-    end
-    else if(cmd_vaild) begin
-        brightness <= para_list_fixed[7:0];
-    end
-    else begin
-        brightness <= brightness;
-    end
-end
 
 //#############################################################################
 
